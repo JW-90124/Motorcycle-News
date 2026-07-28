@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1740 1200">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;family=Noto+Sans+SC:wght@400;500;600;700&amp;display=swap');
+    text { font-family: 'JetBrains Mono', 'Noto Sans SC', 'PingFang SC', sans-serif; }
+  </style>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+    </pattern>
+    <marker id="arrow-cyan" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#22d3ee"/></marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#fbbf24"/></marker>
+    <marker id="arrow-violet" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#a78bfa"/></marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#fb923c"/></marker>
+    <marker id="arrow-rose" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#fb7185"/></marker>
+  </defs>
+
+  <!-- background -->
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+
+  <!-- title -->
+  <text x="870" y="55" fill="white" font-size="22" font-weight="700" text-anchor="middle">摩托车新闻情报工具 · 项目全景</text>
+  <text x="870" y="78" fill="#64748b" font-size="11" text-anchor="middle">2026-07-25 · 能力结构与内容范围已确认，信源核实进行中</text>
+
+  <!-- connector curves (drawn before boxes so boxes mask the arriving end) -->
+  <path d="M 700,555 C 500,450 350,300 290,170" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.7" marker-end="url(#arrow-cyan)"/>
+  <path d="M 960,555 C 1150,450 1300,300 1358,170" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.7" marker-end="url(#arrow-amber)"/>
+  <path d="M 962,572 C 1150,580 1300,585 1398,586" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.7" marker-end="url(#arrow-violet)"/>
+  <path d="M 940,622 C 1100,760 1250,880 1358,952" fill="none" stroke="#fb923c" stroke-width="1.5" opacity="0.7" marker-end="url(#arrow-orange)"/>
+  <path d="M 718,622 C 560,760 400,880 292,952" fill="none" stroke="#fb7185" stroke-width="1.5" opacity="0.7" marker-end="url(#arrow-rose)"/>
+
+  <!-- center hub -->
+  <rect x="700" y="520" width="260" height="100" rx="18" fill="rgba(59,130,246,0.25)" stroke="#60a5fa" stroke-width="2"/>
+  <text x="830" y="562" fill="white" font-size="16" font-weight="700" text-anchor="middle">摩托车新闻</text>
+  <text x="830" y="586" fill="white" font-size="16" font-weight="700" text-anchor="middle">情报工具</text>
+
+  <!-- Branch A: 能力结构 -->
+  <rect x="60" y="120" width="230" height="50" rx="8" fill="rgba(8,51,68,0.5)" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="175" y="150" fill="white" font-size="14" font-weight="600" text-anchor="middle">能力结构</text>
+  <text x="70" y="203" fill="#cbd5e1" font-size="12">• 纯私有素材库</text>
+  <text x="70" y="227" fill="#cbd5e1" font-size="12">• 私有仓库(同账号 JW-90124)</text>
+  <text x="70" y="251" fill="#cbd5e1" font-size="12">• 轻量版架构(无DB/无观察期)</text>
+  <text x="70" y="275" fill="#cbd5e1" font-size="12">• GitHub Actions·周一三五</text>
+  <text x="70" y="299" fill="#cbd5e1" font-size="12">• DeepSeek → 本地Markdown交付</text>
+
+  <!-- Branch B: 内容范围 -->
+  <rect x="1360" y="120" width="280" height="50" rx="8" fill="rgba(120,53,15,0.4)" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="1500" y="150" fill="white" font-size="14" font-weight="600" text-anchor="middle">内容范围·六个方向</text>
+  <text x="1370" y="203" fill="#cbd5e1" font-size="12">• 赛事赛果 (MotoGP / WSBK)</text>
+  <text x="1370" y="227" fill="#cbd5e1" font-size="12">• 本地车市 (新马 COE / 经销商)</text>
+  <text x="1370" y="251" fill="#cbd5e1" font-size="12">• 全球新车发布</text>
+  <text x="1370" y="275" fill="#cbd5e1" font-size="12">• 技术工程解读</text>
+  <text x="1370" y="299" fill="#cbd5e1" font-size="12">• 产业商业动态</text>
+  <text x="1370" y="323" fill="#cbd5e1" font-size="12">• 骑行文化 / 车展活动</text>
+
+  <!-- Branch C: 信源清单 -->
+  <rect x="1400" y="560" width="260" height="50" rx="8" fill="rgba(76,29,149,0.5)" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="1530" y="590" fill="white" font-size="14" font-weight="600" text-anchor="middle">信源清单·已核实</text>
+  <text x="1410" y="643" fill="#cbd5e1" font-size="12">• 14个信源，覆盖6方向</text>
+  <text x="1410" y="667" fill="#cbd5e1" font-size="12">• 仅 RideApart / Yamaha 有RSS</text>
+  <text x="1410" y="691" fill="#fb7185" font-size="12">• 「MAH」待用户确认(疑为MODENAS/EMOS)</text>
+
+  <!-- Branch D: 输出结构 -->
+  <rect x="1360" y="940" width="280" height="50" rx="8" fill="rgba(251,146,60,0.3)" stroke="#fb923c" stroke-width="1.5"/>
+  <text x="1500" y="970" fill="white" font-size="14" font-weight="600" text-anchor="middle">输出结构 · 五段式</text>
+  <text x="1370" y="1023" fill="#cbd5e1" font-size="12">① 事实摘要</text>
+  <text x="1370" y="1047" fill="#cbd5e1" font-size="12">② 关键数据</text>
+  <text x="1370" y="1071" fill="#cbd5e1" font-size="12">③ 我的评论角度</text>
+  <text x="1370" y="1095" fill="#cbd5e1" font-size="12">④ 适合形式标签(说车/科普/赛事跟进/快讯)</text>
+  <text x="1370" y="1119" fill="#cbd5e1" font-size="12">⑤ 证据链接</text>
+
+  <!-- Branch E: 待办事项 -->
+  <rect x="60" y="940" width="230" height="50" rx="8" fill="rgba(136,19,55,0.5)" stroke="#fb7185" stroke-width="1.5"/>
+  <text x="175" y="970" fill="white" font-size="14" font-weight="600" text-anchor="middle">待办事项</text>
+  <text x="70" y="1023" fill="#cbd5e1" font-size="12">• 确认「MAH」澄清结果</text>
+  <text x="70" y="1047" fill="#cbd5e1" font-size="12">• 确认信源清单终版</text>
+  <text x="70" y="1071" fill="#cbd5e1" font-size="12">• 确认输出结构草案</text>
+  <text x="70" y="1095" fill="#cbd5e1" font-size="12">• 建 GitHub 私有仓库</text>
+  <text x="70" y="1119" fill="#cbd5e1" font-size="12">• 搭轻量版抓取/分析代码</text>
+  <text x="70" y="1143" fill="#cbd5e1" font-size="12">• 接入 GitHub Actions 定时任务</text>
+</svg>
