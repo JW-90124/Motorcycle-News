@@ -53,6 +53,15 @@ export const webScraperAdapter: SourceAdapter = {
     });
 
     if (deduped.length === 0) {
+      // Some older CMS-driven listing pages (common on legacy .com.cn news
+      // portals) don't use semantic <article> tags, JSON-LD, or the
+      // post/item/card/entry/story class names the tiers above look for —
+      // just plain <a href="..." title="...">. Treat that as a last-resort
+      // structural signal before falling back to page-level OG meta.
+      deduped.push(...extractTitleAttributeLinks(body, source));
+    }
+
+    if (deduped.length === 0) {
       const metaSignal = extractPageMeta(body, source);
       if (metaSignal) deduped.push(metaSignal);
     }
@@ -228,6 +237,36 @@ function extractXmlTag(xml: string, tag: string): string {
 function extractXmlLink(xml: string): string {
   const href = xml.match(/<link[^>]+href="([^"]+)"/i);
   return href?.[1] ?? extractXmlTag(xml, "link");
+}
+
+function extractTitleAttributeLinks(body: string, source: SourceLike): CollectedSignal[] {
+  const results: CollectedSignal[] = [];
+  const seen = new Set<string>();
+  const linkRegex = /<a[^>]+href="([^"]+)"[^>]*\btitle="([^"]{6,80})"[^>]*>/gi;
+  for (const match of body.matchAll(linkRegex)) {
+    const link = resolvePublicUrl(match[1] ?? "", source.config.url);
+    const title = stripHtml(decodeEntities((match[2] ?? "").trim()));
+    if (!link || !title) continue;
+    if (link === source.config.url || link === source.homepageUrl) continue;
+    if (seen.has(link)) continue;
+    seen.add(link);
+    results.push({
+      externalId: link,
+      url: link,
+      title,
+      // No excerpt is available from a bare title-attribute link — the
+      // digest stage will just have less to say for these than for items
+      // with a real summary.
+      summary: title,
+      language: source.language,
+      publishedAt: new Date().toISOString(),
+      category: source.config.category ?? "general",
+      tags: [],
+      metrics: { platforms: ["web"] },
+      rawMeta: { adapter: "web-scraper", source: "title-attribute-link", dateInferred: true },
+    });
+  }
+  return results;
 }
 
 function extractPageMeta(body: string, source: SourceLike): CollectedSignal | null {

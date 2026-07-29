@@ -114,10 +114,19 @@ export const sources: SourceDescriptor[] = [
   // 产业商业动态 (industry)
   //
   // NOTE: CFMoto/QJMOTOR were dropped 2026-07-29 — both are JS-rendered SPAs
-  // that return no usable content to a plain HTTP scraper. A replacement
-  // mainland-China source (摩托范 / 58moto.com) was requested but is also
-  // blocked for now (sits behind an Aliyun WAF JS challenge) — tracked in
-  // 待办事项.md pending a headless-browser solution, not added here yet.
+  // that return no usable content to a plain HTTP scraper. 摩托范/58moto.com
+  // was also evaluated but sits behind an Aliyun WAF anti-bot challenge —
+  // deliberately not worked around (see 信源清单/摩托范.md for why). Replaced
+  // both with 两轮视界's 行业数据 (industry data) section instead: plain
+  // static HTML, no anti-bot layer, real article links (verified via curl).
+  {
+    slug: "lianglunshijie-industry",
+    name: "两轮视界·行业数据",
+    homepageUrl: "https://www.lianglunshijie.com/htmlry/hysj_1201.html",
+    adapter: "web-scraper",
+    language: "zh",
+    config: { url: "https://www.lianglunshijie.com/htmlry/hysj_1201.html", category: "industry" },
+  },
 
   // 骑行文化车展活动 (culture)
   {

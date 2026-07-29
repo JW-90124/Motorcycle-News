@@ -217,7 +217,40 @@ async function readLimitedBody(response: Response, limit: number): Promise<{ bod
   } finally {
     reader.releaseLock();
   }
-  return { body: new TextDecoder().decode(Buffer.concat(chunks)), bytes };
+  const buffer = Buffer.concat(chunks);
+  return { body: decodeBody(buffer, response.headers.get("content-type")), bytes };
+}
+
+/**
+ * Some older mainland-China sites (still common for .com.cn news/industry
+ * portals) serve GB2312/GBK instead of UTF-8. Sniff the declared charset —
+ * first from the Content-Type header, then from an in-body <meta charset>
+ * tag — and decode accordingly, defaulting to UTF-8. Without this, GBK pages
+ * decode as mojibake and every downstream regex/title match silently fails.
+ */
+function decodeBody(buffer: Buffer, contentType: string | null): string {
+  const charset = detectCharset(buffer, contentType);
+  try {
+    return new TextDecoder(charset).decode(buffer);
+  } catch {
+    return new TextDecoder("utf-8").decode(buffer);
+  }
+}
+
+function detectCharset(buffer: Buffer, contentType: string | null): string {
+  const headerMatch = contentType?.match(/charset=([\w-]+)/i);
+  if (headerMatch?.[1]) return normalizeCharset(headerMatch[1]);
+
+  const sniffWindow = buffer.subarray(0, Math.min(buffer.length, 2_048)).toString("latin1");
+  const metaMatch = sniffWindow.match(/<meta[^>]+charset=["']?\s*([\w-]+)/i);
+  if (metaMatch?.[1]) return normalizeCharset(metaMatch[1]);
+
+  return "utf-8";
+}
+
+function normalizeCharset(value: string): string {
+  const lower = value.toLowerCase();
+  return lower === "gb2312" || lower === "gb-2312" ? "gbk" : lower;
 }
 
 function httpError(response: Response, url: string): FetchError {
