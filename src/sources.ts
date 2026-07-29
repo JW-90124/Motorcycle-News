@@ -30,13 +30,19 @@ export const sources: SourceDescriptor[] = [
 
   // 本地车市 (local-market)
   {
+    // NOTE: OneMotoring's COE bidding page (the URL originally requested)
+    // does render this data, but as an HTML <table> our generic web-scraper
+    // adapter can't parse. Switched 2026-07-29 to a dedicated adapter that
+    // pulls the same data from data.gov.sg's structured dataset API instead
+    // — see src/collectors/lta-coe.ts for why (also covers a presigned-URL
+    // handling caveat).
     slug: "lta-coe-motorcycle",
     name: "新加坡 LTA COE 摩托车类别（Category D）投标结果",
-    homepageUrl: "https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/coe-open-bidding.html",
-    adapter: "web-scraper",
+    homepageUrl: "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+    adapter: "lta-coe",
     language: "en",
     config: {
-      url: "https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/coe-open-bidding.html",
+      url: "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
       category: "local-market",
     },
   },
@@ -106,22 +112,12 @@ export const sources: SourceDescriptor[] = [
   },
 
   // 产业商业动态 (industry)
-  {
-    slug: "cfmoto-media",
-    name: "CFMoto（春风动力）全球媒体中心",
-    homepageUrl: "https://www.cfmoto.com/global/media-center/news.html",
-    adapter: "web-scraper",
-    language: "en",
-    config: { url: "https://www.cfmoto.com/global/media-center/news.html", category: "industry" },
-  },
-  {
-    slug: "qjmotor",
-    name: "QJMOTOR（钱江摩托）官网",
-    homepageUrl: "https://www.qjmotor.com/",
-    adapter: "web-scraper",
-    language: "zh",
-    config: { url: "https://www.qjmotor.com/", category: "industry" },
-  },
+  //
+  // NOTE: CFMoto/QJMOTOR were dropped 2026-07-29 — both are JS-rendered SPAs
+  // that return no usable content to a plain HTTP scraper. A replacement
+  // mainland-China source (摩托范 / 58moto.com) was requested but is also
+  // blocked for now (sits behind an Aliyun WAF JS challenge) — tracked in
+  // 待办事项.md pending a headless-browser solution, not added here yet.
 
   // 骑行文化车展活动 (culture)
   {
