@@ -1,10 +1,20 @@
 /**
  * Source catalog for Motorcycle News.
  *
- * Mirrors the 15 verified source notes in the Obsidian knowledge base
+ * Mirrors the source notes in the Obsidian knowledge base
  * (`Motorcycle News/信源清单/`). Keep these in sync — the Obsidian notes are
  * the authoritative record of *why* each source was chosen; this file is
  * just the machine-readable version for the collector to run against.
+ *
+ * `authorityScore`/`isPrimary` are a one-time manual judgment call made when
+ * a source is added — this project has ~15 hand-picked sources, not an open
+ * pool that needs agent-pulse's automated trust-tier/observation-period
+ * machinery. Rubric to apply for future additions:
+ *
+ *   90-95  一档：官方一手 — 厂商新闻室、赛事主办方官方站、政府数据（isPrimary: true）
+ *   75-85  二档：官方经销商/总代理，或老牌权威媒体（isPrimary: true for 经销商/总代理, false for 媒体）
+ *   60-70  三档：综合新闻门户的摩托板块、区域性媒体（isPrimary: false）
+ *   40-55  四档：二手转载/资讯聚合站（isPrimary: false）
  */
 
 import type { SourceDescriptor } from "./types.js";
@@ -18,6 +28,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "en",
     config: { url: "https://www.motogp.com/en/news", category: "racing" },
+    authorityScore: 95,
+    isPrimary: true,
   },
   {
     slug: "worldsbk-news",
@@ -26,6 +38,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "en",
     config: { url: "https://www.worldsbk.com/en/news", category: "racing" },
+    authorityScore: 95,
+    isPrimary: true,
   },
 
   // 本地车市 (local-market)
@@ -45,6 +59,8 @@ export const sources: SourceDescriptor[] = [
       url: "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
       category: "local-market",
     },
+    authorityScore: 95,
+    isPrimary: true,
   },
   {
     slug: "boon-siew-honda",
@@ -53,6 +69,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "en",
     config: { url: "https://boonsiewhonda.com.my/news-and-events/news/", category: "local-market" },
+    authorityScore: 80,
+    isPrimary: true,
   },
   {
     slug: "modenas-emos",
@@ -61,6 +79,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "en",
     config: { url: "https://modenas.my/news&event/press-release", category: "local-market" },
+    authorityScore: 80,
+    isPrimary: true,
   },
   {
     slug: "mah-pte-ltd",
@@ -69,6 +89,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "en",
     config: { url: "https://mah.com.sg/brands-kawasaki/", category: "local-market" },
+    authorityScore: 80,
+    isPrimary: true,
   },
 
   // 全球新车发布 (new-models)
@@ -79,6 +101,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "rss",
     language: "en",
     config: { url: "https://www.rideapart.com/rss/articles/all/", category: "new-models" },
+    authorityScore: 75,
+    isPrimary: false,
   },
   {
     slug: "cycleworld",
@@ -87,6 +111,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "en",
     config: { url: "https://www.cycleworld.com/", category: "new-models" },
+    authorityScore: 80,
+    isPrimary: false,
   },
 
   // 技术工程解读 (tech)
@@ -97,6 +123,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "en",
     config: { url: "https://global.honda/en/motorcycle/brand/news/", category: "tech" },
+    authorityScore: 90,
+    isPrimary: true,
   },
   {
     // NOTE: the "RSS" URL found during source research (global.yamaha-motor.com/rss/)
@@ -109,6 +137,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "en",
     config: { url: "https://global.yamaha-motor.com/news/", category: "tech" },
+    authorityScore: 90,
+    isPrimary: true,
   },
 
   // 产业商业动态 (industry)
@@ -126,6 +156,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "zh",
     config: { url: "https://www.lianglunshijie.com/htmlry/hysj_1201.html", category: "industry" },
+    authorityScore: 55,
+    isPrimary: false,
   },
 
   // 骑行文化车展活动 (culture)
@@ -136,6 +168,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "en",
     config: { url: "https://www.eicma.it/en/news/", category: "culture" },
+    authorityScore: 85,
+    isPrimary: true,
   },
   {
     slug: "bangkok-motor-show",
@@ -144,6 +178,8 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "en",
     config: { url: "https://motorshow.in.th/", category: "culture" },
+    authorityScore: 80,
+    isPrimary: true,
   },
   {
     slug: "kompas-otomotif",
@@ -152,5 +188,7 @@ export const sources: SourceDescriptor[] = [
     adapter: "web-scraper",
     language: "id",
     config: { url: "https://otomotif.kompas.com/", category: "culture" },
+    authorityScore: 65,
+    isPrimary: false,
   },
 ];

@@ -41,4 +41,13 @@ export interface SourceDescriptor {
   adapter: string;
   language: string;
   config: SourceConfig;
+  /**
+   * Manually assigned, one-time judgment call (0-100) — this project has ~15
+   * hand-picked sources, not an open pool that needs agent-pulse's automated
+   * trust-tier/observation-period machinery. See the tier table in
+   * sources.ts for the rubric to apply when adding a new source.
+   */
+  authorityScore: number;
+  /** Official/primary-source content (manufacturer, federation, government data) vs. media coverage or aggregation. */
+  isPrimary: boolean;
 }
