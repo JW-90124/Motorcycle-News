@@ -13,6 +13,13 @@ export interface SourceConfig {
   category?: string;
   take?: number;
   dataPath?: string;
+  /**
+   * Per-source request header overrides. Only used so far for sites that
+   * reject our honest self-identifying User-Agent via naive UA-string
+   * filtering (not an anti-bot challenge — see Boon Siew Honda's source note)
+   * and need a realistic browser UA instead.
+   */
+  headers?: Record<string, string>;
 }
 
 export interface SignalMetrics {

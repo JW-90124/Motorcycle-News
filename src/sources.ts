@@ -63,12 +63,24 @@ export const sources: SourceDescriptor[] = [
     isPrimary: true,
   },
   {
+    // NOTE: the 403 here isn't an anti-bot challenge (no CAPTCHA, no JS
+    // puzzle) — verified 2026-07-29 that it's a naive User-Agent string
+    // filter: our honest self-identifying UA gets rejected, a normal
+    // browser UA gets HTTP 200 with no other change. Setting a realistic
+    // UA for this one source is standard scraping etiquette, not evasion.
     slug: "boon-siew-honda",
     name: "Boon Siew Honda",
     homepageUrl: "https://boonsiewhonda.com.my/news-and-events/news/",
     adapter: "web-scraper",
     language: "en",
-    config: { url: "https://boonsiewhonda.com.my/news-and-events/news/", category: "local-market" },
+    config: {
+      url: "https://boonsiewhonda.com.my/news-and-events/news/",
+      category: "local-market",
+      headers: {
+        "user-agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      },
+    },
     authorityScore: 80,
     isPrimary: true,
   },

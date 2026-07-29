@@ -16,7 +16,7 @@ const MAX_ITEMS = 30;
 export const webScraperAdapter: SourceAdapter = {
   kind: "web-scraper",
   async collect(source, context) {
-    const { body, status } = await context.fetchText(source.config.url);
+    const { body, status } = await context.fetchText(source.config.url, source.config.headers);
     if (status === 304) return [];
 
     if (!body || body.length < 100) {
@@ -46,11 +46,23 @@ export const webScraperAdapter: SourceAdapter = {
     }
 
     const seen = new Set<string>();
-    const deduped = results.filter((item) => {
+    let deduped = results.filter((item) => {
       if (seen.has(item.url)) return false;
       seen.add(item.url);
       return true;
     });
+
+    // Repeated boilerplate/nav labels (found 2026-07-29 on MotoGP/WorldSBK:
+    // "Tickets & Hospitality"/"Inside WorldSBK" matched at several different
+    // URLs each) pass the length filter in extractCardSignal but, unlike
+    // real articles, show up identically 2+ times in the same result set —
+    // a real news listing essentially never repeats the exact same title.
+    const titleCounts = new Map<string, number>();
+    for (const item of deduped) {
+      const key = item.title.toLowerCase();
+      titleCounts.set(key, (titleCounts.get(key) ?? 0) + 1);
+    }
+    deduped = deduped.filter((item) => (titleCounts.get(item.title.toLowerCase()) ?? 0) < 2);
 
     if (deduped.length === 0) {
       // Some older CMS-driven listing pages (common on legacy .com.cn news
@@ -137,44 +149,93 @@ function extractArticles(body: string, source: SourceLike): CollectedSignal[] {
   return results;
 }
 
+// `(?!s-)` after "item" rejects Tailwind's items-center/items-start/items-end
+// alignment utilities — "item" is a substring of "items-", which otherwise
+// false-matches on any Tailwind-styled page's layout classes.
+const CARD_CLASS = "(?:post|item(?!s-)|card|entry|story|article|blog)";
+// Regex can't balance nested tags, so instead of lazy-matching to a closing
+// tag (which often stops before reaching a title nested a level or two
+// deeper — found 2026-07-29 on Boon Siew Honda, whose real <h5> title sits
+// two <div>s in), each card's content is a fixed-size slice taken from where
+// its opening tag ends. Slicing independently per match (rather than letting
+// the window itself be part of what matchAll consumes) matters on
+// densely-packed card lists: an earlier version let one big consumed window
+// swallow past a sibling card's own opening tag, silently skipping it (found
+// the same day on MODENAS). Slicing lets windows overlap freely — no skips.
+const CARD_WINDOW = 1_500;
+
 function extractListItems(body: string, source: SourceLike): CollectedSignal[] {
   const results: CollectedSignal[] = [];
-  const cardPatterns = [
-    /<li[^>]*class="[^"]*(?:post|item|card|entry|story|article)[^"]*"[^>]*>([\s\S]*?)<\/li>/gi,
-    /<div[^>]*class="[^"]*(?:post|item|card|entry|story|article)[^"]*"[^>]*>([\s\S]*?)<\/div>/gi,
-    /<a[^>]*class="[^"]*(?:post|item|card|entry|story)[^"]*"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi,
+
+  const openTagPatterns: Array<{ regex: RegExp; hrefGroup?: number }> = [
+    { regex: new RegExp(`<li[^>]*class="[^"]*${CARD_CLASS}[^"]*"[^>]*>`, "gi") },
+    { regex: new RegExp(`<div[^>]*class="[^"]*${CARD_CLASS}[^"]*"[^>]*>`, "gi") },
+    { regex: new RegExp(`<a[^>]*class="[^"]*${CARD_CLASS}[^"]*"[^>]*href="([^"]+)"[^>]*>`, "gi"), hrefGroup: 1 },
+    // A plain <a href="..."> wrapping a card-classed <div> (the link has no
+    // class of its own — the card styling is on the div it wraps).
+    { regex: new RegExp(`<a[^>]+href="([^"]+)"[^>]*>\\s*<div[^>]*class="[^"]*${CARD_CLASS}[^"]*"[^>]*>`, "gi"), hrefGroup: 1 },
   ];
 
-  for (const pattern of cardPatterns) {
-    for (const match of body.matchAll(pattern)) {
-      if (pattern.source.includes("href=")) {
-        const href = match[1] ?? "";
-        const innerHtml = match[2] ?? "";
-        const signal = extractCardSignal(innerHtml, source, href);
-        if (signal) results.push(signal);
-      } else {
-        const signal = extractCardSignal(match[1] ?? "", source);
-        if (signal) results.push(signal);
-      }
+  for (const { regex, hrefGroup } of openTagPatterns) {
+    for (const match of body.matchAll(regex)) {
+      const tagEnd = (match.index ?? 0) + match[0].length;
+      const href = hrefGroup ? match[hrefGroup] : undefined;
+      const window = body.slice(tagEnd, tagEnd + CARD_WINDOW);
+      const signal = extractCardSignal(window, source, href);
+      if (signal) results.push(signal);
     }
     if (results.length >= 5) break;
   }
   return results;
 }
 
+// Real headlines observed across sites this session are all 25+ characters;
+// nav/UI labels ("Home", "Milestones", "Products") are all under 15. Kept a
+// safety margin above the shortest real title seen so far — raised from an
+// initial 10 after that was too close to a borderline nav label's length.
+const MIN_TITLE_LENGTH = 15;
+
 function extractCardSignal(html: string, source: SourceLike, fallbackHref?: string): CollectedSignal | null {
-  const rawLink = fallbackHref ?? extractFirstLink(html);
+  const heading = extractFirstHeading(html);
+  const title = heading.title;
+  // Prefer the href attached to the actual title element (when the title
+  // came from an <a class="...title...">) over "the first link anywhere in
+  // the window" — found 2026-07-29 on MODENAS: the window's first anchor is
+  // a dummy `href="javascript:void(0)"` label ("PRESS RELEASE"), with the
+  // real article link two anchors later, on the title element itself.
+  const rawLink = fallbackHref ?? heading.href ?? extractFirstLink(html);
   const link = resolvePublicUrl(rawLink, source.config.url);
-  const title = extractFirstHeading(html);
-  if (!title && !link) return null;
+  // Requiring a real title with reasonable length — not just "has a link" —
+  // is what distinguishes a content card from a nav menu item. Found
+  // 2026-07-29 on Boon Siew Honda: <li class="menu-item"><a>Products</a></li>
+  // has a link and text but nothing article-like, and was wrongly accepted
+  // with an empty title (the `title ?? summary` fallback below never
+  // actually fired since extractFirstHeading returns "" on a miss, not
+  // null/undefined). A minimum length rather than "must be a heading tag" —
+  // found the same day that Cycle World's real titles live in a plain
+  // `<div class="headline">`, not h1-h6, so requiring a heading tag rejects
+  // legitimate content on sites that don't mark up titles semantically; nav
+  // labels ("Home", "Cub", "Products") are reliably short, real titles
+  // reliably aren't.
+  if (!title || !link || title.length < MIN_TITLE_LENGTH) return null;
+  // Sponsor logos and social-share footer links (found 2026-07-29 on MotoGP:
+  // "TISSOT"/"ESTRELLA GALICIA"/"Facebook"/"Instagram" as "titles" — the
+  // length filter alone doesn't catch these, sponsor names can be as long as
+  // real headlines). A plain same-host requirement isn't right either:
+  // Yamaha's real articles legitimately live on a different domain entirely
+  // (news.yamaha-motor.co.jp vs. the global.yamaha-motor.com listing page).
+  // What actually distinguishes them is the domain's core brand label —
+  // "yamaha-motor" appears in both of Yamaha's domains; "tissotwatches"/
+  // "facebook" share nothing with "motogp".
+  if (!isLikelySameBrandDomain(link, source.config.url)) return null;
 
   const date = normalizeDate(extractPublishedDate(html));
   const summary = stripHtml(decodeEntities(extractTextContent(html).slice(0, 500)));
 
   return {
-    externalId: link ?? title ?? sha256Short(summary),
-    url: link ?? "",
-    title: stripHtml(decodeEntities(title ?? summary.slice(0, 100))),
+    externalId: link,
+    url: link,
+    title: stripHtml(decodeEntities(title || summary.slice(0, 100))),
     summary: summary.slice(0, 8_000),
     language: source.language,
     publishedAt: date.value,
@@ -311,12 +372,31 @@ function extractFirstLink(html: string): string {
   return match?.[1] ?? "";
 }
 
-function extractFirstHeading(html: string): string {
-  for (const tag of ["h1", "h2", "h3", "h4"]) {
+interface HeadingResult {
+  title: string;
+  /** Set only when the title came from an anchor — its own href, not "the first link anywhere in the card". */
+  href?: string;
+}
+
+function extractFirstHeading(html: string): HeadingResult {
+  for (const tag of ["h1", "h2", "h3", "h4", "h5", "h6"]) {
     const match = html.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"));
-    if (match?.[1]) return match[1].trim();
+    if (match?.[1]) return { title: stripHtml(match[1]).trim() };
   }
-  return "";
+  // Not every site marks up card titles with a heading tag — found on 3
+  // different sites the same day (2026-07-29): Cycle World uses
+  // <div class="headline">, MODENAS uses <a class="link-title">, Yamaha uses
+  // <p class="rwd-news-title">. "headline"/"title" alone are overloaded in
+  // UI chrome too (accordion-title, modal-title, nav-title...), so this is
+  // deliberately NOT restricted by tag name — MIN_TITLE_LENGTH in
+  // extractCardSignal is what actually screens out nav-chrome false
+  // positives (nav labels are short; real titles reliably aren't).
+  const classMatch = html.match(/<([a-z]+)([^>]*class="[^"]*(?:headline|title)[^"]*"[^>]*)>([\s\S]{0,300}?)<\/\1>/i);
+  if (classMatch?.[3]) {
+    const href = classMatch[2]?.match(/href="([^"]+)"/i)?.[1];
+    return { title: stripHtml(classMatch[3]).trim(), href };
+  }
+  return { title: "" };
 }
 
 function extractPublishedDate(html: string): string {
@@ -335,6 +415,12 @@ function extractPublishedDate(html: string): string {
     /\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}\b/i,
   )?.[0];
   if (monthName) return monthName;
+  // "24 July 2026" — day-first format common in Malaysian/Singaporean English
+  // press releases (found 2026-07-29 on Boon Siew Honda's article body text).
+  const dayFirstMonthName = text.match(
+    /\b\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}\b/i,
+  )?.[0];
+  if (dayFirstMonthName) return dayFirstMonthName;
   const isoDate = text.match(/\b(?:19|20)\d{2}-\d{2}-\d{2}\b/)?.[0];
   if (isoDate) return isoDate;
   const chineseDate = text.match(/\b(?:19|20)\d{2}年\d{1,2}月\d{1,2}日\b/)?.[0];
@@ -361,14 +447,23 @@ function stripHtml(value: string): string {
 
 function decodeEntities(value: string): string {
   return value
-    .replace(/&amp;/g, "&")
+    .replace(/&amp;|&#038;|&#x26;/gi, "&")
     .replace(/&quot;/g, '"')
     .replace(/&#39;|&apos;/g, "'")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&#x27;/g, "'")
     .replace(/&#x2F;/g, "/")
-    .replace(/&nbsp;/g, " ");
+    .replace(/&nbsp;/g, " ")
+    // Numeric smart-quote entities — common in press-release copy (found
+    // 2026-07-29 on Boon Siew Honda titles) but not covered by the named
+    // entities above.
+    .replace(/&#8220;|&#x201c;/gi, "“")
+    .replace(/&#8221;|&#x201d;/gi, "”")
+    .replace(/&#8216;|&#x2018;/gi, "‘")
+    .replace(/&#8217;|&#x2019;/gi, "’")
+    .replace(/&#8211;|&#x2013;/gi, "–")
+    .replace(/&#8212;|&#x2014;/gi, "—");
 }
 
 function normalizeDate(value: string): { value: string; inferred: boolean } {
@@ -394,6 +489,27 @@ function resolvePublicUrl(value: string, base: string): string | null {
     return url.protocol === "http:" || url.protocol === "https:" ? url.toString() : null;
   } catch {
     return null;
+  }
+}
+
+const TLD_LIKE_LABELS = new Set(["co", "com", "org", "net", "gov", "ac", "edu"]);
+
+/** The domain label that actually carries the brand/company name, ignoring subdomains and the TLD (including compound ones like .co.jp/.com.my). */
+function coreDomainLabel(hostname: string): string {
+  const parts = hostname.split(".").filter(Boolean);
+  if (parts.length >= 3 && TLD_LIKE_LABELS.has(parts[parts.length - 2] ?? "")) {
+    return parts[parts.length - 3] ?? hostname;
+  }
+  return parts[parts.length - 2] ?? hostname;
+}
+
+function isLikelySameBrandDomain(link: string, sourceUrl: string): boolean {
+  try {
+    const linkLabel = coreDomainLabel(new URL(link).hostname);
+    const sourceLabel = coreDomainLabel(new URL(sourceUrl).hostname);
+    return linkLabel === sourceLabel || linkLabel.includes(sourceLabel) || sourceLabel.includes(linkLabel);
+  } catch {
+    return false;
   }
 }
 
