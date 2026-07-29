@@ -89,6 +89,8 @@ function buildPrompt(signals: RawSignal[]): { system: string; user: string } {
 
 只能使用用户提供的信息，不能编造任何数据、时间或事实。如果信息不完整就照实精简，不要补充你"猜测"的内容。
 
+部分条目标注"时间：未知"——这些是抓取时拿不到真实发布日期的旧文章（不是今天发生的事），不要把它们当成"最新"/"今日"新闻处理，也不要在标题和顶部速览里优先选它们；标题和速览优先用有确切时间的条目。
+
 输出必须是 JSON，结构为：
 {
   "headline": "把当天 2-3 条最重磅新闻的关键词揉进一句话标题",
@@ -103,7 +105,10 @@ items 里的顺序就是最终正文的顺序，按你判断的重要性/时效�
   const itemLines = signals
     .map((signal, i) => {
       const date = new Date(signal.publishedAt);
-      const dateLabel = Number.isNaN(date.getTime()) ? "" : date.toISOString().slice(0, 10);
+      const dateLabel =
+        signal.rawMeta.dateInferred === true || Number.isNaN(date.getTime())
+          ? "未知"
+          : date.toISOString().slice(0, 10);
       return [
         `${i + 1}. 【${signal.category}】${signal.title}`,
         `   来源：${signal.sourceName}　时间：${dateLabel}`,
