@@ -1,0 +1,841 @@
+{
+  "collectedAt": "2026-07-29T02:46:20.083Z",
+  "signals": [
+    {
+      "externalId": "https://modenas.my/news&event/press-release#multiCollapseExample1",
+      "url": "https://modenas.my/news&event/press-release",
+      "title": "",
+      "summary": "Motorcycle",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:07.137Z",
+      "category": "local-market",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "modenas-emos",
+      "sourceName": "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）"
+    },
+    {
+      "externalId": "https://modenas.my/news&event/press-release#multiCollapseExample2",
+      "url": "https://modenas.my/news&event/press-release",
+      "title": "",
+      "summary": "EXPERIENCE",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:07.137Z",
+      "category": "local-market",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "modenas-emos",
+      "sourceName": "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）"
+    },
+    {
+      "externalId": "https://modenas.my/dealer-list",
+      "url": "https://modenas.my/dealer-list",
+      "title": "",
+      "summary": "modenas network",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:07.137Z",
+      "category": "local-market",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "modenas-emos",
+      "sourceName": "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）"
+    },
+    {
+      "externalId": "https://modenas.my/news&event/press-release#multiCollapseExample2b",
+      "url": "https://modenas.my/news&event/press-release",
+      "title": "",
+      "summary": "Service",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:07.137Z",
+      "category": "local-market",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "modenas-emos",
+      "sourceName": "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）"
+    },
+    {
+      "externalId": "https://modenas.my/news&event/press-release#multiCollapseExample3",
+      "url": "https://modenas.my/news&event/press-release",
+      "title": "",
+      "summary": "Happenings",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:07.137Z",
+      "category": "local-market",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "modenas-emos",
+      "sourceName": "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）"
+    },
+    {
+      "externalId": "https://modenas.my/news&event/press-release#multiCollapseExample4",
+      "url": "https://modenas.my/news&event/press-release",
+      "title": "",
+      "summary": "Corporate",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:07.137Z",
+      "category": "local-market",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "modenas-emos",
+      "sourceName": "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）"
+    },
+    {
+      "externalId": "https://modenas.my/one-stop-portal",
+      "url": "https://modenas.my/one-stop-portal",
+      "title": "",
+      "summary": "PORTAL",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:07.137Z",
+      "category": "local-market",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "modenas-emos",
+      "sourceName": "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）"
+    },
+    {
+      "externalId": "https://modenas.my/news&event/press-release#multiCollapseExample5",
+      "url": "https://modenas.my/news&event/press-release",
+      "title": "",
+      "summary": "",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:07.137Z",
+      "category": "local-market",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "modenas-emos",
+      "sourceName": "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/rss/",
+      "url": "https://global.yamaha-motor.com/rss",
+      "title": "Global News Center",
+      "summary": "Global News Center Corporate announcement from Yamaha Motor All information posted here is current as of the date of publication, but please note that information may also be subject to change following publication. News Release/Newsletter RSS Corporate announcements July23,2026 [Marine] Yamaha Motor to Join Proof of Concept Project with Finnish NPO Cefmof for Sauna Boat Utilizing Hydrogen Energy - Supplying HARMO electric boat control systems to explore new marine applications combining hydroge",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/",
+      "url": "https://global.yamaha-motor.com/",
+      "title": "",
+      "summary": "Home",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/news/",
+      "url": "https://global.yamaha-motor.com/news",
+      "title": "",
+      "summary": "News",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/jp/",
+      "url": "https://global.yamaha-motor.com/jp",
+      "title": "",
+      "summary": "Japanese Site",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/link/",
+      "url": "https://global.yamaha-motor.com/link",
+      "title": "",
+      "summary": "Select Region",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/showroom/",
+      "url": "https://global.yamaha-motor.com/showroom",
+      "title": "",
+      "summary": "Gallery Gallery Top",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/showroom/cp/",
+      "url": "https://global.yamaha-motor.com/showroom/cp",
+      "title": "",
+      "summary": "Communication Plaza",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/showroom/yeb/",
+      "url": "https://global.yamaha-motor.com/showroom/yeb",
+      "title": "",
+      "summary": "Yamaha E-Ride Base",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/jp/showroom/library/",
+      "url": "https://global.yamaha-motor.com/jp/showroom/library",
+      "title": "",
+      "summary": "Product Library",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/showroom/event/",
+      "url": "https://global.yamaha-motor.com/showroom/event",
+      "title": "",
+      "summary": "Events",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/showroom/revsyourbody/",
+      "url": "https://global.yamaha-motor.com/showroom/revsyourbody",
+      "title": "",
+      "summary": "Revs your Body",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/showroom/handicraft/",
+      "url": "https://global.yamaha-motor.com/showroom/handicraft",
+      "title": "",
+      "summary": "Amigurumi / Needle Felting",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/showroom/entertainment-land/",
+      "url": "https://global.yamaha-motor.com/showroom/entertainment-land",
+      "title": "",
+      "summary": "Entertainment Land",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/showroom/urbanlegend/",
+      "url": "https://global.yamaha-motor.com/showroom/urbanlegend",
+      "title": "",
+      "summary": "Dispelling Motorcycle Myths",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/stories/",
+      "url": "https://global.yamaha-motor.com/stories",
+      "title": "",
+      "summary": "Stories Stories Top",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/stories/movingyou/",
+      "url": "https://global.yamaha-motor.com/stories/movingyou",
+      "title": "",
+      "summary": "Moving You",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/stories/field-born/",
+      "url": "https://global.yamaha-motor.com/stories/field-born",
+      "title": "",
+      "summary": "Field Born",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/stories/history/",
+      "url": "https://global.yamaha-motor.com/stories/history",
+      "title": "",
+      "summary": "History",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/stories/resonating-worlds/",
+      "url": "https://global.yamaha-motor.com/stories/resonating-worlds",
+      "title": "",
+      "summary": "Resonating Worlds",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/stories/yamaha-handling/",
+      "url": "https://global.yamaha-motor.com/stories/yamaha-handling",
+      "title": "",
+      "summary": "Yamaha Handling",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/stories/offroadmania/",
+      "url": "https://global.yamaha-motor.com/stories/offroadmania",
+      "title": "",
+      "summary": "Off-road Mania",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/design_technology/",
+      "url": "https://global.yamaha-motor.com/design_technology",
+      "title": "",
+      "summary": "Design＆Technology Design＆Technology Top",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/design_technology/jin-ki-kanno/",
+      "url": "https://global.yamaha-motor.com/design_technology/jin-ki-kanno",
+      "title": "",
+      "summary": "Yamaha Motor‘s development ideal \"Jin-Ki Kanno\"",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/design_technology/human_subjects_research/",
+      "url": "https://global.yamaha-motor.com/design_technology/human_subjects_research",
+      "title": "",
+      "summary": "Yamaha Motor’s Human Research",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/design_technology/technology-vision/",
+      "url": "https://global.yamaha-motor.com/design_technology/technology-vision",
+      "title": "",
+      "summary": "Technology Vision",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/design_technology/technology/",
+      "url": "https://global.yamaha-motor.com/design_technology/technology",
+      "title": "",
+      "summary": "Seeds of Creation",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/design_technology/design/",
+      "url": "https://global.yamaha-motor.com/design_technology/design",
+      "title": "",
+      "summary": "Design",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/design_technology/vif/",
+      "url": "https://global.yamaha-motor.com/design_technology/vif",
+      "title": "",
+      "summary": "Value Innovation Factory",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.881Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/design_technology/craftsmanship/",
+      "url": "https://global.yamaha-motor.com/design_technology/craftsmanship",
+      "title": "",
+      "summary": "Craftsmanship",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.882Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://global.yamaha-motor.com/design_technology/technical_review/",
+      "url": "https://global.yamaha-motor.com/design_technology/technical_review",
+      "title": "",
+      "summary": "Technical Review",
+      "language": "en",
+      "publishedAt": "2026-07-29T02:46:09.882Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    }
+  ]
+}
