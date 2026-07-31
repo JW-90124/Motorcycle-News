@@ -1,20 +1,23 @@
 #!/usr/bin/env node
 /**
  * Digest CLI — stage 2 of the pipeline. Reads today's `data/raw/{date}.json`
- * (written by `collect.ts`), asks DeepSeek to turn the newly-collected
- * signals into a 36Kr《8点1氪》-style digest (see 输出结构.md in the
- * Obsidian knowledge base), and writes the result to `digests/{date}.md`.
- *
- * Also scores every signal (confidence + heat — see domain/scoring.ts) and,
- * for the 1-2 signals that clear both thresholds, generates a separate
- * 子推送 (deep-dive commentary) file — independent of 主推, not a module
- * appended under it, per 输出结构.md.
+ * (written by `collect.ts`) and asks DeepSeek to turn the newly-collected
+ * signals into a 主推 (main push) modeled on 36Kr's "互联网人资讯早餐"
+ * format — 今日热点导览 (one-line highlights for everything) → 今日头条
+ * (2-3 top-scored stories, expanded) → 分类栏目 (everything else, grouped
+ * by our 6 content categories). See 输出结构.md in the Obsidian knowledge
+ * base. Also scores every signal (confidence + heat — domain/scoring.ts)
+ * and, for the 1-2 that clear both the score threshold and a minimum
+ * information-density bar, generates a separate 子推送 (deep-dive personal
+ * commentary, styled after a 36Kr product-review piece) — independent of
+ * 主推, not a module appended under it.
  *
  * The model is only ever asked to select/order/summarize the signals it's
  * given and reference them by index — it never invents a source URL. The
  * citation link in the rendered output always comes from our own collected
  * data, not from model output, so a hallucinated URL can't end up in the
- * digest.
+ * digest. Heat/confidence scores are used internally for selection only —
+ * never shown to the reader.
  */
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
@@ -34,12 +37,27 @@ interface ScoredSignal {
   clusterSize: number;
 }
 
-const SUB_PUSH_THRESHOLD = 60;
+const SUB_PUSH_SCORE_THRESHOLD = 60;
+// A "骨架新闻" (bare announcement with no real detail) can still score high
+// on confidence/heat but has nothing to actually analyze — found 2026-07-31
+// on a thin Yamaha personnel announcement that produced a hollow sub-push.
+const SUB_PUSH_MIN_SUMMARY_LENGTH = 60;
 const MAX_SUB_PUSH_ITEMS = 2;
+const MAX_TOP_STORIES = 3;
+
+const CATEGORY_LABELS: Record<string, string> = {
+  racing: "赛事赛果",
+  "new-models": "全球新车发布",
+  tech: "技术工程解读",
+  industry: "产业商业动态",
+  "local-market": "本地车市",
+  culture: "骑行文化车展活动",
+};
+const CATEGORY_ORDER = ["racing", "new-models", "tech", "industry", "local-market", "culture"];
 
 const digestResponseSchema = z.object({
   headline: z.string().min(1),
-  highlights: z.array(z.string().min(1)).min(1).max(8),
+  overview: z.array(z.string().min(1)).min(1).max(10),
   items: z
     .array(
       z.object({
@@ -52,9 +70,10 @@ const digestResponseSchema = z.object({
 });
 
 const subPushResponseSchema = z.object({
-  keyFacts: z.array(z.string().min(1)).min(1).max(6),
-  angles: z.array(z.string().min(1)).min(1).max(5),
-  formatTags: z.array(z.string().min(1)).min(1).max(4),
+  hook: z.string().min(1),
+  body: z.string().min(1),
+  verdict: z.string().min(1),
+  closingQuestion: z.string().min(1),
 });
 
 async function main() {
@@ -75,9 +94,18 @@ async function main() {
   }
 
   const client = new DeepSeekClient({ apiKey });
+  const scored = scoreSignals(raw.signals);
 
-  const { system, user } = buildDigestPrompt(raw.signals);
-  const result = await client.completeJson({ system, user, maxTokens: 4_000 });
+  const topIndexSet = new Set(
+    [...scored]
+      .map((item, i) => ({ item, index: i + 1 }))
+      .sort((a, b) => b.item.heat + b.item.confidence - (a.item.heat + a.item.confidence))
+      .slice(0, Math.min(MAX_TOP_STORIES, scored.length))
+      .map((entry) => entry.index),
+  );
+
+  const { system, user } = buildDigestPrompt(raw.signals, topIndexSet);
+  const result = await client.completeJson({ system, user, maxTokens: 5_000 });
 
   let parsed: z.infer<typeof digestResponseSchema>;
   try {
@@ -89,28 +117,33 @@ async function main() {
     );
   }
 
-  const markdown = renderDigest(dateStr, parsed, raw.signals);
+  const markdown = renderDigest(dateStr, parsed, raw.signals, topIndexSet);
   const outPath = `digests/${dateStr}.md`;
   await mkdir("digests", { recursive: true });
   await writeFile(outPath, markdown, "utf8");
   console.log(`主推已生成：${outPath}`);
   console.log(`模型：${result.model}，用量：${result.usage.totalTokens} tokens`);
 
-  const scored = scoreSignals(raw.signals);
   const candidates = scored
-    .filter((item) => item.confidence >= SUB_PUSH_THRESHOLD && item.heat >= SUB_PUSH_THRESHOLD)
+    .filter(
+      (item) =>
+        item.confidence >= SUB_PUSH_SCORE_THRESHOLD &&
+        item.heat >= SUB_PUSH_SCORE_THRESHOLD &&
+        item.signal.summary.length >= SUB_PUSH_MIN_SUMMARY_LENGTH,
+    )
     .sort((a, b) => b.heat + b.confidence - (a.heat + a.confidence))
     .slice(0, MAX_SUB_PUSH_ITEMS);
 
   if (candidates.length === 0) {
-    console.log("没有条目同时达到置信度/热度门槛（都需 ≥60），今天不生成子推送。");
+    console.log("没有条目同时达到置信度/热度门槛（都需 ≥60）且信息量足够，今天不生成子推送。");
     return;
   }
 
   for (const candidate of candidates) {
     const subPushResult = await client.completeJson({
       ...buildSubPushPrompt(candidate),
-      maxTokens: 1_200,
+      maxTokens: 2_000,
+      temperature: 0.4,
     });
     let subPushParsed: z.infer<typeof subPushResponseSchema>;
     try {
@@ -125,7 +158,7 @@ async function main() {
     const slug = candidate.signal.externalId ? shortHash(candidate.signal.externalId) : shortHash(candidate.signal.title);
     const subPushPath = `digests/${dateStr}-子推送-${slug}.md`;
     await writeFile(subPushPath, subPushMarkdown, "utf8");
-    console.log(`子推送已生成：${subPushPath}（置信度 ${candidate.confidence}，热度 ${candidate.heat}）`);
+    console.log(`子推送已生成：${subPushPath}（置信度 ${candidate.confidence}，热度 ${candidate.heat}，仅供内部参考，不会出现在正文里）`);
   }
 }
 
@@ -140,25 +173,36 @@ async function readRawSignals(path: string): Promise<{ signals: RawSignal[] } | 
   }
 }
 
-function buildDigestPrompt(signals: RawSignal[]): { system: string; user: string } {
-  const system = `你是一个摩托车行业快讯编辑，风格严格模仿 36 氪《8点1氪》系列微信公众号文章：纯事实快讯体，客观中性，绝不夹带个人观点或推测，不分类别、按重要性/时效混排。
+function buildDigestPrompt(signals: RawSignal[], topIndexSet: Set<number>): { system: string; user: string } {
+  const system = `你是一个摩托车行业快讯编辑，参考 36 氪"互联网人资讯早餐"（8点1氪）的结构：纯事实快讯体，客观中性，绝不夹带个人观点或推测。
 
 只能使用用户提供的信息，不能编造任何数据、时间或事实。如果信息不完整就照实精简，不要补充你"猜测"的内容。
 
-部分条目标注"时间：未知"——这些是抓取时拿不到真实发布日期的旧文章（不是今天发生的事），不要把它们当成"最新"/"今日"新闻处理，也不要在标题和顶部速览里优先选它们；标题和速览优先用有确切时间的条目。
+部分条目标注"时间：未知"——这些是抓取时拿不到真实发布日期的旧文章（不是今天发生的事），不要把它们当成"最新"/"今日"新闻处理，也不要优先选进 overview。
 
-输出必须是 JSON，结构为：
+结构分三层，都要产出：
+1. **overview**（今日热点导览）：5-10 条一句话速览，覆盖今天信号里最值得关注的内容，一眼扫完；不展开、不重复讲细节。
+2. **重点展开条目**（输入里标了"【重点展开】"的那几条，对应"今日头条"）：这几条要写得比其他条目更长更详细——多写 1-2 句具体数据/背景/影响，让读者不用点进原文也能完整了解这条新闻，不是随便加长凑字数。
+3. **普通条目**（其余的）：跟之前一样，1-2 段事实陈述即可，不用刻意加长。
+
+输出必须是 JSON：
 {
   "headline": "把当天 2-3 条最重磅新闻的关键词揉进一句话标题",
-  "highlights": ["顶部速览要点，一句话，不展开", "..."],
+  "overview": ["一句话速览", "..."],
   "items": [
-    { "index": <对应输入条目的编号>, "heading": "一行小标题，加粗一句话，不用 markdown # 标题", "body": "1-2 段事实陈述，数据/时间直接写进句子里，不用表格，客观中性" }
+    { "index": <对应输入条目的编号>, "heading": "一行小标题，加粗一句话，不用 markdown # 标题", "body": "正文，标了重点展开的条目要写得更详细" }
   ]
 }
 
-items 里的顺序就是最终正文的顺序，按你判断的重要性/时效排列，不要按输入的类别分组。index 必须精确对应输入列表里的编号，不要自己编号。body 里不要包含来源括号——来源标注由程序自动加在每条后面。`;
+items 里每条输入都要出现一次。index 必须精确对应输入列表里的编号，不要自己编号。body 里不要包含来源括号——来源标注由程序自动加在每条后面。`;
 
-  const itemLines = signals.map((signal, i) => `${i + 1}. 【${signal.category}】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   摘要：${signal.summary.slice(0, 600)}`).join("\n\n");
+  const itemLines = signals
+    .map((signal, i) => {
+      const index = i + 1;
+      const marker = topIndexSet.has(index) ? "【重点展开】" : "";
+      return `${index}. ${marker}【${signal.category}】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   摘要：${signal.summary.slice(0, 800)}`;
+    })
+    .join("\n\n");
 
   const user = `今天收集到 ${signals.length} 条新信号，请据此生成主推：\n\n${itemLines}`;
   return { system, user };
@@ -175,19 +219,45 @@ function renderDigest(
   dateStr: string,
   digest: z.infer<typeof digestResponseSchema>,
   signals: RawSignal[],
+  topIndexSet: Set<number>,
 ): string {
   const lines: string[] = [];
   lines.push(`# ${digest.headline}`, "");
   lines.push(`> ${dateStr}`, "");
-  lines.push("**今日速览**", "");
-  for (const highlight of digest.highlights) lines.push(`- ${highlight}`);
-  lines.push("", "---", "");
+  lines.push("## 今日热点导览", "");
+  for (const highlight of digest.overview) lines.push(`- ${highlight}`);
+  lines.push("");
 
-  for (const item of digest.items) {
+  const renderItem = (item: (typeof digest.items)[number]) => {
     const signal = signals[item.index - 1];
     lines.push(`**${item.heading}**`, "");
     const citation = signal ? `（[${signal.sourceName}](${signal.url})）` : "";
     lines.push(`${item.body}${citation}`, "");
+  };
+
+  const topItems = digest.items.filter((item) => topIndexSet.has(item.index));
+  if (topItems.length > 0) {
+    lines.push("## 今日头条", "");
+    for (const item of topItems) renderItem(item);
+  }
+
+  const remainingByCategory = new Map<string, typeof digest.items>();
+  for (const item of digest.items) {
+    if (topIndexSet.has(item.index)) continue;
+    const category = signals[item.index - 1]?.category ?? "general";
+    const bucket = remainingByCategory.get(category) ?? [];
+    bucket.push(item);
+    remainingByCategory.set(category, bucket);
+  }
+
+  const orderedCategories = [
+    ...CATEGORY_ORDER.filter((category) => remainingByCategory.has(category)),
+    ...[...remainingByCategory.keys()].filter((category) => !CATEGORY_ORDER.includes(category)),
+  ];
+
+  for (const category of orderedCategories) {
+    lines.push(`## ${CATEGORY_LABELS[category] ?? category}`, "");
+    for (const item of remainingByCategory.get(category) ?? []) renderItem(item);
   }
 
   return `${lines.join("\n").trimEnd()}\n`;
@@ -232,32 +302,57 @@ function scoreSignals(signals: RawSignal[]): ScoredSignal[] {
   });
 }
 
-function buildSubPushPrompt(candidate: ScoredSignal): { system: string; user: string } {
-  const system = `你是一个摩托车内容策划，为一个中文摩托车 YouTube 频道挖掘选题角度。这是"子推送"——针对一条今天真正的热点新闻做深挖，不是快讯，可以带主观判断和策划建议。
+/**
+ * Per-category analysis framework for 子推送 — mirrors how a 36Kr deep-dive
+ * piece is actually structured (hook → unpack details → personal verdict →
+ * open question to the reader), adapted per news type. An incident/recall
+ * override applies regardless of category, since "who's affected, what
+ * should you do" matters more than the category's usual angle there.
+ */
+const SUB_PUSH_FRAMEWORKS: Record<string, string> = {
+  "new-models": '分析框架"值不值得写"：先说清楚定价，再拆解核心卖点/参数，然后跟同价位竞品横向对比，最后给出个人判断——值不值、适合什么样的骑手。',
+  racing: '分析框架"看点回顾"：先说清楚比赛结果，再讲关键转折点，然后解读车手/车队表现说明了什么，最后聊对后续积分榜/赛季走势的影响。',
+  industry: '分析框架"数字背后"：先呈现数字本身，再放进历史数据/同行对比里看这算好算坏，然后挖这个数字背后藏着的行业信号，最后给个人解读。',
+  tech: '分析框架"技术拆解"：先说清楚这项技术解决了什么问题，再跟现有方案比好在哪，最后判断实际意义有多大——是真突破还是营销话术。',
+  "local-market": '分析框架"本地影响"：先说清楚发生了什么，再讲对当地车主/市场的具体影响，然后挖背后原因，最后给个人观点。',
+  culture: '分析框架"现场观察"：先说清楚事件本身，再讲亮点/看点，然后聊对行业/骑行文化的意义，最后给个人感受。',
+};
+const INCIDENT_FRAMEWORK = '分析框架"利益相关"：先说清楚发生了什么，再讲哪些车主/哪些地区受影响，然后给车主具体的行动建议，最后分析背后原因、评价企业处理方式。';
+const INCIDENT_KEYWORDS = /召回|事故|故障|漏油|起火|安全隐患|recall|crash|fire hazard|malfunction/i;
 
-只能基于用户提供的这条新闻内容，不能编造它没提到的数据或事实；"评论角度"可以是你的主观建议/判断，但要清楚是建议，不要包装成事实陈述。
+function frameworkFor(signal: RawSignal): string {
+  if (INCIDENT_KEYWORDS.test(`${signal.title} ${signal.summary}`)) return INCIDENT_FRAMEWORK;
+  return SUB_PUSH_FRAMEWORKS[signal.category] ?? '分析框架：先交代背景，再展开细节，然后给个人判断，最后抛一个问题给读者。';
+}
+
+function buildSubPushPrompt(candidate: ScoredSignal): { system: string; user: string } {
+  const { signal } = candidate;
+  const system = `你是一个摩托车内容创作者，为中文摩托车 YouTube 频道写深度评论文章，风格参考 36 氪的产品测评文章：口语化第一人称，有明确的个人态度和判断，用短句和自然的转折词组织行文（不是分点罗列），结尾习惯抛一个开放式问题给读者互动。
+
+只能基于用户提供的这条新闻内容做分析，不能编造它没提到的数据或事实；你的个人判断/态度可以是主观的，但不要把猜测包装成确凿事实——该说"我觉得""大概率"的地方就明确说是自己的判断。
+
+这条新闻请用这个${frameworkFor(signal)}
 
 输出必须是 JSON：
 {
-  "keyFacts": ["从这条新闻里提炼的关键数据/事实，每条一句话"],
-  "angles": ["2-3 个可以切入做视频的观点角度，每条一句话说清楚角度是什么"],
-  "formatTags": ["适合的视频形式，如：快评、深度解读、对比评测、开箱预告"]
+  "hook": "开头一两句，用一个贴近读者的观察或问题把话题引出来，不要直接复述新闻标题",
+  "body": "正文，按上面的分析框架展开，口语化、有个人态度，段落之间用两个换行分隔，不用分点小标题",
+  "verdict": "一两句话的个人结论/判断",
+  "closingQuestion": "结尾抛给读者的一个开放式问题"
 }`;
-  const user = `新闻标题：${candidate.signal.title}\n类别：${candidate.signal.category}\n来源：${candidate.signal.sourceName}\n摘要：${candidate.signal.summary}\n\n置信度评分：${candidate.confidence}/100　热度评分：${candidate.heat}/100（供参考，不用在输出里提这两个数字）`;
+  const user = `新闻标题：${signal.title}\n类别：${signal.category}\n来源：${signal.sourceName}\n摘要：${signal.summary}`;
   return { system, user };
 }
 
 function renderSubPush(candidate: ScoredSignal, content: z.infer<typeof subPushResponseSchema>): string {
   const { signal } = candidate;
   const lines: string[] = [];
-  lines.push(`# 子推送：${signal.title}`, "");
-  lines.push(`> 置信度 ${candidate.confidence}/100　热度 ${candidate.heat}/100　（[${signal.sourceName}](${signal.url})）`, "");
-  lines.push("## 关键数据", "");
-  for (const fact of content.keyFacts) lines.push(`- ${fact}`);
-  lines.push("", "## 我的评论角度", "");
-  content.angles.forEach((angle, i) => lines.push(`${i + 1}. ${angle}`));
-  lines.push("", "## 适合形式标签", "");
-  lines.push(content.formatTags.join("、"));
+  lines.push(`# ${signal.title}`, "");
+  lines.push(content.hook, "");
+  lines.push(content.body, "");
+  lines.push(content.verdict, "");
+  lines.push(content.closingQuestion, "");
+  lines.push(`（[${signal.sourceName}](${signal.url})）`);
   return `${lines.join("\n").trimEnd()}\n`;
 }
 
