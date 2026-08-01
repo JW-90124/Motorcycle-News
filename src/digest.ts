@@ -193,6 +193,8 @@ async function readRawSignals(path: string): Promise<{ signals: RawSignal[] } | 
 function buildDigestPrompt(signals: RawSignal[], topIndexSet: Set<number>): { system: string; user: string } {
   const system = `你是一个摩托车行业快讯编辑，参考 36 氪"互联网人资讯早餐"（8点1氪）的结构：纯事实快讯体，客观中性，绝不夹带个人观点或推测。
 
+**全部输出必须是中文**，包括标题、速览、正文——即使原始新闻是英语、印尼语、马来语等其他语言，也要翻译成中文再写，不要直接照抄原文语言。人名、品牌名、车型名等专有名词可以保留原文或用通用中文译名，但句子本身必须是中文。
+
 只能使用用户提供的信息，不能编造任何数据、时间或事实。如果信息不完整就照实精简，不要补充你"猜测"的内容。
 
 部分条目标注"时间：未知"——这些是抓取时拿不到真实发布日期的旧文章（不是今天发生的事），不要把它们当成"最新"/"今日"新闻处理，也不要优先选进 overview。
