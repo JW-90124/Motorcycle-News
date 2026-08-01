@@ -17,7 +17,9 @@ import { marked } from "marked";
 
 const DIGESTS_DIR = "digests";
 const SITE_DIR = "site";
-const SITE_TITLE = "摩托车新闻主推";
+// Used only for the browser tab <title> (SEO/history) — not shown as a
+// visible on-page heading anywhere, per user request 2026-08-01.
+const SITE_TAB_TITLE = "摩托车新闻";
 
 interface DigestEntry {
   date: string;
@@ -80,12 +82,12 @@ function baseStyles(): string {
       font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
       color: #1a1a1a; background: #fafafa; line-height: 1.75;
     }
-    main { max-width: 640px; margin: 0 auto; }
+    main { max-width: 640px; margin: 0 auto; padding-top: 1.5rem; }
     header.site-header {
       max-width: 640px; margin: 0 auto; padding: 1.5rem 0 1rem;
       border-bottom: 1px solid #e5e5e5;
     }
-    header.site-header a { color: #1a1a1a; text-decoration: none; font-weight: 700; font-size: 1.1rem; }
+    header.site-header a { color: #666; text-decoration: none; font-size: 0.9rem; }
     h1 { font-size: 1.4rem; line-height: 1.5; margin: 1.5rem 0 0.5rem; }
     h2 {
       display: inline-block; background: #2255cc; color: #fff;
@@ -113,11 +115,11 @@ function renderPage(title: string, bodyHtml: string): string {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${escapeHtml(title)} · ${SITE_TITLE}</title>
+<title>${escapeHtml(title)} · ${SITE_TAB_TITLE}</title>
 <style>${baseStyles()}</style>
 </head>
 <body>
-<header class="site-header"><a href="../index.html">← ${SITE_TITLE}</a></header>
+<header class="site-header"><a href="../index.html">← 返回</a></header>
 <main>${bodyHtml}</main>
 </body>
 </html>`;
@@ -132,11 +134,11 @@ function renderIndex(entries: DigestEntry[]): string {
       if (!main) return "";
       const subLinks = subPushes
         .map((sp) => {
-          // Older sub-push files (pre-2026-08-01 redesign) already baked a
+          // Older sub-push files (pre-2026-08-01 redesign) baked a
           // "子推送：" prefix into their own title — strip it so it doesn't
-          // duplicate the one added here for newer files that don't.
+          // clash with the "Deep Dive" label used here for all of them.
           const cleanTitle = sp.title.replace(/^子推送[:：]\s*/, "");
-          return `<a class="index-subpush" href="digests/${sp.filename.replace(/\.md$/, ".html")}">↳ 子推送：${escapeHtml(cleanTitle)}</a>`;
+          return `<a class="index-subpush" href="digests/${sp.filename.replace(/\.md$/, ".html")}">↳ Deep Dive · ${escapeHtml(cleanTitle)}</a>`;
         })
         .join("");
       return `<li class="index-item">
@@ -152,11 +154,10 @@ function renderIndex(entries: DigestEntry[]): string {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${SITE_TITLE}</title>
+<title>${SITE_TAB_TITLE}</title>
 <style>${baseStyles()}</style>
 </head>
 <body>
-<header class="site-header">${SITE_TITLE}</header>
 <main><ul class="index-list">${items}</ul></main>
 </body>
 </html>`;
