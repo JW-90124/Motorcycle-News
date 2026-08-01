@@ -57,13 +57,30 @@ const CATEGORY_ORDER = ["racing", "new-models", "tech", "industry", "local-marke
 
 const digestResponseSchema = z.object({
   headline: z.string().min(1),
-  overview: z.array(z.string().min(1)).min(1).max(10),
+  // Tied to an index (not a free-floating string list) so irrelevant items
+  // can be filtered out here the same way they're filtered out of the body
+  // — a plain prompt instruction to "skip irrelevant ones" wasn't reliably
+  // followed (found 2026-08-01: the sheriff-corruption story still showed
+  // up as an overview bullet even though it was correctly excluded from
+  // every other section).
+  overview: z.array(z.object({ index: z.number().int().positive(), text: z.string().min(1) })).min(1).max(10),
   items: z
     .array(
       z.object({
         index: z.number().int().positive(),
         heading: z.string().min(1),
         body: z.string().min(1),
+        // The model's own read of what this article is actually about —
+        // not the source's blanket category label. RideApart (adapter:
+        // "rss") is configured as "new-models" but also publishes unrelated
+        // content (local-government stories, giveaways) that a source-level
+        // label can't distinguish; RideApart's RSS feed itself carries no
+        // per-article category to fall back on (checked 2026-08-01).
+        category: z.enum(["racing", "new-models", "tech", "industry", "local-market", "culture"]),
+        // False for content that isn't genuinely about motorcycles/the moto
+        // industry — tangential local-news or unrelated promotional filler
+        // a moto site sometimes publishes alongside real coverage.
+        relevant: z.boolean(),
       }),
     )
     .min(1),
@@ -180,27 +197,31 @@ function buildDigestPrompt(signals: RawSignal[], topIndexSet: Set<number>): { sy
 
 部分条目标注"时间：未知"——这些是抓取时拿不到真实发布日期的旧文章（不是今天发生的事），不要把它们当成"最新"/"今日"新闻处理，也不要优先选进 overview。
 
+**每条输入前面【】里的类别是信源的固定标签，不是这篇文章自己的类别**——信源本身可能什么都发（比如一个以"全球新车发布"为主的媒体站，也会顺带发地方新闻、抽奖推广这类不相关内容）。请你根据标题和摘要的实际内容，重新判断这篇文章真正属于六个方向里的哪一个：racing（赛事赛果）/new-models（全球新车发布）/tech（技术工程解读）/industry（产业商业动态）/local-market（本地车市）/culture（骑行文化车展活动），不要直接照抄输入里给的标签。
+
+**同时判断每条是否跟摩托车/摩托车行业真正相关**（relevant）。像地方政府贪腐挪用公款（哪怕买的是摩托艇/ATV）、跟摩托车无关的纯推广抽奖这类内容，摩托车媒体站有时也会顺带发，但跟摩托车选题无关，这类请标 relevant: false，不会出现在最终产出里。
+
 结构分三层，都要产出：
-1. **overview**（今日热点导览）：5-10 条一句话速览，覆盖今天信号里最值得关注的内容，一眼扫完；不展开、不重复讲细节。
-2. **重点展开条目**（输入里标了"【重点展开】"的那几条，对应"今日头条"）：这几条要写得比其他条目更长更详细——多写 1-2 句具体数据/背景/影响，让读者不用点进原文也能完整了解这条新闻，不是随便加长凑字数。
+1. **overview**（今日热点导览）：5-10 条一句话速览，覆盖今天信号里最值得关注的内容（跳过 relevant: false 的），一眼扫完；不展开、不重复讲细节。
+2. **重点展开条目**（输入里标了"【重点展开】"的那几条，对应"今日头条"）：这几条要写得比其他条目更长更详细——多写 1-2 句具体数据/背景/影响，让读者不用点进原文也能完整了解这条新闻，不是随便加长凑字数。如果这条其实 relevant: false，正常标注就好，程序会自动跳过不展示。
 3. **普通条目**（其余的）：跟之前一样，1-2 段事实陈述即可，不用刻意加长。
 
 输出必须是 JSON：
 {
   "headline": "把当天 2-3 条最重磅新闻的关键词揉进一句话标题",
-  "overview": ["一句话速览", "..."],
+  "overview": [ { "index": <这条速览对应的输入条目编号>, "text": "一句话速览" } ],
   "items": [
-    { "index": <对应输入条目的编号>, "heading": "一行小标题，加粗一句话，不用 markdown # 标题", "body": "正文，标了重点展开的条目要写得更详细" }
+    { "index": <对应输入条目的编号>, "heading": "一行小标题，加粗一句话，不用 markdown # 标题", "body": "正文，标了重点展开的条目要写得更详细", "category": "重新判断后的真实类别", "relevant": true或false }
   ]
 }
 
-items 里每条输入都要出现一次。index 必须精确对应输入列表里的编号，不要自己编号。body 里不要包含来源括号——来源标注由程序自动加在每条后面。`;
+items 里每条输入都要出现一次（包括 relevant: false 的，程序会负责过滤，不要自己先跳过不写）。index 必须精确对应输入列表里的编号，不要自己编号。overview 的 index 也必须对应输入编号——**程序会用这个 index 去对照 items 里的 relevant 字段自动过滤，不用你自己判断要不要写进 overview**，正常挑你觉得最值得关注的条目写就行。body 里不要包含来源括号——来源标注由程序自动加在每条后面。`;
 
   const itemLines = signals
     .map((signal, i) => {
       const index = i + 1;
       const marker = topIndexSet.has(index) ? "【重点展开】" : "";
-      return `${index}. ${marker}【${signal.category}】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   摘要：${signal.summary.slice(0, 800)}`;
+      return `${index}. ${marker}【信源固定标签：${signal.category}，仅供参考，请你重新判断真实类别】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   摘要：${signal.summary.slice(0, 800)}`;
     })
     .join("\n\n");
 
@@ -221,11 +242,15 @@ function renderDigest(
   signals: RawSignal[],
   topIndexSet: Set<number>,
 ): string {
+  const relevantIndexSet = new Set(digest.items.filter((item) => item.relevant).map((item) => item.index));
+
   const lines: string[] = [];
   lines.push(`# ${digest.headline}`, "");
   lines.push(`> ${dateStr}`, "");
   lines.push("## 今日热点导览", "");
-  for (const highlight of digest.overview) lines.push(`- ${highlight}`);
+  for (const highlight of digest.overview) {
+    if (relevantIndexSet.has(highlight.index)) lines.push(`- ${highlight.text}`);
+  }
   lines.push("");
 
   const renderItem = (item: (typeof digest.items)[number]) => {
@@ -235,19 +260,28 @@ function renderDigest(
     lines.push(`${item.body}${citation}`, "");
   };
 
-  const topItems = digest.items.filter((item) => topIndexSet.has(item.index));
+  // relevant: false — content the model judged isn't genuinely about
+  // motorcycles/the moto industry, even though the source published it
+  // (found 2026-08-01: RideApart, a moto-focused source, also ran a local
+  // government corruption story that happened to mention PWCs/ATVs, and an
+  // unrelated giveaway promo). Dropped entirely, not just miscategorized.
+  const relevantItems = digest.items.filter((item) => item.relevant);
+
+  const topItems = relevantItems.filter((item) => topIndexSet.has(item.index));
   if (topItems.length > 0) {
     lines.push("## 今日头条", "");
     for (const item of topItems) renderItem(item);
   }
 
+  // Grouped by the model's own re-judged category (item.category), not the
+  // source's fixed label — see buildDigestPrompt for why the label alone
+  // isn't trustworthy per-article.
   const remainingByCategory = new Map<string, typeof digest.items>();
-  for (const item of digest.items) {
+  for (const item of relevantItems) {
     if (topIndexSet.has(item.index)) continue;
-    const category = signals[item.index - 1]?.category ?? "general";
-    const bucket = remainingByCategory.get(category) ?? [];
+    const bucket = remainingByCategory.get(item.category) ?? [];
     bucket.push(item);
-    remainingByCategory.set(category, bucket);
+    remainingByCategory.set(item.category, bucket);
   }
 
   const orderedCategories = [
