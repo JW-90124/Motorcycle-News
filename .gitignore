@@ -4,6 +4,7 @@ node_modules/
 baoyu-skills/chrome-profile/
 .claude/settings.local.json
 dist/
+site/
 
 # data/state.json and data/raw/*.json are intentionally NOT ignored — they
 # must be committed so dedup state and collected signals persist across
