@@ -5,11 +5,12 @@ on:
     # 00:00 UTC = 08:00 Asia/Singapore, Monday/Wednesday/Friday.
     - cron: "0 0 * * 1,3,5"
   workflow_dispatch: {}
-  # Rebuild the published site whenever digests/ content changes for any
-  # other reason (e.g. a manual commit), not just on the scheduled run.
+  # Rebuild+redeploy the published site whenever its content or the
+  # generator itself changes for any reason other than the scheduled run
+  # (e.g. a manual digests/ commit, or a src/build-site.ts edit).
   push:
     branches: [main]
-    paths: ["digests/**"]
+    paths: ["digests/**", "src/build-site.ts"]
 
 permissions:
   contents: write
