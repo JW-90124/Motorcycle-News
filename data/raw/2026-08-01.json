@@ -1,93 +1,25 @@
 {
-  "collectedAt": "2026-08-01T08:20:14.159Z",
+  "collectedAt": "2026-08-01T13:52:51.854Z",
   "signals": [
     {
-      "externalId": "https://otomotif.kompas.com/read/2026/08/01/082200815/land-cruiser-fj-resmi-meluncur-tahun-ini-antusiasme-tinggi-",
-      "url": "https://otomotif.kompas.com/read/2026/08/01/082200815/land-cruiser-fj-resmi-meluncur-tahun-ini-antusiasme-tinggi-",
-      "title": "Land Cruiser FJ Resmi Meluncur Tahun Ini, Antusiasme Tinggi!",
-      "summary": "Headline Live Report --> Land Cruiser FJ Resmi Meluncur Tahun Ini, Antusiasme Tinggi! 01/08/2026, 08:22 WIB Headline Live Report --> <h2 class=\"headline__big__title\"",
-      "language": "id",
-      "publishedAt": "2026-08-01T08:20:14.155Z",
-      "category": "culture",
+      "externalId": "https://www.rideapart.com/news/803430/harley-davidson-files-trademark-application-for-rmcr-cafe-racer-motorcycle/",
+      "url": "https://www.rideapart.com/news/803430/harley-davidson-files-trademark-application-for-rmcr-cafe-racer-motorcycle",
+      "title": "Harley-Davidson Is Probably Going to Build That Awesome Cafe Racer Concept",
+      "summary": "Shut up and take my money dot gif!",
+      "language": "en",
+      "publishedAt": "2026-08-01T11:40:00.000Z",
+      "category": "new-models",
       "tags": [],
       "metrics": {
         "platforms": [
-          "web"
+          "rss"
         ]
       },
       "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
+        "dateInferred": false
       },
-      "sourceSlug": "kompas-otomotif",
-      "sourceName": "Kompas.com Otomotif"
-    },
-    {
-      "externalId": "https://otomotif.kompas.com/read/2026/08/01/070200915/byd-respons-insiden-mobil-listrik-terbakar-di-tol-cikampek",
-      "url": "https://otomotif.kompas.com/read/2026/08/01/070200915/byd-respons-insiden-mobil-listrik-terbakar-di-tol-cikampek",
-      "title": "BYD Respons Insiden Mobil Listrik Terbakar di Tol Cikampek",
-      "summary": "Headline Live Report --> BYD Respons Insiden Mobil Listrik Terbakar di Tol Cikampek 01/08/2026, 07:02 WIB Headline Live Report --> Wapres Gibran",
-      "language": "id",
-      "publishedAt": "2026-08-01T08:20:14.155Z",
-      "category": "culture",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "web"
-        ]
-      },
-      "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
-      },
-      "sourceSlug": "kompas-otomotif",
-      "sourceName": "Kompas.com Otomotif"
-    },
-    {
-      "externalId": "https://otomotif.kompas.com/read/2026/08/01/072200415/wapres-gibran-jajal-motor-listrik-lokal-tangkas-x7-new",
-      "url": "https://otomotif.kompas.com/read/2026/08/01/072200415/wapres-gibran-jajal-motor-listrik-lokal-tangkas-x7-new",
-      "title": "Wapres Gibran Jajal Motor Listrik Lokal Tangkas X7 New",
-      "summary": "Headline Live Report --> Wapres Gibran Jajal Motor Listrik Lokal Tangkas X7 New 01/08/2026, 07:22 WIB Headline Live Report --> Mau ke GIIAS 2026 Akhir Pekan,",
-      "language": "id",
-      "publishedAt": "2026-08-01T08:20:14.155Z",
-      "category": "culture",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "web"
-        ]
-      },
-      "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
-      },
-      "sourceSlug": "kompas-otomotif",
-      "sourceName": "Kompas.com Otomotif"
-    },
-    {
-      "externalId": "https://otomotif.kompas.com/read/2026/08/01/064200315/mau-ke-giias-2026-akhir-pekan-berapa-harga-tiketnya-",
-      "url": "https://otomotif.kompas.com/read/2026/08/01/064200315/mau-ke-giias-2026-akhir-pekan-berapa-harga-tiketnya-",
-      "title": "Mau ke GIIAS 2026 Akhir Pekan, Berapa Harga Tiketnya?",
-      "summary": "Headline Live Report --> Mau ke GIIAS 2026 Akhir Pekan, Berapa Harga Tiketnya? 01/08/2026, 06:42 WIB Land Cruiser FJ Resmi Meluncur Tah",
-      "language": "id",
-      "publishedAt": "2026-08-01T08:20:14.155Z",
-      "category": "culture",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "web"
-        ]
-      },
-      "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
-      },
-      "sourceSlug": "kompas-otomotif",
-      "sourceName": "Kompas.com Otomotif"
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
     }
   ]
 }
