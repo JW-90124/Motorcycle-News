@@ -29,9 +29,16 @@ interface DigestEntry {
   kind: "main" | "sub-push";
   filename: string;
   title: string;
+  // Only populated for "main" entries — used on the homepage card to make
+  // it visually obvious this is a roundup of several stories, not one
+  // (found 2026-08-02: a single combined headline read as "just one piece
+  // of news" to a first-time visitor).
+  itemCount: number;
+  highlights: string[];
 }
 
 const FILENAME_PATTERN = /^(\d{4}-\d{2}-\d{2})(?:-子推送-([a-f0-9]+))?\.md$/;
+const MAX_PREVIEW_HIGHLIGHTS = 3;
 
 async function main() {
   const files = await readdir(DIGESTS_DIR);
@@ -48,6 +55,8 @@ async function main() {
       kind: hash ? "sub-push" : "main",
       filename,
       title: extractTitle(content),
+      itemCount: hash ? 0 : countItems(content),
+      highlights: hash ? [] : extractHighlights(content).slice(0, MAX_PREVIEW_HIGHLIGHTS),
     });
   }
 
@@ -73,6 +82,30 @@ async function main() {
 function extractTitle(markdown: string): string {
   const match = markdown.match(/^#\s+(.+)$/m);
   return match?.[1]?.trim() ?? "未命名";
+}
+
+// Each rendered story is a bold heading on its own line — see digest.ts's
+// renderItem (`**${item.heading}**`) — so counting those lines gives the
+// real number of stories in this digest, not just how many made the
+// (deliberately short) 今日热点导览 preview list.
+function countItems(markdown: string): number {
+  return [...markdown.matchAll(/^\*\*(.+?)\*\*$/gm)].length;
+}
+
+function extractHighlights(markdown: string): string[] {
+  const section = markdown.match(/##\s*今日热点导览\s*\n([\s\S]*?)(?=\n##|\n*$)/);
+  if (!section?.[1]) return [];
+  return [...section[1].matchAll(/^-\s+(.+)$/gm)].map((m) => m[1]!.trim());
+}
+
+const WEEKDAYS = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+
+function formatDateHeader(dateStr: string): string {
+  const parts = dateStr.split("-").map(Number);
+  const [year, month, day] = parts;
+  if (!year || !month || !day) return dateStr;
+  const weekday = WEEKDAYS[new Date(Date.UTC(year, month - 1, day)).getUTCDay()];
+  return `${month}月${day}日 · ${weekday}`;
 }
 
 function baseStyles(): string {
@@ -130,16 +163,32 @@ function baseStyles(): string {
 
     /* Homepage list */
     .index-list { list-style: none; padding: 0; margin: 0; }
-    .index-item {
+    .index-day { margin-bottom: 1.4rem; }
+    .index-date {
+      color: var(--kopi-dark); font-size: 1rem; font-weight: 700;
+      letter-spacing: 0.01em; margin: 0 0 0.5rem 0.1rem;
+    }
+    .index-card {
       background: var(--card); border: 1px solid var(--line); border-radius: 10px;
-      padding: 1.1rem 1.25rem; margin-bottom: 0.9rem;
+      padding: 1.1rem 1.25rem;
       transition: border-color 0.15s ease, transform 0.15s ease;
     }
-    .index-item:hover { border-color: var(--kopi); transform: translateY(-1px); }
-    .index-date { color: var(--ink-faint); font-size: 0.82rem; letter-spacing: 0.02em; }
-    .index-title { display: block; font-weight: 700; font-size: 1.05rem; margin-top: 0.3rem; color: var(--ink); }
+    .index-card:hover { border-color: var(--kopi); transform: translateY(-1px); }
+    .index-card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem; }
+    .index-title { font-weight: 700; font-size: 1.05rem; color: var(--ink); }
     .index-title:hover { color: var(--kopi); text-decoration: none; }
-    .index-subpush { display: block; font-size: 0.87rem; margin-top: 0.5rem; }
+    .index-count {
+      flex-shrink: 0; color: var(--kopi-dark); background: #f3e6d8;
+      font-size: 0.76rem; font-weight: 700; padding: 0.15rem 0.55rem;
+      border-radius: 999px; white-space: nowrap;
+    }
+    .index-preview { list-style: none; padding: 0; margin: 0.6rem 0 0; }
+    .index-preview li {
+      color: var(--ink-soft); font-size: 0.86rem; margin: 0.3rem 0;
+      padding-left: 0.9rem; position: relative;
+    }
+    .index-preview li::before { content: "·"; position: absolute; left: 0; color: var(--kopi); }
+    .index-subpush { display: block; font-size: 0.87rem; margin-top: 0.6rem; }
     .index-subpush .tag { color: var(--kopi-dark); font-weight: 700; }
   `;
 }
@@ -176,10 +225,18 @@ function renderIndex(entries: DigestEntry[]): string {
           return `<a class="index-subpush" href="digests/${sp.filename.replace(/\.md$/, ".html")}">↳ <span class="tag">Deep Dive</span> · ${escapeHtml(cleanTitle)}</a>`;
         })
         .join("");
-      return `<li class="index-item">
-        <span class="index-date">${date}</span>
-        <a class="index-title" href="digests/${main.filename.replace(/\.md$/, ".html")}">${escapeHtml(main.title)}</a>
-        ${subLinks}
+      const previewItems = main.highlights.map((h) => `<li>${escapeHtml(h)}</li>`).join("");
+
+      return `<li class="index-day">
+        <div class="index-date">${formatDateHeader(date)}</div>
+        <div class="index-card">
+          <div class="index-card-head">
+            <a class="index-title" href="digests/${main.filename.replace(/\.md$/, ".html")}">${escapeHtml(main.title)}</a>
+            <span class="index-count">共 ${main.itemCount} 条</span>
+          </div>
+          ${previewItems ? `<ul class="index-preview">${previewItems}</ul>` : ""}
+          ${subLinks}
+        </div>
       </li>`;
     })
     .join("\n");
