@@ -49,8 +49,25 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ digests/
-          git diff --staged --quiet || git commit -m "Automated collection $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "Automated collection $(date -u +%Y-%m-%d)"
+          # main can move between checkout and here (a manual push landing
+          # mid-run, or another triggered run) — retry with a rebase instead
+          # of failing outright, the same recovery used manually this
+          # session whenever that race was hit.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt), rebasing onto origin/main and retrying..."
+            git fetch origin main
+            git rebase origin/main
+          done
+          echo "::error::Push still failing after 5 rebase attempts."
+          exit 1
 
       - name: Build public site
         run: npm run build-site
