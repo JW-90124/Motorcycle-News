@@ -167,19 +167,27 @@ const CARD_WINDOW = 1_500;
 function extractListItems(body: string, source: SourceLike): CollectedSignal[] {
   const results: CollectedSignal[] = [];
 
-  const openTagPatterns: Array<{ regex: RegExp; hrefGroup?: number }> = [
+  const openTagPatterns: Array<{ regex: RegExp; hrefFromAttrs?: (attrs: string) => string | undefined }> = [
     { regex: new RegExp(`<li[^>]*class="[^"]*${CARD_CLASS}[^"]*"[^>]*>`, "gi") },
     { regex: new RegExp(`<div[^>]*class="[^"]*${CARD_CLASS}[^"]*"[^>]*>`, "gi") },
-    { regex: new RegExp(`<a[^>]*class="[^"]*${CARD_CLASS}[^"]*"[^>]*href="([^"]+)"[^>]*>`, "gi"), hrefGroup: 1 },
+    // Attributes captured as a blob and searched separately for href —
+    // order-independent, since real markup doesn't reliably put class
+    // before href (found 2026-08-03 on Cycle News: `<a href="..."
+    // class="bump-view">`, the reverse of what a position-locked regex
+    // assumes).
+    {
+      regex: new RegExp(`<a([^>]*class="[^"]*${CARD_CLASS}[^"]*"[^>]*)>`, "gi"),
+      hrefFromAttrs: (attrs) => attrs.match(/href="([^"]+)"/i)?.[1],
+    },
     // A plain <a href="..."> wrapping a card-classed <div> (the link has no
     // class of its own — the card styling is on the div it wraps).
-    { regex: new RegExp(`<a[^>]+href="([^"]+)"[^>]*>\\s*<div[^>]*class="[^"]*${CARD_CLASS}[^"]*"[^>]*>`, "gi"), hrefGroup: 1 },
+    { regex: new RegExp(`<a([^>]+href="[^"]+"[^>]*)>\\s*<div[^>]*class="[^"]*${CARD_CLASS}[^"]*"[^>]*>`, "gi"), hrefFromAttrs: (attrs) => attrs.match(/href="([^"]+)"/i)?.[1] },
   ];
 
-  for (const { regex, hrefGroup } of openTagPatterns) {
+  for (const { regex, hrefFromAttrs } of openTagPatterns) {
     for (const match of body.matchAll(regex)) {
       const tagEnd = (match.index ?? 0) + match[0].length;
-      const href = hrefGroup ? match[hrefGroup] : undefined;
+      const href = hrefFromAttrs ? hrefFromAttrs(match[1] ?? "") : undefined;
       const window = body.slice(tagEnd, tagEnd + CARD_WINDOW);
       const signal = extractCardSignal(window, source, href);
       if (signal) results.push(signal);
@@ -396,6 +404,14 @@ function extractFirstHeading(html: string): HeadingResult {
     const href = classMatch[2]?.match(/href="([^"]+)"/i)?.[1];
     return { title: stripHtml(classMatch[3]).trim(), href };
   }
+  // Last resort: some cards have no nested title element at all — the
+  // window's own leading text (before any tag) is the whole headline
+  // (found 2026-08-03 on Cycle News: `<a class="bump-view">Actual
+  // Headline Text</a>`, no heading/headline/title element inside it).
+  // MIN_TITLE_LENGTH downstream is what keeps this from picking up short
+  // plain-text nav fragments.
+  const leadingText = html.match(/^([^<]+)/)?.[1]?.trim();
+  if (leadingText) return { title: stripHtml(leadingText) };
   return { title: "" };
 }
 
@@ -449,7 +465,10 @@ function decodeEntities(value: string): string {
   return value
     .replace(/&amp;|&#038;|&#x26;/gi, "&")
     .replace(/&quot;/g, '"')
-    .replace(/&#39;|&apos;/g, "'")
+    // &#39;/&#039;/&#0039; etc. — WordPress and other CMSes zero-pad the
+    // numeric entity inconsistently (found 2026-08-03 on Visordown:
+    // "&#039;" wasn't matched by a literal "&#39;" check).
+    .replace(/&#0*39;|&apos;/g, "'")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&#x27;/g, "'")

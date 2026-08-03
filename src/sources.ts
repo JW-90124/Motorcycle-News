@@ -41,6 +41,20 @@ export const sources: SourceDescriptor[] = [
     authorityScore: 95,
     isPrimary: true,
   },
+  {
+    // German-language dedicated motorsport site, MotoGP/Moto2/Moto3/
+    // Superbike section — verified 2026-08-03: real <article> tags, real
+    // titles/links extracted successfully. Language isn't a concern —
+    // digest.ts forces Chinese output regardless of source language.
+    slug: "speedweek-motogp",
+    name: "SPEEDWEEK.com（MotoGP 板块）",
+    homepageUrl: "https://www.speedweek.com/o/motorrad-gp/motogp",
+    adapter: "web-scraper",
+    language: "de",
+    config: { url: "https://www.speedweek.com/o/motorrad-gp/motogp", category: "racing" },
+    authorityScore: 82,
+    isPrimary: false,
+  },
 
   // 本地车市 (local-market)
   {
@@ -126,6 +140,20 @@ export const sources: SourceDescriptor[] = [
     authorityScore: 80,
     isPrimary: false,
   },
+  {
+    // UK motorcycle media — verified 2026-08-03: real article links found
+    // directly in the static HTML (/news/... paths with real headlines),
+    // mix of new-model launches and industry stories that the category
+    // re-judgment step in digest.ts will sort correctly either way.
+    slug: "visordown",
+    name: "Visordown",
+    homepageUrl: "https://www.visordown.com/news",
+    adapter: "web-scraper",
+    language: "en",
+    config: { url: "https://www.visordown.com/news", category: "new-models" },
+    authorityScore: 75,
+    isPrimary: false,
+  },
 
   // 技术工程解读 (tech)
   {
@@ -171,6 +199,14 @@ export const sources: SourceDescriptor[] = [
     authorityScore: 55,
     isPrimary: false,
   },
+  // NOTE: Cycle News's press-releases page was evaluated 2026-08-03 —
+  // real industry content exists (sponsorship deals, business moves) but
+  // lives inside a "Top Stories" sidebar widget on what's otherwise a
+  // static WordPress page, not a clean listing. Its RSS feed is blocked by
+  // Cloudflare. Dropped rather than kept chasing the page's specific
+  // structure — see queries/ in the Obsidian knowledge base for the
+  // investigation. 产业商业动态 still only has 两轮视界; a better second
+  // source is still worth finding.
 
   // 骑行文化车展活动 (culture)
   {

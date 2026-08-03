@@ -121,8 +121,13 @@ async function main() {
       .map((entry) => entry.index),
   );
 
+  // 5,000 was sized for the handful of signals seen in early testing —
+  // found 2026-08-03 that a real run with 67 signals (after adding more
+  // sources) truncated mid-JSON at that limit. DeepSeek's actual ceiling is
+  // far higher (384k token max output), so this has generous headroom for
+  // realistic volume rather than being tightly tuned to today's count.
   const { system, user } = buildDigestPrompt(raw.signals, topIndexSet);
-  const result = await client.completeJson({ system, user, maxTokens: 5_000 });
+  const result = await client.completeJson({ system, user, maxTokens: 16_000 });
 
   let parsed: z.infer<typeof digestResponseSchema>;
   try {

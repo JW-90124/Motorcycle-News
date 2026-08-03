@@ -1,13 +1,673 @@
 {
-  "collectedAt": "2026-08-03T03:01:12.687Z",
+  "collectedAt": "2026-08-03T14:13:16.968Z",
   "signals": [
     {
-      "externalId": "https://www.rideapart.com/news/803398/this-state-just-made-it-less-expensive-to-register-your-vintage-snowmobiles/",
-      "url": "https://www.rideapart.com/news/803398/this-state-just-made-it-less-expensive-to-register-your-vintage-snowmobiles",
-      "title": "This State Just Made It Less Expensive To Register Your Vintage Snowmobiles",
-      "summary": "Powersports is expensive enough as it is; thankfully, New York State lawmakers are making registering a vintage snowmobile cheaper.",
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-stars-cycling-race-andorra-silverstone",
+      "url": "https://www.speedweek.com/a/motogp/motogp-stars-cycling-race-andorra-silverstone",
+      "title": "MotoGP-Asse stimmten sich mit Radrennen in Andorra auf Silverstone ein",
+      "summary": "Neu MotoGP-Asse stimmten sich mit Radrennen in Andorra auf Silverstone ein MotoGP-WM-Leader Jorge Martin, Pedro Acosta, Alex Rins und Honda-Testfahrer Aleix Espargaro nahmen am vergangenen Wochenende am legendären Bergrennen «La Purito» in Andorra teil. MotoGP 03.08.2026 - 15:47",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.967Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/maverick-vinales-reagiert-auf-falsche-medienberichte",
+      "url": "https://www.speedweek.com/a/motogp/maverick-vinales-reagiert-auf-falsche-medienberichte",
+      "title": "Verärgerter Maverick Vinales (KTM) reagiert auf falsche Medienberichte",
+      "summary": "Verärgerter Maverick Vinales (KTM) reagiert auf falsche Medienberichte MotoGP 03.08.2026 - 09:03",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.967Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/bmw-denies-toprak-razgatlioglu-superbike-return-talks",
+      "url": "https://www.speedweek.com/a/motogp/bmw-denies-toprak-razgatlioglu-superbike-return-talks",
+      "title": "BMW dementiert: Keine Gespräche über Toprak-Rückkehr",
+      "summary": "BMW dementiert: Keine Gespräche über Toprak-Rückkehr MotoGP 02.08.2026 - 20:54",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.967Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ducati-2027-motogp-reglement-technische-unterschiede",
+      "url": "https://www.speedweek.com/a/motogp/ducati-2027-motogp-reglement-technische-unterschiede",
+      "title": "Ducati 2027: Keine Vorjahres-Desmosedicis, aber technische Unterschiede",
+      "summary": "Ducati 2027: Keine Vorjahres-Desmosedicis, aber technische Unterschiede MotoGP 02.08.2026 - 18:19",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.967Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/vinales-ktm-aus-fitness-entscheidend",
+      "url": "https://www.speedweek.com/a/motogp/vinales-ktm-aus-fitness-entscheidend",
+      "title": "Vinales-Aus bei KTM? Fitness wohl entscheidender als der Streit",
+      "summary": "Vinales-Aus bei KTM? Fitness wohl entscheidender als der Streit MotoGP 02.08.2026 - 16:31",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.967Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/rudi-moser-stimme-verstummt-geschichten-bleiben",
+      "url": "https://www.speedweek.com/a/motogp/rudi-moser-stimme-verstummt-geschichten-bleiben",
+      "title": "Rudi Moser: Seine Stimme verstummt, seine Geschichten bleiben",
+      "summary": "MotoGP Rudi Moser: Seine Stimme verstummt, seine Geschichten bleiben",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.967Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-zukunft-die-frage-ist-nicht-ob-sondern-wann-china-am-start-steht",
+      "url": "https://www.speedweek.com/a/motogp/motogp-zukunft-die-frage-ist-nicht-ob-sondern-wann-china-am-start-steht",
+      "title": "MotoGP-Zukunft: Die Frage ist nicht ob, sondern wann China am Start steht",
+      "summary": "MotoGP MotoGP-Zukunft: Die Frage ist nicht ob, sondern wann China am Start steht",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.967Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-motogp-experiment-2027",
+      "url": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-motogp-experiment-2027",
+      "title": "Toprak Razgatlioglus MotoGP-Experiment: Die Wahrheit kommt erst 2027",
+      "summary": "MotoGP Toprak Razgatlioglus MotoGP-Experiment: Die Wahrheit kommt erst 2027",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.967Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/formel-1/das-formel-1-startfeld-2027-platzt-die-transfer-bombe-erst-im-herbst",
+      "url": "https://www.speedweek.com/a/formel-1/das-formel-1-startfeld-2027-platzt-die-transfer-bombe-erst-im-herbst",
+      "title": "Das Formel-1-Startfeld 2027: Platzt die Transfer-Bombe erst im Herbst?",
+      "summary": "Thema der Woche Das Formel-1-Startfeld 2027: Platzt die Transfer-Bombe erst im Herbst? Sommerzeit, Ferienzeit, Saure-Gurke-Zeit: Dies sind die Wochen, in welchen normalerweise die hanebüchensten Fahrerwechsel diskutiert werden. Die Sensation zur Saison 2027 hin lässt auf sich warten. Mathias Brunner Weiterlesen",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.967Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/wilco-zeelenberg-herzoperation-gesundheitsupdate",
+      "url": "https://www.speedweek.com/a/motogp/wilco-zeelenberg-herzoperation-gesundheitsupdate",
+      "title": "Schwere Herz-Operation bei Ex-Lorenzo-Teammanager Wilco Zeelenberg",
+      "summary": "Schwere Herz-Operation bei Ex-Lorenzo-Teammanager Wilco Zeelenberg Der frühere MotoGP-Teammanager Wilco Zeelenberg hat eine schwere Herzoperation hinter sich. Vier Wochen später meldete sich der Niederländer mit einem positiven Gesundheitsupdate. MotoGP 02.08.2026 - 09:10",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/paolo-campinoti-pramac-yamaha-nicht-bestes-motorrad",
+      "url": "https://www.speedweek.com/a/motogp/paolo-campinoti-pramac-yamaha-nicht-bestes-motorrad",
+      "title": "Paolo Campinoti (Pramac) über Yamaha: «Objektiv nicht das beste Motorrad»",
+      "summary": "Paolo Campinoti (Pramac) über Yamaha: «Objektiv nicht das beste Motorrad» Pramac-Yamaha-Teamchef Paolo Campinoti sprach im Podcast von Andrea Migno über die schwierige MotoGP-Saison und sein Ass Toprak Razgatlioglu, in dem er noch viel Potenzial sieht. MotoGP 02.08.2026 - 07:35",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pirro-stoner-ducati-testarbeit-nutzlos",
+      "url": "https://www.speedweek.com/a/motogp/pirro-stoner-ducati-testarbeit-nutzlos",
+      "title": "Pirro erklärt: Warum Stoner mit seiner Testarbeit Ducati kaum helfen konnte",
+      "summary": "Pirro erklärt: Warum Stoner mit seiner Testarbeit Ducati kaum helfen konnte Ducati-Testfahrer Michele Pirro spricht offen über die Zusammenarbeit mit Casey Stoner. Das Talent des Australiers sei außergewöhnlich gewesen – als Testfahrer habe er jedoch nur bedingt geholfen. MotoGP 01.08.2026 - 20:45",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-katar-rennkalender-unsicher-september",
+      "url": "https://www.speedweek.com/a/motogp/motogp-katar-rennkalender-unsicher-september",
+      "title": "Was passiert mit der MotoGP in Katar? Teams sind auf September vertröstet",
+      "summary": "Was passiert mit der MotoGP in Katar? Teams sind auf September vertröstet Die Formel-1-Rennen in Saudi-Arabien und Bahrain finden wegen der Konflikte in der Region nicht statt, Katar und Abu Dhabi wackeln gewaltig. Die MotoGP wird ebenfalls reagieren müssen. MotoGP 01.08.2026 - 18:45",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/maverick-vinales-trifft-fans-spielberg",
+      "url": "https://www.speedweek.com/a/motogp/maverick-vinales-trifft-fans-spielberg",
+      "title": "Maverick Vinales trifft Fans in Spielberg – trotz schwieriger Situation",
+      "summary": "Maverick Vinales trifft Fans in Spielberg – trotz schwieriger Situation KTM-Pilot Maverick Vinales absolvierte zuletzt einen besonderen Fan-Termin auf dem Red Bull Ring in Spielberg und ließ sich dabei nur von den Enttäuschungen der letzten Wochen wenig anmerken. MotoGP 01.08.2026 - 16:10",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pedro-acosta-usa-reise-nascar-trackhouse",
+      "url": "https://www.speedweek.com/a/motogp/pedro-acosta-usa-reise-nascar-trackhouse",
+      "title": "USA-Reise: Pedro Acosta besucht NASCAR – und schaut bei Trackhouse vorbei",
+      "summary": "USA-Reise: Pedro Acosta besucht NASCAR – und schaut bei Trackhouse vorbei Red Bull KTM-MotoGP-Ass Pedro Acosta tauchte im Zuge seiner US-Reise in die NASCAR-Szene ein und landete dann ausgerechnet auch in den Hallen von Trackhouse Racing. MotoGP 01.08.2026 - 14:15",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-silverstone-laengste-bremszone",
+      "url": "https://www.speedweek.com/a/motogp/motogp-silverstone-laengste-bremszone",
+      "title": "Silverstone: Eine der längsten Bremszonen der MotoGP-Saison",
+      "summary": "Silverstone: Eine der längsten Bremszonen der MotoGP-Saison Die MotoGP gastiert am kommenden Wochenende in Silverstone. Laut Brembo zählt der Kurs zu den Strecken mit mittlerer Bremsbelastung – eine Kurve sticht jedoch besonders heraus. MotoGP 01.08.2026 - 09:06",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/casey-stoner-wissen-nicht-verschenken-motogp",
+      "url": "https://www.speedweek.com/a/motogp/casey-stoner-wissen-nicht-verschenken-motogp",
+      "title": "Casey Stoner: «Ich werde mein Wissen nicht mehr verschenken»",
+      "summary": "Casey Stoner: «Ich werde mein Wissen nicht mehr verschenken» Casey Stoner vermisst die MotoGP, schließt eine Rückkehr als Riding-Coach aber vorerst aus. Der Australier fühlt sich trotz Lob von Francesco Bagnaia nicht ausreichend wertgeschätzt. MotoGP 01.08.2026 - 07:38",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marc-marquez-rundenmarathon-in-aragon-als-einstimmung-auf-silverstone-gp",
+      "url": "https://www.speedweek.com/a/motogp/marc-marquez-rundenmarathon-in-aragon-als-einstimmung-auf-silverstone-gp",
+      "title": "Marc Marquez: Rundenmarathon in Aragon als Einstimmung auf Silverstone-GP",
+      "summary": "Marc Marquez: Rundenmarathon in Aragon als Einstimmung auf Silverstone-GP Strategie von Marc Marquez ist es auch, in der Sommerpause auf zwei Rädern in Bewegung zu sein. Zuletzt war der MotoGP-Weltmeister mit seinem Trainingsgerät aus Bologna im MotorLand Aragon zu sehen. MotoGP 31.07.2026 - 16:50",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/fuenf-motogp-fahrer-verlieren-sitz-2027-optionen",
+      "url": "https://www.speedweek.com/a/motogp/fuenf-motogp-fahrer-verlieren-sitz-2027-optionen",
+      "title": "Fünf aktuelle MotoGP-Fahrer verlieren ihren Sitz: Wem für 2027 was bleibt",
+      "summary": "Fünf aktuelle MotoGP-Fahrer verlieren ihren Sitz: Wem für 2027 was bleibt MotoGP 28.07.2026 - 20:02",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ducati-sportchef-grassilli-zu-marquez-verhandlungen-schwierige-monate",
+      "url": "https://www.speedweek.com/a/motogp/ducati-sportchef-grassilli-zu-marquez-verhandlungen-schwierige-monate",
+      "title": "Ducati-Sportchef Grassilli zu Marquez-Verhandlungen: «Schwierige Monate»",
+      "summary": "Ducati-Sportchef Grassilli zu Marquez-Verhandlungen: «Schwierige Monate» MotoGP 26.07.2026 - 19:30",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/toprak-und-yamaha-erinnerungen-an-verunglueckten-vater-und-wheelie-koenig",
+      "url": "https://www.speedweek.com/a/motogp/toprak-und-yamaha-erinnerungen-an-verunglueckten-vater-und-wheelie-koenig",
+      "title": "Toprak Yamaha: Erinnerungen an verunglückten Vater und Wheelie-König Arif",
+      "summary": "Toprak & Yamaha: Erinnerungen an verunglückten Vater und Wheelie-König Arif MotoGP 27.07.2026 - 06:41",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jorge-martinez-motogp-projekt-mit-cfmoto-ist-die-gemeinsame-vision",
+      "url": "https://www.speedweek.com/a/motogp/jorge-martinez-motogp-projekt-mit-cfmoto-ist-die-gemeinsame-vision",
+      "title": "Jorge Martinez: MotoGP-Projekt mit CFMOTO ist die gemeinsame Vision",
+      "summary": "Jorge Martinez: MotoGP-Projekt mit CFMOTO ist die gemeinsame Vision MotoGP 27.07.2026 - 17:17",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/manuel-gonzalez-moto2-interview-motogp-sbk-deal",
+      "url": "https://www.speedweek.com/a/motogp/manuel-gonzalez-moto2-interview-motogp-sbk-deal",
+      "title": "Manuel Gonzalez: Der Beste zu sein ist zu wenig für MotoGP- oder SBK-Deal",
+      "summary": "Manuel Gonzalez: Der Beste zu sein ist zu wenig für MotoGP- oder SBK-Deal MotoGP 30.07.2026 - 05:57",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.968Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ungenuegend-schlechte-noten-fuer-vr46-pilot-morbidelli-von-experte-pernat",
+      "url": "https://www.speedweek.com/a/motogp/ungenuegend-schlechte-noten-fuer-vr46-pilot-morbidelli-von-experte-pernat",
+      "title": "Ungenügend: Schlechte Noten für VR46-Pilot Morbidelli von Experte Pernat",
+      "summary": "Ungenügend: Schlechte Noten für VR46-Pilot Morbidelli von Experte Pernat MotoGP 27.07.2026 - 14:54",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.969Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-werke-klammern-martin-geht-crew-chief-romagnoli-bleibt-bei-aprilia",
+      "url": "https://www.speedweek.com/a/motogp/motogp-werke-klammern-martin-geht-crew-chief-romagnoli-bleibt-bei-aprilia",
+      "title": "MotoGP-Werke klammern: Martin geht, Crew-Chief Romagnoli bleibt bei Aprilia",
+      "summary": "MotoGP-Werke klammern: Martin geht, Crew-Chief Romagnoli bleibt bei Aprilia MotoGP 26.07.2026 - 13:29",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.969Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/binder-hofft-auf-motogp-rueckkehr-nach-kyalami",
+      "url": "https://www.speedweek.com/a/motogp/binder-hofft-auf-motogp-rueckkehr-nach-kyalami",
+      "title": "Binder hofft auf MotoGP-Rückkehr nach Kyalami",
+      "summary": "Binder hofft auf MotoGP-Rückkehr nach Kyalami MotoGP 02.08.2025 - 17:20",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.969Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-umbruch-ducati-ceo-sieht-chancen",
+      "url": "https://www.speedweek.com/a/motogp/motogp-umbruch-ducati-ceo-sieht-chancen",
+      "title": "MotoGP-Umbruch: Ducati-CEO sieht Chancen",
+      "summary": "MotoGP-Umbruch: Ducati-CEO sieht Chancen MotoGP 02.08.2025 - 15:34",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.969Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/abreissvisiere-unnoetige-gefahr-beim-motogp-start",
+      "url": "https://www.speedweek.com/a/motogp/abreissvisiere-unnoetige-gefahr-beim-motogp-start",
+      "title": "Abreißvisiere: Unnötige Gefahr beim MotoGP-Start?",
+      "summary": "Abreißvisiere: Unnötige Gefahr beim MotoGP-Start? MotoGP 02.08.2025 - 12:10",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.969Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aerodynamik-im-fokus-wird-albesiano-hondas-joker",
+      "url": "https://www.speedweek.com/a/motogp/aerodynamik-im-fokus-wird-albesiano-hondas-joker",
+      "title": "Aerodynamik im Fokus: Wird Albesiano Hondas Joker?",
+      "summary": "Aerodynamik im Fokus: Wird Albesiano Hondas Joker? MotoGP 02.08.2025 - 10:50",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.969Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/maverick-vinales-positives-ktm-zwischenfazit",
+      "url": "https://www.speedweek.com/a/motogp/maverick-vinales-positives-ktm-zwischenfazit",
+      "title": "Maverick Vinales: Positives KTM-Zwischenfazit",
+      "summary": "Maverick Vinales: Positives KTM-Zwischenfazit MotoGP 01.08.2025 - 18:39",
+      "language": "de",
+      "publishedAt": "2026-08-03T14:12:43.969Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803440/sena-motorcycle-communications-lifetime-warranty-policy/",
+      "url": "https://www.rideapart.com/news/803440/sena-motorcycle-communications-lifetime-warranty-policy",
+      "title": "Sena Just Introduced A New Limited Lifetime Warranty. European Riders Get A Bonus",
+      "summary": "It only applies to specific newer models of Sena motorcycle communications products, but if yours is included, it could come in useful!",
       "language": "en",
-      "publishedAt": "2026-08-02T13:51:00.000Z",
+      "publishedAt": "2026-08-03T13:17:00.000Z",
       "category": "new-models",
       "tags": [],
       "metrics": {
@@ -22,79 +682,133 @@
       "sourceName": "RideApart"
     },
     {
-      "externalId": "https://otomotif.kompas.com/read/2026/08/03/064606915/giias-2026-live-tiktok-buahkan-spk-sales-adaptasi-digital",
-      "url": "https://otomotif.kompas.com/read/2026/08/03/064606915/giias-2026-live-tiktok-buahkan-spk-sales-adaptasi-digital",
-      "title": "GIIAS 2026: Live TikTok Buahkan SPK, Sales Adaptasi Digital",
-      "summary": "Headline Live Report --> GIIAS 2026: Live TikTok Buahkan SPK, Sales Adaptasi Digital 03/08/2026, 06:46 WIB Headline Live Report --> <h2 class=\"headline",
-      "language": "id",
-      "publishedAt": "2026-08-03T03:01:12.684Z",
-      "category": "culture",
+      "externalId": "https://www.rideapart.com/news/803418/is-mbw-working-on-an-m-1300-gs-all-signs-point-to-yes/",
+      "url": "https://www.rideapart.com/news/803418/is-mbw-working-on-an-m-1300-gs-all-signs-point-to-yes",
+      "title": "Is BMW Working on an M 1300 GS? All Signs Point to Yes",
+      "summary": "It looks like we're about to get the first-ever BMW M 1300 GS motorcycle. Here's what we can tell from these spy shots.",
+      "language": "en",
+      "publishedAt": "2026-08-03T12:57:00.000Z",
+      "category": "new-models",
       "tags": [],
       "metrics": {
         "platforms": [
-          "web"
+          "rss"
         ]
       },
       "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
+        "dateInferred": false
       },
-      "sourceSlug": "kompas-otomotif",
-      "sourceName": "Kompas.com Otomotif"
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
     },
     {
-      "externalId": "https://otomotif.kompas.com/read/2026/08/03/090200015/toyota-masih-hitung-harga-land-cruiser-fj-bakal-di-bawah-rp-1-miliar-",
-      "url": "https://otomotif.kompas.com/read/2026/08/03/090200015/toyota-masih-hitung-harga-land-cruiser-fj-bakal-di-bawah-rp-1-miliar-",
-      "title": "Toyota Masih Hitung Harga Land Cruiser FJ, Bakal di Bawah Rp 1 Miliar?",
-      "summary": "Headline Live Report --> Toyota Masih Hitung Harga Land Cruiser FJ, Bakal di Bawah Rp 1 Miliar? 03/08/2026, 09:02 WIB Headline Live Report --> <div class=\"headline__big__box\"",
-      "language": "id",
-      "publishedAt": "2026-08-03T03:01:12.684Z",
-      "category": "culture",
+      "externalId": "https://www.rideapart.com/news/803306/givi-s120-handlebar-mount-usb-charger/",
+      "url": "https://www.rideapart.com/news/803306/givi-s120-handlebar-mount-usb-charger",
+      "title": "You Don't Need This Givi Accessory... Until You Actually Use It",
+      "summary": "One of those upgrades you'll forget about until the day you really need it.",
+      "language": "en",
+      "publishedAt": "2026-08-03T12:42:00.000Z",
+      "category": "new-models",
       "tags": [],
       "metrics": {
         "platforms": [
-          "web"
+          "rss"
         ]
       },
       "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
+        "dateInferred": false
       },
-      "sourceSlug": "kompas-otomotif",
-      "sourceName": "Kompas.com Otomotif"
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
     },
     {
-      "externalId": "https://otomotif.kompas.com/read/2026/08/03/080200115/tantangan-asuransi-mobil-listrik-di-indonesia--estimasi-biaya-risiko",
-      "url": "https://otomotif.kompas.com/read/2026/08/03/080200115/tantangan-asuransi-mobil-listrik-di-indonesia--estimasi-biaya-risiko",
-      "title": "Tantangan Asuransi Mobil Listrik di Indonesia: Estimasi Biaya & Risiko",
-      "summary": "Headline Live Report --> Tantangan Asuransi Mobil Listrik di Indonesia: Estimasi Biaya & Risiko 03/08/2026, 08:02 WIB Headline Live Report --> <h2 class=\"headlin",
-      "language": "id",
-      "publishedAt": "2026-08-03T03:01:12.684Z",
-      "category": "culture",
+      "externalId": "https://www.rideapart.com/news/803423/gundam-strictg-kushitani-moto-capsule-collection-2026/",
+      "url": "https://www.rideapart.com/news/803423/gundam-strictg-kushitani-moto-capsule-collection-2026",
+      "title": "Channel Your Inner Gundam Pilot Next Time You Ride Your Motorcycle With This Collection",
+      "summary": "Moto gear maker Kushitani teamed up with Strict-G once again on these official pieces of Gundam apparel, perfect for wearing under your gear.",
+      "language": "en",
+      "publishedAt": "2026-08-03T12:21:00.000Z",
+      "category": "new-models",
       "tags": [],
       "metrics": {
         "platforms": [
-          "web"
+          "rss"
         ]
       },
       "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
+        "dateInferred": false
       },
-      "sourceSlug": "kompas-otomotif",
-      "sourceName": "Kompas.com Otomotif"
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
     },
     {
-      "externalId": "https://otomotif.kompas.com/read/2026/08/03/074200515/jadwal-motogp-inggris-2026-balapan-digelar-pekan-ini",
-      "url": "https://otomotif.kompas.com/read/2026/08/03/074200515/jadwal-motogp-inggris-2026-balapan-digelar-pekan-ini",
-      "title": "Jadwal MotoGP Inggris 2026, Balapan Digelar Pekan Ini",
-      "summary": "Headline Live Report --> Jadwal MotoGP Inggris 2026, Balapan Digelar Pekan Ini 03/08/2026, 07:42 WIB GIIAS 2026: Live TikTok Buahkan SPK, Sal",
-      "language": "id",
-      "publishedAt": "2026-08-03T03:01:12.684Z",
-      "category": "culture",
+      "externalId": "https://www.rideapart.com/news/803424/bmw-half-yearly-report-motorcycles-more-profitable-than-cars/",
+      "url": "https://www.rideapart.com/news/803424/bmw-half-yearly-report-motorcycles-more-profitable-than-cars",
+      "title": "BMW's Motorcycle Division Profits Are Up While Its Automotive Side Readjusts",
+      "summary": "It's not quite the same situation as Honda, where the motorcycle division is carrying the pain felt by the automotive division. But it's still significant.",
+      "language": "en",
+      "publishedAt": "2026-08-03T12:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803296/envo-utility-personal-transporter-modular-offroad-ev/",
+      "url": "https://www.rideapart.com/news/803296/envo-utility-personal-transporter-modular-offroad-ev",
+      "title": "This Lego-Like EV Just Made Most UTVs Look Ridiculously Overqualified",
+      "summary": "It’s less trophy truck, more cordless power tool with seats.",
+      "language": "en",
+      "publishedAt": "2026-08-03T11:41:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803438/honda-nx-500-price-just-dropped-us/",
+      "url": "https://www.rideapart.com/news/803438/honda-nx-500-price-just-dropped-us",
+      "title": "Honda Just Knocked $500 Off Its Smallest ADV, But Is It Enough To Beat The Competition?",
+      "summary": "Instead of getting even a little more expensive in 2026, the Honda NX 500 just dropped its US MSRP by a full $500. Will that entice more buyers?",
+      "language": "en",
+      "publishedAt": "2026-08-03T11:17:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/industry",
+      "url": "https://www.visordown.com/news/industry",
+      "title": "Latest Motorcycle News",
+      "summary": "Latest Motorcycle News Keep up to date with all the latest motorcycle news and insights right here at Visordown. Get the inside scoop on upcoming bike, product and equipment launches plus industry news and the best viral motorcycle videos from across the web. Be the first to hear about motorcycle news from the UK and across the world; feast your eyes on images of new bikes and equipment and be the first to know about the latest developments in the world of electric and off-road motorbikes. Scrol",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.388Z",
+      "category": "new-models",
       "tags": [],
       "metrics": {
         "platforms": [
@@ -106,8 +820,646 @@
         "source": "html-card",
         "dateInferred": true
       },
-      "sourceSlug": "kompas-otomotif",
-      "sourceName": "Kompas.com Otomotif"
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/uk-bikers-heading-statistically-most-dangerous-month-rural-road-crashes",
+      "url": "https://www.visordown.com/news/uk-bikers-heading-statistically-most-dangerous-month-rural-road-crashes",
+      "title": "August is the deadliest month for rural road collisions. Here&#039;s why bikers should take notice.",
+      "summary": "General August is the deadliest month for rural road collisions. Here&#039;s why bikers should take notice. 4h ago <img src=\"https://www.visordown.com/sites/default/files/country-lane-riding.jpg\" srcset=\"https",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/brits-say-skyfall-has-greatest-motorcycle-movie-scene-21st-century-did-they-get-it-right",
+      "url": "https://www.visordown.com/news/brits-say-skyfall-has-greatest-motorcycle-movie-scene-21st-century-did-they-get-it-right",
+      "title": "Skyfall tops Britain&#039;s best bike movie scenes. We&#039;d argue there&#039;s a debate to be had.",
+      "summary": "General Skyfall tops Britain&#039;s best bike movie scenes. We&#039;d argue there&#039;s a debate to be had. 02/08/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/james-bond-skyfall.jpeg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/james-bond-skyfall.jpeg?height=270&format=j",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/hjc-launches-funky-diablo-fabio-quartararo-motogp-replica-helmet",
+      "url": "https://www.visordown.com/news/hjc-launches-funky-diablo-fabio-quartararo-motogp-replica-helmet",
+      "title": "HJC launches limited-edition helmet inspired by MotoGP star",
+      "summary": "Product News HJC launches limited-edition helmet inspired by MotoGP star 02/08/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/gng_1257605_hires.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/gng_1257605_hires.jpg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/files/2026-07/gng_1257605_hires.jpg?heig",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/new-touratech-aventuro-gravel-carbon-motorcycle-helmet-launched",
+      "url": "https://www.visordown.com/news/new-touratech-aventuro-gravel-carbon-motorcycle-helmet-launched",
+      "title": "Touratech launches new adventure-based helmet that focuses on four key areas",
+      "summary": "Product News Touratech launches new adventure-based helmet that focuses on four key areas 01/08/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/site-image-resize-2026-07-29t144901.571.png\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/site-image-resize-2026-07-2",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/ajs-motorcycles-fills-gap-left-imber-125-rugged-leten-lt190",
+      "url": "https://www.visordown.com/news/ajs-motorcycles-fills-gap-left-imber-125-rugged-leten-lt190",
+      "title": "AJS reveals new adventure bikes following failed Imber 125 launch",
+      "summary": "New Bikes AJS reveals new adventure bikes following failed Imber 125 launch 31/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/site-image-resize-2026-07-31t144102.181.png\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/site-image-resize-2026-07-31t144102.181.png?height=2",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/un-tells-governments-make-roads-safer-motorcyclists-2030",
+      "url": "https://www.visordown.com/news/un-tells-governments-make-roads-safer-motorcyclists-2030",
+      "title": "UN puts motorcyclists at the heart of new road safety plan",
+      "summary": "General UN puts motorcyclists at the heart of new road safety plan 31/07/26 <img src=\"https://www.visordown.com/sites/default/files/2025-02/Motor-cycle-roadtrip_972233775.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2025-02/Motor-cycle-roadtrip_972233775.jpg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/fi",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/close-80000-bmw-s1000-rr-bikes-could-be-recalled-over-faulty-ignition-lock",
+      "url": "https://www.visordown.com/news/close-80000-bmw-s1000-rr-bikes-could-be-recalled-over-faulty-ignition-lock",
+      "title": "Huge number of BMW S1000 RR superbikes could be faulty",
+      "summary": "General Huge number of BMW S1000 RR superbikes could be faulty 31/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/site-image-resize-2026-07-31t123720.180.png\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/site-image-resize-2026-07-31t123720.1",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/harley-davidson-rmcr-cafe-racer-moves-step-closer-production",
+      "url": "https://www.visordown.com/news/harley-davidson-rmcr-cafe-racer-moves-step-closer-production",
+      "title": "First Harley-Davidson cafe racer since the 1970s moves closer",
+      "summary": "New Bikes First Harley-Davidson cafe racer since the 1970s moves closer 31/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/site-image-resize-2026-07-31t092755.140.png\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/site-image-resize-2026-07-31t092755.140.png?height=270",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/new-ps475-ruroc-at40-carbon-gold-chrome-has-landed",
+      "url": "https://www.visordown.com/news/new-ps475-ruroc-at40-carbon-gold-chrome-has-landed",
+      "title": "Missed out first time? Ruroc&#039;s £475 Gold Chrome helmet is back",
+      "summary": "Product News Missed out first time? Ruroc&#039;s £475 Gold Chrome helmet is back 31/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/aydenlawman_nyc_fx3_426-ayden_3840x2160.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/aydenlawman_nyc_fx3_426-ayden_3840x2160.jpg?height=270&format=",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/no-limits-trackdays-issues-statement-after-rider-dies-mugello",
+      "url": "https://www.visordown.com/news/no-limits-trackdays-issues-statement-after-rider-dies-mugello",
+      "title": "No Limits Trackdays rider dies after incident at Mugello",
+      "summary": "General No Limits Trackdays rider dies after incident at Mugello 30/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/gng_1236300_hires.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/gng_1236300_hires.jpg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/files/2026-07/gng_1236300_hires.jpg?height=180&format=jpeg",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/indian-motorcycle-set-cut-2027-scout-line-more-half-its-models",
+      "url": "https://www.visordown.com/news/indian-motorcycle-set-cut-2027-scout-line-more-half-its-models",
+      "title": "Latest New Bikes News",
+      "summary": "Latest New Bikes News",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/royal-enfield-expands-flying-flea-network-phased-rollout-moves-closer",
+      "url": "https://www.visordown.com/news/royal-enfield-expands-flying-flea-network-phased-rollout-moves-closer",
+      "title": "Global rollout of Royal Enfield Flying Flea edges closer",
+      "summary": "New Bikes Global rollout of Royal Enfield Flying Flea edges closer 30/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/royale_ev-details-ma",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/retro-honda-cb500-revealed-india-could-it-lead-gb500-uk-and-europe",
+      "url": "https://www.visordown.com/news/retro-honda-cb500-revealed-india-could-it-lead-gb500-uk-and-europe",
+      "title": "Honda&#039;s new retro single could be headed for Europe, just with a different name",
+      "summary": "New Bikes Honda&#039;s new retro single could be headed for Europe, just with a different name 28/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/honda-gb500-01.png\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/honda-gb500-01.png?height=270&format=png 270w,https://www.visordown.com/sites/default/files/2026-07/honda-gb500-01.png?",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/honda-nc750x-leads-first-round-2027-colour-updates",
+      "url": "https://www.visordown.com/news/honda-nc750x-leads-first-round-2027-colour-updates",
+      "title": "Honda reveals new colours across three 750cc models",
+      "summary": "New Bikes Honda reveals new colours across three 750cc models 28/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/583373_27ym_honda_nc750x.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/583373_27ym_honda_nc750x.jpg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/files/2026-07/583373_27ym_honda_nc750x.jpg?heig",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/new-honda-xr300l-and-xr300-rally-break-cover-india",
+      "url": "https://www.visordown.com/news/new-honda-xr300l-and-xr300-rally-break-cover-india",
+      "title": "New lightweight trail bikes land from Honda",
+      "summary": "New Bikes New lightweight trail bikes land from Honda 27/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/honda-xr300l-xr300l-rally-01.png\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/honda-xr300l-xr300l-rally-01.png?height=270&format=png 270w,https://www.visordown.com/sites/default/files/2026-07/honda-xr300l-xr300l-ra",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/next-gen-2027-bmw-s1000-rr-spotted-track-testing-concept-rr-breaks-cover",
+      "url": "https://www.visordown.com/news/next-gen-2027-bmw-s1000-rr-spotted-track-testing-concept-rr-breaks-cover",
+      "title": "The new S1000 RR has been spotted",
+      "summary": "New Bikes The new S1000 RR has been spotted 27/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/bmw-s1000-rr-spy-shots.png\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/bmw-s1000-rr-spy-shots.png?height=270&format=png 270w,https://www.visordown.com/sites/default/files/2026-07/bmw-s1000-rr-spy-s",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/cfmoto-250-dual-could-be-lightweight-green-lane-bike-uk-riders-have-been-waiting",
+      "url": "https://www.visordown.com/news/cfmoto-250-dual-could-be-lightweight-green-lane-bike-uk-riders-have-been-waiting",
+      "title": "This £1,700 dual sport could be the trail bike green lane riders have been asking for",
+      "summary": "New Bikes This £1,700 dual sport could be the trail bike green lane riders have been asking for 24/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/cfmoto-250-dual-04.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/cfmoto-250-dual-04.jpg?height=270&format=jpeg 270w,https://www.visordown.c",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/bmws-wild-concept-rr-patent-hints-stunning-superbike-could-reach-production-almost-unchanged",
+      "url": "https://www.visordown.com/news/bmws-wild-concept-rr-patent-hints-stunning-superbike-could-reach-production-almost-unchanged",
+      "title": "BMW&#039;s Concept RR just took a big step towards production, and it could be good news for the K18 Vision too",
+      "summary": "New Bikes BMW&#039;s Concept RR just took a big step towards production, and it could be good news for the K18 Vision too 24/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/bmw-concept-rr-patent-01.jpeg\" srcset=\"https://www.visordown.com/sites/default/files/2026",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/patents-reveal-kove-350-rally-lightweight-adventure-motorcycle",
+      "url": "https://www.visordown.com/news/patents-reveal-kove-350-rally-lightweight-adventure-motorcycle",
+      "title": "Kove&#039;s next adventure bike could be a lightweight 350 Rally for A2 riders",
+      "summary": "New Bikes Kove&#039;s next adventure bike could be a lightweight 350 Rally for A2 riders 23/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/kove-350-rally-02.jpeg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/kove-350-rally-02.jpeg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/files/2026-07/kove-350-ral",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/ducati-desmo450-sm-supermoto-concept-model-uk-price-announced",
+      "url": "https://www.visordown.com/news/ducati-desmo450-sm-supermoto-concept-model-uk-price-announced",
+      "title": "Ducati Desmo450 SM price confirmed as Ducati&#039;s new supermoto arrives in the UK",
+      "summary": "New Bikes Ducati Desmo450 SM price confirmed as Ducati&#039;s new supermoto arrives in the UK 23/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/desmo-450-sm-01.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/desmo-450-sm-01.jpg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/files/2026-07/desmo-450-sm-01.jpg?heig",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/stark-varg-mx-and-ex-factory-editions-announced",
+      "url": "https://www.visordown.com/news/stark-varg-mx-and-ex-factory-editions-announced",
+      "title": "Stark&#039;s Varg gets the full factory treatment, but only 500 riders worldwide will get one",
+      "summary": "New Bikes Stark&#039;s Varg gets the full factory treatment, but only 500 riders worldwide will get one 22/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/_58a9206_ps.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/_58a9206_ps.jpg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/files/2026-07/_58a9206_ps.jpg?height=180&format=jpeg 180w,https://www.visord",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/livewire-dodges-penny-stock-scare-shares-rebound-above-2-days-after-nyse-warning",
+      "url": "https://www.visordown.com/news/livewire-dodges-penny-stock-scare-shares-rebound-above-2-days-after-nyse-warning",
+      "title": "Latest Industry News",
+      "summary": "Latest Industry News <img src=\"https://www.visordown.com/sites/default/files/2025-09/livewire-logo.jpg?aspect_ratio=3:2\" srcset=\"https://www.visordown.com/sites/default/files/2025-09/livewire-logo.jpg?width=1920&",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/bmf-wants-know-what-uk-riders-really-think-take-part-bmf-rider-survey-have-your-say",
+      "url": "https://www.visordown.com/news/bmf-wants-know-what-uk-riders-really-think-take-part-bmf-rider-survey-have-your-say",
+      "title": "Ride a motorcycle? The BMF wants your opinion, and it could win you £200",
+      "summary": "Industry Ride a motorcycle? The BMF wants your opinion, and it could win you £200 28/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/the-ace-cafe.jpeg\" srcs",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/superbike-factory-administrators-reveal-why-rescue-deal-failed-273-jobs-lost",
+      "url": "https://www.visordown.com/news/superbike-factory-administrators-reveal-why-rescue-deal-failed-273-jobs-lost",
+      "title": "SuperBike Factory administrators explain collapse after failed rescue bid",
+      "summary": "Industry SuperBike Factory administrators explain collapse after failed rescue bid 27/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/sb-f-05.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/sb-f-05.jpg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/files/2026-07/sb-f-05.jpg?height=180&format=jpeg 180w,https:",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/ducati-sale-rumours-intensify-unions-demand-answers-and-fresh-claims-emerge-formal-bid",
+      "url": "https://www.visordown.com/news/ducati-sale-rumours-intensify-unions-demand-answers-and-fresh-claims-emerge-formal-bid",
+      "title": "Ducati&#039;s future back in the spotlight after unions intervene and insider claims buyer has made an offer",
+      "summary": "Industry Ducati&#039;s future back in the spotlight after unions intervene and insider claims buyer has made an offer 27/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/ducati-factory.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/ducati-factory.jpg?height=270&format=jpeg 270w,https://ww",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/harley-davidson-raises-2026-sales-forecast-turnaround-begins-gather-pace",
+      "url": "https://www.visordown.com/news/harley-davidson-raises-2026-sales-forecast-turnaround-begins-gather-pace",
+      "title": "Harley just proved the analysts might have been right all along",
+      "summary": "Industry Harley just proved the analysts might have been right all along 24/07/26 <img src=\"https://www.visordown.com/sites/default/files/2025-09/2025-harley-davidson-street-bob-2.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2025-09/2025-harley-davidson-street-bob-2.jpg?height=270&forma",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/european-motorcycle-registrations-jump-168-cent-first-half-2026-every-major-market-grows",
+      "url": "https://www.visordown.com/news/european-motorcycle-registrations-jump-168-cent-first-half-2026-every-major-market-grows",
+      "title": "Finally, Europe&#039;s motorcycle market is booming, as every major market is up in 2026",
+      "summary": "Industry Finally, Europe&#039;s motorcycle market is booming, as every major market is up in 2026 24/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-06/sv7-gx-blue-static-detail-048.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-06/sv7-gx-blue-s",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/ducati-appoints-fabrizio-cazzoli-global-sales-after-sales-director",
+      "url": "https://www.visordown.com/news/ducati-appoints-fabrizio-cazzoli-global-sales-after-sales-director",
+      "title": "Ducati&#039;s former UK boss joins company board after global promotion",
+      "summary": "Industry Ducati&#039;s former UK boss joins company board after global promotion 23/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/ducati-uk-fabrizio.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/ducati-uk-fabrizio.jpg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/files/2026-07/ducati-uk-fab",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/superbike-factory-enters-administration-despite-83m-turnover",
+      "url": "https://www.visordown.com/news/superbike-factory-enters-administration-despite-83m-turnover",
+      "title": "SuperBike Factory enters administration, all UK operations cease trading",
+      "summary": "Industry SuperBike Factory enters administration, all UK operations cease trading 21/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/sb-factory-01.jpeg\" srcset=\"https://www.visordown.com/sites/default/files/2026-07/sb-factory-01.jpeg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/files/2026-07/sb-factory-01.jpeg?height=180&format=jpeg 18",
+      "language": "en",
+      "publishedAt": "2026-08-03T14:12:53.390Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
     }
   ]
 }
