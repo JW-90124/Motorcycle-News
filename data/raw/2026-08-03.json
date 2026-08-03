@@ -1,0 +1,113 @@
+{
+  "collectedAt": "2026-08-03T03:01:12.687Z",
+  "signals": [
+    {
+      "externalId": "https://www.rideapart.com/news/803398/this-state-just-made-it-less-expensive-to-register-your-vintage-snowmobiles/",
+      "url": "https://www.rideapart.com/news/803398/this-state-just-made-it-less-expensive-to-register-your-vintage-snowmobiles",
+      "title": "This State Just Made It Less Expensive To Register Your Vintage Snowmobiles",
+      "summary": "Powersports is expensive enough as it is; thankfully, New York State lawmakers are making registering a vintage snowmobile cheaper.",
+      "language": "en",
+      "publishedAt": "2026-08-02T13:51:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/03/064606915/giias-2026-live-tiktok-buahkan-spk-sales-adaptasi-digital",
+      "url": "https://otomotif.kompas.com/read/2026/08/03/064606915/giias-2026-live-tiktok-buahkan-spk-sales-adaptasi-digital",
+      "title": "GIIAS 2026: Live TikTok Buahkan SPK, Sales Adaptasi Digital",
+      "summary": "Headline Live Report --> GIIAS 2026: Live TikTok Buahkan SPK, Sales Adaptasi Digital 03/08/2026, 06:46 WIB Headline Live Report --> <h2 class=\"headline",
+      "language": "id",
+      "publishedAt": "2026-08-03T03:01:12.684Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/03/090200015/toyota-masih-hitung-harga-land-cruiser-fj-bakal-di-bawah-rp-1-miliar-",
+      "url": "https://otomotif.kompas.com/read/2026/08/03/090200015/toyota-masih-hitung-harga-land-cruiser-fj-bakal-di-bawah-rp-1-miliar-",
+      "title": "Toyota Masih Hitung Harga Land Cruiser FJ, Bakal di Bawah Rp 1 Miliar?",
+      "summary": "Headline Live Report --> Toyota Masih Hitung Harga Land Cruiser FJ, Bakal di Bawah Rp 1 Miliar? 03/08/2026, 09:02 WIB Headline Live Report --> <div class=\"headline__big__box\"",
+      "language": "id",
+      "publishedAt": "2026-08-03T03:01:12.684Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/03/080200115/tantangan-asuransi-mobil-listrik-di-indonesia--estimasi-biaya-risiko",
+      "url": "https://otomotif.kompas.com/read/2026/08/03/080200115/tantangan-asuransi-mobil-listrik-di-indonesia--estimasi-biaya-risiko",
+      "title": "Tantangan Asuransi Mobil Listrik di Indonesia: Estimasi Biaya & Risiko",
+      "summary": "Headline Live Report --> Tantangan Asuransi Mobil Listrik di Indonesia: Estimasi Biaya & Risiko 03/08/2026, 08:02 WIB Headline Live Report --> <h2 class=\"headlin",
+      "language": "id",
+      "publishedAt": "2026-08-03T03:01:12.684Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/03/074200515/jadwal-motogp-inggris-2026-balapan-digelar-pekan-ini",
+      "url": "https://otomotif.kompas.com/read/2026/08/03/074200515/jadwal-motogp-inggris-2026-balapan-digelar-pekan-ini",
+      "title": "Jadwal MotoGP Inggris 2026, Balapan Digelar Pekan Ini",
+      "summary": "Headline Live Report --> Jadwal MotoGP Inggris 2026, Balapan Digelar Pekan Ini 03/08/2026, 07:42 WIB GIIAS 2026: Live TikTok Buahkan SPK, Sal",
+      "language": "id",
+      "publishedAt": "2026-08-03T03:01:12.684Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
