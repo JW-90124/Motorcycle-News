@@ -1,0 +1,605 @@
+{
+  "collectedAt": "2026-08-05T02:13:13.369Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/di-giannantonio-silverstone-sachsenring-desaster",
+      "url": "https://www.speedweek.com/a/motogp/di-giannantonio-silverstone-sachsenring-desaster",
+      "title": "Di Giannantonio will in Silverstone das Sachsenring-Desaster ausbügeln",
+      "summary": "Neu Di Giannantonio will in Silverstone das Sachsenring-Desaster ausbügeln Nach dem enttäuschenden MotoGP-Event auf dem Sachsenring möchte VR46-Pilot Fabio Di Giannantonio in Silverstone wieder angreifen. Wie sich der Italiener auf die zweite Saisonhälfte vorbereitet hat. MotoGP 04.08.2026 - 19:29",
+      "language": "de",
+      "publishedAt": "2026-08-05T02:12:49.780Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/maverick-vinales-verpasst-silverstone-ktm",
+      "url": "https://www.speedweek.com/a/motogp/maverick-vinales-verpasst-silverstone-ktm",
+      "title": "Nächster Rückschlag: Maverick Vinales (KTM) muss Silverstone auslassen",
+      "summary": "Nächster Rückschlag: Maverick Vinales (KTM) muss Silverstone auslassen MotoGP 04.08.2026 - 15:59",
+      "language": "de",
+      "publishedAt": "2026-08-05T02:12:49.780Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/crutchlow-silverstone-zarco-ersatz-lcr-honda",
+      "url": "https://www.speedweek.com/a/motogp/crutchlow-silverstone-zarco-ersatz-lcr-honda",
+      "title": "Crutchlow: «Habe an den Sieg geglaubt – dann beförderte mich Jack ins Aus»",
+      "summary": "Crutchlow: «Habe an den Sieg geglaubt – dann beförderte mich Jack ins Aus» MotoGP 04.08.2026 - 13:11",
+      "language": "de",
+      "publishedAt": "2026-08-05T02:12:49.780Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-silverstone-grossbritannien-zeitplan",
+      "url": "https://www.speedweek.com/a/motogp/motogp-silverstone-grossbritannien-zeitplan",
+      "title": "Silverstone: Der Zeitplan für das MotoGP-Wochenende in Großbritannien",
+      "summary": "Silverstone: Der Zeitplan für das MotoGP-Wochenende in Großbritannien MotoGP 04.08.2026 - 07:12",
+      "language": "de",
+      "publishedAt": "2026-08-05T02:12:49.780Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-servustv-ende-deutschland-2027-rtl",
+      "url": "https://www.speedweek.com/a/motogp/motogp-servustv-ende-deutschland-2027-rtl",
+      "title": "Vielen deutschen MotoGP-Fans blutet das Herz: Ab 2027 kein ServusTV mehr",
+      "summary": "Vielen deutschen MotoGP-Fans blutet das Herz: Ab 2027 kein ServusTV mehr MotoGP 03.08.2026 - 20:07",
+      "language": "de",
+      "publishedAt": "2026-08-05T02:12:49.780Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/suzuka-jack-miller-staunt-ueber-johann-zarco",
+      "url": "https://www.speedweek.com/a/motogp/suzuka-jack-miller-staunt-ueber-johann-zarco",
+      "title": "Suzuka: Jack Miller staunt über Johann Zarco",
+      "summary": "Suzuka: Jack Miller staunt über Johann Zarco MotoGP 03.08.2025 - 16:07",
+      "language": "de",
+      "publishedAt": "2026-08-05T02:12:49.784Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/zarco-qualvoller-weg-zum-zweiten-suzuka-sieg",
+      "url": "https://www.speedweek.com/a/motogp/zarco-qualvoller-weg-zum-zweiten-suzuka-sieg",
+      "title": "Zarco: Qualvoller Weg zum zweiten Suzuka-Sieg",
+      "summary": "Zarco: Qualvoller Weg zum zweiten Suzuka-Sieg MotoGP 03.08.2025 - 13:53",
+      "language": "de",
+      "publishedAt": "2026-08-05T02:12:49.784Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/agostini-lobt-marquez-e28093-kritik-an-rossi-fans",
+      "url": "https://www.speedweek.com/a/motogp/agostini-lobt-marquez-e28093-kritik-an-rossi-fans",
+      "title": "Agostini lobt Marquez – Kritik an Rossi-Fans",
+      "summary": "Agostini lobt Marquez – Kritik an Rossi-Fans MotoGP 03.08.2025 - 09:55",
+      "language": "de",
+      "publishedAt": "2026-08-05T02:12:49.784Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803742/the-2027-polaris-rzr-pro-r-boost-is-the-most-powerful-utv-in-the-world/",
+      "url": "https://www.rideapart.com/news/803742/the-2027-polaris-rzr-pro-r-boost-is-the-most-powerful-utv-in-the-world",
+      "title": "Polaris' New UTV Has More Horsepower Than Subaru's WRX. Rally Nerds, Rejoice",
+      "summary": "Welcome to the most powerful production side-by-side ever.",
+      "language": "en",
+      "publishedAt": "2026-08-04T16:47:56.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803629/isle-of-man-tt-sidecar-sustainability-review-says-changes-needed/",
+      "url": "https://www.rideapart.com/news/803629/isle-of-man-tt-sidecar-sustainability-review-says-changes-needed",
+      "title": "Sidecar Racing May Return To The Isle Of Man TT Next Year After Two Horrific Accidents",
+      "summary": "After some truly scary sidecar crashes during qualifying in 2026, organizers canceled the entire class and embarked on a review. Here's the first report.",
+      "language": "en",
+      "publishedAt": "2026-08-04T13:42:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803606/2027-kawasaki-teryx-h2-2-seat-utv-is-unveiled-with-same-supercharged-engine/",
+      "url": "https://www.rideapart.com/news/803606/2027-kawasaki-teryx-h2-2-seat-utv-is-unveiled-with-same-supercharged-engine",
+      "title": "Kawasaki Unveils 2-Seater Teryx H2 UTV. It's Still Supercharged Insanity",
+      "summary": "It's the 'Simplify, then add lightness' version.",
+      "language": "en",
+      "publishedAt": "2026-08-04T13:00:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803614/bmw-plans-layoffs-across-business-after-sales-declines/",
+      "url": "https://www.rideapart.com/news/803614/bmw-plans-layoffs-across-business-after-sales-declines",
+      "title": "BMW Layoffs Are Coming. Though Unclear If It Will Affect Motorrad",
+      "summary": "A sales decline across both motorcycles and cars has hit the company.",
+      "language": "en",
+      "publishedAt": "2026-08-04T12:22:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803490/vinfast-ev-scooters-launch-philippines-could-work-usa/",
+      "url": "https://www.rideapart.com/news/803490/vinfast-ev-scooters-launch-philippines-could-work-usa",
+      "title": "VinFast’s Cars Got Roasted. Will Its Scooters Save The Brand?",
+      "summary": "VinFast’s redemption arc could top out at 56 miles per hour.",
+      "language": "en",
+      "publishedAt": "2026-08-04T12:19:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/803608/superbike-factory-branch-manager-tells-all-about-the-companys-final-days/",
+      "url": "https://www.rideapart.com/features/803608/superbike-factory-branch-manager-tells-all-about-the-companys-final-days",
+      "title": "The Superbike Factory Story Seems To Get Uglier, As Told By A Branch Manager",
+      "summary": "If you want to know what a company's day-to-day is really like, you talk to its everyday employees, not the top brass. They're the ones that are in it.",
+      "language": "en",
+      "publishedAt": "2026-08-04T11:51:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803489/1993-honda-cbr900rr-james-may-for-sale/",
+      "url": "https://www.rideapart.com/news/803489/1993-honda-cbr900rr-james-may-for-sale",
+      "title": "James May’s Honda Fireblade Is Up For Auction. And Captain Slow Clearly Has A Type",
+      "summary": "Nothing says sensible British gentleman like a 160-mile-per-hour superbike from the '90s.",
+      "language": "en",
+      "publishedAt": "2026-08-04T11:26:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803576/patritalia-spa-confirms-ducati-is-not-for-sale-from-audi-or-vw/",
+      "url": "https://www.rideapart.com/news/803576/patritalia-spa-confirms-ducati-is-not-for-sale-from-audi-or-vw",
+      "title": "Italian Investment Firm Trying to Buy Ducati Confirms Ducati Isn't For Sale",
+      "summary": "The fact Ducati isn't for sale hasn't slowed Patritalia down, however.",
+      "language": "en",
+      "publishedAt": "2026-08-04T11:00:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/maria-costellos-sidecar-tt-passenger-shaun-parker-reveals-permanent-eye-damage-tt-accident",
+      "url": "https://www.visordown.com/news/maria-costellos-sidecar-tt-passenger-shaun-parker-reveals-permanent-eye-damage-tt-accident",
+      "title": "Sidecar racer reveals permanent injuries from Isle of Man TT crash",
+      "summary": "General Sidecar racer reveals permanent injuries from Isle of Man TT crash 5h ago <img",
+      "language": "en",
+      "publishedAt": "2026-08-05T02:12:59.028Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/stark-future-closes-first-half-2026-nearly-50-cent-revenue-growth",
+      "url": "https://www.visordown.com/news/stark-future-closes-first-half-2026-nearly-50-cent-revenue-growth",
+      "title": "Stark claims to have the “best-selling enduro motorcycle” as revenue grows",
+      "summary": "General Stark claims to have the “best-selling enduro motorcycle” as revenue grows 23h ago <img src=\"https://www.visordown.com/sites/default/files/2026-01/stark-hq-1.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-01/stark-hq-1.jpg?height=270&format=jpeg 270w,https://www.visordown.com/sites/default/files/2026-01/stark-hq-1.jpg?height=180&format=jpeg 180w,https://www.",
+      "language": "en",
+      "publishedAt": "2026-08-05T02:12:59.028Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/patritalia-doubles-down-eu25bn-ducati-bid-ai-motogp-images-and-bold-italian-only-rider-pledge",
+      "url": "https://www.visordown.com/news/patritalia-doubles-down-eu25bn-ducati-bid-ai-motogp-images-and-bold-italian-only-rider-pledge",
+      "title": "Ducati bidder Patritalia escalates takeover saga with Ai race bikes and all-Italian MotoGP promise!",
+      "summary": "Industry Ducati bidder Patritalia escalates takeover saga with Ai race bikes and all-Italian MotoGP promise! 03/08/26 <img src=\"https://www.visordown.com/sites/default/files/2026-08/patritalia-01.jpg\" srcset=\"https://www.visordown.com/sites/default/files/2026-08/patritalia-01.jpg?height=270&format=jpeg 270w,https://ww",
+      "language": "en",
+      "publishedAt": "2026-08-05T02:12:59.028Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/kawasaki-kle500-available-new-ps350-voucher-and-zero-cent-finance-offers",
+      "url": "https://www.visordown.com/news/kawasaki-kle500-available-new-ps350-voucher-and-zero-cent-finance-offers",
+      "title": "Kawasaki’s first off-road adventure bike since the 1990s gains new offers",
+      "summary": "General Kawasaki’s first off-road adventure bike since the 1990s gains new offers 03/08/26 <img src=\"https://www.visordown.com/sites/default/files/2026-08/site-image-resize-2026-08-03t102423.316.png\" srcset=\"https://www.visordown.com/sites/default/files/2026-08/site-image-resize-2026",
+      "language": "en",
+      "publishedAt": "2026-08-05T02:12:59.028Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/bsa-bantam-350-receives-new-colourway-celebrate-one-year-anniversary",
+      "url": "https://www.visordown.com/news/bsa-bantam-350-receives-new-colourway-celebrate-one-year-anniversary",
+      "title": "Latest New Bikes News",
+      "summary": "Latest New Bikes News <source srcset=\"https://www.visordown.com/sites/default/files/2026-08/site-image-resize-2026-08-04t102920.325.png?width=1920&format=webp&aspect_ratio=3:2 1920w,https://www.visordown.com/sites/default/files/2026-08/site-image-resize-2026-08-04t102920.325.png?width=1800&format=webp&aspect_ratio=3:2 1800w,https://www.visordown.com/sites/default/files/2026-08/site-image-resize-2026-08-04t102920.325.png?width=1500&format=webp&aspect_ratio=3:2 1500w,https://www.visordown.com/site",
+      "language": "en",
+      "publishedAt": "2026-08-05T02:12:59.028Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/ktm-teases-two-supersport-models-influenced-motogp-programme",
+      "url": "https://www.visordown.com/news/ktm-teases-two-supersport-models-influenced-motogp-programme",
+      "title": "KTM CEO confirms 790 and 490 RC supersport models",
+      "summary": "New Bikes KTM CEO confirms 790 and 490 RC supersport models 30/07/26 <img src=\"https://www.visordown.com/sites/default/files/2026-07/site-image-r",
+      "language": "en",
+      "publishedAt": "2026-08-05T02:12:59.029Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/european-parliament-launches-new-motorcycling-mep-club",
+      "url": "https://www.visordown.com/news/european-parliament-launches-new-motorcycling-mep-club",
+      "title": "Latest Industry News",
+      "summary": "Latest Industry News <img src=\"https://www.visordown.com/sites/default/files/2026-08/motorcycling-mep-club.jpg?aspect_ratio=3:2\" srcset=\"https://www.visordown.com/sites/defau",
+      "language": "en",
+      "publishedAt": "2026-08-05T02:12:59.029Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/features/eu-makes-recycled-plastics-mandatory-cars-are-motorcycles-next",
+      "url": "https://www.visordown.com/features/eu-makes-recycled-plastics-mandatory-cars-are-motorcycles-next",
+      "title": "Honda may have predicted the EU's next move on motorcycle sustainability",
+      "summary": "Industry Honda may have predicted the EU's next move on motorcycle sustainability 29/07/26 <img src=\"https://www.visordown.com/sites/default/files/2025-12/honda-durabio-range-01",
+      "language": "en",
+      "publishedAt": "2026-08-05T02:12:59.029Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/benelli-trk-902-stradale-ready-to-rule-the-asphalt/",
+      "url": "https://www.eicma.it/en/benelli-trk-902-stradale-ready-to-rule-the-asphalt",
+      "title": "Benelli TRK 902 Stradale, ready to rule the asphalt",
+      "summary": "Benelli TRK 902 Stradale, ready to rule the asphalt 04 August 2026 <img width=\"768\" height=\"499\" src=\"https://www.eicma.it/wp-content/uploads/2026/07/News_EICMA_AperturaTicketshop-768x499.jpg\" class=\"attachment-medium_large size-medium_large wp-post-image\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://www.eicma.it/wp-content/uploads/2026/07/News_EICMA_AperturaTicketshop-768x499.jpg 768w, https://www.eicma.it/wp-c",
+      "language": "en",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/04/064108115/minat-beli-mobil-baru-tetap-tinggi-di-giias-2026-meski-ekonomi-sulit",
+      "url": "https://otomotif.kompas.com/read/2026/08/04/064108115/minat-beli-mobil-baru-tetap-tinggi-di-giias-2026-meski-ekonomi-sulit",
+      "title": "Minat Beli Mobil Baru Tetap Tinggi di GIIAS 2026 Meski Ekonomi Sulit",
+      "summary": "Headline Live Report --> Minat Beli Mobil Baru Tetap Tinggi di GIIAS 2026 Meski Ekonomi Sulit 04/08/2026, 06:41 WIB Headline Live Report --> Penye",
+      "language": "id",
+      "publishedAt": "2026-08-05T02:13:13.363Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/04/100200515/penyebab-klaim-asuransi-mobil-terbakar-tidak-cair",
+      "url": "https://otomotif.kompas.com/read/2026/08/04/100200515/penyebab-klaim-asuransi-mobil-terbakar-tidak-cair",
+      "title": "Penyebab Klaim Asuransi Mobil Terbakar Tidak Cair",
+      "summary": "Headline Live Report --> Penyebab Klaim Asuransi Mobil Terbakar Tidak Cair 04/08/2026, 10:02 WIB Headline Live Report --> Tren Otomotif: Konsumen Indon",
+      "language": "id",
+      "publishedAt": "2026-08-05T02:13:13.364Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/04/083200915/tren-otomotif--konsumen-indonesia-mulai-terbuka-pada-mobil-china",
+      "url": "https://otomotif.kompas.com/read/2026/08/04/083200915/tren-otomotif--konsumen-indonesia-mulai-terbuka-pada-mobil-china",
+      "title": "Tren Otomotif: Konsumen Indonesia Mulai Terbuka pada Mobil China",
+      "summary": "Headline Live Report --> Tren Otomotif: Konsumen Indonesia Mulai Terbuka pada Mobil China 04/08/2026, 08:32 WIB Headline Live Report --> Penyebab Klaim",
+      "language": "id",
+      "publishedAt": "2026-08-05T02:13:13.364Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
