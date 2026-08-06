@@ -2,6 +2,672 @@
   "collectedAt": "2026-08-06T15:26:12.203Z",
   "signals": [
     {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-red-bull-ring-september-termin",
+      "url": "https://www.speedweek.com/a/motogp/motogp-red-bull-ring-september-termin",
+      "title": "MotoGP auf dem Red Bull Ring: Weshalb der Termin im September besser ist",
+      "summary": "Neu MotoGP auf dem Red Bull Ring: Weshalb der Termin im September besser ist Red-Bull-Ring-CEO Thomas Überall bewertet den neuen Termin für das MotoGP-Rennwochenende in Spielberg und erklärt die Hintergründe zum Wechsel vom August in den September. MotoGP 06.08.2026 - 10:22",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.286Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/yamaha-testfahrer-augusto-fernandez-wildcard-silverstone",
+      "url": "https://www.speedweek.com/a/motogp/yamaha-testfahrer-augusto-fernandez-wildcard-silverstone",
+      "title": "Yamaha-Testfahrer Augusto Fernandez mit wichtiger Aufgabe in Silverstone",
+      "summary": "Neu Yamaha-Testfahrer Augusto Fernandez mit wichtiger Aufgabe in Silverstone MotoGP 06.08.2026 - 08:11",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.286Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-deutschland-2027-rtl-sky-offene-fragen",
+      "url": "https://www.speedweek.com/a/motogp/motogp-deutschland-2027-rtl-sky-offene-fragen",
+      "title": "MotoGP in Deutschland ab 2027 bei RTL: Es gibt jede Menge offene Fragen",
+      "summary": "MotoGP in Deutschland ab 2027 bei RTL: Es gibt jede Menge offene Fragen MotoGP 06.08.2026 - 05:55",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.286Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/silverstone-2025-nach-patzern-und-technik-pleite-staubte-bezzecchi-ab",
+      "url": "https://www.speedweek.com/a/motogp/silverstone-2025-nach-patzern-und-technik-pleite-staubte-bezzecchi-ab",
+      "title": "Silverstone 2025: Nach Patzern und Technik-Pleite staubte Bezzecchi ab",
+      "summary": "Silverstone 2025: Nach Patzern und Technik-Pleite staubte Bezzecchi ab MotoGP 05.08.2026 - 20:05",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.286Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/silverstone-barry-sheene-lederkombi-auktion",
+      "url": "https://www.speedweek.com/a/motogp/silverstone-barry-sheene-lederkombi-auktion",
+      "title": "Silverstone: Nachbildung von Barry Sheenes Lederkombi wird versteigert",
+      "summary": "Silverstone: Nachbildung von Barry Sheenes Lederkombi wird versteigert MotoGP 05.08.2026 - 18:55",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.286Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jorge-martin-aprilia-zurueck-auf-dem-motorrad-silverstone",
+      "url": "https://www.speedweek.com/a/motogp/jorge-martin-aprilia-zurueck-auf-dem-motorrad-silverstone",
+      "title": "Jorge Martin (Aprilia): Nach den MotoGP-Ferien wieder auf dem Motorrad",
+      "summary": "Jorge Martin (Aprilia): Nach den MotoGP-Ferien wieder auf dem Motorrad MotoGP-WM-Leader Jorge Martin (Aprilia) kehrte Anfang dieser Woche erholt auf eines seiner Trainings-Motorräder zurück und kommt nun in optimaler Verfassung zum britischen Grand Prix nach Silverstone. MotoGP 05.08.2026 - 17:13",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.287Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marquez-warnt-vor-silverstone-rennverlauf",
+      "url": "https://www.speedweek.com/a/motogp/marquez-warnt-vor-silverstone-rennverlauf",
+      "title": "Marquez warnt vor Silverstone: «Kann den Rennverlauf auf den Kopf stellen»",
+      "summary": "Marquez warnt vor Silverstone: «Kann den Rennverlauf auf den Kopf stellen» Marc Marquez fühlt sich für das Rennwochenende in Silverstone gut vorbereitet. Der Ducati-Pilot spricht über die Tücken der englischen Strecke, auf der er bislang nur einen MotoGP-Sieg holte. MotoGP 05.08.2026 - 14:27",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.287Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/raul-fernandez-verlaengert-trackhouse-racing-2027-2028",
+      "url": "https://www.speedweek.com/a/motogp/raul-fernandez-verlaengert-trackhouse-racing-2027-2028",
+      "title": "Offiziell: Raul Fernandez fährt auch 2027 und 2028 für Trackhouse Racing",
+      "summary": "Offiziell: Raul Fernandez fährt auch 2027 und 2028 für Trackhouse Racing Am 5. August gab Trackhouse Racing die Vertragsverlängerung mit Raul Fernandez bekannt. Der Spanier wird für zwei weitere Jahre für das US-amerikanische MotoGP-Team an den Start gehen. MotoGP 05.08.2026 - 09:24",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.287Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/luca-marini-honda-silverstone-motogp-2026-08-05",
+      "url": "https://www.speedweek.com/a/motogp/luca-marini-honda-silverstone-motogp-2026-08-05",
+      "title": "Marini (Honda): «Eine Rennstrecke wie Silverstone verlangt einem alles ab!»",
+      "summary": "Marini (Honda): «Eine Rennstrecke wie Silverstone verlangt einem alles ab!» MotoGP-Ass Luca Marini will in Silverstone erneut konstant gute Leistungen zeigen, um seine Position als bester Honda-Fahrer abzusichern. Weshalb die letzten Wochen für ihn sehr wichtig waren. MotoGP 05.08.2026 - 07:38",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.287Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marc-marquez-ducati-test-auf-dem-balaton-circuit",
+      "url": "https://www.speedweek.com/a/motogp/marc-marquez-ducati-test-auf-dem-balaton-circuit",
+      "title": "Marc Marquez: Ducati-Test auf dem Balaton Circuit",
+      "summary": "Marc Marquez: Ducati-Test auf dem Balaton Circuit MotoGP 05.08.2025 - 17:54",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.288Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-statistik-2025-zahlen-luegen-nicht",
+      "url": "https://www.speedweek.com/a/motogp/motogp-statistik-2025-zahlen-luegen-nicht",
+      "title": "MotoGP-Statistik 2025: Die Zahlen lügen nicht",
+      "summary": "Jorge Martin (Aprilia) wundert sich auch in England noch über WM-Führung",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.288Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/zahlenwahn-motogp-fahrer-und-ihre-begehrten-nummern",
+      "url": "https://www.speedweek.com/a/motogp/zahlenwahn-motogp-fahrer-und-ihre-begehrten-nummern",
+      "title": "Zahlenwahn: MotoGP-Fahrer und ihre begehrten Nummern",
+      "summary": "Zahlenwahn: MotoGP-Fahrer und ihre begehrten Nummern MotoGP 05.08.2025 - 11:00",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.288Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/neues-motorenkonzept-was-stefan-bradl-honda-zutraut",
+      "url": "https://www.speedweek.com/a/motogp/neues-motorenkonzept-was-stefan-bradl-honda-zutraut",
+      "title": "Neues Motorenkonzept: Was Stefan Bradl Honda zutraut",
+      "summary": "Neues Motorenkonzept: Was Stefan Bradl Honda zutraut MotoGP 05.08.2025 - 09:56",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.288Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pit-beirer-gesteht-war-die-haerteste-zeit-fuer-mich",
+      "url": "https://www.speedweek.com/a/motogp/pit-beirer-gesteht-war-die-haerteste-zeit-fuer-mich",
+      "title": "Pit Beirer gesteht: «War die härteste Zeit für mich»",
+      "summary": "Pit Beirer gesteht: «War die härteste Zeit für mich» MotoGP 05.08.2025 - 09:37",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.288Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aprilia-technik-chef-erklaert-schwersten-teil-des-jobs",
+      "url": "https://www.speedweek.com/a/motogp/aprilia-technik-chef-erklaert-schwersten-teil-des-jobs",
+      "title": "Aprilia-Technik-Chef erklärt schwersten Teil des Jobs",
+      "summary": "Aprilia-Technik-Chef erklärt schwersten Teil des Jobs MotoGP 04.08.2025 - 14:52",
+      "language": "de",
+      "publishedAt": "2026-08-06T08:22:54.289Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "lta-coe-2026-08-1",
+      "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+      "title": "新加坡 COE Category D（摩托车）最新中标价：S$10,503（2026-08 第1轮）",
+      "summary": "2026-07 第2轮：中标价 S$10,202（配额 562，收到投标 620 份，中标 562 份）；2026-08 第1轮：中标价 S$10,503（配额 521，收到投标 591 份，中标 518 份）",
+      "language": "en",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "category": "local-market",
+      "tags": [
+        "coe",
+        "singapore"
+      ],
+      "metrics": {},
+      "rawMeta": {
+        "dataSource": "data.gov.sg",
+        "datasetId": "d_69b3380ad7e51aff3a7dcc84eba52b8a"
+      },
+      "sourceSlug": "lta-coe-motorcycle",
+      "sourceName": "新加坡 LTA COE 摩托车类别（Category D）投标结果"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803744/yamaha-will-finally-bring-its-coolest-motorcycle-stateside/",
+      "url": "https://www.rideapart.com/news/803744/yamaha-will-finally-bring-its-coolest-motorcycle-stateside",
+      "title": "Yamaha Will Finally Bring Its Coolest Motorcycle Stateside",
+      "summary": "The wait is over; it looks like Yamaha is finally bringing the XSR900 GP to the US.",
+      "language": "en",
+      "publishedAt": "2026-08-05T13:05:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803775/ikuzawa-harris-th1r-rare-race-motorcycle-for-sale/",
+      "url": "https://www.rideapart.com/news/803775/ikuzawa-harris-th1r-rare-race-motorcycle-for-sale",
+      "title": "Take A Look At This Incredibly Rare Japanese Single-Cylinder Race Motorcycle And Tell Me You Don't Want One",
+      "summary": "This is the Ikuzawa TH1R, and it's a labor of love by a lifelong motorcycle and motorsport fan who brought his passion into multiple aspects of racing.",
+      "language": "en",
+      "publishedAt": "2026-08-05T12:41:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/803640/tvs-sales-success-beats-honda-hero/",
+      "url": "https://www.rideapart.com/features/803640/tvs-sales-success-beats-honda-hero",
+      "title": "TVS Isn’t Just Winning India, It’s Building A Global Motorcycle Empire",
+      "summary": "Turns out collecting every motorcycle segment like Pokémon was the right strategy.",
+      "language": "en",
+      "publishedAt": "2026-08-05T12:34:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803780/amazon-gps-satellite-launch-may-kill-garmin-and-other-systems/",
+      "url": "https://www.rideapart.com/news/803780/amazon-gps-satellite-launch-may-kill-garmin-and-other-systems",
+      "title": "Amazon Wants to Connect Your Phone Everywhere, Whether You Want Them To Or Not",
+      "summary": "You can hear me now? Darn.",
+      "language": "en",
+      "publishedAt": "2026-08-05T12:04:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803641/belgium-nato-polaris-mrzr-d4-special-order/",
+      "url": "https://www.rideapart.com/news/803641/belgium-nato-polaris-mrzr-d4-special-order",
+      "title": "This Polaris Is Trusted By 50 Militaries, And Belgium Just Bought $10 Million Worth of Them",
+      "summary": "When your UTV's CV includes special forces instead of weekend camping trips, you know it's good.",
+      "language": "en",
+      "publishedAt": "2026-08-05T11:52:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803774/there-was-a-big-decline-in-powersport-thefts-in-2025/",
+      "url": "https://www.rideapart.com/news/803774/there-was-a-big-decline-in-powersport-thefts-in-2025",
+      "title": "There Was a Massive Decline In Stolen Powersport Vehicles Last Year",
+      "summary": "A decline, sure, but more than half were never recovered.",
+      "language": "en",
+      "publishedAt": "2026-08-05T11:33:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803770/yamaha-ends-side-by-side-production-georgia-usa-plant/",
+      "url": "https://www.rideapart.com/news/803770/yamaha-ends-side-by-side-production-georgia-usa-plant",
+      "title": "Yamaha Is Killing Parts of Its Side-By-Side Business, Not Completely Axing It",
+      "summary": "This comes as Yamaha Motor Corporation set company records for revenue and operating profit. Not all segments of the business are doing well, though.",
+      "language": "en",
+      "publishedAt": "2026-08-05T11:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/commuter-tax-motorcycles-dont-have-pay-why-bikers-are-exempt-workplace-parking-levy",
+      "url": "https://www.visordown.com/news/commuter-tax-motorcycles-dont-have-pay-why-bikers-are-exempt-workplace-parking-levy",
+      "title": "Another reason to commute by motorcycle? This UK parking tax doesn't apply to PTWs",
+      "summary": "Motorcycles are exempt from the UK's Workplace Parking Levy, meaning riders avoid a commuter charge affecting workplace car parking. Here's what every biker should know. As the cost of getting to work continues to rise, from higher insurance premiums and fuel prices to increasingly expensive parking, there's one charge that motorcycle riders can largely ignore. The Workplace Parking Levy (WPL), a scheme designed to reduce congestion and encourage alternative forms of transport, which is backed by the new PM, Andy Burnham, does not apply to motorcycles. The levy isn't a new idea. Introduced in Nottingham in 2012, it charges employers for providing workplace parking spaces, with the aim of encouraging commuters to consider alternatives to driving alone. While businesses decide whether to absorb the cost or pass it on to employees, the result is the same: parking at work can become significantly more expensive for those arriving by car. Motorcycles, however, are treated differently. Under Nottingham's Workplace Parking Levy scheme, motorcycle parking spaces are exempt from the charge and are not counted as liable workplace parking places. The reasoning is fairly straightforward, in that motorcycles occupy considerably less space than cars, contribute less to congestion, and make more efficient use of limited parking capacity. It's a small detail that many riders may not realise, but one that could become increasingly relevant if more local authorities decide to introduce similar",
+      "language": "en",
+      "publishedAt": "2026-08-06T08:23:02.090Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/italian-firm-patritalia-confirms-ducati-takeover-bid-its-ceo-doubles-down-sale-claims",
+      "url": "https://www.visordown.com/news/italian-firm-patritalia-confirms-ducati-takeover-bid-its-ceo-doubles-down-sale-claims",
+      "title": "Ducati takeover bidder's CEO takes to social media to back sale claims",
+      "summary": "Ducati's sale rumours have taken another twist, with an Italian investment company confirming the news, while the firm's CEO publicly backed the claim on social media. For more than a year, rumours that Ducati could be sold by Volkswagen Group have come and gone, fuelled by reports of wider restructuring within the German automotive giant rather than anything direct from the Borgo Panigale. Now, for the first time, a company has publicly confirmed it has made an offer to buy the Italian manufacturer. Speaking to RideApart, Massimo Ros, founder of Italian investment company Patritalia S.p.A., said his company had formally approached Volkswagen with a bid to acquire Ducati Motor Holding in its entirety. \"I can confirm that the rumours are well founded. Patritalia S.p.A has formally expressed its interest and is fully prepared to acquire 100% of Ducati Motor Holding S.p.A.\" According to Ros, Patritalia was founded with the aim of returning iconic Italian companies to Italian ownership. \"The sole mission I set behind the creation of Patritalia is to 'bring back home' our Italian companies and iconic Italian brands that are currently under foreign ownership and bring them back under Italian control. Our objective is to promote a form of industrial repossession, allowing these historic brands to once again be guided by Italian vision, culture, creativity, with the goal of restoring the soul of the Italian entrepreneurial spirit.\" Ros went on to argue that brands such as Ducati have",
+      "language": "en",
+      "publishedAt": "2026-08-06T08:23:02.091Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/honda-refreshes-the-colour-palette-for-the-nc750x-twin-cylinder/",
+      "url": "https://www.eicma.it/en/honda-refreshes-the-colour-palette-for-the-nc750x-twin-cylinder",
+      "title": "Honda refreshes the colour palette for the NC750X twin-cylinder",
+      "summary": "For 2027, Honda is giving its mid-size crossover a fresh aesthetic look: the Japanese manufacturer leaves the mechanics untouched while expanding the range of available colors. The 2027 NC750X will be available in four distinct shades: the brand-new Glint Wave Blue Metallic joins the updated Mat Deep Mud Gray and Earth Black , alongside the returning Earth Khaki . The latter models feature fairing parts crafted from Durabio , a biomass-derived polycarbonate resin. The practical 23-liter front utility compartment —located where the fuel tank usually sits and easily capable of swallowing a full-face helmet—remains a standout feature. Mechanically, everything stays true to the previous generation: the proven 745 cc parallel twin powers the bike, fully compliant with Euro5+ regulations . It features Throttle By Wire electronic acceleration, 5 Riding Modes (3 presets, 2 custom), and multi-level HSTC traction control . The engine pumps out 58.6 horsepower at 6,750 rpm and 69 Nm of peak torque at 4,750 rpm, with a 35 kW restricted variant also available for A2 license holders. Riders can still choose between a traditional six-speed manual gearbox and Honda’s innovative Dual Clutch Transmission (DCT) . Suspension duties are handled by a 41 mm Showa SDBV telescopic fork and a Pro-Link rear monoshock, both offering 120 mm of travel. Braking relies on dual 296 mm front discs and a single 240 mm rear disc, paired with dual-channel ABS. Finally, the modern 5-inch TFT digital display comes",
+      "language": "en",
+      "publishedAt": "2026-08-04T16:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/held-summer-motorcycle-gloves-comfort-and-technology-for-riding/",
+      "url": "https://www.eicma.it/en/held-summer-motorcycle-gloves-comfort-and-technology-for-riding",
+      "title": "Held summer motorcycle gloves: comfort and technology for riding",
+      "summary": "As a historic company with eighty years of excellence and innovation in motorcycle gear, Held combines ergonomics, safety, and meticulous craftsmanship into three new summer gloves designed to offer optimal riding feel and ventilation. The Tactura model focuses on lightness and complete freedom of movement thanks to its Spandex and mesh back, paired with a Chamude palm featuring silicone for a secure grip, backed by EN 13594:2015 certification. Stepping up, the Hamada 2 balances advanced protection with precision control by combining goatskin and Nypsan, integrating D3O knuckle protectors, SuperFabric inserts, NUDUD smartphone-friendly technology, and ACS ventilation. Finally, rounding out the lineup is the Sambia KTC 2 , a premium product for summer touring. This model combines an extremely durable kangaroo leather palm, a highly perforated back with a knitted wrist cover, NUDUD touchscreen technology, and advanced protections, including an injected knuckle cover and Armaprotec reinforcements. A wide range of colour options and sizes is available. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano - Pi e cf: 04145450153 N° iscrizione 04145450153 - Capitale sociale sottoscritto e versato: 100.000 euro Made by Agenzia YES S.p.A.",
+      "language": "en",
+      "publishedAt": "2026-08-04T16:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/06/093200915/gaikindo-dukung-insentif-ev-desak-kriteria-mobil-nasional",
+      "url": "https://otomotif.kompas.com/read/2026/08/06/093200915/gaikindo-dukung-insentif-ev-desak-kriteria-mobil-nasional",
+      "title": "Gaikindo Dukung Insentif EV, Desak Kriteria Mobil Nasional",
+      "summary": "Gaikindo Dukung Insentif EV, Desak Kriteria Mobil Nasional TANGERANG, KOMPAS.com Gabungan Industri Kendaraan Bermotor Indonesia (Gaikindo) menyambut baik rencana pemerintah mengaitkan insentif kendaraan listrik ( electric vehicle /EV) dengan program mobil-motor nasional. Meski demikian, asosiasi menilai pemerintah perlu lebih dulu menetapkan definisi dan kriteria kendaraan nasional secara jelas agar implementasi kebijakan tidak menimbulkan perbedaan tafsir di kalangan pelaku industri. Vice Chairman Market Development Gaikindo Jongkie D. Sugiarto mengatakan, hingga kini konsep mobil nasional masih membutuhkan pembahasan lebih lanjut, mulai dari teknologi yang digunakan hingga pihak yang berhak memproduksinya. Baca juga: Mengapa Tampilan Truk Jarang Berubah? Ini Penjelasan Isuzu Dok. Lepas Indonesia Ratusan pengunjung GIIAS 2026 mencoba langsung Lepas E4 EV dan L8 PHEV sebelum memutuskan membeli. \"Harus dilihat nanti sektor demi sektor. Kita juga harus menyusun dulu kriterianya, mobil nasional itu seperti apa,\" kata Jongkie saat ditemui di GIIAS 2026, ICE BSD City, Tangerang, Rabu (5/8/2026). Menurut dia, masih banyak aspek yang harus dipastikan sebelum program tersebut diterapkan. \"Apakah mobil nasional itu hanya kendaraan listrik? Apakah juga boleh ICE ( internal combustion engine )? Apakah dibuat oleh perusahaan Indonesia atau menggunakan teknologi tertentu? Itu semua kan belum tahu,\" ujarnya. Di luar persoalan definisi, Jongkie menegaskan Gaikindo mendukung langkah pemerint",
+      "language": "id",
+      "publishedAt": "2026-08-06T08:23:16.930Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/06/064124115/opsi-mobil-listrik-rp-200-jutaan-jaecoo-j5-geely-ex2-dan-byd-atto-1",
+      "url": "https://otomotif.kompas.com/read/2026/08/06/064124115/opsi-mobil-listrik-rp-200-jutaan-jaecoo-j5-geely-ex2-dan-byd-atto-1",
+      "title": "Opsi Mobil Listrik Rp 200 Jutaan: Jaecoo J5, Geely EX2, dan BYD Atto 1",
+      "summary": "Opsi Mobil Listrik Rp 200 Jutaan: Jaecoo J5, Geely EX2, dan BYD Atto 1 TANGERANG, KOMPAS.com Persaingan mobil listrik di segmen Rp 200 jutaan semakin menarik. Selain menawarkan harga yang semakin kompetitif, masing-masing pabrikan juga menghadirkan karakter produk yang berbeda, mulai dari desain, kenyamanan kabin, hingga kemampuan jelajah. Berdasarkan data wholesales Januari-Juni 2026, Jaecoo J5 EV menjadi model terlaris dengan total penjualan 16.990 unit. Posisi berikutnya ditempati BYD Atto 1 sebanyak 10.116 unit, disusul Geely EX2 yang mencatatkan 6.203 unit. Lantas, bagaimana perbandingan ketiganya? Baca juga: Impresi Perdana Toyota Hilux Terbaru, Beda Karakter Manual dan Matic Dari sisi tampilan, ketiga mobil ini mengusung karakter yang berbeda. KOMPAS.com/ Selma Aulia JAECOO J5 EV x 347 Homebreaks x NMAA. Secara visual, Jaecoo J5 EV membawa garis desain yang tegas dan cenderung kotak (boxy). Aura SUV tangguh sangat terasa berkat penggunaan gril vertikal yang ikonik dan bodi yang lebih bongsor. Dimensinya memiliki panjang 4.380 mm, lebar 1.860 mm, dan tinggi 1.650 mm, memberikan kesan gagah di jalanan. KOMPAS.com/ Selma Aulia Geely EX2 di GIIAS 2026. Geely EX2 tampil lebih kompak dan aerodinamis dengan bahasa desain yang disebut \"bubble style\". Lekukannya cenderung membulat dan modern, sangat cocok untuk selap-selip di kepadatan lalu lintas. ' Jika lihat spesifikasi di atas kertas, maka dimensinya lebih mungil dengan panjang 4.135 mm, lebar 1.805 mm, dan tinggi 1.580 mm.",
+      "language": "id",
+      "publishedAt": "2026-08-06T08:23:16.930Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/06/070200215/antusiasme-tinggi--honda-super-one-ludes-sebelum-resmi-dijual",
+      "url": "https://otomotif.kompas.com/read/2026/08/06/070200215/antusiasme-tinggi--honda-super-one-ludes-sebelum-resmi-dijual",
+      "title": "Antusiasme Tinggi: Honda Super One Ludes Sebelum Resmi Dijual",
+      "summary": "Antusiasme Tinggi: Honda Super One Ludes Sebelum Resmi Dijual TANGERANG, KOMPAS.com Minat konsumen terhadap mobil listrik pertama Honda di Indonesia, Super One, ternyata cukup tinggi. Bahkan, sebelum pemesanan resmi dibuka, jumlah pesanan yang masuk secara manual disebut sudah melampaui kuota awal yang disiapkan PT Honda Prospect Motor (HPM). Sales & Marketing Director PT Honda Prospect Motor, Yusak Billy, mengatakan, saat ini pemesanan Honda Super One telah melebihi 100 unit. Baca juga: Impresi Perdana Toyota Hilux Terbaru, Beda Karakter Manual dan Matic Padahal, Honda hanya mendapatkan alokasi sebanyak 100 unit untuk pasar Indonesia pada 2026. \"Secara manual (pemesanan) sudah melebihi 100 unit. Tapi kita akan memonitor aktual sekarang setelah dibuka secara resmi jadi berapa (pemesanan). Jadi yang pesan secara manual itu sudah lebih dari kuota,\" kata Billy di ICE BSD City, Tangerang, Rabu (5/8/2026). PT Honda Prospect Motor mulai membuka pemesanan Honda Super One secara resmi pada Rabu (5/8/2026). Sebelumnya, mobil listrik tersebut lebih dulu diperkenalkan kepada publik saat pembukaan Gaikindo Indonesia International Auto Show (GIIAS) 2026 pada 30 Juli lalu. Honda Super One dipasarkan dengan harga Rp 438 juta on the road (OTR) Jakarta. KOMPAS.com/Ruly Kurniawan PT Honda Prospect Motor (HPM) akan memperkenalkan mobil listrik berbasis baterai (battery electric vehicle/BEV) terbaru, Honda Super One, pada ajang Gaikindo Indonesia International Auto Show (GIIAS) 2026. Pengiriman",
+      "language": "id",
+      "publishedAt": "2026-08-06T08:23:16.930Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/06/065200415/tanggapan-transjakarta-soal-lansia-yang-diusir-dari-bus",
+      "url": "https://otomotif.kompas.com/read/2026/08/06/065200415/tanggapan-transjakarta-soal-lansia-yang-diusir-dari-bus",
+      "title": "Tanggapan Transjakarta Soal Lansia yang Diusir dari Bus",
+      "summary": "Tanggapan Transjakarta Soal Lansia yang Diusir dari Bus TANGERANG, KOMPAS.com - Beberapa hari ini viral video seorang lansia diturunkan petugas dari bus TransJakarta di Halte Kampung Melayu, Jakarta Timur. Pada narasi dalam video yang beredar menyebutkan lansia itu diturunkan lantaran bau badan. Namun, pihak Transjakarta menjelaskan lansia tersebut diturunkan karena aroma urine yang sangat kuat. Petugas bertindak setelah mendapat laporan dari penumpang lain. PT TransJakarta buka suara mengenai video viral yang menampilkan petugasnya menurunkan penumpang secara paksa dari bus bukan karena bau badan. Baca juga: Rahasia Lepas E4 EV Bisa Tempuh 600 Km Sekali Cas \"Beberapa hari ini ramai diberitakan ada satu penumpang Transjakarta tunawisma yang diturunkan sebenarnya bukan bau badan, namun bau pesing. Jadi mengganggu yang lain. Begitu diturunkan dengan cara persuasif, publik bergejolak,\" kata Welfizon Yuza, Direktur Utama Transjakarta di ICE BSD, Rabu (5/6/2026). Welfizon menceritakan, tindakan yang dilakukan oleh petugas menimbulkan berbagai tanggapan. Tidak sedikit yang merespon tidak setuju dengan langkah tersebut lantaran tunawisma tersebut juga merupakan penumpang bus . Namun, dengan berbagai pertimbangan, terutama soal kenyaman dalam pelayanan untuk penumpang lainnya, maka langkah tersebut dilakukan. Doc Transjakarta Modifikasi Rute 6D Stasiun Tebet-Bundaran Senayan/p Baca juga: Impresi Perdana Toyota Hilux Terbaru, Beda Karakter Manual dan Matic \"Dinamika seperti itu sangat",
+      "language": "id",
+      "publishedAt": "2026-08-06T08:23:16.930Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
       "externalId": "https://www.speedweek.com/a/motogp/pecco-bagnaia-armpump-comeback-silverstone",
       "url": "https://www.speedweek.com/a/motogp/pecco-bagnaia-armpump-comeback-silverstone",
       "title": "Pecco Bagnaia: «Ich bin nicht der Typ, der so etwas in die Kamera sagt»",
