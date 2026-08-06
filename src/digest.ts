@@ -44,6 +44,9 @@ const SUB_PUSH_SCORE_THRESHOLD = 60;
 const SUB_PUSH_MIN_SUMMARY_LENGTH = 60;
 const MAX_SUB_PUSH_ITEMS = 2;
 const MAX_TOP_STORIES = 3;
+// Cap per category section once source count grew enough to regularly blow
+// past a readable length (found 2026-08-03: 67 signals in one run).
+const MAX_ITEMS_PER_CATEGORY = 10;
 
 const CATEGORY_LABELS: Record<string, string> = {
   racing: "赛事赛果",
@@ -113,11 +116,23 @@ async function main() {
   const client = new DeepSeekClient({ apiKey });
   const scored = scoreSignals(raw.signals);
 
+  // Selection is entirely deterministic (our own scoring), not left to the
+  // model's judgment — the model's job is writing content for whatever
+  // indices selection hands it, never choosing which indices matter.
+  //
+  // Leader-per-category uses signal.category (the source's label) since
+  // that's known before the AI call even runs — the AI's own category
+  // re-judgment (see buildDigestPrompt) only lands in the response, too
+  // late to drive this selection. Accepted as the same class of minor
+  // imprecision already accepted for scoreHeat's category-weight input;
+  // a leader picked under the source's label could occasionally render
+  // under a different section after AI re-categorization corrects it.
+  const categoryLeaders = pickCategoryLeaders(raw.signals, scored);
+  const overviewIndexSet = new Set(categoryLeaders.map((entry) => entry.index));
   const topIndexSet = new Set(
-    [...scored]
-      .map((item, i) => ({ item, index: i + 1 }))
+    [...categoryLeaders]
       .sort((a, b) => b.item.heat + b.item.confidence - (a.item.heat + a.item.confidence))
-      .slice(0, Math.min(MAX_TOP_STORIES, scored.length))
+      .slice(0, Math.min(MAX_TOP_STORIES, categoryLeaders.length))
       .map((entry) => entry.index),
   );
 
@@ -126,7 +141,7 @@ async function main() {
   // sources) truncated mid-JSON at that limit. DeepSeek's actual ceiling is
   // far higher (384k token max output), so this has generous headroom for
   // realistic volume rather than being tightly tuned to today's count.
-  const { system, user } = buildDigestPrompt(raw.signals, topIndexSet);
+  const { system, user } = buildDigestPrompt(raw.signals, topIndexSet, overviewIndexSet);
   const result = await client.completeJson({ system, user, maxTokens: 16_000 });
 
   let parsed: z.infer<typeof digestResponseSchema>;
@@ -139,7 +154,8 @@ async function main() {
     );
   }
 
-  const markdown = renderDigest(dateStr, parsed, raw.signals, topIndexSet);
+  const scoreByIndex = new Map(scored.map((item, i) => [i + 1, item]));
+  const markdown = renderDigest(dateStr, parsed, raw.signals, topIndexSet, overviewIndexSet, scoreByIndex);
   const outPath = `digests/${dateStr}.md`;
   await mkdir("digests", { recursive: true });
   await writeFile(outPath, markdown, "utf8");
@@ -184,6 +200,25 @@ async function main() {
   }
 }
 
+interface LeaderEntry {
+  index: number;
+  item: ScoredSignal;
+}
+
+/** The single highest-scored signal per category (signal.category, source-assigned) — one per category that has ≥1 signal today, so up to 6, fewer on a thin day. */
+function pickCategoryLeaders(signals: RawSignal[], scored: ScoredSignal[]): LeaderEntry[] {
+  const bestByCategory = new Map<string, LeaderEntry>();
+  scored.forEach((item, i) => {
+    const index = i + 1;
+    const category = signals[i]!.category;
+    const current = bestByCategory.get(category);
+    if (!current || item.heat + item.confidence > current.item.heat + current.item.confidence) {
+      bestByCategory.set(category, { index, item });
+    }
+  });
+  return [...bestByCategory.values()];
+}
+
 async function readRawSignals(path: string): Promise<{ signals: RawSignal[] } | null> {
   try {
     const body = await readFile(path, "utf8");
@@ -195,39 +230,44 @@ async function readRawSignals(path: string): Promise<{ signals: RawSignal[] } | 
   }
 }
 
-function buildDigestPrompt(signals: RawSignal[], topIndexSet: Set<number>): { system: string; user: string } {
+function buildDigestPrompt(
+  signals: RawSignal[],
+  topIndexSet: Set<number>,
+  overviewIndexSet: Set<number>,
+): { system: string; user: string } {
   const system = `你是一个摩托车行业快讯编辑，参考 36 氪"互联网人资讯早餐"（8点1氪）的结构：纯事实快讯体，客观中性，绝不夹带个人观点或推测。
 
 **全部输出必须是中文**，包括标题、速览、正文——即使原始新闻是英语、印尼语、马来语等其他语言，也要翻译成中文再写，不要直接照抄原文语言。人名、品牌名、车型名等专有名词可以保留原文或用通用中文译名，但句子本身必须是中文。
 
 只能使用用户提供的信息，不能编造任何数据、时间或事实。如果信息不完整就照实精简，不要补充你"猜测"的内容。
 
-部分条目标注"时间：未知"——这些是抓取时拿不到真实发布日期的旧文章（不是今天发生的事），不要把它们当成"最新"/"今日"新闻处理，也不要优先选进 overview。
+部分条目标注"时间：未知"——这些是抓取时拿不到真实发布日期的旧文章（不是今天发生的事），不要把它们当成"最新"/"今日"新闻处理。
 
 **每条输入前面【】里的类别是信源的固定标签，不是这篇文章自己的类别**——信源本身可能什么都发（比如一个以"全球新车发布"为主的媒体站，也会顺带发地方新闻、抽奖推广这类不相关内容）。请你根据标题和摘要的实际内容，重新判断这篇文章真正属于六个方向里的哪一个：racing（赛事赛果）/new-models（全球新车发布）/tech（技术工程解读）/industry（产业商业动态）/local-market（本地车市）/culture（骑行文化车展活动），不要直接照抄输入里给的标签。
 
 **同时判断每条是否跟摩托车/摩托车行业真正相关**（relevant）。像地方政府贪腐挪用公款（哪怕买的是摩托艇/ATV）、跟摩托车无关的纯推广抽奖这类内容，摩托车媒体站有时也会顺带发，但跟摩托车选题无关，这类请标 relevant: false，不会出现在最终产出里。
 
-结构分三层，都要产出：
-1. **overview**（今日热点导览）：5-10 条一句话速览，覆盖今天信号里最值得关注的内容（跳过 relevant: false 的），一眼扫完；不展开、不重复讲细节。
-2. **重点展开条目**（输入里标了"【重点展开】"的那几条，对应"今日头条"）：这几条要写得比其他条目更长更详细——多写 1-2 句具体数据/背景/影响，让读者不用点进原文也能完整了解这条新闻，不是随便加长凑字数。如果这条其实 relevant: false，正常标注就好，程序会自动跳过不展示。
-3. **普通条目**（其余的）：跟之前一样，1-2 段事实陈述即可，不用刻意加长。
+**选择哪些条目进哪个层级不是你的工作，已经用打分公式选好了**——你只负责写内容。每条输入前面的标记告诉你它属于哪一层：
+
+1. **【今日头条】**：本方向今天热度最高的几条里，综合分最高的最多 3 条。body 写 150-200 字的中度分析，**要说清楚这条新闻为什么够格上头条**（比如涉及的品牌/规模、影响范围、意外程度），不是单纯复述事实，是要让读者明白"这条为什么重要"。
+2. **【本方向今日代表】**：每个方向今天热度最高的 1 条（今日头条那几条也来自这个集合，其余几条会出现在 overview 速览里，也会正常出现在对应分类栏目正文中）。body 按普通条目处理即可。
+3. 其余普通条目：body 写 50-100 字的事实陈述，比之前的"1-2 句"要更完整——把关键数据、背景交代清楚，但依然不夹带个人观点。
 
 输出必须是 JSON：
 {
   "headline": "把当天 2-3 条最重磅新闻的关键词揉进一句话标题",
-  "overview": [ { "index": <这条速览对应的输入条目编号>, "text": "一句话速览" } ],
+  "overview": [ { "index": <编号>, "text": "一句话速览" } ]——**只能包含标了【本方向今日代表】（含头条）的条目，每条一句话概括，不展开**，
   "items": [
-    { "index": <对应输入条目的编号>, "heading": "一行小标题，加粗一句话，不用 markdown # 标题", "body": "正文，标了重点展开的条目要写得更详细", "category": "重新判断后的真实类别", "relevant": true或false }
+    { "index": <对应输入条目的编号>, "heading": "一行小标题，加粗一句话，不用 markdown # 标题", "body": "正文，长度按上面对应层级的要求", "category": "重新判断后的真实类别", "relevant": true或false }
   ]
 }
 
-items 里每条输入都要出现一次（包括 relevant: false 的，程序会负责过滤，不要自己先跳过不写）。index 必须精确对应输入列表里的编号，不要自己编号。overview 的 index 也必须对应输入编号——**程序会用这个 index 去对照 items 里的 relevant 字段自动过滤，不用你自己判断要不要写进 overview**，正常挑你觉得最值得关注的条目写就行。body 里不要包含来源括号——来源标注由程序自动加在每条后面。`;
+items 里每条输入都要出现一次（包括 relevant: false 的，程序会负责过滤，不要自己先跳过不写）。index 必须精确对应输入列表里的编号，不要自己编号。body 里不要包含来源括号——来源标注由程序自动加在每条后面。`;
 
   const itemLines = signals
     .map((signal, i) => {
       const index = i + 1;
-      const marker = topIndexSet.has(index) ? "【重点展开】" : "";
+      const marker = topIndexSet.has(index) ? "【今日头条】" : overviewIndexSet.has(index) ? "【本方向今日代表】" : "";
       return `${index}. ${marker}【信源固定标签：${signal.category}，仅供参考，请你重新判断真实类别】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   摘要：${signal.summary.slice(0, 800)}`;
     })
     .join("\n\n");
@@ -248,6 +288,8 @@ function renderDigest(
   digest: z.infer<typeof digestResponseSchema>,
   signals: RawSignal[],
   topIndexSet: Set<number>,
+  overviewIndexSet: Set<number>,
+  scoreByIndex: Map<number, ScoredSignal>,
 ): string {
   const relevantIndexSet = new Set(digest.items.filter((item) => item.relevant).map((item) => item.index));
 
@@ -255,8 +297,14 @@ function renderDigest(
   lines.push(`# ${digest.headline}`, "");
   lines.push(`> ${dateStr}`, "");
   lines.push("## 今日热点导览", "");
+  // Code-enforced against overviewIndexSet, not just the prompt instruction
+  // — a plain "only include X" instruction wasn't reliably followed before
+  // (found 2026-08-01, see the relevantIndexSet note below for the same
+  // lesson applied to a different field).
   for (const highlight of digest.overview) {
-    if (relevantIndexSet.has(highlight.index)) lines.push(`- ${highlight.text}`);
+    if (overviewIndexSet.has(highlight.index) && relevantIndexSet.has(highlight.index)) {
+      lines.push(`- ${highlight.text}`);
+    }
   }
   lines.push("");
 
@@ -282,7 +330,8 @@ function renderDigest(
 
   // Grouped by the model's own re-judged category (item.category), not the
   // source's fixed label — see buildDigestPrompt for why the label alone
-  // isn't trustworthy per-article.
+  // isn't trustworthy per-article. Capped per category (score-sorted) once
+  // real volume made an uncapped section unreadable (found 2026-08-03).
   const remainingByCategory = new Map<string, typeof digest.items>();
   for (const item of relevantItems) {
     if (topIndexSet.has(item.index)) continue;
@@ -296,9 +345,17 @@ function renderDigest(
     ...[...remainingByCategory.keys()].filter((category) => !CATEGORY_ORDER.includes(category)),
   ];
 
+  const scoreOf = (item: (typeof digest.items)[number]) => {
+    const s = scoreByIndex.get(item.index);
+    return (s?.heat ?? 0) + (s?.confidence ?? 0);
+  };
+
   for (const category of orderedCategories) {
     lines.push(`## ${CATEGORY_LABELS[category] ?? category}`, "");
-    for (const item of remainingByCategory.get(category) ?? []) renderItem(item);
+    const items = (remainingByCategory.get(category) ?? [])
+      .sort((a, b) => scoreOf(b) - scoreOf(a))
+      .slice(0, MAX_ITEMS_PER_CATEGORY);
+    for (const item of items) renderItem(item);
   }
 
   return `${lines.join("\n").trimEnd()}\n`;
