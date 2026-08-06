@@ -1,13 +1,13 @@
 {
-  "collectedAt": "2026-08-06T14:41:44.330Z",
+  "collectedAt": "2026-08-06T15:26:12.203Z",
   "signals": [
     {
-      "externalId": "https://www.speedweek.com/a/motogp/raul-fernandez-bis-2028-bei-trackhouse-die-850er-aprilia-ueberzeugte",
-      "url": "https://www.speedweek.com/a/motogp/raul-fernandez-bis-2028-bei-trackhouse-die-850er-aprilia-ueberzeugte",
-      "title": "Raul Fernandez bis 2028 bei Trackhouse: Die 850er-Aprilia überzeugte",
-      "summary": "Neu Raul Fernandez bis 2028 bei Trackhouse: Die 850er-Aprilia überzeugte Die Zukunft von Raul Fernandez in der MotoGP ist gesichert. «RF25» erklärte in Silverstone warum seine «schwierige Phase» nichts mit dem Vertrag zu tun hatte und was sich seit Assen verändert hat. MotoGP 06.08.2026 - 15:16",
+      "externalId": "https://www.speedweek.com/a/motogp/pecco-bagnaia-armpump-comeback-silverstone",
+      "url": "https://www.speedweek.com/a/motogp/pecco-bagnaia-armpump-comeback-silverstone",
+      "title": "Pecco Bagnaia: «Ich bin nicht der Typ, der so etwas in die Kamera sagt»",
+      "summary": "Neu Pecco Bagnaia: «Ich bin nicht der Typ, der so etwas in die Kamera sagt» MotoGP-Ass Pecco Bagnaia (Ducati) arbeitete in den letzten Wochen intensiv daran, sich von seiner «Armpump»-Operation zu erholen. Wie es ihm geht und was es in Silverstone braucht, um zu gewinnen. MotoGP 06.08.2026 - 17:01",
       "language": "de",
-      "publishedAt": "2026-08-06T14:41:09.427Z",
+      "publishedAt": "2026-08-06T15:25:24.740Z",
       "category": "racing",
       "tags": [],
       "metrics": {
@@ -24,306 +24,12 @@
       "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
     },
     {
-      "externalId": "https://www.speedweek.com/a/motogp/marc-marquez-titelkampf-druck-silverstone",
-      "url": "https://www.speedweek.com/a/motogp/marc-marquez-titelkampf-druck-silverstone",
-      "title": "Marc Marquez gelassen: «Ein Titel mehr wird mein Leben nicht verändern»",
-      "summary": "Neu Marc Marquez gelassen: «Ein Titel mehr wird mein Leben nicht verändern» MotoGP 06.08.2026 - 15:05",
-      "language": "de",
-      "publishedAt": "2026-08-06T14:41:09.427Z",
-      "category": "racing",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "web"
-        ]
-      },
-      "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
-      },
-      "sourceSlug": "speedweek-motogp",
-      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
-    },
-    {
-      "externalId": "https://www.speedweek.com/a/motogp/jorge-martin-aprilia-wundert-sich-auch-in-england-noch-ueber-wm-fuehrung",
-      "url": "https://www.speedweek.com/a/motogp/jorge-martin-aprilia-wundert-sich-auch-in-england-noch-ueber-wm-fuehrung",
-      "title": "Jorge Martin (Aprilia) wundert sich auch in England noch über WM-Führung",
-      "summary": "Neu Jorge Martin (Aprilia) wundert sich auch in England noch über WM-Führung MotoGP 06.08.2026 - 14:22",
-      "language": "de",
-      "publishedAt": "2026-08-06T14:41:09.428Z",
-      "category": "racing",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "web"
-        ]
-      },
-      "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
-      },
-      "sourceSlug": "speedweek-motogp",
-      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
-    },
-    {
-      "externalId": "https://www.speedweek.com/a/motogp/pedro-acosta-motogp-sieg-nur-mit-wunder",
-      "url": "https://www.speedweek.com/a/motogp/pedro-acosta-motogp-sieg-nur-mit-wunder",
-      "title": "MotoGP-Sieg von Pedro Acosta in Reichweite? «Ein Wunder muss geschehen»",
-      "summary": "Neu MotoGP-Sieg von Pedro Acosta in Reichweite? «Ein Wunder muss geschehen» MotoGP 06.08.2026 - 13:47",
-      "language": "de",
-      "publishedAt": "2026-08-06T14:41:09.428Z",
-      "category": "racing",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "web"
-        ]
-      },
-      "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
-      },
-      "sourceSlug": "speedweek-motogp",
-      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
-    },
-    {
-      "externalId": "https://www.speedweek.com/a/motogp/moreira-2027-silverstone-motogp-siegchance",
-      "url": "https://www.speedweek.com/a/motogp/moreira-2027-silverstone-motogp-siegchance",
-      "title": "Moreira zu 2027: «Diese Frage wird wohl das gesamte Wochenende kommen»",
-      "summary": "Moreira zu 2027: «Diese Frage wird wohl das gesamte Wochenende kommen» MotoGP 06.08.2026 - 13:12",
-      "language": "de",
-      "publishedAt": "2026-08-06T14:41:09.428Z",
-      "category": "racing",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "web"
-        ]
-      },
-      "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
-      },
-      "sourceSlug": "speedweek-motogp",
-      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
-    },
-    {
-      "externalId": "https://www.speedweek.com/a/motogp/bezzecchi-vor-comeback-wenn-das-gefuehl-da-ist-werde-ich-es-versuchen",
-      "url": "https://www.speedweek.com/a/motogp/bezzecchi-vor-comeback-wenn-das-gefuehl-da-ist-werde-ich-es-versuchen",
-      "title": "Bezzecchi vor Comeback: «Wenn das Gefühl da ist, werde ich es versuchen!»",
-      "summary": "Bezzecchi vor Comeback: «Wenn das Gefühl da ist, werde ich es versuchen!» Aprilia-Werksfahrer Marco Bezzecchi greift in Silverstone nach zuletzt vier GP-Nullnummern in Serie und einer Verletzung wieder ins MotoGP-Geschehen ein. Es kann nur besser werden. MotoGP 06.08.2026 - 12:43",
-      "language": "de",
-      "publishedAt": "2026-08-06T14:41:09.429Z",
-      "category": "racing",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "web"
-        ]
-      },
-      "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
-      },
-      "sourceSlug": "speedweek-motogp",
-      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
-    },
-    {
-      "externalId": "https://www.speedweek.com/a/motogp/motogp-silverstone-partnerschaft-bis-2028",
-      "url": "https://www.speedweek.com/a/motogp/motogp-silverstone-partnerschaft-bis-2028",
-      "title": "Partnerschaft verlängert: Die MotoGP-WM gastiert bis 2028 in Silverstone",
-      "summary": "Partnerschaft verlängert: Die MotoGP-WM gastiert bis 2028 in Silverstone Vor dem GP in Silverstone hat die MotoGP die Partnerschaft mit der englischen Traditionsstrecke für die nächsten beiden Jahre verlängert. Großbritannien bleibe ein Schlüsselmarkt für den Sport. MotoGP 06.08.2026 - 10:48",
-      "language": "de",
-      "publishedAt": "2026-08-06T14:41:09.430Z",
-      "category": "racing",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "web"
-        ]
-      },
-      "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": true
-      },
-      "sourceSlug": "speedweek-motogp",
-      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
-    },
-    {
-      "externalId": "https://modenas.my/menu/list-press-release/first-60-kawasaki-kle500-customers-to-receive-exclusive-megatrail-adventure-package",
-      "url": "https://modenas.my/menu/list-press-release/first-60-kawasaki-kle500-customers-to-receive-exclusive-megatrail-adventure-package",
-      "title": "FIRST 60 KAWASAKI KLE500 CUSTOMERS TO RECEIVE EXCLUSIVE MEGATRAIL ADVENTURE PA...",
-      "summary": "New middleweight adventure motorcycle priced at RM32,900, with a 150km off-road ownership experience in Gerik, Perak The KLE500 is available in a Metallic Carbon Gray, Ebony and Frame Flat Black colour scheme. Shah Alam, Malaysia , 4 August 2026 – Motosikal dan Enjin Nasional Sdn. Bhd. (“MODENAS”), a member of the DRB-HICOM Group, has announced an exclusive Kawasaki KLE500 Megatrail promotion for the first 60 customers in Malaysia, following the commencement of its digital launch campaign on 3 August 2026. Priced at a recommended retail price of RM32,900 , excluding insurance and road tax, the KLE500 is Kawasaki’s latest offering in Malaysia’s growing middleweight adventure segment. The promotion is available from 3 to 31 August 2026 at authorised Kawasaki dealerships nationwide. Designed for daily commuting, long-distance touring and off-road exploration, the KLE500 combines a 451cc parallel-twin engine with long-travel suspension, 21-inch front and 17-inch rear spoke wheels, selectable ABS and rally-inspired styling. Its upright ergonomics, three-position adjustable windshield and 16-litre fuel tank provide a balanced combination of comfort, control and versatility across varying road and terrain conditions. Roslan Roskan, Chief Executive Officer of MODENAS, said the KLE500 reflects Kawasaki’s commitment to delivering product enjoyment throughout the ownership journey. “The KLE500 gives riders a versatile and capable platform to explore beyond their everyday routes. By pair",
+      "externalId": "https://www.visordown.com/news/kawasaki-reveals-2027-ninja-line-featuring-2027-ninja-zx-6r",
+      "url": "https://www.visordown.com/news/kawasaki-reveals-2027-ninja-line-featuring-2027-ninja-zx-6r",
+      "title": "Kawasaki announces four-strong Ninja 2027 line-up",
+      "summary": "Kawasaki has revealed the latest version of the ZX-6R, with the 2027 model set to arrive in three colourways and with styling inspired by the ZX-10R. Kawasaki has revealed a new four-model Ninja line-up for 2027, which features the latest version of the ZX-6R. The ZX-6R will continue to be joined by the Ninja ZX-4R, and the more track-focused ZX-4RR, as part of a mid-to-low-capacity supersport segment that has grown into one of the most congested across all two-wheel categories at the moment, especially with regards to racing. For example, the World Supersport Championship was previously dominated by machinery such as the Yamaha R6 and Kawasaki’s ZX-6R, however, bigger and more powerful machines such as the Yamaha R9, Ducati Panigale V2 and ZXMoto 820RR-RS are enjoying the most success, currently. Following a brief hiatus in 2020, the ZX-6R has been a staple of the brand’s supersport range since, and it makes use of race-derived chassis and styling inspired by the company’s flagship Ninja ZX-10R. The new model will also be available in three colourways, including a Metallic Matte Carbon Gray/Metallic Spark Black, which is our favourite of the bunch. The new model once again features the company’s famed 636cc inline-four engine, and produces maximum power of 127.6 bhp at 13,000rpm and 50.8 Ib-ft of torque at 10,800rpm. Additionally, the ZX-6R features traction control as standard, supersport-grade brake management, various selectable power modes and a quickshifter, all of whic",
       "language": "en",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "category": "local-market",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "web"
-        ]
-      },
-      "rawMeta": {
-        "adapter": "web-scraper",
-        "source": "html-card",
-        "dateInferred": false
-      },
-      "sourceSlug": "modenas-emos",
-      "sourceName": "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）"
-    },
-    {
-      "externalId": "https://www.rideapart.com/news/803918/two-all-new-fully-faired-ktm-sport-bikes-are-on-the-way/",
-      "url": "https://www.rideapart.com/news/803918/two-all-new-fully-faired-ktm-sport-bikes-are-on-the-way",
-      "title": "Two All-New KTM Sportbikes Are on the Way",
-      "summary": "KTM's CEO, Gottfried Neumeister, confirmed two mid-to-low capacity bikes are set to expand the brand's sportbike offerings: the 490 RC and 790 RC.",
-      "language": "en",
-      "publishedAt": "2026-08-06T13:19:00.000Z",
-      "category": "new-models",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "rss"
-        ]
-      },
-      "rawMeta": {
-        "dateInferred": false
-      },
-      "sourceSlug": "rideapart",
-      "sourceName": "RideApart"
-    },
-    {
-      "externalId": "https://www.rideapart.com/news/803897/onx-maps-hunt-offroad-backcountry-launches-public-land-comment-portal/",
-      "url": "https://www.rideapart.com/news/803897/onx-maps-hunt-offroad-backcountry-launches-public-land-comment-portal",
-      "title": "onX Wants To Make It Easier To Make Your Voice Heard On Public Land Issues",
-      "summary": "\"Stop touching my land,\" and send!",
-      "language": "en",
-      "publishedAt": "2026-08-06T12:45:00.000Z",
-      "category": "new-models",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "rss"
-        ]
-      },
-      "rawMeta": {
-        "dateInferred": false
-      },
-      "sourceSlug": "rideapart",
-      "sourceName": "RideApart"
-    },
-    {
-      "externalId": "https://www.rideapart.com/features/803797/tvs-raider-doctor-doom-launched-india-bigger-story/",
-      "url": "https://www.rideapart.com/features/803797/tvs-raider-doctor-doom-launched-india-bigger-story",
-      "title": "This $1,000 'Doctor Doom' Bike Is Helping TVS Plot Motorcycle World Domination",
-      "summary": "Doctor Doom conquered Latveria to rule the world. TVS is using small bikes like the Raider to take the motorcycle industry.",
-      "language": "en",
-      "publishedAt": "2026-08-06T12:19:00.000Z",
-      "category": "new-models",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "rss"
-        ]
-      },
-      "rawMeta": {
-        "dateInferred": false
-      },
-      "sourceSlug": "rideapart",
-      "sourceName": "RideApart"
-    },
-    {
-      "externalId": "https://www.rideapart.com/news/803889/insta360s-paris-pop-up-cycling-event-was-crazy-good-please-make-one-for-motorcyclists/",
-      "url": "https://www.rideapart.com/news/803889/insta360s-paris-pop-up-cycling-event-was-crazy-good-please-make-one-for-motorcyclists",
-      "title": "Insta360’s Paris Pop-up Cycling Event Was Crazy Good. Please Make One for Motorcyclists",
-      "summary": "Imagine an Insta360 cycling event in Paris, where you get to do hands-on workshops with experts before taking on a Tour de France-inspired ride. Now imagine it with motorcycles.",
-      "language": "en",
-      "publishedAt": "2026-08-06T12:02:00.000Z",
-      "category": "new-models",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "rss"
-        ]
-      },
-      "rawMeta": {
-        "dateInferred": false
-      },
-      "sourceSlug": "rideapart",
-      "sourceName": "RideApart"
-    },
-    {
-      "externalId": "https://www.rideapart.com/news/803925/yamaha-motors-financial-results-motorcycles-leading-the-way/",
-      "url": "https://www.rideapart.com/news/803925/yamaha-motors-financial-results-motorcycles-leading-the-way",
-      "title": "Yamaha Is Doing Better Because Of Its Motorcycles",
-      "summary": "If the yen is down, but Yamaha's forecast is looking up, what's the deal? The majority of the company's sales take place outside Japan.",
-      "language": "en",
-      "publishedAt": "2026-08-06T11:58:00.000Z",
-      "category": "new-models",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "rss"
-        ]
-      },
-      "rawMeta": {
-        "dateInferred": false
-      },
-      "sourceSlug": "rideapart",
-      "sourceName": "RideApart"
-    },
-    {
-      "externalId": "https://www.rideapart.com/news/803890/stark-future-remains-profitable-after-focusing-on-delivering-ev-dirt-bikes/",
-      "url": "https://www.rideapart.com/news/803890/stark-future-remains-profitable-after-focusing-on-delivering-ev-dirt-bikes",
-      "title": "This EV Motorcycle Startup Shows That Substance Over Style Matters, Continues Profitability",
-      "summary": "Stark continues to rake in the cash.",
-      "language": "en",
-      "publishedAt": "2026-08-06T11:14:00.000Z",
-      "category": "new-models",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "rss"
-        ]
-      },
-      "rawMeta": {
-        "dateInferred": false
-      },
-      "sourceSlug": "rideapart",
-      "sourceName": "RideApart"
-    },
-    {
-      "externalId": "https://www.rideapart.com/news/803800/janus-450-engines-outsourced-from-hartford-taiwam/",
-      "url": "https://www.rideapart.com/news/803800/janus-450-engines-outsourced-from-hartford-taiwam",
-      "title": "Janus Just Made Its Most American Motorcycle Less Chinese",
-      "summary": "Janus is swapping China for Taiwan, but its proudly American flagship still needs an imported heart.",
-      "language": "en",
-      "publishedAt": "2026-08-06T11:01:00.000Z",
-      "category": "new-models",
-      "tags": [],
-      "metrics": {
-        "platforms": [
-          "rss"
-        ]
-      },
-      "rawMeta": {
-        "dateInferred": false
-      },
-      "sourceSlug": "rideapart",
-      "sourceName": "RideApart"
-    },
-    {
-      "externalId": "https://www.visordown.com/news/general/funny-video-just-how-do-they-build-rocket-iii",
-      "url": "https://www.visordown.com/news/general/funny-video-just-how-do-they-build-rocket-iii",
-      "title": "Before manufacturers discovered influencers, Triumph made this viral masterpiece",
-      "summary": "Motorcycle marketing has changed beyond recognition, but this classic Triumph Rocket III video remains as absolute comedy gold. Before social media algorithms, before influencers, before every bike launch needed a cinematic drone shot and someone dramatically staring into the middle distance, Triumph quietly released what might still be the funniest motorcycle video ever made. You may also like to read our Triumph Rocket 3 review . Originally uploaded back in 2007 to promote the then-new Rocket III Classic, the spoof factory documentary has somehow aged better than plenty of modern motorcycle marketing campaigns. Presented as a serious behind-the-scenes look inside Triumph's production line, the video quickly descends into the kind of glorious nonsense that has us waiting for Basil Fawlty to appear. Engines are tested to the sound of banjo music \"for safety purposes\", workers carefully harvest chrome from fields, and the bike's legendary handling is apparently thanks to \"argument juice\" extracted from the female brain. And as for the 2,300cc engine which is apparently “grown from embryo engines, germinated in a nutrient-rich sludge medium” and then left in a cupboard by the photocopiers. It's exactly the sort of deadpan British humour that made me fall in love with British comedy back in the 80s and 90s. From The Fast Show to Vic and Bob’s Big Night Out, this piece of comedic artwork was a perfect snapshot of where UK comedy was at the time. We first shared the clip on Visord",
-      "language": "en",
-      "publishedAt": "2026-08-06T14:41:18.352Z",
+      "publishedAt": "2026-08-06T15:25:34.067Z",
       "category": "new-models",
       "tags": [],
       "metrics": {
@@ -340,13 +46,13 @@
       "sourceName": "Visordown"
     },
     {
-      "externalId": "https://www.eicma.it/en/kawasaki-z500-z500-se-fresh-colours-for-my-2027/",
-      "url": "https://www.eicma.it/en/kawasaki-z500-z500-se-fresh-colours-for-my-2027",
-      "title": "Kawasaki Z500 / Z500 SE: fresh colours for my 2027",
-      "summary": "The technicians from Akashi have updated the Z500 and Z500 SE for 2027. While keeping its fierce Sugomi styling and sharp technical DNA untouched, the big update brings a fresh wave of striking new graphics and colour combinations. The standard Z500 for 2027 is proposed in Ebony / Metallic Carbon Gray, whereas the Z500 SE is available in Candy Persimmon Red / Metallic Carbon Gray or Pearl Blizzard White / Candy Lime Green Type 3 / Ebony. Underneath the tank beats the 451cc twin-cylinder engine pushing out 45 hp, designed specifically for A2 license riders. Its trellis frame champions agility and mass centralization, while the low 785 mm seat height, active riding position, and wide handlebars guarantee both comfort and total control. An Assist & Slipper clutch keeps lever action light while preventing rear-wheel hop and lock-ups during rapid downshifting. On the technology front, the Z500 relies on clean LCD instrumentation, while the SE raises the bar with a vibrant TFT display featuring a digital speedometer and tachometer, gear position indicator with shift lamp, dual trip meters, and instant or average fuel economy readouts. Both models keep you connected to your ride via smartphone integration through the Rideology App. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano - Pi e cf: 04145450153 N° iscrizione 041454",
+      "externalId": "https://www.visordown.com/news/mexican-batman-cleans-streets-duct-taping-bike-thieves-lampposts",
+      "url": "https://www.visordown.com/news/mexican-batman-cleans-streets-duct-taping-bike-thieves-lampposts",
+      "title": "Holy stolen motorcycles! Mexico's caped crusader is cleaning up the streets",
+      "summary": "A mystery vigilante dubbed 'Batman' has become an unlikely folk hero in Mexico after allegedly hunting down suspected motorcycle thieves and leaving them taped to lampposts. Forget the Batmobile, batarangs and billion-dollar gadgets; Mexico's answer to Batman appears to rely on little more than duct tape and a marker pen. The mystery vigilante has become an overnight internet sensation after allegedly tracking down suspected motorcycle thieves in the Mexican city of Lagos de Moreno, before leaving them humiliated and taped to lampposts alongside the bikes they were accused of stealing. Over the course of around 10 days, at least five alleged thieves have reportedly been found bound to street poles, some with the Spanish word 'ratero' (thief) written across their foreheads, complete with cartoon moustaches and cat whiskers. In several cases, the recovered motorcycles were left parked directly in front of the suspects, seemingly as evidence of their alleged crimes. The anonymous crime-fighter has quickly been christened the \"Batman of Lagos de Moreno\" on social media, where plenty of users have praised the masked vigilante for doing what they believe local authorities have failed to do amid a rise in motorcycle thefts. Authorities, however, are rather less enthusiastic. Police have launched an investigation to identify the mystery man, with officials confirming that the people found taped to the poles are being treated as victims of assault, regardless of whether they are also",
       "language": "en",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "category": "culture",
+      "publishedAt": "2026-08-06T15:25:34.069Z",
+      "category": "new-models",
       "tags": [],
       "metrics": {
         "platforms": [
@@ -356,10 +62,10 @@
       "rawMeta": {
         "adapter": "web-scraper",
         "source": "html-card",
-        "dateInferred": false
+        "dateInferred": true
       },
-      "sourceSlug": "eicma",
-      "sourceName": "EICMA（米兰国际两轮车展）"
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
     }
   ]
 }
