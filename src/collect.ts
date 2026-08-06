@@ -8,12 +8,22 @@
  */
 
 import { mkdir, writeFile } from "node:fs/promises";
+import { fetchArticleExcerpt } from "./collectors/article-excerpt.js";
 import { getAdapter } from "./collectors/index.js";
 import { createSafeFetcher } from "./fetcher.js";
 import { sources } from "./sources.js";
 import { loadState, markIfNew, saveState } from "./state.js";
 import { canonicalizeUrl } from "./url.js";
 import type { CollectedSignal } from "./types.js";
+
+// A web-scraper listing card only ever carries a short teaser (title + a
+// one-line deck, sometimes just a date stamp) — found 2026-08-06 when a
+// real digest read as barely more than headlines. Only web-scraper signals
+// get this treatment: RSS summaries can legitimately already be full
+// article content, and lta-coe's summary is a deliberately constructed data
+// table, not a teaser — re-fetching its dataset page would replace a clean
+// accurate summary with unrelated page chrome.
+const ENRICH_CONCURRENCY = 5;
 
 interface SourceRunSummary {
   slug: string;
@@ -57,6 +67,30 @@ async function main() {
     summaries.push(summary);
   }
 
+  const toEnrich = newSignals.filter((signal) => signal.rawMeta.adapter === "web-scraper");
+  let enrichedCount = 0;
+  for (let i = 0; i < toEnrich.length; i += ENRICH_CONCURRENCY) {
+    const batch = toEnrich.slice(i, i + ENRICH_CONCURRENCY);
+    await Promise.all(
+      batch.map(async (signal) => {
+        const excerpt = await fetchArticleExcerpt(signal.url, fetchText);
+        // Only replace when it's actually more content than the card
+        // teaser already had — found 2026-08-06 on SPEEDWEEK: its article
+        // pages don't mark up body copy with <p> tags the way EICMA/
+        // Visordown/RideApart do, so the <p>-based extraction grabbed a
+        // short, unrelated snippet (a related-article teaser) instead of
+        // real body text. A length comparison against the known-correct
+        // teaser is a cheap, general guard against exactly that failure
+        // mode, without needing a second, riskier extraction strategy for
+        // every markup style out there.
+        if (excerpt && excerpt.length > signal.summary.length) {
+          signal.summary = excerpt;
+          enrichedCount += 1;
+        }
+      }),
+    );
+  }
+
   const dateStr = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Singapore" }).format(new Date());
   const outPath = `data/raw/${dateStr}.json`;
   await mkdir("data/raw", { recursive: true });
@@ -67,7 +101,9 @@ async function main() {
   for (const s of summaries) {
     console.log(`${s.name.padEnd(28)} ${String(s.fetched).padStart(4)} ${String(s.new).padStart(4)}  ${s.error ?? ""}`);
   }
-  console.log(`\n共 ${newSignals.length} 条新内容，写入 ${outPath}`);
+  console.log(
+    `\n共 ${newSignals.length} 条新内容，写入 ${outPath}（其中 ${toEnrich.length} 条尝试补充正文，${enrichedCount} 条成功）`,
+  );
 }
 
 main().catch((error) => {

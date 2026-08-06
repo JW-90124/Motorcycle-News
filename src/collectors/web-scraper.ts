@@ -203,6 +203,15 @@ function extractListItems(body: string, source: SourceLike): CollectedSignal[] {
 // initial 10 after that was too close to a borderline nav label's length.
 const MIN_TITLE_LENGTH = 15;
 
+// Section-teaser headings ("Latest New Bikes News", "Latest Industry News")
+// that wrap a "view this category" card — long enough to pass MIN_TITLE_LENGTH
+// and structurally identical to a real card (a real article's href, an <img>),
+// so neither existing filter catches them. Found 2026-08-06 on Visordown:
+// two of these ended up in a real digest with the article's own real URL
+// attached to the section-label text instead of that article's actual
+// headline. A real headline is never literally "Latest {category} News".
+const GENERIC_TITLE_PATTERN = /^latest\s+.+\s+news$/i;
+
 function extractCardSignal(html: string, source: SourceLike, fallbackHref?: string): CollectedSignal | null {
   const heading = extractFirstHeading(html);
   const title = heading.title;
@@ -226,6 +235,7 @@ function extractCardSignal(html: string, source: SourceLike, fallbackHref?: stri
   // labels ("Home", "Cub", "Products") are reliably short, real titles
   // reliably aren't.
   if (!title || !link || title.length < MIN_TITLE_LENGTH) return null;
+  if (GENERIC_TITLE_PATTERN.test(title.trim())) return null;
   // Sponsor logos and social-share footer links (found 2026-07-29 on MotoGP:
   // "TISSOT"/"ESTRELLA GALICIA"/"Facebook"/"Instagram" as "titles" — the
   // length filter alone doesn't catch these, sponsor names can be as long as
@@ -447,6 +457,13 @@ function extractTextContent(html: string): string {
   return html
     .replace(/<script[\s\S]*?<\/script>/gi, "")
     .replace(/<style[\s\S]*?<\/style>/gi, "")
+    // A card window is a fixed-size slice of the page, so it can end
+    // mid-tag (found 2026-08-06 on EICMA: a long <img srcset="..."> with
+    // several responsive URLs got cut off before its closing ">", so the
+    // tag-strip regex below — which requires a closing ">" — left the raw
+    // attribute soup as literal text in the summary). Drop a trailing "<"
+    // that never closes within this string before stripping real tags.
+    .replace(/<[^>]*$/, "")
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -457,11 +474,11 @@ function extractTagContent(html: string, tag: string): string {
   return regex.exec(html)?.[1]?.trim() ?? "";
 }
 
-function stripHtml(value: string): string {
+export function stripHtml(value: string): string {
   return value.replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/g, " ").replace(/\s+/g, " ").trim();
 }
 
-function decodeEntities(value: string): string {
+export function decodeEntities(value: string): string {
   return value
     .replace(/&amp;|&#038;|&#x26;/gi, "&")
     .replace(/&quot;/g, '"')
