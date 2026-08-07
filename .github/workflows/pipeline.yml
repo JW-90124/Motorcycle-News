@@ -43,14 +43,20 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
-      # Runs after every Mon/Wed/Fri collection, not just Friday — it
-      # regenerates the same week's file each time (named by that week's
-      # Monday), so it reads as a "week so far" preview mid-week and the
-      # complete top-10 after Friday's run, rather than showing nothing
-      # until the week is over.
+      # Only meaningful on Monday's scheduled run — weekly-digest.ts
+      # summarizes the most recently *completed* Mon-Sun week, which is
+      # only fully closed out by the time Monday's own run happens.
+      # Running it on Wed/Fri too would just regenerate the same already-
+      # complete file for no reason. workflow_dispatch (manual runs) skips
+      # the day check — a deliberate manual trigger should just run it.
       - name: Generate weekly digest
         if: github.event_name != 'push'
-        run: npm run weekly-digest
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%u)" != "1" ]; then
+            echo "定时任务且非周一，跳过生成周报。"
+            exit 0
+          fi
+          npm run weekly-digest
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 

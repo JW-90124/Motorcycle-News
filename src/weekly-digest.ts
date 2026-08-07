@@ -1,15 +1,19 @@
 #!/usr/bin/env node
 /**
- * Weekly digest CLI — reads this ISO week's (Monday-Sunday, Asia/Singapore)
- * `data/raw/{date}.json` files, scores every signal collected across the
- * whole week (reusing domain/score-signals.ts, the same formulas the daily
- * 主推 uses), and picks the top 10 distinct stories. Unlike the daily 主推,
- * this is allowed a personal point of view — the user's own request
- * 2026-08-07: a weekly roundup with "自己的观点和解读" per item, not just
- * facts. Written separately from digest.ts (not a mode flag on it) since
- * the selection window, dedup granularity, and voice are all different
- * enough that sharing one entry point would mean threading a lot of
- * conditionals through code that's otherwise a clean daily pipeline.
+ * Weekly digest CLI — summarizes the most recently *completed* ISO week
+ * (last Monday-Sunday, Asia/Singapore), not the week in progress. Meant to
+ * run once, on Monday, after that day's own daily digest — by then the
+ * prior week is fully closed out, so "last week" always means a complete
+ * Mon-Sun span, never a partial one. Reads whichever `data/raw/{date}.json`
+ * files exist in that range (only Mon/Wed/Fri will, given the collection
+ * cadence), scores every signal (reusing domain/score-signals.ts, the same
+ * formulas the daily 主推 uses), and picks the top 10 distinct stories.
+ * Unlike the daily 主推, this is allowed a personal point of view — the
+ * user's own request 2026-08-07: a weekly roundup with "自己的观点和解读"
+ * per item, not just facts. Written separately from digest.ts (not a mode
+ * flag on it) since the selection window, dedup granularity, and voice are
+ * all different enough that sharing one entry point would mean threading a
+ * lot of conditionals through code that's otherwise a clean daily pipeline.
  */
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
@@ -37,8 +41,10 @@ const weeklyResponseSchema = z.object({
 
 async function main() {
   const todayStr = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Singapore" }).format(new Date());
-  const mondayStr = mondayOf(todayStr);
-  const weekDates = datesFrom(mondayStr, todayStr);
+  const thisMonday = mondayOf(todayStr);
+  const lastMonday = addDays(thisMonday, -7);
+  const lastSunday = addDays(thisMonday, -1);
+  const weekDates = datesFrom(lastMonday, lastSunday);
 
   const allSignals: RawSignal[] = [];
   for (const date of weekDates) {
@@ -47,7 +53,7 @@ async function main() {
   }
 
   if (allSignals.length === 0) {
-    console.log(`本周（${mondayStr} 起）还没有任何抓取数据，跳过生成周报。`);
+    console.log(`上周（${lastMonday} 至 ${lastSunday}）没有任何抓取数据，跳过生成周报。`);
     return;
   }
 
@@ -80,7 +86,7 @@ async function main() {
     .slice(0, WEEKLY_TOP_N);
 
   const client = new DeepSeekClient({ apiKey });
-  const { system, user } = buildWeeklyPrompt(top10, mondayStr, weekDates[weekDates.length - 1]!);
+  const { system, user } = buildWeeklyPrompt(top10, lastMonday, lastSunday);
   const result = await client.completeJson({ system, user, maxTokens: 6_000, temperature: 0.5 });
 
   let parsed: z.infer<typeof weeklyResponseSchema>;
@@ -93,12 +99,12 @@ async function main() {
     );
   }
 
-  const markdown = renderWeekly(mondayStr, weekDates[weekDates.length - 1]!, parsed, top10);
+  const markdown = renderWeekly(lastMonday, lastSunday, parsed, top10);
   const outDir = "digests/weekly";
   await mkdir(outDir, { recursive: true });
-  const outPath = `${outDir}/${mondayStr}.md`;
+  const outPath = `${outDir}/${lastMonday}.md`;
   await writeFile(outPath, markdown, "utf8");
-  console.log(`周报已生成：${outPath}（覆盖 ${weekDates.length} 天，共 ${allSignals.length} 条信号，选出 ${top10.length} 条）`);
+  console.log(`周报已生成：${outPath}（上周 ${lastMonday} 至 ${lastSunday}，共 ${allSignals.length} 条信号，选出 ${top10.length} 条）`);
   console.log(`模型：${result.model}，用量：${result.usage.totalTokens} tokens`);
 }
 
@@ -109,6 +115,13 @@ function mondayOf(dateStr: string): string {
   const weekday = date.getUTCDay(); // 0 = Sunday
   const diffToMonday = weekday === 0 ? -6 : 1 - weekday;
   date.setUTCDate(date.getUTCDate() + diffToMonday);
+  return date.toISOString().slice(0, 10);
+}
+
+function addDays(dateStr: string, days: number): string {
+  const [year, month, day] = dateStr.split("-").map(Number) as [number, number, number];
+  const date = new Date(Date.UTC(year, month - 1, day));
+  date.setUTCDate(date.getUTCDate() + days);
   return date.toISOString().slice(0, 10);
 }
 
@@ -140,20 +153,20 @@ function buildWeeklyPrompt(
   mondayStr: string,
   lastDateStr: string,
 ): { system: string; user: string } {
-  const system = `你是一个摩托车内容创作者，为中文摩托车 YouTube 频道写"本周十大热点"周报，风格参考 36 氪产品测评文章：口语化，有明确的个人态度和判断，但绝不能把猜测包装成确凿事实——该说"我觉得""大概率"的地方就明确说是自己的判断。
+  const system = `你是一个摩托车内容创作者，为中文摩托车 YouTube 频道写"上周十大热点"周报（回顾刚结束的一周），风格参考 36 氪产品测评文章：口语化，有明确的个人态度和判断，但绝不能把猜测包装成确凿事实——该说"我觉得""大概率"的地方就明确说是自己的判断。
 
 **全部输出必须是中文**，即使原始新闻是英语、印尼语、马来语等其他语言，也要翻译成中文再写。人名、品牌名、车型名等专有名词可以保留原文或用通用中文译名。
 
 只能使用用户提供的信息，不能编造任何数据、时间或事实。
 
-**这 ${candidates.length} 条已经是本周热度最高的代表性事件（已用打分公式选好、去重过），排列顺序就是热度排序，不需要你重新判断哪条更重要**——你只负责写内容。
+**这 ${candidates.length} 条已经是上周热度最高的代表性事件（已用打分公式选好、去重过），排列顺序就是热度排序，不需要你重新判断哪条更重要**——你只负责写内容。
 
-每条 body 写 150-220 字：先交代清楚这件事本身（事实），再给出你自己的解读或态度（这周允许主观评论，不是纯事实快讯）——可以点评这件事对行业/车迷意味着什么，也可以是你自己的态度或猜测方向，但要让读者分得清哪是事实哪是你的判断。
+每条 body 写 150-220 字：先交代清楚这件事本身（事实），再给出你自己的解读或态度（这里允许主观评论，不是纯事实快讯）——可以点评这件事对行业/车迷意味着什么，也可以是你自己的态度或猜测方向，但要让读者分得清哪是事实哪是你的判断。
 
 输出必须是 JSON：
 {
-  "headline": "把本周 2-3 条最重磅新闻的关键词揉进一句话标题",
-  "briefing": "开场白，2-4 句，像播客开场一样点出这一周的主线/趋势——是车手八卦密集，还是新车扎堆发布，还是行业动荡——可以有你自己的视角",
+  "headline": "把上周 2-3 条最重磅新闻的关键词揉进一句话标题",
+  "briefing": "开场白，2-4 句，像播客开场一样点出上周的主线/趋势——是车手八卦密集，还是新车扎堆发布，还是行业动荡——可以有你自己的视角",
   "items": [
     { "index": <对应输入条目的编号>, "heading": "一行小标题，加粗一句话，不用 markdown # 标题", "body": "正文，事实+个人解读，150-220字" }
   ]
@@ -168,7 +181,7 @@ items 里每条输入都要出现一次，按输入给的顺序（已经是热�
     })
     .join("\n\n");
 
-  const user = `本周（${mondayStr} 至 ${lastDateStr}）选出了 ${candidates.length} 条代表性热点，请据此生成周报：\n\n${itemLines}`;
+  const user = `上周（${mondayStr} 至 ${lastDateStr}）选出了 ${candidates.length} 条代表性热点，请据此生成周报：\n\n${itemLines}`;
   return { system, user };
 }
 
@@ -192,9 +205,9 @@ function renderWeekly(
 ): string {
   const lines: string[] = [];
   lines.push(`# ${weekly.headline}`, "");
-  lines.push(`> ${formatMonthDay(mondayStr)} – ${formatMonthDay(lastDateStr)}（本周）`, "");
+  lines.push(`> ${formatMonthDay(mondayStr)} – ${formatMonthDay(lastDateStr)}（上周）`, "");
   lines.push(weekly.briefing, "");
-  lines.push("## 本周十大热点", "");
+  lines.push("## 上周十大热点", "");
 
   const byIndex = new Map(weekly.items.map((item) => [item.index, item]));
   candidates.forEach((candidate, i) => {

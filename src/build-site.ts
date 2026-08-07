@@ -355,7 +355,7 @@ function renderWeeklyIndex(entries: WeeklyEntry[]): string {
   const body =
     entries.length > 0
       ? `<ul class="index-list">${items}</ul>`
-      : `<p class="index-briefing">还没有周报——每周五的定时任务会自动生成本周的十大热点回顾。</p>`;
+      : `<p class="index-briefing">还没有周报——每周一的定时任务会自动生成上一周的十大热点回顾。</p>`;
 
   return `<!doctype html>
 <html lang="zh">
