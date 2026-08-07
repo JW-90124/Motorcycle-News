@@ -9,6 +9,7 @@
   "scripts": {
     "collect": "tsx src/collect.ts",
     "digest": "tsx src/digest.ts",
+    "weekly-digest": "tsx src/weekly-digest.ts",
     "build-site": "tsx src/build-site.ts",
     "typecheck": "tsc --noEmit"
   },

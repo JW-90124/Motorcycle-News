@@ -23,19 +23,8 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { z } from "zod";
 import { DeepSeekClient, DeepSeekError } from "./ai/deepseek.js";
-import { clusterSignals, independentSourceCount } from "./domain/clustering.js";
-import { scoreConfidence, scoreHeat } from "./domain/scoring.js";
-import { sources } from "./sources.js";
-import type { CollectedSignal } from "./types.js";
-
-type RawSignal = CollectedSignal & { sourceSlug: string; sourceName: string };
-
-interface ScoredSignal {
-  signal: RawSignal;
-  confidence: number;
-  heat: number;
-  clusterSize: number;
-}
+import { scoreSignals } from "./domain/score-signals.js";
+import type { RawSignal, ScoredSignal } from "./domain/score-signals.js";
 
 const SUB_PUSH_SCORE_THRESHOLD = 60;
 // A "骨架新闻" (bare announcement with no real detail) can still score high
@@ -114,7 +103,8 @@ async function main() {
   }
 
   const client = new DeepSeekClient({ apiKey });
-  const scored = scoreSignals(raw.signals);
+  const contextSignals = await readRecentContextSignals(dateStr);
+  const scored = scoreSignals(raw.signals, contextSignals);
 
   // Selection is entirely deterministic (our own scoring), not left to the
   // model's judgment — the model's job is writing content for whatever
@@ -228,6 +218,23 @@ async function readRawSignals(path: string): Promise<{ signals: RawSignal[] } | 
     if ((error as NodeJS.ErrnoException).code === "ENOENT") return null;
     throw error;
   }
+}
+
+// 3 calendar days back reliably reaches the previous Mon/Wed/Fri collection
+// run in every case (Monday needs Friday, 3 days back; Wednesday and Friday
+// each only need 2) — see the corroboration-window note on scoreSignals.
+const CONTEXT_LOOKBACK_DAYS = 3;
+
+async function readRecentContextSignals(todayStr: string): Promise<RawSignal[]> {
+  const [year, month, day] = todayStr.split("-").map(Number) as [number, number, number];
+  const context: RawSignal[] = [];
+  for (let offset = 1; offset <= CONTEXT_LOOKBACK_DAYS; offset++) {
+    const date = new Date(Date.UTC(year, month - 1, day - offset));
+    const dateStr = date.toISOString().slice(0, 10);
+    const raw = await readRawSignals(`data/raw/${dateStr}.json`);
+    if (raw) context.push(...raw.signals);
+  }
+  return context;
 }
 
 function buildDigestPrompt(
@@ -361,45 +368,6 @@ function renderDigest(
   }
 
   return `${lines.join("\n").trimEnd()}\n`;
-}
-
-/**
- * Confidence/heat per signal — see domain/scoring.ts for the formulas.
- * independentSourceCount comes from clustering this run's signals against
- * each other (agent-pulse-style token/fingerprint matching, scaled down —
- * see domain/clustering.ts).
- */
-function scoreSignals(signals: RawSignal[]): ScoredSignal[] {
-  const clusters = clusterSignals(signals);
-  const clusterSizeBySignal = new Map<RawSignal, number>();
-  for (const cluster of clusters) {
-    const size = independentSourceCount(cluster);
-    for (const member of cluster) clusterSizeBySignal.set(member, size);
-  }
-
-  const sourceBySlug = new Map(sources.map((source) => [source.slug, source]));
-
-  return signals.map((signal) => {
-    const source = sourceBySlug.get(signal.sourceSlug);
-    const clusterSize = clusterSizeBySignal.get(signal) ?? 1;
-    const dateKnown = signal.rawMeta.dateInferred !== true;
-    const ageHours = dateKnown ? (Date.now() - new Date(signal.publishedAt).getTime()) / 3_600_000 : Infinity;
-
-    const confidence = scoreConfidence({
-      authorityScore: source?.authorityScore ?? 50,
-      isPrimary: source?.isPrimary ?? false,
-      independentSourceCount: clusterSize,
-    });
-    const heat = scoreHeat({
-      category: signal.category,
-      independentSourceCount: clusterSize,
-      titleAndSummary: `${signal.title} ${signal.summary}`,
-      ageHours,
-      dateKnown,
-    });
-
-    return { signal, confidence, heat, clusterSize };
-  });
 }
 
 /**

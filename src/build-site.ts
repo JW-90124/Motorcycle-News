@@ -37,7 +37,17 @@ interface DigestEntry {
   highlights: string[];
 }
 
+interface WeeklyEntry {
+  monday: string;
+  filename: string;
+  title: string;
+  dateRange: string;
+  briefing: string;
+  itemCount: number;
+}
+
 const FILENAME_PATTERN = /^(\d{4}-\d{2}-\d{2})(?:-子推送-([a-f0-9]+))?\.md$/;
+const WEEKLY_FILENAME_PATTERN = /^(\d{4}-\d{2}-\d{2})\.md$/;
 const MAX_PREVIEW_HIGHLIGHTS = 3;
 
 async function main() {
@@ -68,15 +78,49 @@ async function main() {
     const content = await readFile(`${DIGESTS_DIR}/${entry.filename}`, "utf8");
     const bodyHtml = await marked.parse(content);
     const outName = entry.filename.replace(/\.md$/, ".html");
-    await writeFile(`${SITE_DIR}/digests/${outName}`, renderPage(entry.title, bodyHtml), "utf8");
+    await writeFile(`${SITE_DIR}/digests/${outName}`, renderPage(entry.title, bodyHtml, "../index.html"), "utf8");
   }
+
+  const weeklyDir = `${DIGESTS_DIR}/weekly`;
+  const weeklyEntries: WeeklyEntry[] = [];
+  let weeklyFiles: string[] = [];
+  try {
+    weeklyFiles = await readdir(weeklyDir);
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
+  }
+
+  for (const filename of weeklyFiles) {
+    if (!filename.endsWith(".md")) continue;
+    const match = filename.match(WEEKLY_FILENAME_PATTERN);
+    if (!match) continue;
+    const content = await readFile(`${weeklyDir}/${filename}`, "utf8");
+    weeklyEntries.push({
+      monday: match[1]!,
+      filename,
+      title: extractTitle(content),
+      dateRange: extractWeeklyDateRange(content),
+      briefing: extractWeeklyBriefing(content),
+      itemCount: countItems(content),
+    });
+  }
+  weeklyEntries.sort((a, b) => (a.monday < b.monday ? 1 : -1));
+
+  await mkdir(`${SITE_DIR}/weekly`, { recursive: true });
+  for (const entry of weeklyEntries) {
+    const content = await readFile(`${weeklyDir}/${entry.filename}`, "utf8");
+    const bodyHtml = await marked.parse(content);
+    const outName = entry.filename.replace(/\.md$/, ".html");
+    await writeFile(`${SITE_DIR}/weekly/${outName}`, renderPage(entry.title, bodyHtml, "index.html", " · 每周"), "utf8");
+  }
+  await writeFile(`${SITE_DIR}/weekly/index.html`, renderWeeklyIndex(weeklyEntries), "utf8");
 
   await writeFile(`${SITE_DIR}/index.html`, renderIndex(entries), "utf8");
   // GitHub Pages needs this to skip Jekyll processing, which would
   // otherwise mangle a directory named `digests`.
   await writeFile(`${SITE_DIR}/.nojekyll`, "", "utf8");
 
-  console.log(`已生成 ${entries.length} 个页面到 ${SITE_DIR}/`);
+  console.log(`已生成 ${entries.length + weeklyEntries.length + 1} 个页面到 ${SITE_DIR}/`);
 }
 
 function extractTitle(markdown: string): string {
@@ -96,6 +140,26 @@ function extractHighlights(markdown: string): string[] {
   const section = markdown.match(/##\s*今日热点导览\s*\n([\s\S]*?)(?=\n##|\n*$)/);
   if (!section?.[1]) return [];
   return [...section[1].matchAll(/^-\s+(.+)$/gm)].map((m) => m[1]!.trim());
+}
+
+// weekly-digest.ts renders `> {monday} – {last date}（本周）` as the second
+// line — reuse it verbatim rather than reformatting, so the site always
+// shows exactly the range the digest itself claims to cover.
+function extractWeeklyDateRange(markdown: string): string {
+  const match = markdown.match(/^>\s*(.+)$/m);
+  return match?.[1]?.trim() ?? "";
+}
+
+// The briefing paragraph is the first non-blank, non-heading, non-blockquote
+// line after the date range — see weekly-digest.ts's renderWeekly.
+function extractWeeklyBriefing(markdown: string): string {
+  const lines = markdown.split("\n");
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#") || trimmed.startsWith(">")) continue;
+    return trimmed;
+  }
+  return "";
 }
 
 const WEEKDAYS = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
@@ -142,6 +206,16 @@ function baseStyles(): string {
     }
     .brand-cn { font-size: 1.1rem; font-weight: 500; color: var(--ink); }
     .brand-tagline { margin: 0.5rem 0 0; color: var(--ink-faint); font-size: 0.92rem; font-style: italic; }
+
+    /* Daily / Weekly tab switcher */
+    .tab-nav { display: flex; gap: 1.5rem; margin: 1.4rem 0 0; border-bottom: 1px solid var(--line); }
+    .tab-nav a {
+      color: var(--ink-soft); font-size: 0.95rem; font-weight: 600;
+      padding: 0 0 0.7rem; border-bottom: 2px solid transparent;
+    }
+    .tab-nav a:hover { color: var(--kopi); text-decoration: none; }
+    .tab-nav a.tab-active { color: var(--kopi-dark); border-bottom-color: var(--kopi); }
+    .index-briefing { color: var(--ink-soft); font-size: 0.9rem; margin: 0.6rem 0 0; line-height: 1.6; }
 
     /* Back link on article pages */
     .back-nav { max-width: 640px; margin: 0 auto; padding: 1.5rem 0 0.5rem; }
@@ -193,7 +267,7 @@ function baseStyles(): string {
   `;
 }
 
-function renderPage(title: string, bodyHtml: string): string {
+function renderPage(title: string, bodyHtml: string, backHref: string, backSuffix = ""): string {
   return `<!doctype html>
 <html lang="zh">
 <head>
@@ -203,7 +277,7 @@ function renderPage(title: string, bodyHtml: string): string {
 <style>${baseStyles()}</style>
 </head>
 <body>
-<nav class="back-nav"><a href="../index.html">← <span class="back-en">${BRAND_EN}</span> ${BRAND_CN}</a></nav>
+<nav class="back-nav"><a href="${backHref}">← <span class="back-en">${BRAND_EN}</span> ${BRAND_CN}${backSuffix}</a></nav>
 <main>${bodyHtml}</main>
 </body>
 </html>`;
@@ -255,10 +329,60 @@ function renderIndex(entries: DigestEntry[]): string {
     <span class="brand-en">${BRAND_EN}</span><span class="brand-cn">${BRAND_CN}</span>
   </a>
   <p class="brand-tagline">${TAGLINE}</p>
+  ${tabNav("daily")}
 </header>
 <main><ul class="index-list">${items}</ul></main>
 </body>
 </html>`;
+}
+
+function renderWeeklyIndex(entries: WeeklyEntry[]): string {
+  const items = entries
+    .map(
+      (entry) => `<li class="index-day">
+        <div class="index-date">${escapeHtml(entry.dateRange)}</div>
+        <div class="index-card">
+          <div class="index-card-head">
+            <a class="index-title" href="${entry.filename.replace(/\.md$/, ".html")}">${escapeHtml(entry.title)}</a>
+            <span class="index-count">十大热点</span>
+          </div>
+          ${entry.briefing ? `<p class="index-briefing">${escapeHtml(entry.briefing)}</p>` : ""}
+        </div>
+      </li>`,
+    )
+    .join("\n");
+
+  const body =
+    entries.length > 0
+      ? `<ul class="index-list">${items}</ul>`
+      : `<p class="index-briefing">还没有周报——每周五的定时任务会自动生成本周的十大热点回顾。</p>`;
+
+  return `<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>每周热点 · ${SITE_TAB_TITLE}</title>
+<style>${baseStyles()}</style>
+</head>
+<body>
+<header class="brand-header">
+  <a class="brand-link" href="../index.html">
+    <span class="brand-en">${BRAND_EN}</span><span class="brand-cn">${BRAND_CN}</span>
+  </a>
+  <p class="brand-tagline">${TAGLINE}</p>
+  ${tabNav("weekly")}
+</header>
+<main>${body}</main>
+</body>
+</html>`;
+}
+
+function tabNav(active: "daily" | "weekly"): string {
+  return `<nav class="tab-nav">
+    <a class="${active === "daily" ? "tab-active" : ""}" href="${active === "daily" ? "index.html" : "../index.html"}">每日</a>
+    <a class="${active === "weekly" ? "tab-active" : ""}" href="${active === "weekly" ? "index.html" : "weekly/index.html"}">每周</a>
+  </nav>`;
 }
 
 function escapeHtml(value: string): string {
