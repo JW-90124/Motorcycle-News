@@ -1,0 +1,823 @@
+{
+  "collectedAt": "2026-08-10T01:28:24.718Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-yamaha-motogp-waterloo-silverstone-hoffnung",
+      "url": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-yamaha-motogp-waterloo-silverstone-hoffnung",
+      "title": "Toprak Razgatlioglu (Yamaha): Nur ein Gegner sah nach ihm die Zielflagge",
+      "summary": "Toprak Razgatlioglu (Yamaha): Nur ein Gegner sah nach ihm die Zielflagge Superbike-Gigant Toprak Razgatlioglu hätte sich für seine erste MotoGP-Saison keine heiklere Aufgabe stellen können. Weshalb er nach seinem Waterloo in England trotzdem Hoffnung hegt. MotoGP 09.08.2026 - 22:02",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.971Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/di-giannantonio-raeumt-ein-ducati-zweite-kraft-nicht-erst-seit-silverstone",
+      "url": "https://www.speedweek.com/a/motogp/di-giannantonio-raeumt-ein-ducati-zweite-kraft-nicht-erst-seit-silverstone",
+      "title": "Di Giannantonio räumt ein: Ducati zweite Kraft, nicht erst seit Silverstone",
+      "summary": "Di Giannantonio räumt ein: Ducati zweite Kraft, nicht erst seit Silverstone MotoGP 09.08.2026 - 20:54",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.971Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/yamaha-techniker-patzten-fabio-quartararo-flog-nach-strafe-aus-den-punkten",
+      "url": "https://www.speedweek.com/a/motogp/yamaha-techniker-patzten-fabio-quartararo-flog-nach-strafe-aus-den-punkten",
+      "title": "Yamaha-Techniker patzten: Fabio Quartararo flog nach Strafe aus den Punkten",
+      "summary": "Yamaha-Techniker patzten: Fabio Quartararo flog nach Strafe aus den Punkten MotoGP 09.08.2026 - 19:57",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.971Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ktm-beisser-pedro-acosta-auf-platz-5-klare-botschaft-auch-an-marc-marquez",
+      "url": "https://www.speedweek.com/a/motogp/ktm-beisser-pedro-acosta-auf-platz-5-klare-botschaft-auch-an-marc-marquez",
+      "title": "KTM-Beißer Pedro Acosta auf Platz 5: Klare Botschaft auch an Marc Marquez",
+      "summary": "KTM-Beißer Pedro Acosta auf Platz 5: Klare Botschaft auch an Marc Marquez MotoGP 09.08.2026 - 19:08",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.972Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marc-marquez-silverstone-schlaeppchen-ducati",
+      "url": "https://www.speedweek.com/a/motogp/marc-marquez-silverstone-schlaeppchen-ducati",
+      "title": "Ducati-Star Marc Marquez (7.) nimmt die Silverstone-Schlappe auf sich",
+      "summary": "Ducati-Star Marc Marquez (7.) nimmt die Silverstone-Schlappe auf sich MotoGP 09.08.2026 - 17:24",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.972Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/bester-ducati-pilot-alex-marquez-der-fehler-geht-auf-meine-kappe",
+      "url": "https://www.speedweek.com/a/motogp/bester-ducati-pilot-alex-marquez-der-fehler-geht-auf-meine-kappe",
+      "title": "Bester Ducati-Pilot Alex Marquez (4.): «Der Fehler geht auf meine Kappe»",
+      "summary": "Bester Ducati-Pilot Alex Marquez (4.): «Der Fehler geht auf meine Kappe» Der spanische Gresini Ducati-Fahrer Alex Marquez sicherte sich im MotoGP-Hauptrennen von Silverstone am Sonntag Platz 4 – ärgerte sich aber über einen Fehler, der ihm den Podiumsplatz kostete. MotoGP 09.08.2026 - 17:15",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.974Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jorge-martin-silverstone-sieg-kurve-1",
+      "url": "https://www.speedweek.com/a/motogp/jorge-martin-silverstone-sieg-kurve-1",
+      "title": "Jorge Martin (2.): Der Sieg in Silverstone war schon nach Kurve 1 futsch",
+      "summary": "Jorge Martin (2.): Der Sieg in Silverstone war schon nach Kurve 1 futsch Pole, Sprinttriumph und der zweite Platz im MotoGP-Rennen: Das zwölfte Rennwochenende in Silverstone hätte für Jorge Martin kaum besser laufen können. Der Spanier weiß genau, wo er den Sieg verlor. MotoGP 09.08.2026 - 16:22",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.974Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/raul-fernandez-silverstone-motogp-sieg",
+      "url": "https://www.speedweek.com/a/motogp/raul-fernandez-silverstone-motogp-sieg",
+      "title": "Die Konkurrenz demontiert: Raul Fernandez freute sich wie ein kleines Kind",
+      "summary": "Die Konkurrenz demontiert: Raul Fernandez freute sich wie ein kleines Kind Trackhouse-Aprilia-Fahrer Raul Fernandez eroberte im MotoGP-Hauptrennen in Silverstone nach einer Solofahrt seinen zweiten Triumph und war dankbar über die Anwesenheit von Teameigentümer Justin Marks. MotoGP 09.08.2026 - 15:52",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.974Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/platz-3-wie-ein-sieg-bezzecchi-machte-aprilia-triumph-in-england-perfekt",
+      "url": "https://www.speedweek.com/a/motogp/platz-3-wie-ein-sieg-bezzecchi-machte-aprilia-triumph-in-england-perfekt",
+      "title": "Platz 3 wie ein Sieg: Bezzecchi machte Aprilia-Triumph in England perfekt",
+      "summary": "Platz 3 wie ein Sieg: Bezzecchi machte Aprilia-Triumph in England perfekt Nach Platz 3 im Sprint gelang Aprilia-Held Marco Bezzecchi im Britischen GP ein kleines MotoGP-Wunder. Bei seiner Rückkehr eroberte «Bez» Platz 3 und verteidigte das Podium mit großem Kampfgeist. MotoGP 09.08.2026 - 15:09",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.974Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-live-ticker-silverstone-aprilia-vs-ducati",
+      "url": "https://www.speedweek.com/a/motogp/motogp-live-ticker-silverstone-aprilia-vs-ducati",
+      "title": "MotoGP Live-Ticker Silverstone: Aprilia zerschmetterte die Gegnerschaft",
+      "summary": "MotoGP Live-Ticker Silverstone: Aprilia zerschmetterte die Gegnerschaft Jorge Martin konnte seine Führung in der MotoGP-WM mit dem Sprintsieg in Silverstone ausbauen und legte im Grand Prix am Sonntag noch einen drauf. Den Sieg eroberte aber ein anderer Aprilia-Fahrer. MotoGP 09.08.2026 - 13:25",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.974Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/warm-up-silverstone-ducati-aprilia-mix-mit-alex-marquez-an-der-spitze",
+      "url": "https://www.speedweek.com/a/motogp/warm-up-silverstone-ducati-aprilia-mix-mit-alex-marquez-an-der-spitze",
+      "title": "Warm-up, Silverstone: Ducati-Aprilia-Mix mit Alex Marquez an der Spitze",
+      "summary": "Warm-up, Silverstone: Ducati-Aprilia-Mix mit Alex Marquez an der Spitze Das kurze Aufwärmen der MotoGP in Silverstone endete mit einer Bestzeit von Gresini-Pilot Alex Marquez, fehlerfreien Fahrten der WM-Elite und einem Defekt an der KTM von Enea Bastianini. MotoGP 09.08.2026 - 11:08",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.975Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/raul-fernandez-nach-applaus-vom-trackhouse-boss-schimpfte-er-sich-selbst",
+      "url": "https://www.speedweek.com/a/motogp/raul-fernandez-nach-applaus-vom-trackhouse-boss-schimpfte-er-sich-selbst",
+      "title": "Raul Fernandez: Nach Applaus vom Trackhouse-Boss schimpfte er sich selbst",
+      "summary": "Raul Fernandez: Nach Applaus vom Trackhouse-Boss schimpfte er sich selbst Beide Aprilia von Trackhouse Racing sind in Silverstone in Startreihe 1 zu finden. Nach einem verpatzten Sprint will Raul Fernandez besser starten und seiner Mannschaft den ganz großen Erfolg liefern. MotoGP 09.08.2026 - 10:13",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.975Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/trotz-cleverer-fahrt-platz-7-fuer-joan-mir-kein-grund-stolz-zu-sein",
+      "url": "https://www.speedweek.com/a/motogp/trotz-cleverer-fahrt-platz-7-fuer-joan-mir-kein-grund-stolz-zu-sein",
+      "title": "Trotz «cleverer Fahrt»: Platz 7 für Joan Mir kein Grund, stolz zu sein",
+      "summary": "Trotz «cleverer Fahrt»: Platz 7 für Joan Mir kein Grund, stolz zu sein Honda-Pilot Joan Mir steuerte die RC213V im MotoGP-Sprintrennen in Silverstone vom zwölften Platz noch vor auf Rang 7. Das Ergebnis des Spaniers wurde jedoch bereits vor dem Rennen beeinträchtigt. MotoGP 09.08.2026 - 09:04",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.975Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-silverstone-live-uebertragung-zeiten",
+      "url": "https://www.speedweek.com/a/motogp/motogp-silverstone-live-uebertragung-zeiten",
+      "title": "Ab 12.15 Uhr: Wo die Rennen der MotoGP-WM in Silverstone live zu sehen sind",
+      "summary": "Ab 12.15 Uhr: Wo die Rennen der MotoGP-WM in Silverstone live zu sehen sind Am Sonntag finden auf dem Silverstone Circuit in England die Grands Prix der Klassen Moto2, MotoGP und Moto3 statt. SPEEDWEEK.com gibt eine Übersicht, wann und wo die Rennen gezeigt werden. MotoGP 09.08.2026 - 08:09",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.975Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-sprint-silverstone-live-uebertragung",
+      "url": "https://www.speedweek.com/a/motogp/motogp-sprint-silverstone-live-uebertragung",
+      "title": "Ab 17 Uhr: Wo der MotoGP-Sprint in Silverstone live zu sehen ist",
+      "summary": "Ab 17 Uhr: Wo der MotoGP-Sprint in Silverstone live zu sehen ist MotoGP 08.08.2026 - 07:12",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.975Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-zeittraining-silverstone-rekordjagd-endete-mit-bezzecchi-auf-p1",
+      "url": "https://www.speedweek.com/a/motogp/motogp-zeittraining-silverstone-rekordjagd-endete-mit-bezzecchi-auf-p1",
+      "title": "MotoGP-Zeittraining, Silverstone: Rekordjagd endete mit Bezzecchi auf P1!",
+      "summary": "MotoGP-Zeittraining, Silverstone: Rekordjagd endete mit Bezzecchi auf P1! MotoGP 07.08.2026 - 18:15",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.976Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/gruenes-licht-ktm-mit-genehmigung-zur-korrektur-der-motogp-triebwerke",
+      "url": "https://www.speedweek.com/a/motogp/gruenes-licht-ktm-mit-genehmigung-zur-korrektur-der-motogp-triebwerke",
+      "title": "Grünes Licht: KTM mit Genehmigung zur «Korrektur» der MotoGP-Triebwerke",
+      "summary": "Grünes Licht: KTM mit Genehmigung zur «Korrektur» der MotoGP-Triebwerke MotoGP 07.08.2026 - 06:15",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.976Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/red-bull-ring-13-millionen-investment-in-phase-1",
+      "url": "https://www.speedweek.com/a/motogp/red-bull-ring-13-millionen-investment-in-phase-1",
+      "title": "Red Bull Ring: 13-Millionen-Investment in Phase 1",
+      "summary": "Red Bull Ring: 13-Millionen-Investment in Phase 1 MotoGP 09.08.2025 - 17:37",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.976Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/spanier-im-nachteil-gonzalez-ueber-motogp-huerden",
+      "url": "https://www.speedweek.com/a/motogp/spanier-im-nachteil-gonzalez-ueber-motogp-huerden",
+      "title": "Spanier im Nachteil: Gonzalez über MotoGP-Hürden",
+      "summary": "Spanier im Nachteil: Gonzalez über MotoGP-Hürden MotoGP 09.08.2025 - 16:45",
+      "language": "de",
+      "publishedAt": "2026-08-10T01:27:49.977Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804200/ktm-gets-greenlight-to-see-why-motogp-engine-keeps-breaking/",
+      "url": "https://www.rideapart.com/news/804200/ktm-gets-greenlight-to-see-why-motogp-engine-keeps-breaking",
+      "title": "KTM's Rivals Say \"Fine, You Can Fix Your Broken MotoGP Engine\"",
+      "summary": "After some back and forth, concessions have been made.",
+      "language": "en",
+      "publishedAt": "2026-08-09T12:38:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/803909/how-to-build-a-zero-motorcycles-xe-electric-dirt-bike-video/",
+      "url": "https://www.rideapart.com/features/803909/how-to-build-a-zero-motorcycles-xe-electric-dirt-bike-video",
+      "title": "It Was Easy to Build Zero Motorcycle's New XE Dirt Bike In My Garage",
+      "summary": "I even swapped the suspension to the new Sirris stuff, too.",
+      "language": "en",
+      "publishedAt": "2026-08-08T14:00:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804102/royal-enfield-one-ride-2026-details-information/",
+      "url": "https://www.rideapart.com/news/804102/royal-enfield-one-ride-2026-details-information",
+      "title": "Royal Enfield's One Ride 2026 Is Coming. Here's What You Need To Know",
+      "summary": "Going for a day-long ride is cool, but what if you did it with an entire globe of friends who all love motorcycles as much as you do?",
+      "language": "en",
+      "publishedAt": "2026-08-07T13:08:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804095/triumph-is-developing-a-new-moto2-engine-what-does-this-mean-for-the-street-triple/",
+      "url": "https://www.rideapart.com/news/804095/triumph-is-developing-a-new-moto2-engine-what-does-this-mean-for-the-street-triple",
+      "title": "Triumph Is Developing a New Moto2 Engine. Guess What This Could Mean for the Street Triple",
+      "summary": "Triumph just announced that it's updating its Moto2 engine for 2027. Could this be the powerplant for a new Street Triple?",
+      "language": "en",
+      "publishedAt": "2026-08-07T12:49:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804089/ducati-made-in-italy-ministry-of-enterprises-agreement/",
+      "url": "https://www.rideapart.com/news/804089/ducati-made-in-italy-ministry-of-enterprises-agreement",
+      "title": "Italy's Government Just Granted Ducati Millions For R&D And Keeping The Country's Manufacturing Going",
+      "summary": "How's €33 million sound?",
+      "language": "en",
+      "publishedAt": "2026-08-07T12:22:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804069/hungary-europe-danube-drought-unearthed-lost-wwii-motorcycle/",
+      "url": "https://www.rideapart.com/news/804069/hungary-europe-danube-drought-unearthed-lost-wwii-motorcycle",
+      "title": "Europe's Ongoing Drought Just Unearthed a WWII Motorcycle Left In a River",
+      "summary": "What's the restoration costs, you think?",
+      "language": "en",
+      "publishedAt": "2026-08-07T11:53:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803941/jay-leno-crashed-1940-indian-chief-restored/",
+      "url": "https://www.rideapart.com/news/803941/jay-leno-crashed-1940-indian-chief-restored",
+      "title": "Jay Leno's Near-Fatal Crash Exposed A Restoration Disaster Decades In The Making",
+      "summary": "Turns out the crash wasn't the biggest thing wrong with the bike.",
+      "language": "en",
+      "publishedAt": "2026-08-07T11:23:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803936/motorcycle-jean-scientific-safety-test-bennetts-bikesocial/",
+      "url": "https://www.rideapart.com/news/803936/motorcycle-jean-scientific-safety-test-bennetts-bikesocial",
+      "title": "I Wear Motorcycle Jeans All The Time. But Are They Actually Safe?",
+      "summary": "I've crashed in motorcycle jeans before, too, and they've saved my bacon on more than one occasion. But every situation is different, and so are jeans.",
+      "language": "en",
+      "publishedAt": "2026-08-07T11:21:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/803942/eu-satellite-speed-limiting-technology-proposed/",
+      "url": "https://www.rideapart.com/news/803942/eu-satellite-speed-limiting-technology-proposed",
+      "title": "The Next 'Motorcycle Rider Aid' Might Be The One That Won't Let You Speed",
+      "summary": "What happens when your motorcycle decides your throttle input is no longer a command, but a request it can deny?",
+      "language": "en",
+      "publishedAt": "2026-08-07T11:00:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/motorcyclist-caught-speeding-155mph-dual-carriageway-cornwall",
+      "url": "https://www.visordown.com/news/motorcyclist-caught-speeding-155mph-dual-carriageway-cornwall",
+      "title": "Road safety police in Cornwall report 155mph motorcycle speeding offence",
+      "summary": "A motorcyclist has been caught speeding on a dual carriageway in Cornwall at more than twice the speed limit. A motorcyclist in the UK is set for a court hearing after being caught speeding at more than double the speed limit on a dual carriageway. The incident took place on May 30, 2026, when the motorcyclist was caught doing 155mph in a 70 zone. The speeding offence was reported by the Devon and Cornwall Police Road Safety Team, which says more information regarding the outcome of the court hearing will be provided in “due course”. By travelling at 155mph, the rider not only put his own life at risk, but also the lives of other road users around him. The rider can be seen doing these reckless speeds while overtaking cars on the inside lane, on what seems to be a 60th Grand Prix Anniversary Yamaha supersport. Hitting such speeds means the motorcycle rider was likely covering the distance of a full size football pitch in roughly 1.5 seconds. That’s the same amount of time that the average road user takes before they begin reacting to a hazard, according to the safety team. A social media post from the Devon and Cornwall Police Road Safety Team said this about the speeding offence: “The summer months, dry weather, longer evenings and sunny days create great conditions for getting out and enjoying a ride on your motorcycle. No problem, if you can keep within the speed limit and focus on your safety and the safety of everyone else on the road. “This rider chose not to do that, a",
+      "language": "en",
+      "publishedAt": "2026-08-10T01:28:01.776Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/find-your-ride-tribe-mcl26-and-win-one-custom-arai-rx-7v-evo",
+      "url": "https://www.visordown.com/news/find-your-ride-tribe-mcl26-and-win-one-custom-arai-rx-7v-evo",
+      "title": "MCL is giving away a one-off custom helmet – and it couldn’t be easier to enter!",
+      "summary": "MCL26 is giving riders the chance to win a one-off custom-painted helmet while celebrating every corner of the biking community. Be you an adventure rider, racer, custom builder or commuter, there is one thing that connects us all under one roof – we start a ride the same way, by pulling on a helmet. That's the thinking behind MCL’s latest RideTribe campaign, which is celebrating the diversity of the UK motorcycle community, by giving one lucky rider the chance to win a unique, custom-painted helmet at MCL26. The competition centres around a one-off helmet, created by the renowned lid painter RichArt. It is based on a Arai RX-7V Evo helmet, which is widely regarded as a benchmark in motorcycle helmet technology. Making the one-off piece all the more rare is what will happen to it in the run up to the show. It’s set to begin a UK-wide tour, where it will be signed by riding celebrities and racing royalty, making it totally one of a kind. To be in with a chance of winning the stunning looking lid, entering is easy. Dotted around the NEC will be QR codes. Simply head to MCL26, scan one of the QR codes and follow the instructions – it really couldn’t be any simpler. It's a fitting build-up to MCL26, which returns to Birmingham's NEC from 21 to 29 November. As ever, the show promises the latest motorcycles from the world's biggest manufacturers, opportunities to test ride new machines, riding experiences for newcomers, live entertainment and halls packed with the latest riding kit",
+      "language": "en",
+      "publishedAt": "2026-08-10T01:28:01.776Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/mcl-2026-ticket-deal-includes-free-spada-rucksack-worth-ps4499",
+      "url": "https://www.visordown.com/news/mcl-2026-ticket-deal-includes-free-spada-rucksack-worth-ps4499",
+      "title": "Heading to Motorcycle Live? Here is how to grab a free Spada rucksack",
+      "summary": "Buy an advance MCL26 ticket with the Spada package and receive a water-resistant rucksack worth £44.99 when you visit the NEC this November. One of the best things about MCL is that your ticket gets you far more than just entry through the doors of the UK’s biggest motorcycle show. For MCL26, there's another reason to book ahead, because visitors can also walk away with a very practical bit of riding kit. Anyone buying a qualifying advance ticket can claim a Spada rucksack with an RRP of £44.99. The ticket costs £36.50, meaning the bag is effectively worth more than the difference compared to a standard advance ticket, making it an easy upgrade if you're already planning a visit. The rucksack isn't a throwaway promotional freebie either. It features a water-resistant construction, carries up to 39 litres and includes multiple external storage pockets alongside a padded internal laptop sleeve. Whether you're travelling to the NEC on two wheels or looking for something useful once you're back home, it's the sort of bag that will see regular use long after the show has finished. Claiming it is also extremely straightforward. Simply select the Spada ticket option when booking your advance ticket, then collect the bag from the designated redemption point inside Hall 3 once you get to the show. Of course, the bag is only part of the attraction. MCL returns to Birmingham's NEC from 21 to 29 November with hundreds of exhibitors, the latest 2027 motorcycles, free Learn2Ride sessions f",
+      "language": "en",
+      "publishedAt": "2026-08-10T01:28:01.776Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/buell-hill-climber-concept-could-be-heading-production-adventure-motorcycle",
+      "url": "https://www.visordown.com/news/buell-hill-climber-concept-could-be-heading-production-adventure-motorcycle",
+      "title": "Is “The Goat” concept actually going to be an adventure bike?",
+      "summary": "A new Buell hill climber concept, which is based off one of the American company’s early Super Cruiser prototypes, could soon be heading for production as an adventure motorcycle. It looks as though Buell Motorcycle’ flagship Super Cruiser could be about to serve as inspiration for a new adventure motorcycle in the near future. This is after a Buell “The Goat” hill climber concept was revealed, and while not all concept motorcycles head for production, it’s clear that by using the Super Cruiser as its base, the American brand could at least be considering it. According to Hot Bike, the new concept was built as a hill climber to test how versatile Buell’s Super Cruiser motorcycle platform is. A post shared by Hot Bike Magazine (@hotbikemag) The bike makes use of long-travel WP suspension, and a stripped-down chassis, which in-turn has led to an aggressive-looking two-way exhaust system. The report goes on to say that, according to Buell CEO Bill Melvin, discussions to adapt the platform into an adventure-based motorcycle have already taken place with the team that was in charge of the project. Photos of the bike show the brand’s Super Cruiser wearing knobbly off-road-focused tyres, which is one of the most evident and significant adjustments made from the standard model in road trim. With the Super Cruiser clearly showing itself as a production model that could take on a new adventure-based look, this could also mean that Buell has other designs it is considering for the futur",
+      "language": "en",
+      "publishedAt": "2026-08-10T01:28:01.776Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/ducati-sets-out-future-plans-huge-eu121m-motorcycle-rd-investment",
+      "url": "https://www.visordown.com/news/ducati-sets-out-future-plans-huge-eu121m-motorcycle-rd-investment",
+      "title": "Ducati secures major research and development investment fund",
+      "summary": "Despite ongoing rumours of the company potentially being sold, Ducati is set to strengthen its research and development capabilities through a new €121m investment fund. Ducati has secured a €121m (around £104m) investment fund to strengthen competitiveness, innovation and growth through its new project, ‘Ducati Raise the Bar’. Ducati says the new programme will focus heavily on the company’s R&D (Research and Development) sector, as well as technical innovation. The Ministry of Enterprises and Made in Italy authorised the new agreement, according to Ducati, which includes a non-repayable grant from the Ministry of €33.5m, which converts to roughly £28.7m. This means that just over 25 per cent of the programme will be funded by the government ministry. What all of this indicates is that Ducati, despite ongoing rumours of the company being sold by current owners Volkswagen AG, is set to invest heavily in the development of future motorcycles, its racing programmes, and the company’s wider business operations. At the heart of Ducati’s new programme will be “industrial research and experimental development”, with the Bologna-based company allocating €99m (around £85m) to this particular sector. Alongside the research and development plan, which Ducati hopes will strengthen its position as one of the biggest motorcycle brands in the world, the programme is also about contributing to local areas in Italy. Speaking about this subject, Ducati goes on to say that “the initiative is a",
+      "language": "en",
+      "publishedAt": "2026-08-10T01:28:01.776Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/mad-dogs-biker-gang-confirmed-as-victims-of-m74-motorway-attack",
+      "url": "https://www.visordown.com/news/mad-dogs-biker-gang-confirmed-as-victims-of-m74-motorway-attack",
+      "title": "Mad Dogs biker gang leader speaks out after M74 motorway ambush",
+      "summary": "63-year-old motorcyclist, Mark 'Bruni' Brown - president of the Mad Dogs Motorcycle Club in Scotland, remains in hospital after an attack was carried out by 12 alleged armed individuals on the M74 motorway. Mark 'Bruni' Brown, president of the Mad Dogs biker gang in Scotland, remains in hospital with serious injuries after a targeted attack was carried out by armed individuals on the M74 motorway. The incident happened at around 1pm on Sunday, August 2, between junctions 10 and 11 near Lesmahagow, when emergency services were called to reports of a disturbance involving a group of motorcyclists and people travelling in four vehicles. The 63-year-old rider, along with other members of the club, was ambushed by the masked attackers who exited their vehicles with swords and bats, according to a report from the Daily Record. Brown suffered serious injuries as a result, but has vowed to fight on in a social media post that has since been deleted. Brown said this as part of the social media update: “A bit of background to what has been going on with the dogs. This is NOT rumours or bulls***, just straight facts. “To set it straight YES we were attacked on the M74 motorway by 12 masked and heavily armed cowardly cardboard gangster puppets with swords, bats and anything they could grab as a weapon. “Here’s their version, ‘We are all in hospital and some of us are dead’. Clearly not, you incompetent cowards. You know what, we’re still standing and always will be! “We have the same rig",
+      "language": "en",
+      "publishedAt": "2026-08-10T01:28:01.776Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/09/212815515/hasil-klasemen-moto3-2026-veda-ega-pratama-bertahan-di-posisi-6",
+      "url": "https://otomotif.kompas.com/read/2026/08/09/212815515/hasil-klasemen-moto3-2026-veda-ega-pratama-bertahan-di-posisi-6",
+      "title": "Hasil Klasemen Moto3 2026, Veda Ega Pratama Bertahan di Posisi 6",
+      "summary": "Hasil Klasemen Moto3 2026, Veda Ega Pratama Bertahan di Posisi 6 JAKARTA, KOMPAS.com - Pebalap Indonesia, Veda Ega Pratama, berhasil mempertahankan posisi keenam klasemen sementara Moto3 2026 setelah menjalani balapan utama Moto3 Inggris di Sirkuit Silverstone, Minggu (9/8/2026). Pebalap asal Gunung Kidul, Yogyakarta, tersebut finis di posisi kesembilan pada balapan Moto3 Inggris. Hasil itu membuat Veda mendapatkan tambahan tujuh poin. Kini, Veda Ega Pratama mengoleksi 97 poin di klasemen sementara Moto3 2026 bersama Honda Team Asia. Baca juga: Hasil Moto3 Inggris 2026: Almanza Juara, Veda Ega Pratama Finis ke 9 Veda Ega Pratama tampil cukup konsisten pada Moto3 Inggris 2026 . Meski belum berhasil naik ke posisi lebih tinggi, hasil finis sembilan besar membuatnya tetap berada dalam persaingan papan atas. Sebelum balapan Inggris, Veda mengoleksi 90 poin. Tambahan tujuh poin dari Silverstone membuat perolehan poinnya bertambah menjadi 97 poin. Pebalap muda itu kini berada di belakang David Almansa yang menempati posisi kelima dengan 134 poin. Dok. Honda Team Asia Veda Ega Pratama saat balapan pada Moto3 Belanda 2026 Moto3 Inggris menjadi balapan yang menguntungkan bagi beberapa pebalap papan atas. David Almansa berhasil meraih kemenangan di Silverstone dan mendapatkan tambahan 25 poin. Hasil tersebut membuat pebalap Liqui Moly Dynavolt Intact GP itu naik ke posisi kelima klasemen dengan 134 poin. Baca juga: Hasil Klasemen MotoGP Inggris 2026, Jorge Martin Masih di Puncak Alvaro",
+      "language": "id",
+      "publishedAt": "2026-08-10T01:28:18.890Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/09/190200115/penjualan-hybrid-naik-45-persen-gaikindo-masih-minta-insentif",
+      "url": "https://otomotif.kompas.com/read/2026/08/09/190200115/penjualan-hybrid-naik-45-persen-gaikindo-masih-minta-insentif",
+      "title": "Penjualan Hybrid Naik 45 Persen, Gaikindo Masih Minta Insentif",
+      "summary": "Penjualan Hybrid Naik 45 Persen, Gaikindo Masih Minta Insentif JAKARTA, KOMPAS.com - Gabungan Industri Kendaraan Bermotor Indonesia (Gaikindo) berharap pemerintah kembali memberikan stimulus untuk kendaraan berteknologi hybrid. Permintaan tersebut muncul di tengah tren penjualan mobil hybrid yang terus menunjukkan pertumbuhan. Namun demikian, pemerintah justru memberikan sinyal bahwa insentif tambahan untuk mobil hybrid belum menjadi prioritas. Vice Chairman Market Development Gaikindo Jongkie D. Sugiarto mengatakan, sepintas memang kelihatannya penjualan mobil hybrid cukup positif. Baca juga: Menko Airlangga Isyaratkan Mobil Hybrid Tidak Dapat Insentif \"Tapi kan kita katanya mau lebih banyak lagi. Ayo, gitu aja. Kalau lebih banyak lagi, ya harus ada stimulus yang membuat itu bisa dibeli orang,\"' ujar Jongkie, kepada wartawan, saat ditemui di GIIAS 2026, di ICE BSD , Sabtu (8/8/2026). KOMPAS.com/STANLY RAVEL Xforce Hybrid GIIAS 2026 Menurut Jongkie, stimulus dibutuhkan agar harga mobil hybrid bisa semakin terjangkau bagi masyarakat. Dengan begitu, teknologi elektrifikasi tersebut diharapkan bisa menjangkau konsumen yang lebih luas. \"Makin terjangkau kan? Kan gitu. Belum tahu (skemanya). Makanya, kita serahkan 100 persen semuanya kepada pemerintah saja,\" kata Jongkie. Pernyataan Gaikindo tersebut berhadapan dengan pandangan pemerintah mengenai kondisi industri mobil hybrid saat ini. Baca juga: Penjualan Mobil Hybrid Toyota Laris Dua Kali Lipat di GIIAS 2026 Menteri Koordinator",
+      "language": "id",
+      "publishedAt": "2026-08-10T01:28:18.890Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/09/164200615/isu-giias-pindah-dari-ice-ke-nice-ini-kata-gaikindo",
+      "url": "https://otomotif.kompas.com/read/2026/08/09/164200615/isu-giias-pindah-dari-ice-ke-nice-ini-kata-gaikindo",
+      "title": "Isu GIIAS Pindah dari ICE ke NICE, Ini Kata Gaikindo",
+      "summary": "Isu GIIAS Pindah dari ICE ke NICE, Ini Kata Gaikindo JAKARTA, KOMPAS.com - Gaikindo Indonesia International Auto Show (GIIAS) 2026 kembali menghadirkan sejumlah merek otomotif, baik pemain lama maupun pendatang baru. Jumlah peserta yang terus bertambah membuat kebutuhan ruang pamer juga semakin besar. Kondisi tersebut kemudian memunculkan isu mengenai kemungkinan pemindahan lokasi GIIAS dari Indonesia Convention Exhibition (ICE) BSD City ke Nusantara International Convention Exhibition (NICE) PIK 2. Vice Chairman Market Development Gaikindo Jongkie D. Sugiarto mengatakan, pihaknya sejauh ini masih berupaya mengakomodasi seluruh merek yang mengikuti GIIAS di ICE BSD City. Baca juga: Daftar Lengkap Kendaraan Terfavorit di GIIAS 2026 Salah satu upayanya dilakukan dengan menambah Hall 11 di area ICE BSD City. Hall tersebut disiapkan untuk menampung peserta seiring semakin banyaknya merek otomotif yang berpartisipasi dalam pameran. KOMPAS.com/DIO DANANJAYA Ilustrasi suasana pameran GIIAS 2026 \"Ya itu, lihat sendiri kan. Kita bikin hall 11 tuh. Iya kan, karena di sini (Hall 1-10) sudah enggak cukup, kita terpaksa bikin di sana dah,\" ujar Jongkie, kepada wartawan, saat ditemui di GIIAS 2026 , Sabtu (8/8/2026). Jongkie mengatakan, jumlah merek otomotif yang mengikuti GIIAS terus bertambah. Kondisi tersebut turut membuat kebutuhan area pamer menjadi semakin besar. Selain jumlah peserta yang meningkat, sejumlah merek juga menginginkan area yang lebih luas untuk menampilkan kendaraan se",
+      "language": "id",
+      "publishedAt": "2026-08-10T01:28:18.890Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/09/194228115/hasil-motogp-inggris-2026-fernandez-juara-martin-bezzecchi-podium",
+      "url": "https://otomotif.kompas.com/read/2026/08/09/194228115/hasil-motogp-inggris-2026-fernandez-juara-martin-bezzecchi-podium",
+      "title": "Hasil MotoGP Inggris 2026: Fernandez Juara, Martin & Bezzecchi Podium",
+      "summary": "Hasil MotoGP Inggris 2026: Fernandez Juara, Martin & Bezzecchi Podium JAKARTA, KOMPAS.com - Raul Fernandez tampil dominan dan berhasil meraih kemenangan pada MotoGP Inggris 2026 di Sirkuit Silverstone, Minggu (9/8/2026). Sesaat lampu start padam, Jorge Martin dan Raul Fernandez langsung memimpin balapan MotoGP Inggris 2026 di Sirkuit Silverstone. Namun, posisi Martin sempat melorot ke urutan keempat setelah perangkat pengatur ketinggian motornya tidak mati saat memasuki tikungan pertama. Fernandez kemudian memimpin di depan Marco Bezzecchi dan Marc Marquez. Baca juga: Hasil Kualifikasi Moto3 Silverstone: Veda Pratama Start Posisi 16 WE ARE GOOOO IN #MotoGP ! ???? @25RaulFernandez leads as it gets CRAZY further back ?? #BritishGP ???????? pic.twitter.com/ZsAejPM6jc Drama terjadi pada awal balapan ketika Joan Mir dan Alex Rins terjatuh bersamaan di Tikungan 7. Rins masih mampu kembali ke lintasan, sementara Mir harus mengakhiri balapan. Martin tak butuh waktu lama untuk bangkit. Sebelum lap pertama berakhir, pebalap Aprilia itu berhasil menyalip Marc Marquez untuk merebut posisi ketiga. AFP/LOIC VENANCE Pebalap Aprilia Racing, Jorge Martin, berselebrasi saat melewati garis finis di MotoGP Perancis 2026 di Le Mans, barat laut Prancis, pada 10 Mei 2026. (Foto oleh Loic VENANCE / AFP) Di depan, Fernandez masih nyaman memimpin dengan keunggulan lebih dari satu detik atas Bezzecchi. Baca juga: Resmi Ditutup, GIIAS 2026 Jadi Momen Peluncuran 37 Kendaraan Baru An unfortunate start for",
+      "language": "id",
+      "publishedAt": "2026-08-10T01:28:18.890Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
