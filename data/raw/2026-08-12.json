@@ -1,0 +1,923 @@
+{
+  "collectedAt": "2026-08-12T01:43:18.876Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/trackhouse-marks-naechster-us-motogp-champion",
+      "url": "https://www.speedweek.com/a/motogp/trackhouse-marks-naechster-us-motogp-champion",
+      "title": "Marks (Trackhouse): «Nächster US-MotoGP-Champion ist wohl drei Jahre alt»",
+      "summary": "Marks (Trackhouse): «Nächster US-MotoGP-Champion ist wohl drei Jahre alt» Trackhouse will die MotoGP in den USA populärer machen. Team-Eigentümer Justin Marks träumt zudem von einem amerikanischen MotoGP-Champion – doch dafür fehlt derzeit die Basis. MotoGP 11.08.2026 - 19:21",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.930Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-fans-und-piloten-gaben-vollgas-rekordspende-beim-gp-of-champions",
+      "url": "https://www.speedweek.com/a/motogp/motogp-fans-und-piloten-gaben-vollgas-rekordspende-beim-gp-of-champions",
+      "title": "MotoGP-Fans und Piloten gaben Vollgas: Rekordspende beim «GP of Champions»",
+      "summary": "MotoGP-Fans und Piloten gaben Vollgas: Rekordspende beim «GP of Champions» MotoGP 11.08.2026 - 17:05",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.931Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-2027-saisonstart-event-rio-de-janeiro",
+      "url": "https://www.speedweek.com/a/motogp/motogp-2027-saisonstart-event-rio-de-janeiro",
+      "title": "Startschuss in Südamerika: MotoGP-Saisonstart-Event 2027 in Rio de Janeiro",
+      "summary": "Startschuss in Südamerika: MotoGP-Saisonstart-Event 2027 in Rio de Janeiro MotoGP 11.08.2026 - 14:25",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.931Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/crutchlow-enttaeuscht-british-gp-silverstone",
+      "url": "https://www.speedweek.com/a/motogp/crutchlow-enttaeuscht-british-gp-silverstone",
+      "title": "Crutchlow enttäuscht: «Nicht der britische GP, den ich mir erhofft hatte»",
+      "summary": "Crutchlow enttäuscht: «Nicht der britische GP, den ich mir erhofft hatte» MotoGP 11.08.2026 - 10:22",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.931Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/raul-fernandez-wandel-trackhouse-silverstone-sieg",
+      "url": "https://www.speedweek.com/a/motogp/raul-fernandez-wandel-trackhouse-silverstone-sieg",
+      "title": "Vom MotoGP-Sorgenkind zum Sieger: Trackhouse über Raul Fernandez’ Wandel",
+      "summary": "Vom MotoGP-Sorgenkind zum Sieger: Trackhouse über Raul Fernandez’ Wandel MotoGP 10.08.2026 - 20:04",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.931Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pol-espargaro-silverstone-rueckstand-beschaemend",
+      "url": "https://www.speedweek.com/a/motogp/pol-espargaro-silverstone-rueckstand-beschaemend",
+      "title": "Pol Espargaro (13.) nach Razgatlioglu-Duell: Rückstand ist «beschämend»",
+      "summary": "Pol Espargaro (13.) nach Razgatlioglu-Duell: Rückstand ist «beschämend» KTM-Ersatzpilot Pol Espargaro sammelte bei seinem MotoGP-Einsatz in Silverstone immerhin einige Punkte, doch der Rückstand von mehr als 40 Sekunden beschämt den ehemaligen Moto2-Weltmeister. MotoGP 10.08.2026 - 16:39",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.933Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/johann-zarco-honda-motogp-comeback-training",
+      "url": "https://www.speedweek.com/a/motogp/johann-zarco-honda-motogp-comeback-training",
+      "title": "Nach schwerem Barcelona-Crash: Johann Zarco (Honda) wieder auf dem Motorrad",
+      "summary": "Nach schwerem Barcelona-Crash: Johann Zarco (Honda) wieder auf dem Motorrad LCR-Honda-Routinier Johann Zarco bereitet sich derzeit intensiv auf sein MotoGP-Comeback vor. Kürzlich trainierte der Franzose bei einer privaten Session auf einem Supermoto-Bike. MotoGP 10.08.2026 - 15:31",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.933Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/luca-marini-alarmiert-rueckstand-auf-aprilia-silverstone",
+      "url": "https://www.speedweek.com/a/motogp/luca-marini-alarmiert-rueckstand-auf-aprilia-silverstone",
+      "title": "Luca Marini (9.) alarmiert: «Der Rückstand auf Aprilia ist gewaltig!»",
+      "summary": "Luca Marini (9.) alarmiert: «Der Rückstand auf Aprilia ist gewaltig!» Luca Marini war bei der MotoGP in Silverstone als Neunter bester Honda-Pilot. Mit seinem eigenen Rennen war der Italiener zufrieden – der Rückstand zur Spitze bereitete ihm dagegen Sorgen. MotoGP 10.08.2026 - 12:30",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.933Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/diogo-moreira-platz-10-silverstone-unzufrieden",
+      "url": "https://www.speedweek.com/a/motogp/diogo-moreira-platz-10-silverstone-unzufrieden",
+      "title": "Diogo Moreira: Warum ihn Platz 10 in Silverstone nicht zufriedenstellt",
+      "summary": "Diogo Moreira: Warum ihn Platz 10 in Silverstone nicht zufriedenstellt LCR-Honda-Pilot Diogo Moreira sammelte beim MotoGP-Wochenende in Silverstone weitere WM-Punkte. Mit Platz 10 war der Brasilianer dennoch nicht vollständig zufrieden. MotoGP 10.08.2026 - 10:10",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.933Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/brad-binder-ktm-silverstone-zu-vorsichtig",
+      "url": "https://www.speedweek.com/a/motogp/brad-binder-ktm-silverstone-zu-vorsichtig",
+      "title": "KTM-Ass Brad Binder (8.) grübelt: «Vielleicht war ich etwas zu vorsichtig»",
+      "summary": "KTM-Ass Brad Binder (8.) grübelt: «Vielleicht war ich etwas zu vorsichtig» Brad Binder beendete das MotoGP-Rennen in Silverstone auf Rang 8. Von Startplatz 18 zeigte er eine starke Aufholjagd – er hatte ein gutes Gefühl mit seiner KTM. Weshalb noch mehr möglich gewesen wäre. MotoGP 10.08.2026 - 08:36",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.934Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ducati-werkspilot-bagnaia-nach-silversone-crash-schwer-zu-akzeptieren",
+      "url": "https://www.speedweek.com/a/motogp/ducati-werkspilot-bagnaia-nach-silversone-crash-schwer-zu-akzeptieren",
+      "title": "Ducati-Werkspilot Bagnaia nach Silverstone-Crash: «Schwer zu akzeptieren»",
+      "summary": "Ducati-Werkspilot Bagnaia nach Silverstone-Crash: «Schwer zu akzeptieren» Der einstige Ducati-MotoGP-Held Pecco Bagnaia war auch in Silverstone ein Schatten seiner selbst. In der Analyse sprach der Turiner offen über seinen sehr seltsamen Ausrutscher. MotoGP 10.08.2026 - 06:56",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.934Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/zeitplan-die-motogp-auf-dem-red-bull-ring",
+      "url": "https://www.speedweek.com/a/motogp/zeitplan-die-motogp-auf-dem-red-bull-ring",
+      "title": "Zeitplan: Die MotoGP-WM auf dem Red Bull Ring",
+      "summary": "Marks (Trackhouse): «Nächster US-MotoGP-Champion ist wohl drei Jahre alt»",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.936Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/binder-gelingt-in-spielberg-das-erste-podest-2025",
+      "url": "https://www.speedweek.com/a/motogp/binder-gelingt-in-spielberg-das-erste-podest-2025",
+      "title": "Binder: Gelingt in Spielberg das erste Podest 2025?",
+      "summary": "Binder: Gelingt in Spielberg das erste Podest 2025? MotoGP 11.08.2025 - 13:45",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.936Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/valentino-rossi-kartbahn-training-fuer-vr46-fahrer",
+      "url": "https://www.speedweek.com/a/motogp/valentino-rossi-kartbahn-training-fuer-vr46-fahrer",
+      "title": "Valentino Rossi: Kartbahn-Training für VR46-Fahrer",
+      "summary": "Valentino Rossi: Kartbahn-Training für VR46-Fahrer MotoGP 11.08.2025 - 10:00",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.936Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pedro-acosta-werbedreh-mit-red-bull-rookies",
+      "url": "https://www.speedweek.com/a/motogp/pedro-acosta-werbedreh-mit-red-bull-rookies",
+      "title": "Pedro Acosta: Werbedreh mit Red Bull Rookies",
+      "summary": "MotoGP-Fans und Piloten gaben Vollgas: Rekordspende beim «GP of Champions»",
+      "language": "de",
+      "publishedAt": "2026-08-12T01:42:45.936Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804407/motorcycle-helmet-aerodynamics-are-very-complicated/",
+      "url": "https://www.rideapart.com/news/804407/motorcycle-helmet-aerodynamics-are-very-complicated",
+      "title": "Helmet Aerodynamics Are Way More Complicated Than You Think",
+      "summary": "It's all about lift reduction.",
+      "language": "en",
+      "publishedAt": "2026-08-11T13:06:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804301/honda-crf450rx-finke-limited-edition-australia-only/",
+      "url": "https://www.rideapart.com/news/804301/honda-crf450rx-finke-limited-edition-australia-only",
+      "title": "Honda’s Desert-Racing Dirtbike Is Actually A Bargain. You Can’t Have It",
+      "summary": "Honda finally figured out how to make a special edition worth the premium. Naturally, it’s forbidden fruit.",
+      "language": "en",
+      "publishedAt": "2026-08-11T12:49:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804398/bmws-r20-spied-the-2-liter-monster-went-from-concept-to-near-production-ready/",
+      "url": "https://www.rideapart.com/news/804398/bmws-r20-spied-the-2-liter-monster-went-from-concept-to-near-production-ready",
+      "title": "BMW’s Upcoming R20 Spied. The 2-Liter Monster Went From Concept to Near-Production-Ready",
+      "summary": "Spy shots of BMW's R20 show that the concept bike is almost production-ready. All we need to know is whether it'll come in 'Hot Pink'.",
+      "language": "en",
+      "publishedAt": "2026-08-11T12:25:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804413/seiko-honda-motocompo-limited-edition-watch/",
+      "url": "https://www.rideapart.com/news/804413/seiko-honda-motocompo-limited-edition-watch",
+      "title": "Here's Your Chance To Own A Honda Motocompo For A Bargain. You Can Wear This One, Too",
+      "summary": "You probably already knew the Honda Motocompo was absolutely teeny-tiny, but here's one you can fit in your pocket. And on your wrist.",
+      "language": "en",
+      "publishedAt": "2026-08-11T12:12:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804403/two-dirt-bikes-transformed-into-a-single-go-kart-video/",
+      "url": "https://www.rideapart.com/news/804403/two-dirt-bikes-transformed-into-a-single-go-kart-video",
+      "title": "Building A Go-Kart Out Of Dirt Bikes. What Could Possibly Go Wrong?",
+      "summary": "We're not talking about anything as pedestrian as a simple engine swap, or even a multiple engine swap. No, we're talking two dirt bikes, one kart.",
+      "language": "en",
+      "publishedAt": "2026-08-11T11:40:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/804302/royal-enfield-himalayan-750-biggest-re-to-date/",
+      "url": "https://www.rideapart.com/features/804302/royal-enfield-himalayan-750-biggest-re-to-date",
+      "title": "Royal Enfield Is Flying Higher Than Ever, But It Better Remember What Happened To Icarus",
+      "summary": "Royal Enfield is finally playing with the big boys. It just needs to know when to stop climbing.",
+      "language": "en",
+      "publishedAt": "2026-08-11T11:25:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/804390/indian-motorcycles-doesnt-know-what-its-doing-debuts-limited-edition-bagger/",
+      "url": "https://www.rideapart.com/features/804390/indian-motorcycles-doesnt-know-what-its-doing-debuts-limited-edition-bagger",
+      "title": "Indian Motorcycle Has No Idea What It's Doing, And Its New Bike Proves It",
+      "summary": "Who's this bike for?",
+      "language": "en",
+      "publishedAt": "2026-08-11T11:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804219/atvs-snowmobiles-and-motorcycles-are-being-found-in-lakes-and-rivers-thanks-to-droughts/",
+      "url": "https://www.rideapart.com/news/804219/atvs-snowmobiles-and-motorcycles-are-being-found-in-lakes-and-rivers-thanks-to-droughts",
+      "title": "Droughts Are Now Showing Lost Treasures, Including a Snowmobile and ATV",
+      "summary": "ATVs, snowmobiles, and motorcycles, oh my!",
+      "language": "en",
+      "publishedAt": "2026-08-10T13:05:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804228/buell-might-turn-its-insane-hill-climb-concept-into-an-adventure-bike/",
+      "url": "https://www.rideapart.com/news/804228/buell-might-turn-its-insane-hill-climb-concept-into-an-adventure-bike",
+      "title": "Buell Might Turn Its Insane V-Twin Hill Climb Motorcycle Into a Production Adventure Bike",
+      "summary": "Buell revealed a hill climb concept motorcycle based named 'The Goat', based on the Super Cruiser. This might be the platform to give birth to the brand's first adventure motorcycle.",
+      "language": "en",
+      "publishedAt": "2026-08-10T12:49:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804230/gopro-gets-20m-loan-from-its-ceo-nasdaq-warning/",
+      "url": "https://www.rideapart.com/news/804230/gopro-gets-20m-loan-from-its-ceo-nasdaq-warning",
+      "title": "GoPro's CEO Lent the Company $20M, NASDAQ Threatened Delisting, and More",
+      "summary": "After filing SEC paperwork a few months ago indicating that it might not be able to continue as \"a going concern,\" here's the latest.",
+      "language": "en",
+      "publishedAt": "2026-08-10T12:20:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804208/someone-just-tried-to-smuggle-harley-davidsons-into-indonesia/",
+      "url": "https://www.rideapart.com/news/804208/someone-just-tried-to-smuggle-harley-davidsons-into-indonesia",
+      "title": "Someone Just Tried To Smuggle Harley-Davidsons Into Indonesia",
+      "summary": "A shipment from China to Indonesia was stopped with five disassembled Harley-Davidsons and 20 frames inside. And this isn't the first time.",
+      "language": "en",
+      "publishedAt": "2026-08-10T12:05:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804137/voge-sr450x-adventure-scooter-specs-europe/",
+      "url": "https://www.rideapart.com/news/804137/voge-sr450x-adventure-scooter-specs-europe",
+      "title": "This New Chinese 'Off-Road Scooter' Has Radar Because Of Course It Does",
+      "summary": "Long-travel suspension, a parallel twin, and enough tech to embarrass some adventure bikes.",
+      "language": "en",
+      "publishedAt": "2026-08-10T11:55:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804115/benelli-tornado-550-price-specs-features-usa/",
+      "url": "https://www.rideapart.com/news/804115/benelli-tornado-550-price-specs-features-usa",
+      "title": "This $5,999 Sportbike Has No Business Coming With This Much Stuff",
+      "summary": "Beginner-bike money gets you suspiciously non-beginner-bike hardware.",
+      "language": "en",
+      "publishedAt": "2026-08-10T11:25:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804215/honda-rebel-300-500-scl500-handlebar-screw-recall/",
+      "url": "https://www.rideapart.com/news/804215/honda-rebel-300-500-scl500-handlebar-screw-recall",
+      "title": "Honda Just Recalled 44k Motorcycles. Could Cause a Crash",
+      "summary": "Certain Rebel 300s, Rebel 500s, and SCL500s may be affected by a seemingly simple culprit: One improperly tightened screw.",
+      "language": "en",
+      "publishedAt": "2026-08-10T10:55:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/super-rare-yoshimura-tornado-s-1-hits-second-hand-market",
+      "url": "https://www.visordown.com/news/super-rare-yoshimura-tornado-s-1-hits-second-hand-market",
+      "title": "There are rare bikes, and then there's the Yoshimura Tornado!",
+      "summary": "Limited to just 50 bikes worldwide, the Yoshimura Tornado is one of the rarest bikes money can buy, and this one has just gone up for sale. If you were to ask your riding buddies to name a famous motorcycle tuner, the most likely name they’d muster up would be Yoshimura. Hideo “Pops” Yoshimura built his reputation alongside the growth of Japanese brands on the global stage, and went on to become a name synonymous with Suzuki. 2003 saw the brand branch out, as it created a motorcycle that would go on to become two-wheeled folklore: the Tornado S-1. Built from the innards of a first-generation Suzuki GSX-R1000, just 50 examples of this mythical beast were ever produced, making it rarer than both the Ducati Desmosedici and Honda RC213V-S. And there is more going on here than simply some aftermarket fairings and a sticker kit. Yoshimura went to town with the GSX-R1000, updating and upgrading the bike at a forensic level. Internally, the engine features a thinner head gasket, high-compression pistons, beefed-up valve springs, and hot cams. The exhaust is a bespoke four-into-one system, topped off by a beautiful Tri-Oval end can. The chassis is also boosted thanks to Ohlins fully adjustable suspension and upgraded brakes. All told, the Tornado produced around 170bhp, more than five more than the donor bike it’s based on. But this bike’s allure isn’t the performance gap between it and the bike it is based on. Its allure is the exclusivity of the thing. With just 50 produced for the",
+      "language": "en",
+      "publishedAt": "2026-08-12T01:42:55.287Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/adventure-motorcycle-registrations-grow-41-cent-july",
+      "url": "https://www.visordown.com/news/adventure-motorcycle-registrations-grow-41-cent-july",
+      "title": "Adventure motorcycles continue to steer the UK’s positive sales numbers",
+      "summary": "Adventure motorcycle registrations grew by 41 per cent in July compared to the same month in 2025. 2026 has so far been a strong year for motorcycle sales in the UK, which continued in July, according to the latest statistics provided by the Motorcycle Industry Association (MCIA). The adventure segment has played a key role in the ongoing growth month-to-month vs 2025, and that was also the case in July. Adventure motorcycle registrations were up by a staggering 41.8 per cent compared to the same month in 2025. Year-to-date, adventure motorcycle sales are also holding strong, with an overall increase of 26.2 per cent. The naked motorcycle segment also flourished in July, with registrations growing by 24.5 per cent compared with July 2025. Not far behind that was the touring segment, with monthly registrations growing by 18.2 per cent. Year-to-date registrations for the entire motorcycle segment have grown by 16.1 per cent, while YTD scooter sales are up by 15.4 per cent. In terms of individual models, the best-performing bike in July 2026 was the Honda CB125F, which sold 185 units in the naked category. That was then followed by the CB1000GT which sold 141 units, while third place went the way of the GB350S, meaning Honda finished the month with the three best-selling motorcycles. Speaking about the continued signs of growth, as well as what the motorcycle industry needs from the new government going forward, MCIA CEO, Tony Campbell, said: “July’s market reinforces the import",
+      "language": "en",
+      "publishedAt": "2026-08-12T01:42:55.287Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/superbike-factory-customers-and-staff-unite-reddit-and-whatsapp-groups-after-administration",
+      "url": "https://www.visordown.com/news/superbike-factory-customers-and-staff-unite-reddit-and-whatsapp-groups-after-administration",
+      "title": "People power! Superbike Factory customers and staff unite to share information and spread awareness",
+      "summary": "Superbike Factory customers and former staff have created online groups to share information following the motorcycle dealer's administration. The collapse of Superbike Factory has prompted affected customers and staff to organise themselves online, with Reddit and WhatsApp groups now being used to share information about the administration and help people work out what to do next. The groups have been set up in the aftermath of Superbike Factory entering administration on 20 July 2026, when the company's appointed administrators confirmed that the business had ceased trading with immediate effect. One customer who contacted Visordown said they initially discovered the community through a discussion on a legal advice forum on Reddit. The discussion has since become a focal point for people attempting to share experiences and information following the dealer's collapse. The Reddit discussion includes contributions from people affected in different ways, while a separate WhatsApp group has been established specifically for Superbike Factory customers and staff. The WhatsApp group describes itself as being for “Affected Customers and staff”, with the intention of bringing people together to exchange information as the administration progresses. According to the customer who contacted Visordown, the people involved include customers who had purchased motorcycles but were waiting to collect them, people who had bikes with Superbike Factory for servicing or maintenance, people who",
+      "language": "en",
+      "publishedAt": "2026-08-12T01:42:55.287Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/e-scooters-linked-35-times-more-brain-injuries-motorcycles-study-finds",
+      "url": "https://www.visordown.com/news/e-scooters-linked-35-times-more-brain-injuries-motorcycles-study-finds",
+      "title": "It’s official: research suggests e-scooters are more dangerous than motorcycles",
+      "summary": "New research comparing more than 15,000 trauma cases suggests e-scooter riders suffer significantly more head and internal injuries than motorcyclists. E-scooter riders are 3.5 times more likely to suffer a traumatic brain injury than motorcyclists when they end up in serious crashes, according to a new study comparing injury data from across England and Wales. The research, published in Scientific Reports, looked at 15,247 patients admitted with moderate-to-severe trauma between 2020 and 2022. The group included 580 e-scooter riders, 7027 motorcyclists and 7640 pedal cyclists, with the surgeon, David Bodansky, at the head of the investigation. The results make uncomfortable reading for anyone who sees an e-scooter as a relatively harmless alternative to a motorcycle or bicycle. Among adult riders suffering serious injuries, the risk of traumatic brain injury was 3.45 times higher for e-scooter riders than motorcyclists, while the risk was 1.74 times higher than for cyclists. E-scooter riders were also more likely to suffer internal organ injuries, with a 46 per cent higher risk than motorcyclists, while vascular injuries involving arteries and veins were more than three times as common. There is, however, an important distinction to be made regarding the figures. The study isn't saying that someone riding an e-scooter is 3.5 times more likely to crash or suffer a brain injury than someone riding a motorcycle. The comparison concerns the injury profile of people who had alrea",
+      "language": "en",
+      "publishedAt": "2026-08-12T01:42:55.287Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/norton-reveals-one-manx-r-collaboration-peaceful-research",
+      "url": "https://www.visordown.com/news/norton-reveals-one-manx-r-collaboration-peaceful-research",
+      "title": "Norton’s new Manx R superbike already has a one-off custom edition",
+      "summary": "Norton has revealed a new partnership with Peaceful Research that has led to one of the most flashy Manx R liveries you’re likely to see. Norton’s ongoing resurgence has already given us the 206bhp Manx R, the naked Manx variant, and the Atlas and Atlas GT adventure bikes. However, a flashy, one-off version of the Manx R has now been revealed. The one-off model is a result of Norton’s new collaboration with Peaceful Research, while a limited-run of clothing was also revealed on August 7, at 7pm BST. The clothing collection features a hoodie, t-shirt and cap, although it’s the bold-looking Manx R that unquestionably steals the show. Dressed in a metallic pink and deep purple colourway, this one-off model was on display at last weekend’s British MotoGP at Silverstone. The new colourway is also very different to any of the standard Manx R colours, which include Trophy Silver, Matrix Black, Celestial Grey, Aqua Green, Carbon, and Glacier Blue options. For those that don’t know, Peaceful Research is a contemporary motorsport and lifestyle goods company, and the collaboration between the two companies was forged to reimagine Norton’s racing heritage through the lens of Peaceful Research. It’s not been confirmed whether the one-of-one custom build will go up for sale at any stage, and at what price, although it would likely blow past the British brand’s entry price point of £20,250 for the base Manx R model. That base price gets bumped up to £24,750 for the Norton Manx R Apex editio",
+      "language": "en",
+      "publishedAt": "2026-08-12T01:42:55.287Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/patritalia-wants-ducati-and-mv-agusta-its-italian-only-plan-raises-questions",
+      "url": "https://www.visordown.com/news/patritalia-wants-ducati-and-mv-agusta-its-italian-only-plan-raises-questions",
+      "title": "Ducati bidder wants MV Agusta too... and Triumph out of Moto2!",
+      "summary": "The group behind a €2.5bn bid for Ducati has outlined what it would do if the deal goes through, including replacing Triumph in Moto2 and making the entire operation Italian! Patritalia has reiterated its bid to buy Ducati from the Audi/Volkswagen Group, claiming that its €2.5bn offer remains on the table indefinitely and outlining what it would do if it gets its hands on the Bologna-based manufacturer. And if it’s CEO and founder is to be believed, it isn't stopping at Ducati. The Italian group says MV Agusta is also among its targets, with the stated aim of returning both brands, and other unnamed Italian companies, to Italian ownership. Patritalia says this is central to its founding philosophy and that Ducati and MV Agusta are of interest specifically because they are currently foreign-owned. Quite how far that philosophy would extend is where things get interesting. In a lengthy social media statement aimed at correcting what Patritalia describes as \"distorted\" reporting about its plans, the company says that if it acquires Ducati, its \"Italian Patriotism\" would be applied at every level of the business. Most notably, it says its companies would be \"always and only\" made up of Italians, regardless of the skills foreign employees might bring. That appears to mean a Ducati workforce that is exclusively Italian, from the workshop floor sweeper, right up to the president. Quite how that would work in practice is less clear. Ducati is an international manufacturer with a glob",
+      "language": "en",
+      "publishedAt": "2026-08-12T01:42:55.287Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/2026-ducati-monster-wins-red-dot-product-design-award",
+      "url": "https://www.visordown.com/news/2026-ducati-monster-wins-red-dot-product-design-award",
+      "title": "Ducati’s new V2-powered Monster claims special Red Dot award",
+      "summary": "Ducati celebrates a major win for the new V2-powered Monster, which follows the same path as Suzuki's GSX-8T and GSX-8TT models. Ducati’s 2026 Monster, which uses the company’s all-new 890cc V2 engine platform, has won the prestigious Red Dot award in the Product Design category for 2026. You might be interested in reading our 2026 Ducati Monster review . Ducati's win in the Red Dot Product Design category was achieved, in part, through the Italian brand's continued evolution of the Monster platform, which is now in its fifth-generation. Speaking about the latest version of the Monster, Ducati said: \"Introduced in 2025, the new Monster carries this heritage into the future through an entirely new project, combining lightness, technology and a contemporary, instantly recognisable design language. More compact, essential and sporty, the new Monster recalls the elements that have defined its identity since the very beginning: the headlight framed by the “shoulders” of the bison-back tank, the one-piece seat, and the short, lightweight tail section.\" This major win for Ducati comes after other brands have also tasted similar success in 2026, including Honda and Suzuki . Honda celebrated further Red Dot success through its electric WN7, which recently backed up its iF Design honour with an award win in the Red Dot product design category. That was then followed by Suzuki’s GSX-8T and GSX-8TT, with both models winning a Red Dot Award in the same category. You might like to read our",
+      "language": "en",
+      "publishedAt": "2026-08-12T01:42:55.288Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/new-honda-cb1000gt-becomes-uk-best-seller-first-time",
+      "url": "https://www.visordown.com/news/new-honda-cb1000gt-becomes-uk-best-seller-first-time",
+      "title": "Honda CB1000GT secures top spot in the UK sales charts",
+      "summary": "Honda’s new CB1000GT sold more units in July 2026 than some of the UK’s most popular motorcycles from the last two years. The new Honda CB1000GT has become one of the UK’s best-selling motorcycles for the first time since its launch earlier this year. You might be interested in reading our Honda CB1000GT review . The CB1000GT was revealed at the 2025 EICMA show in Milan, Italy, alongside the new V3R 900 E-Compressor, and the brand’s expanded E-Clutch line-up which now includes the XL750 Transalp, CB750 Hornet, NX500, CBR500R and CB500 Hornet. Although a sports tourer at heart, the CB1000GT also takes after its naked sibling, the CB1000 Hornet, blending Fireblade-derived engine performance with the comfort needed for longer journeys. Where things become particularly interesting with regards to July’s best-performing motorcycles in the UK, is the category that the CB1000GT has fallen under. The sports tourer has been positioned alongside more adventure-focused motorcycles based on the statistics provided by the Motorcycle Industry Association (MCIA). This also means that the CB1000GT sold more units than BMW’s R1300 GS, which has often been the top-performing adventure model in recent months. In fact, the R1300 GS had not been toppled by another motorcycle since February, when Honda’s NC750X sold the most units for that month. The CB1000GT topped July’s figures with a total of 141 units sold, which is also more than what the company’s popular GB350S managed in the modern classi",
+      "language": "en",
+      "publishedAt": "2026-08-12T01:42:55.288Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/worldsbk-and-eicma-reveal-new-collaboration-ahead-major-2026-events",
+      "url": "https://www.visordown.com/news/worldsbk-and-eicma-reveal-new-collaboration-ahead-major-2026-events",
+      "title": "Cremona round officially renamed as EICMA strikes new deal with WorldSBK",
+      "summary": "The 2026 Cremona WorldSBK event has taken on a new name as part of a wider collaboration between EICMA and WorldSBK. EICMA has announced a new collaboration with the WorldSBK Championship that’s set to take centre stage at two major events in 2026. The new agreement means that round ten of the 2026 WorldSBK Championship, which takes place at the Cremona circuit on 25–27 September, will now officially be called the EICMA Italian Round. This means that guests attending the event on behalf of EICMA will be able to enjoy a bespoke WorldSBK hospitality programme at Cremona. Additionally, both organisations are set to collaborate on a dedicated communications campaign that will be featured on digital and social media channels as part of the build up to the race, and November’s exhibition in Milan, Italy. The expanded partnership also means that WorldSBK will join MotoGP in a series of initiatives under the company’s ‘Road to EICMA’ banner. For those that have already bought tickets to the 2026 EICMA show, or plan to buy tickets, a €10 (around £8.50) discount is available on tickets to the WorldSBK race weekend at Cremona. WorldSBK is also set to bring its ‘The Garage’ hospitality experience to the 83rd edition of the EICMA show, which will offer fans, partners, and stakeholders a more immersive experience of the championship. Within this will be appearances from current riders, as well as various networking opportunities. The ongoing partnership between the two organisations is of",
+      "language": "en",
+      "publishedAt": "2026-08-12T01:42:55.288Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/zero-motorcycles-reveals-cashback-reward-newly-qualified-riders",
+      "url": "https://www.visordown.com/news/zero-motorcycles-reveals-cashback-reward-newly-qualified-riders",
+      "title": "Zero Motorcycles is offering cash rewards for new riders, here’s how it works",
+      "summary": "Zero Motorcycles has revealed a new Rider Bonus scheme across several of the company’s motorcycles and LS1 scooter, and here’s how it works. Zero Motorcycles is offering newly qualified riders the chance to earn cashback when they buy one of the company’s motorcycles or LS1 scooter, although the cashback amounts vary depending on the model. The new Rider Bonus scheme ends on December 31, 2026, and is available across the DSR/X and DS sport-tourers, as well as the SR/F and S nakeds. The cashback amount for any of these models is £400. However, if customers select the brand’s LS1 scooter or XE dirt bike, they will instead receive a reimbursement of £200. To be in with a chance of activating the cashback reward, new riders will need to have purchased their Zero motorcycle within three months of completing their CBT, A1, A2 or full A motorcycle license. According to Zero Motorcycles, the offer only applies to “new motorcycles and scooters from model years 2025 and 2026 that have never been previously registered”. Additionally, motorcycles or scooters that have been ordered by a Zero Motorcycles dealer as demonstration models are not included in the offer. The motorcycle or scooter must be purchased from an authorised Zero Motorcycles dealer in any of the following countries; Netherlands, Belgium, Luxembourg, Germany, Switzerland, Austria, France, Sweden, Spain, Italy, the UK and Ireland. The new scheme is all about celebrating new riders marking their first steps into motorcyclin",
+      "language": "en",
+      "publishedAt": "2026-08-12T01:42:55.288Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/10/130100915/persaingan-moto3-2026--konsistensi-veda-ega-vs-kemenangan-danish",
+      "url": "https://otomotif.kompas.com/read/2026/08/10/130100915/persaingan-moto3-2026--konsistensi-veda-ega-vs-kemenangan-danish",
+      "title": "Persaingan Moto3 2026: Konsistensi Veda Ega Vs Kemenangan Danish",
+      "summary": "Persaingan Moto3 2026: Konsistensi Veda Ega Vs Kemenangan Danish JAKARTA, KOMPAS.com - Persaingan dua talenta muda asal Asia Tenggara, Veda Ega Pratama dan Hakim Danish, mewarnai sengitnya gelaran Moto3 2026. Hingga beberapa seri berjalan, Veda yang membela Indonesia unggul secara perolehan poin atas rivalnya asal Malaysia tersebut. Pebalap asal Gunungkidul itu kini bertengger di posisi keenam klasemen sementara dengan raihan 97 poin. Sementara itu, Danish mengekor di peringkat kedelapan dengan koleksi 86 poin. Baca juga: Hasil Klasemen Moto3 2026, Veda Ega Pratama Bertahan di Posisi 6 dok.Istimewa Pebalap Moto3 asal Malaysia, Hakim Danish Keunggulan Veda tak lepas dari penampilannya yang relatif stabil sepanjang musim. Pebalap muda Indonesia ini tercatat konsisten finis di depan Danish pada sejumlah seri utama. Veda sukses mengungguli Danish saat balapan di GP Thailand, Brasil, Spanyol, Prancis, Jerman, hingga Inggris. Selain itu, Veda juga minim hasil buruk. Ia tercatat hanya dua kali gagal mendulang poin, yakni saat berlaga di GP Amerika Serikat dan Belanda. Kondisi ini berbanding terbalik dengan Danish. Pebalap Malaysia tersebut tiga kali pulang tanpa poin setelah gagal finis atau keluar dari posisi 15 besar di GP Thailand, Hungaria, dan Inggris. Baca juga: Hasil Moto3 Inggris 2026: Almanza Juara, Veda Ega Pratama Finis ke 9 Kendati kalah secara perolehan poin total, Danish punya statistik manis yang belum dicapai Veda. Danish tercatat sudah mengamankan satu kemenangan mu",
+      "language": "id",
+      "publishedAt": "2026-08-12T01:43:16.793Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/10/121304015/pertamax-turun-jadi-rp15950-ini-perbandingan-harga-bbm-shell-bp-dan-vivo",
+      "url": "https://otomotif.kompas.com/read/2026/08/10/121304015/pertamax-turun-jadi-rp15950-ini-perbandingan-harga-bbm-shell-bp-dan-vivo",
+      "title": "Pertamax Turun Jadi Rp15.950, Ini Perbandingan Harga BBM Shell, BP, dan Vivo",
+      "summary": "Pertamax Turun Jadi Rp15.950, Ini Perbandingan Harga BBM Shell, BP, dan Vivo JAKARTA, KOMPAS.com - Harga bahan bakar minyak (BBM) nonsubsidi kembali mengalami penyesuaian pada 1 Agustus 2026. Sejumlah badan usaha penyedia BBM menurunkan harga bensin nonsubsidi yang dipasarkan di wilayah Jakarta dan sekitarnya. Penurunan terjadi pada beberapa produk BBM dari Pertamina , BP -AKR, dan Vivo . Sementara itu, harga sejumlah BBM diesel nonsubsidi justru bergerak naik. Di SPBU Pertamina, misalnya, harga Pertamax (RON 92) kini berada di level Rp 15.950 per liter. Harga tersebut turun Rp 300 dibandingkan bulan sebelumnya yang masih Rp 16.250 per liter. Penurunan lebih besar terjadi pada Pertamax Turbo. BBM beroktan RON 98 tersebut kini dibanderol Rp 18.300 per liter, turun Rp 1.000 dari harga Juli 2026 yang mencapai Rp 19.300 per liter. Baca juga: Aldio Oekon Bangkit Usai Mobil Terbalik, Finis Keempat di APRC Sumut Sementara itu, Pertamax Green 95 juga mengalami penurunan harga. BBM RON 95 tersebut kini dijual Rp 16.600 per liter, dari sebelumnya Rp 17.000 per liter. Untuk BBM bersubsidi, Pertalite masih dipertahankan pada harga Rp 10.000 per liter. Begitu pula dengan Biosolar yang tetap dijual Rp 6.800 per liter. KOMPAS.com/DIO DANANJAYA Sejumlah SPBU BP kehabisan stok BBM pada Senin (20/4/2026). Penurunan harga juga terlihat pada produk BBM yang ditawarkan SPBU swasta. BP-AKR menurunkan harga BP 92 sebesar Rp 540 per liter. Produk BBM RON 92 tersebut kini dijual Rp 16.130 per liter,",
+      "language": "id",
+      "publishedAt": "2026-08-12T01:43:16.793Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/10/101200815/toyota-buka-peluang-pelajari-bz3x-untuk-pasar-indonesia",
+      "url": "https://otomotif.kompas.com/read/2026/08/10/101200815/toyota-buka-peluang-pelajari-bz3x-untuk-pasar-indonesia",
+      "title": "Toyota Buka Peluang Pelajari bZ3X untuk Pasar Indonesia",
+      "summary": "Toyota Buka Peluang Pelajari bZ3X untuk Pasar Indonesia TANGERANG, KOMPAS.com - Toyota Indonesia membuka peluang untuk mempelajari kemungkinan membawa bZ3X ke pasar Indonesia. Mobil listrik tersebut merupakan hasil kolaborasi Toyota dengan Guangzhou Automobile Group ( GAC ) dan saat ini dipasarkan di China. Marketing Director PT Toyota Astra Motor (TAM) Bansar Maduma mengatakan, Toyota bersama prinsipal terus membuka berbagai opsi produk yang sesuai dengan kebutuhan konsumen di Indonesia. Baca juga: Pilihan MPV Mewah dengan Jarak Tempuh 570 Km Termasuk di antaranya model hasil kolaborasi Toyota dengan mitra di negara lain, seperti bZ3X yang dikembangkan bersama GAC. \"Kita pasti buka semua ruang untuk studi bersama prinsipal kami untuk menghadirkan produk yang sesuai dengan kebutuhan Indonesia,\" ujar Bansar saat ditemui di GIIAS 2026, ICE BSD, Tangerang, Sabtu (8/8/2026). Menurut Bansar, bZ3X dapat menjadi salah satu model yang dipertimbangkan bila hasil kajian menunjukkan produk tersebut sesuai dengan karakteristik pasar Indonesia. \"Jika memang itu menjadi opsi, pasti akan kami studi,\" katanya. \"Untuk progres seperti apa, nanti kita informasikan lebih lanjut. Tapi kita open buat semuanya untuk studi bagaimana menghadirkan produk yang sesuai dengan kebutuhan Indonesia,\" lanjut Bansar. Baca juga: Veloz Hybrid Laris, Toyota Buka Peluang Hadirkan Avanza Hybrid Selain mempertimbangkan sisi produk, Toyota juga memantau respons konsumen terhadap model-model yang belum dipasarkan di",
+      "language": "id",
+      "publishedAt": "2026-08-12T01:43:16.793Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/10/080126715/wuling-kejar-tkdn-mobil-listrik-60-persen-pada-2027",
+      "url": "https://otomotif.kompas.com/read/2026/08/10/080126715/wuling-kejar-tkdn-mobil-listrik-60-persen-pada-2027",
+      "title": "Wuling Kejar TKDN Mobil Listrik 60 Persen pada 2027",
+      "summary": "Wuling Kejar TKDN Mobil Listrik 60 Persen pada 2027 TANGERANG, KOMPAS.com Wuling Motors memastikan akan mengikuti ketentuan Tingkat Komponen Dalam Negeri (TKDN) untuk mobil listrik yang berlaku di Indonesia. Pabrikan asal China tersebut menargetkan kandungan lokal kendaraan listriknya bisa mencapai 60 persen pada 2027. Marketing Director Wuling Motors Ricky Christian mengatakan, pihaknya saat ini tengah mengecek seluruh komponen yang digunakan pada mobil listrik untuk memastikan kesiapan memenuhi ketentuan tersebut. Baca juga: Hasil Klasemen Moto3 2026, Veda Ega Pratama Bertahan di Posisi 6 KOMPAS.com/DIO DANANJAYA Ilustrasi mobil listrik Wuling di GIIAS 2024 \"Iya, kejar ( TKDN ) 60 persen buat pasar Indonesia,\" ujar Ricky kepada Kompas.com (7/8/2026). Menurut dia, sejumlah komponen mobil listrik Wuling sudah menggunakan produk yang diproduksi atau bersumber dari dalam negeri. Salah satunya adalah baterai dan komponen interior. \"Lagi dicek semua komponen, tapi beberapa kan emang sudah jalan ya. Seperti baterai dan interior,\" kata Ricky. Baca juga: Hasil Klasemen MotoGP Inggris 2026, Jorge Martin Masih di Puncak Wuling Motors Indonesia Supplier park yang berada di area pabrik Wuling Motors Indonesia di Cikarang, Bekasi, Jawa Barat. Ricky mengatakan, Wuling juga telah menggandeng cukup banyak pemasok lokal untuk mendukung proses produksi kendaraan di Indonesia. Dengan fondasi tersebut, perusahaan tinggal meningkatkan penggunaan komponen lokal secara bertahap sesuai dengan peta",
+      "language": "id",
+      "publishedAt": "2026-08-12T01:43:16.793Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
