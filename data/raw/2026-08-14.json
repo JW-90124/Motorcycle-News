@@ -1,0 +1,769 @@
+{
+  "collectedAt": "2026-08-14T01:44:10.051Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aprilia-schlug-auf-der-insel-zurueck-die-wahrheit-ist-aprilia-war-nie-weg",
+      "url": "https://www.speedweek.com/a/motogp/aprilia-schlug-auf-der-insel-zurueck-die-wahrheit-ist-aprilia-war-nie-weg",
+      "title": "Aprilia schlug auf der Insel zurück? Die Wahrheit ist: Aprilia war nie weg",
+      "summary": "Aprilia schlug auf der Insel zurück? Die Wahrheit ist: Aprilia war nie weg Vor vier Wochen reiste Aprilia mit einem schwer angeschlagenen Marco Bezzecchi aus Deutschland in die Sommerpause. In der Zentrale des englischen Rennsports kam die Antwort: Wir sind gemeinsam stark! MotoGP 13.08.2026 - 17:36",
+      "language": "de",
+      "publishedAt": "2026-08-14T01:43:40.955Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/rivola-aprilia-titelkampf-aragon-entscheidend",
+      "url": "https://www.speedweek.com/a/motogp/rivola-aprilia-titelkampf-aragon-entscheidend",
+      "title": "Rivola (Aprilia) zum Titelkampf: Aragon könnte das entscheidende Event sein",
+      "summary": "Rivola (Aprilia) zum Titelkampf: Aragon könnte das entscheidende Event sein MotoGP 13.08.2026 - 14:04",
+      "language": "de",
+      "publishedAt": "2026-08-14T01:43:40.955Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marini-kritisiert-rennkalender-null-zeit-um-sich-koerperlich-zu-steigern",
+      "url": "https://www.speedweek.com/a/motogp/marini-kritisiert-rennkalender-null-zeit-um-sich-koerperlich-zu-steigern",
+      "title": "Marini kritisiert Rennkalender: «Null Zeit, um sich körperlich zu steigern»",
+      "summary": "Marini kritisiert Rennkalender: «Null Zeit, um sich körperlich zu steigern» MotoGP 13.08.2026 - 09:54",
+      "language": "de",
+      "publishedAt": "2026-08-14T01:43:40.955Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-arzt-charte-medizinische-versorgung-simoncelli",
+      "url": "https://www.speedweek.com/a/motogp/motogp-arzt-charte-medizinische-versorgung-simoncelli",
+      "title": "MotoGP-Arzt Charte: «Diese Verrücktheit von früher gibt es nicht mehr!»",
+      "summary": "MotoGP-Arzt Charte: «Diese Verrücktheit von früher gibt es nicht mehr!» MotoGP 12.08.2026 - 19:22",
+      "language": "de",
+      "publishedAt": "2026-08-14T01:43:40.955Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aprilia-rivola-silverstone-motogp-dreifachsieg",
+      "url": "https://www.speedweek.com/a/motogp/aprilia-rivola-silverstone-motogp-dreifachsieg",
+      "title": "Rivola (Aprilia): «Haben ein Wochenende wie dieses dringend gebraucht!»",
+      "summary": "Rivola (Aprilia): «Haben ein Wochenende wie dieses dringend gebraucht!» MotoGP 12.08.2026 - 16:07",
+      "language": "de",
+      "publishedAt": "2026-08-14T01:43:40.955Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/thema-der-woche-aprilia-comeback-die-wahrheit-ist-aprilia-war-nie-weg",
+      "url": "https://www.speedweek.com/a/motogp/thema-der-woche-aprilia-comeback-die-wahrheit-ist-aprilia-war-nie-weg",
+      "title": "Thema der Woche: Aprilia-Comeback? Die Wahrheit ist: Aprilia war nie weg!",
+      "summary": "Thema der Woche Thema der Woche: Aprilia-Comeback? Die Wahrheit ist: Aprilia war nie weg! Vor vier Wochen reiste Aprilia mit einem schwer angeschlagenen Marco Bezzecchi aus Deutschland in die Sommerpause. In der Zentrale des englischen Rennsports kam die Antwort: Wir sind gemeinsam stark! Thomas Kuttruf Weiterlesen",
+      "language": "de",
+      "publishedAt": "2026-08-14T01:43:40.957Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aprilia-motogp-dominanz-zahlen",
+      "url": "https://www.speedweek.com/a/motogp/aprilia-motogp-dominanz-zahlen",
+      "title": "Aprilia in der MotoGP: Die eindrucksvollen Zahlen zur dominierenden Marke",
+      "summary": "Aprilia in der MotoGP: Die eindrucksvollen Zahlen zur dominierenden Marke Aprilia hat dem italienischen Konkurrenten Ducati in der MotoGP-WM den Rang abgelaufen. Einige Zahlen des Herstellers aus Noale aus dieser Saison sind jetzt schon beeindruckend. MotoGP 12.08.2026 - 10:19",
+      "language": "de",
+      "publishedAt": "2026-08-14T01:43:40.958Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/spielberg-2024-motogp-zweikampf-auf-hoechstem-niveau",
+      "url": "https://www.speedweek.com/a/motogp/spielberg-2024-motogp-zweikampf-auf-hoechstem-niveau",
+      "title": "Spielberg 2024: MotoGP-Zweikampf auf höchstem Niveau",
+      "summary": "Spielberg 2024: MotoGP-Zweikampf auf höchstem Niveau MotoGP 12.08.2025 - 20:02",
+      "language": "de",
+      "publishedAt": "2026-08-14T01:43:40.961Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/acosta-training-fuer-spielberg-mit-flinken-youngsters",
+      "url": "https://www.speedweek.com/a/motogp/acosta-training-fuer-spielberg-mit-flinken-youngsters",
+      "title": "Acosta: Training für Spielberg mit flinken Youngsters",
+      "summary": "Acosta: Training für Spielberg mit flinken Youngsters MotoGP 12.08.2025 - 17:07",
+      "language": "de",
+      "publishedAt": "2026-08-14T01:43:40.961Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/auf-nummer-sicher-dalligna-erklaert-ducati-lage",
+      "url": "https://www.speedweek.com/a/motogp/auf-nummer-sicher-dalligna-erklaert-ducati-lage",
+      "title": "Auf Nummer sicher: Dall'Igna erklärt Ducati-Lage",
+      "summary": "Auf Nummer sicher: Dall'Igna erklärt Ducati-Lage MotoGP 12.08.2025 - 16:16",
+      "language": "de",
+      "publishedAt": "2026-08-14T01:43:40.961Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804561/this-norton-manx-r-is-a-one-of-one-work-of-art-and-its-not-for-sale/",
+      "url": "https://www.rideapart.com/news/804561/this-norton-manx-r-is-a-one-of-one-work-of-art-and-its-not-for-sale",
+      "title": "This Norton Manx R Is a One-Of-One Work of Art",
+      "summary": "Norton teamed up with Peaceful Research to create a one-off Manx R, which is an asymmetrical work of art with no price tag as of yet.",
+      "language": "en",
+      "publishedAt": "2026-08-13T13:16:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804708/can-am-offers-more-details-on-ev-car-patent/",
+      "url": "https://www.rideapart.com/news/804708/can-am-offers-more-details-on-ev-car-patent",
+      "title": "Can-Am's Weird Electric Car Patent Is Back And More Detailed Than Ever",
+      "summary": "Is Can-Am going to make an EV car? Or is this a red herring?",
+      "language": "en",
+      "publishedAt": "2026-08-13T12:44:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/804705/most-dangerous-time-of-day-to-ride-motorcycles-according-to-nhtsa/",
+      "url": "https://www.rideapart.com/features/804705/most-dangerous-time-of-day-to-ride-motorcycles-according-to-nhtsa",
+      "title": "When's The Most Dangerous Time To Ride Your Motorcycle? It Probably Won't Surprise You",
+      "summary": "If you're already a motorcycle commuter, you've probably already gotten a good sense of when it's most dangerous to ride. But now you have data.",
+      "language": "en",
+      "publishedAt": "2026-08-13T12:14:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804568/yamaha-y16zrr-launched-malaysia-specs-price/",
+      "url": "https://www.rideapart.com/news/804568/yamaha-y16zrr-launched-malaysia-specs-price",
+      "title": "Yamaha Built A MotoGP-Inspired Scooter And I’m Not Sure Who Asked For This",
+      "summary": "Somewhere along the way, “cheap transportation” became “tiny MotoGP cosplay.”",
+      "language": "en",
+      "publishedAt": "2026-08-13T12:05:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804567/arctic-cat-utv-atv-lineup-2027/",
+      "url": "https://www.rideapart.com/news/804567/arctic-cat-utv-atv-lineup-2027",
+      "title": "Arctic Cat Finally Built A UTV That Won't Break The Bank",
+      "summary": "Somewhere along the way, UTVs became cars with worse weather protection.",
+      "language": "en",
+      "publishedAt": "2026-08-13T11:54:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804562/superbike-factory-administration-update-for-buyers-and-sellers/",
+      "url": "https://www.rideapart.com/news/804562/superbike-factory-administration-update-for-buyers-and-sellers",
+      "title": "Will Superbike Factory Customers Ever Be Made Whole? Here's What The Administrators Say",
+      "summary": "After Superbike Factory went into administration, both recent buyers and sellers of bikes were left twisting in the wind. Here's the latest.",
+      "language": "en",
+      "publishedAt": "2026-08-13T11:20:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/804724/kawasaki-robot-horse-patent-design-drawings-details-explanations/",
+      "url": "https://www.rideapart.com/features/804724/kawasaki-robot-horse-patent-design-drawings-details-explanations",
+      "title": "We Just Found Kawasaki's Robot Horse Patent Drawings. They're Full Of Insane Details",
+      "summary": "The robot horse may wear a saddle, but the rider will have to wear some connected gear to truly become one with their mecha robo horse.",
+      "language": "en",
+      "publishedAt": "2026-08-13T11:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804538/beachman-bikes-launches-special-vehicles-division-to-electrify-classic-motorcycles/",
+      "url": "https://www.rideapart.com/news/804538/beachman-bikes-launches-special-vehicles-division-to-electrify-classic-motorcycles",
+      "title": "This Small EV Motorcycle Company Wants to Convert Your Classic Bikes, Too",
+      "summary": "Beachman aims to quiet the world's old motorcycles.",
+      "language": "en",
+      "publishedAt": "2026-08-12T13:19:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804559/us-lawmakers-want-to-revoke-motorcycle-helmet-law-for-people-they-dont-represent/",
+      "url": "https://www.rideapart.com/news/804559/us-lawmakers-want-to-revoke-motorcycle-helmet-law-for-people-they-dont-represent",
+      "title": "Two US Lawmakers Want to Revoke Motorcycle Helmet Laws For People They Don't Represent",
+      "summary": "Rules for thee, not for me.",
+      "language": "en",
+      "publishedAt": "2026-08-12T12:55:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804552/norton-partners-with-foster-plus-partners-who-designed-apple-hq/",
+      "url": "https://www.rideapart.com/news/804552/norton-partners-with-foster-plus-partners-who-designed-apple-hq",
+      "title": "Norton's Dealership Concept Comes From The Folks Who Designed Apple's HQ",
+      "summary": "But will it help move bikes?",
+      "language": "en",
+      "publishedAt": "2026-08-12T12:39:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804543/vanderhall-brawley-gts-ev-orv-recall/",
+      "url": "https://www.rideapart.com/news/804543/vanderhall-brawley-gts-ev-orv-recall",
+      "title": "Vanderhall Is Recalling Every Electric UTV It's Made Over Unexpected Acceleration. Could Cause Injury or Death",
+      "summary": "This recall is for a firmware issue, and owners should immediately stop driving their Brawley GTS until the firmware can be updated.",
+      "language": "en",
+      "publishedAt": "2026-08-12T12:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/804428/cfmoto-v4sr-rr-coming-for-the-superbike-segment/",
+      "url": "https://www.rideapart.com/features/804428/cfmoto-v4sr-rr-coming-for-the-superbike-segment",
+      "title": "CFMoto Just Built A 196-MPH Problem For The Superbike Establishment",
+      "summary": "The spec sheet is terrifying. Now CFMoto just needs the trophies to match.",
+      "language": "en",
+      "publishedAt": "2026-08-12T11:55:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804524/the-2027-cfmoto-ibex-950-is-a-cheap-adventure-motorcycle-for-the-masses/",
+      "url": "https://www.rideapart.com/news/804524/the-2027-cfmoto-ibex-950-is-a-cheap-adventure-motorcycle-for-the-masses",
+      "title": "The CFMoto Ibex 950 Is an Adventure Motorcycle Aimed At the Big Dogs, But With an Introductory Price",
+      "summary": "That's hella cheap.",
+      "language": "en",
+      "publishedAt": "2026-08-12T11:38:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804426/cfmoto-2027-orv-lineup-launched-usa/",
+      "url": "https://www.rideapart.com/news/804426/cfmoto-2027-orv-lineup-launched-usa",
+      "title": "CFMoto's New UTVs Are Packed Full Of Fancy Toys And Comfort Designed To Go Further",
+      "summary": "Apparently “Base Model” is becoming a dirty word at CFMoto.",
+      "language": "en",
+      "publishedAt": "2026-08-12T11:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/two-wheels-life-sets-new-record-silverstone-over-ps200000-raised-charity",
+      "url": "https://www.visordown.com/news/two-wheels-life-sets-new-record-silverstone-over-ps200000-raised-charity",
+      "title": "Replica Barry Sheene leathers help break TWFL record at Silverstone",
+      "summary": "Two Wheels for Life set a new record total at Silverstone last weekend, after raising €234,000 for supported charities in The Gambia, Nigeria, Lesotho, and Malawi. Two Wheels for Life raised €234,000 (around £200,000) for charity at the British MotoGP last weekend, with €122,000 (roughly £105,000) coming directly from auctions. The funds were raised in support of the charity’s programmes in The Gambia, Nigeria, Lesotho, and Malawi, which provide vital transportation for healthcare services to remote and underprivileged communities. Two Wheels for Life hosted a series of events from Thursday, August 6, to Sunday, August 9, including auctions and the new Silverstone Challenge. The latter saw over 150 fans make donations to ride the MotoGP simulator, with a grid experience for two included as a prize for Sunday’s Grand Prix. The MotoGP grid experience went the way of 16-year-old Kacper Dubanowski, after setting a best time of 1.55:699. This took place on Friday, the same day that saw ten fans participate in a unique pillion ride around the Silverstone circuit aboard Ducati MotoEX2 machines, which were piloted by Ducati test rider, Franco Battaini and former Grand Prix racer Fonsi Nieto. The GP of Champions’ MotoGP Experience Day, which kicked things off on Thursday, proved to be a major success as the event was sold out with 750 guests attending. On Saturday, there were appearances made by MotoGP riders Jack Miller, Toprak Razgatlıoglu, Pedro Acosta, Brad Binder, Jorge Martin, J",
+      "language": "en",
+      "publishedAt": "2026-08-14T01:43:51.887Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/sylvain-guintoli-puts-custom-sega-sonic-dark-rider-motorcycle-auction",
+      "url": "https://www.visordown.com/news/sylvain-guintoli-puts-custom-sega-sonic-dark-rider-motorcycle-auction",
+      "title": "Sylvain Guintoli to auction Sonic the Hedgehog-inspired bike for Luca foundation",
+      "summary": "Sylvain Guintoli has put his 2000 Bourget custom motorcycle up for auction in a bid to raise funds for the Luca Guintoli charity foundation. Former WorldSBK champion and current TNT Sports MotoGP co-presenter, Sylvain Guintoli, has put his Sega Sonic the Hedgehog-inspired ‘Dark Rider’ motorcycle up for auction, with all proceeds going to the Luca Guintoli charity foundation. The foundation was founded by Sylvain after his late son, Luca, tragically passed away at the age of six last summer, following a near year-long battle with cancer. The motorcycle is a Bourget's Bike Works custom build that is a one-off model designed by Sega in connection with Oil Sweat & Gears and Atmospherics SFX. The ‘Dark Rider’ motorcycle is inspired by Shadow the Hedgehog from Sega's iconic Sonic the Hedgehog franchise, which was known to be a favourite character of Guintoli’s son. In fact, Guintoli recently honoured his son by running the London Marathon in a full one-piece leather suit that featured a specific Sonic the Hedgehog design. By running the marathon alongside his two daughters, Alicia and Layla, Guintoli managed to raise over £150,000 for PASIC (Parents' Association for Seriously Ill Children), which is an organisation that provides help and support to families whose children are fighting cancer. Prior to being placed up for auction through Bonhams, the bike was displayed at various locations including the British MotoGP at Silverstone, Gamescom in Germany on the Sega stand, EGX/MCM Co",
+      "language": "en",
+      "publishedAt": "2026-08-14T01:43:51.887Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/general/how-to-stay-cool-on-a-motorcycle-in-hot-weather",
+      "url": "https://www.visordown.com/news/general/how-to-stay-cool-on-a-motorcycle-in-hot-weather",
+      "title": "Hot weather motorcycle riding tips: 8 ways to stay cool and avoid heat exhaustion",
+      "summary": "Riding a motorcycle in hot weather can be tough. Here are eight simple ways to stay cool, hydrated and safe when temperatures start to rise. A warm summer's day and an empty road are about as close to motorcycling perfection as it gets. But when temperatures start pushing towards 30°C and beyond, riding a motorcycle can become uncomfortable surprisingly quickly. The problem isn't just that you're hot. Dehydration, fatigue and heat exhaustion can all affect your concentration, reactions and decision-making, which is rather important when you're sitting on a motorcycle surrounded by other road users. That doesn't mean you need to put the bike away whenever the mercury rises. There are plenty of simple things you can do to stay cool while riding a motorcycle in hot weather, without compromising your protective gear or making yourself miserable. If you're heading out for a long ride on a hot day, hydration should be part of your preparation rather than something you think about once you're already thirsty. Riding in the heat, particularly in full motorcycle gear, means you can lose a surprising amount of fluid. You might not notice it while you're concentrating on the road, but the effects of dehydration can creep up on you and leave you feeling tired, sluggish or unable to concentrate properly. Carry plenty of water and drink regularly throughout the ride. A hydration pack is particularly useful because you can drink little and often without having to wait until your next fuel s",
+      "language": "en",
+      "publishedAt": "2026-08-14T01:43:51.887Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/cardos-premium-riding-app-now-available-with-android-auto-compatibility",
+      "url": "https://www.visordown.com/news/cardos-premium-riding-app-now-available-with-android-auto-compatibility",
+      "title": "Track every trip with Cardo’s enhanced Ride Pro app",
+      "summary": "Cardo is promising a more “connected experience before, during and after every ride”, after announcing further updates to its premium riding app, which now features Android Auto compatibility. Cardo has now bolstered its two-wheeled presence further through a major partnership with Apple, although the company's most recent product update will also please Android users. The partnership sees Cardo’s premium Ride Pro app receive the Apple CarPlay dashboard integration system, meaning more tech, and a more seamless experience will be on offer, according to Cardo. Many modern day motorcycles are equipped with varying TFT screen sizes that support Apple CarPlay, and by entering into this agreement, riders with the Cardo app will be able to access a detailed navigation system, while also managing their journey via a more intuitive interface. In addition to dashboard integration, Cardo’s Ride Pro system includes features such as Tracking, allowing riders to record every trip they go on, as well as viewing their route on an interactive map, and accessing a wide range of riding data. Cardo’s tracking feature also lets riders share their location with friends, which is a useful tool especially for those that ride regularly in larger groups. While the CarPlay technology function will certainly please Apple users, the company's major update is that the app now features Android Auto compatibility, meaning the same features are available across both platforms. This is a seismic update as it",
+      "language": "en",
+      "publishedAt": "2026-08-14T01:43:51.887Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/sam-sunderland-ride-triumph-tiger-1200-rally-explorer-around-world-record-attempt",
+      "url": "https://www.visordown.com/news/sam-sunderland-ride-triumph-tiger-1200-rally-explorer-around-world-record-attempt",
+      "title": "Sam Sunderland confirms world record attempt this September",
+      "summary": "Sam Sunderland will attempt to become the fastest person ever to circumnavigate the globe on a motorcycle, with his world record attempt starting in London, on September 5. Two-time Dakar Rally champion Sam Sunderland will take on a world record attempt in September that he was due to try in 2025, before suffering a broken back. Sunderland will attempt to become the fastest rider ever to circumnavigate the globe on a motorcycle, with the time to beat currently standing at 19 days, eight hours, and 25 minutes. Sunderland will begin his world record attempt in London, where he will depart aboard a Triumph Tiger 1200 Rally Explorer, on September 5. The record time that Sunderland will attempt to beat has stood for more than two decades, and represents a huge challenge. To beat the record, Sunderland will need to ride more than 18,000 miles across five different continents, which includes crossing two antipodes and averaging close to 1,000 miles a day. To make sense of these numbers, it is the equivalent of riding the full length of the UK every day. The challenge will be anything but straightforward for Sunderland, though, who will likely be faced with changing climates, while also navigating several border crossings, differing time zones, and fighting against extreme fatigue. Speaking about the challenge that he was originally planning to take on in 2025, Sunderland said: \"I've spent months thinking about this challenge while focusing on getting myself fit again. Breaking my ba",
+      "language": "en",
+      "publishedAt": "2026-08-14T01:43:51.887Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/five-harley-davidson-motorcycles-and-20-frames-seized-indonesian-authorities",
+      "url": "https://www.visordown.com/news/five-harley-davidson-motorcycles-and-20-frames-seized-indonesian-authorities",
+      "title": "Indonesian authorities seize collection of illegal Harley bikes and frames",
+      "summary": "Authorities in Indonesia have seized a total of five Harley-Davidson motorcycles and 20 frames, with three firms now under investigation. A collection of five Harley-Davidson motorcycles and 20 frames have been seized in Indonesia, with authorities launching an investigation into the potentially illegal shipment from China. According to reports, officials discovered the illegal shipment container during an inspection at Tanjung Priok Port, which is located in North Jakarta. The case has been put under administrative review, although it has not advanced to being a criminal case yet. All five motorcycles have been confirmed as used bikes, while the 20 frames are all for Harley-Davidson models. The reason this could be an illegal shipment is because Indonesia has strict regulations regarding the commercial import of used vehicles. There are limited exceptions to this, however, it is largely prohibited. The law is in place to protect domestic manufacturing and prevent tax avoidance by means of importing used motor vehicles. Three importing companies are currently being investigated over the shipment container, including PAS, which has allegedly imported two of the used motorcycles. TSS is reported to have imported the other three bikes, while it’s claimed that HPM is responsible for the 20 frames. Authorities have so far inspected import documents and carried out interviews with the companies summoned. Customs are also working together with the Tanjung Priok Port police force. Ad",
+      "language": "en",
+      "publishedAt": "2026-08-14T01:43:51.887Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/german-wwii-motorcycle-pulled-danube-river-budapest",
+      "url": "https://www.visordown.com/news/german-wwii-motorcycle-pulled-danube-river-budapest",
+      "title": "Stuck in the mud: Military motorcycle retrieved from the Danube river",
+      "summary": "A motorcycle used more than 80 years ago in World War II has been found and rescued by a team of experts in the most unlikely of places. A German DKW NZ 350-1 military motorcycle, once used in World War II, has been pulled from underneath rocks and mud in the Danube river, in Budapest. The motorcycle was rescued in surprisingly good condition given the amount of time it had been stuck in the same location. It was also retrieved by a local team of experts, as were human remains and several explosives. Despite being stuck underneath mud for all these years, the bike could still serve as a restoration project as it remains largely intact. As well as the motorcycle mentioned, reports say German and Soviet infantry ammunition, remnants of hand grenades and artillery shells, and German TMi–35 mines were all discovered as well. This means the motorcycle was likely to be one of the safest objects found, however, due to the amount of artillery and explosives, the area was therefore secured before an evacuation could begin. All of these objects were discovered as a result of the Danube’s extremely low water level. Full of mud and trapped water, the bike is said to have weighed over 200 kg, meaning several members of the evacuation team were needed to remove it from where it wallowed. According to Daily News Hungary, the bike was “transported to the hangar of the Military History Institute and Museum on Kerepesi Road”. This is where it will be cleaned and conserved in the coming weeks.",
+      "language": "en",
+      "publishedAt": "2026-08-14T01:43:51.887Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/bultaco-rally-gt-300-revealed-mid-weight-adventure-motorcycle",
+      "url": "https://www.visordown.com/news/bultaco-rally-gt-300-revealed-mid-weight-adventure-motorcycle",
+      "title": "Bultaco is BACK… kind of",
+      "summary": "Images taken at an off-road event in Spain have given us our first glimpse of the new Bultaco Rally GT 300, but the more you look, the more you realise that things may not be what they seem… The storied off-road brand Bultaco seems to be sparking back into life. After a few years of focusing on electric and pedal-assisted off-road bicycles and lightweight dirt bikes, we finally have our first glimpse of a new petrol-powered adventure model. Although the word ‘new’ in the sentence is doing a lot of heavy lifting here. Those of a certain, younger age might not be familiar with the brand, but Bultaco was once a very big player in the world of off-road, enduro, trials, short circuit and even road racing. The Easy Rider star, Peter Fonda, famously owned a 1968 Pursang 250 desert racer, and if you were looking for a lightweight and competition-focused machine in the 1950s and 60s, the Spanish brand was a name to consider. As with many famous names from the past, though, Bultaco’s history isn’t one with a happy ending. The Barcelona factory closed its doors in 1983, remaining this way until it was snapped up by the Pandora Future Group in 2014. What followed was the aforementioned range of electric bikes for all ages. 2026, it seems, is the year that the brand is looking to return to doing what it is most famous for – proper petrol-powered motorbikes. And this is its first, the Rally GT 300, quite clearly an adventure rally bike with, and this is an educated guess, a 300cc engine. B",
+      "language": "en",
+      "publishedAt": "2026-08-14T01:43:51.888Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/13/153454515/prabowo-resmikan-motor-listrik-nasional-bisa-beli-tanpa-dp",
+      "url": "https://otomotif.kompas.com/read/2026/08/13/153454515/prabowo-resmikan-motor-listrik-nasional-bisa-beli-tanpa-dp",
+      "title": "Prabowo Resmikan Motor Listrik Nasional, Bisa Beli Tanpa DP",
+      "summary": "Prabowo Resmikan Motor Listrik Nasional, Bisa Beli Tanpa DP JAKARTA, KOMPAS.com - Presiden RI Prabowo Subianto resmi meluncurkan Program Motor Listrik Nasional (Molinas) beserta ekosistem pendukungnya, Rabu (13/8/2026). Dalam sambutannya, Prabowo menyebut peluncuran ini sebagai tonggak penting bagi kemandirian energi nasional sekaligus contoh nyata dari apa yang ia sebut sebagai \"Indonesia Incorporated\", kolaborasi antara BUMN, swasta, dan dunia akademis. Acara ini turut dihadiri CEO Danantara sekaligus Menteri Investasi dan Hilirisasi Rosan Roeslani, Menteri Koordinator Perekonomian Airlangga Hartarto, jajaran TNI-Polri, Gubernur Jawa Barat Dedi Mulyadi, hingga sejumlah pengusaha seperti Anindya Bakrie, James Riady, dan jajaran petinggi Grup Indika. Baca juga: Bukan Cuma Harga, Ekosistem Jadi Kunci Motor Listrik Nasional Presiden Prabowo Subianto dalam peluncuran motor listrik nasional (Molinas) di Bekasi, Jawa Barat, Kamis (13/8/2026). Prabowo mengapresiasi langkah Grup Indika yang disebutnya telah lama merintis produksi motor listrik dalam negeri jauh sebelum program nasional ini diluncurkan. \"Hari ini kelompok Indika telah berhasil produksi 20.000 motor. Saya bilang ke kelompok Indika, kalau kalian nanti mencapai 200.000, saya datang lagi. 2 juta, saya datang lagi,\" ujar Prabowo saat sambutan peluncuran Program Motor Listrik Nasional , Kamis (13/8/2026). Prabowo memastikan pemerintah akan menurunkan suku bunga cicilan kendaraan listrik dan mengupayakan skema pembelian tan",
+      "language": "id",
+      "publishedAt": "2026-08-14T01:44:04.999Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/13/152100215/5-mobil-listrik-terlaris-2026-j5-ev-masih-nomor-satu",
+      "url": "https://otomotif.kompas.com/read/2026/08/13/152100215/5-mobil-listrik-terlaris-2026-j5-ev-masih-nomor-satu",
+      "title": "5 Mobil Listrik Terlaris 2026, J5 EV Masih Nomor Satu",
+      "summary": "5 Mobil Listrik Terlaris 2026, J5 EV Masih Nomor Satu JAKARTA, KOMPAS.com - Persaingan pasar mobil listrik di Indonesia makin sengit. Data terbaru Gabungan Industri Kendaraan Bermotor Indonesia (Gaikindo) periode Januari-Juli 2026, menunjukkan lanskap yang cukup mengejutkan. Bukan BYD yang menduduki puncak klasemen penjualan mobil listrik individual, melainkan satu model dari merek yang baru saja mencicipi manisnya perakitan lokal, Jaecoo. Dalam tujuh bulan pertama tahun ini, Jaecoo J5 EV berhasil membukukan penjualan wholesales (dari pabrik ke diler) sebanyak 20.088 unit untuk varian Premium saja. Kalau digabung dengan varian Standart, angkanya tembus lebih dari 20.100 unit. Pencapaian ini tidak main-main. Angka tersebut membuat J5 EV setara, bahkan mengungguli, penjualan sejumlah model sedan dan SUV konvensional yang sudah malang melintang bertahun-tahun di pasar Tanah Air. Baca juga: Menanti Harga Deretan Mobil Listrik Baru di Indonesia Lonjakan ini tak lepas dari status J5 EV yang kini dirakit secara CKD (Completely Knock Down) di dalam negeri, sehingga harganya bisa lebih kompetitif dibanding versi impor utuh. Strategi lokalisasi produksi ini rupanya jadi kunci yang membuka pintu lebar-lebar bagi konsumen Indonesia untuk beralih ke kendaraan listrik. Lantas, siapa saja yang mengisi jajaran lima besar mobil listrik terlaris di Indonesia sepanjang Januari hingga Juli 2026? Berikut rangkumannya. Model ini menjadi kejutan terbesar tahun ini. Dengan basis produksi lokal, J5 E",
+      "language": "id",
+      "publishedAt": "2026-08-14T01:44:04.999Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/13/140100615/pemutihan-pajak-kendaraan-2026-begini-cara-bayar-online-tanpa-ke-samsat",
+      "url": "https://otomotif.kompas.com/read/2026/08/13/140100615/pemutihan-pajak-kendaraan-2026-begini-cara-bayar-online-tanpa-ke-samsat",
+      "title": "Pemutihan Pajak Kendaraan 2026, Begini Cara Bayar Online Tanpa ke Samsat",
+      "summary": "Pemutihan Pajak Kendaraan 2026, Begini Cara Bayar Online Tanpa ke Samsat JAKARTA, KOMPAS.com - Masyarakat yang belum membayar pajak kendaraan bermotor kini bisa memanfaatkan program keringanan dari pemerintah daerah. Tak hanya menghapus denda keterlambatan, beberapa daerah juga memberikan kemudahan pembayaran secara online, termasuk di Jakarta. Melalui program ini, masyarakat yang memiliki tunggakan pajak kendaraan tidak perlu membayar sanksi administratif berupa bunga ataupun denda keterlambatan. Pemilik kendaraan cukup melunasi pokok pajak yang menjadi kewajibannya. Program pemutihan pajak kendaraan di Jakarta berlangsung hingga 31 Desember 2026. Penghapusan sanksi administrasi tersebut dilakukan secara otomatis melalui sistem informasi manajemen pajak daerah, sehingga wajib pajak tidak perlu mengajukan permohonan khusus untuk mendapatkan keringanan. Bagi masyarakat yang ingin memanfaatkan program ini, pembayaran pajak kendaraan bisa dilakukan secara langsung melalui Samsat terdekat ataupun secara online menggunakan aplikasi Signal. Baca juga: Shuttle Daytrans Pakai Van Listrik, Penumpang Dapat Servis Makan Saat Mobil Dicas Pembayaran pajak kendaraan secara online melalui aplikasi Signal dapat dilakukan untuk pengesahan STNK tahunan. Artinya, layanan ini berlaku bagi kendaraan yang melakukan pembayaran pajak satu tahunan. Sementara untuk kebutuhan administrasi lain seperti perubahan data kendaraan atau balik nama, pemilik kendaraan tetap perlu datang langsung ke kantor Sams",
+      "language": "id",
+      "publishedAt": "2026-08-14T01:44:04.999Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/13/142100515/begini-jadinya-kalau-baic-bj40-plus-diubah-jadi-mobil-patroli-polisi",
+      "url": "https://otomotif.kompas.com/read/2026/08/13/142100515/begini-jadinya-kalau-baic-bj40-plus-diubah-jadi-mobil-patroli-polisi",
+      "title": "Begini Jadinya kalau BAIC BJ40 Plus Diubah Jadi Mobil Patroli Polisi",
+      "summary": "Begini Jadinya kalau BAIC BJ40 Plus Diubah Jadi Mobil Patroli Polisi JAKARTA, KOMPAS.com Bambang Soesatyo kembali menunjukkan ketertarikannya terhadap dunia otomotif. Kali ini, pria yang akrab disapa Bamsoet tersebut memamerkan BAIC BJ40 Plus dengan tampilan yang tidak biasa. Melalui unggahan di akun Instagram , BAIC BJ40 Plus tersebut tampil dengan kelir biru-putih khas kendaraan Polisi Lalu Lintas ( Polantas ). Baca juga: Hiroshi Okuda Meninggal, Sosok yang Mendorong Toyota ke Era Hybrid Penampilannya juga dibuat semakin gagah dengan sejumlah aksesori khas kendaraan operasional maupun off-road, seperti bull bar, winch, snorkel, lampu rotator, dan roof rack. Tak lupa BJ40 mobil juga dilengkapi kotak penyimpanan eksternal di sisi samping kaca belakang alias side-mounted gear carrier . A post shared by Bambang Soesatyo - Bamsoet (@bambang.soesatyo) \"Jeep BAIC BJ40 Plus yang mirip Jeep Wrangler) adalah buatan Beijing Automotive Group Co., Ltd. (BAIC), dan di Indonesia hadir melalui PT JIO Distribusi Indonesia (JDI). Kendaraan ini didatangkan dan dirakit secara lokal di fasilitas PT Handal Indonesia Motor di Purwakarta, Jawa Barat,\" tulis keterangan video dikutip Kamis (13/8/2026). Chief Operating Officer BAIC Indonesia Dhani Yahya menjelaskan bahwa mobil tersebut bukan kendaraan resmi milik kepolisian. Saat ini mobil tersebut dibuat untuk memberikan gambaran mengenai potensi BJ40 Plus jika dikembangkan sebagai kendaraan operasional kepolisian. Kendaraan tersebut masih merupakan",
+      "language": "id",
+      "publishedAt": "2026-08-14T01:44:05.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
