@@ -1,0 +1,757 @@
+{
+  "collectedAt": "2026-08-17T01:06:25.377Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-2027-fahrer-anpassung-pirelli-einheitsreifen",
+      "url": "https://www.speedweek.com/a/motogp/motogp-2027-fahrer-anpassung-pirelli-einheitsreifen",
+      "title": "Experte ist überzeugt: MotoGP-Fahrer müssen sich für 2027 gewaltig anpassen",
+      "summary": "Experte ist überzeugt: MotoGP-Fahrer müssen sich für 2027 gewaltig anpassen 2027 beginnt in der MotoGP nicht nur technisch eine neue Ära, mit Pirelli gibt es auch einen anderen Lieferanten für die Einheitsreifen. Das hat gravierende Auswirkungen auf die Fahrer und Ingenieure. MotoGP 16.08.2026 - 10:17",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.843Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-silverstone-aprilia-2026-zu-stark-fuer-marquez-ducati",
+      "url": "https://www.speedweek.com/a/motogp/motogp-silverstone-aprilia-2026-zu-stark-fuer-marquez-ducati",
+      "title": "Niederlage in Silverstone – Aprilia 2026 zu stark für Marquez und Ducati?",
+      "summary": "Niederlage in Silverstone – Aprilia 2026 zu stark für Marquez und Ducati? MotoGP 16.08.2026 - 06:44",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.843Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ogura-raetsel-warum-marquez-gruebelt",
+      "url": "https://www.speedweek.com/a/motogp/ogura-raetsel-warum-marquez-gruebelt",
+      "title": "Das «Ogura-Rätsel»: Weshalb der Japaner selbst Marquez zum Grübeln bringt",
+      "summary": "Das «Ogura-Rätsel»: Weshalb der Japaner selbst Marquez zum Grübeln bringt MotoGP 15.08.2026 - 19:27",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.843Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jorge-martin-motogp-leader-ibiza-auszeit",
+      "url": "https://www.speedweek.com/a/motogp/jorge-martin-motogp-leader-ibiza-auszeit",
+      "title": "Jorge Martin (Aprilia): MotoGP-WM-Leader gönnt sich Auszeit auf Ibiza",
+      "summary": "Jorge Martin (Aprilia): MotoGP-WM-Leader gönnt sich Auszeit auf Ibiza MotoGP 15.08.2026 - 17:11",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.843Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/oliveira-motogp-nachwuchs-keiner-kann-marquez-herausfordern",
+      "url": "https://www.speedweek.com/a/motogp/oliveira-motogp-nachwuchs-keiner-kann-marquez-herausfordern",
+      "title": "Oliveira über MotoGP-Nachwuchs: «Sehe keinen, der Marc herausfordern kann»",
+      "summary": "Oliveira über MotoGP-Nachwuchs: «Sehe keinen, der Marc herausfordern kann» MotoGP 15.08.2026 - 15:33",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.844Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-charte-ueber-marquez-und-martin",
+      "url": "https://www.speedweek.com/a/motogp/motogp-charte-ueber-marquez-und-martin",
+      "title": "Dr. Angel Charte über Marquez und Martin: «Sie sind sehr kühle Typen»",
+      "summary": "Dr. Angel Charte über Marquez und Martin: «Sie sind sehr kühle Typen» MotoGP-Chefarzt Dr. Angel Charte spricht über die Unterschiede zwischen den Fahrern in der Motorrad-Weltmeisterschaft. Welche Besonderheiten Marc Marquez und Jorge Martin aufzuweisen haben. MotoGP 15.08.2026 - 10:21",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.846Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/luca-marini-die-motogp-ingenieure-sollten-die-bikes-selbst-testen",
+      "url": "https://www.speedweek.com/a/motogp/luca-marini-die-motogp-ingenieure-sollten-die-bikes-selbst-testen",
+      "title": "Luca Marini: Die MotoGP-Ingenieure sollten die Bikes selbst testen!",
+      "summary": "Luca Marini: Die MotoGP-Ingenieure sollten die Bikes selbst testen! Noch-Honda-Werksfahrer Luca Marini gilt als ausgezeichneter Entwicklungsfahrer. Mit Blick in die Zukunft wünscht sich der Italiener noch mehr Aero-Entwicklung – und MotoGP-Testfahrten der Techniker. MotoGP 14.08.2026 - 19:55",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.846Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/gigi-dall-igna-raeumte-ein-ducati-in-silverstone-nie-wirklich-im-rennen",
+      "url": "https://www.speedweek.com/a/motogp/gigi-dall-igna-raeumte-ein-ducati-in-silverstone-nie-wirklich-im-rennen",
+      "title": "Gigi Dall’Igna räumte ein: Ducati in Silverstone «nie wirklich im Rennen»",
+      "summary": "Gigi Dall’Igna räumte ein: Ducati in Silverstone «nie wirklich im Rennen» Marc Marquez Ausnahmevorstellung Wochen zuvor in Sachsen hatte die Hoffnungen im Ducati-Lager auch für England hochgeschraubt. Doch auf der Insel war Rot chancenlos, gestand auch Corse-Chef Dall’Igna. MotoGP 14.08.2026 - 17:12",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.847Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/yamaha-testprogramm-fernandez-rackert-fuer-das-comeback-der-m1-2027",
+      "url": "https://www.speedweek.com/a/motogp/yamaha-testprogramm-fernandez-rackert-fuer-das-comeback-der-m1-2027",
+      "title": "Yamaha-Testprogramm: Fernandez rackert für das Comeback der M1 2027",
+      "summary": "Yamaha-Testprogramm: Fernandez rackert für das Comeback der M1 2027 Yamaha nutze den Silverstone-GP für den vierten Wildcard-Einsatz von Augusto Fernandez. Sportlich trat der Entwicklungspilot nicht in Erscheinung – doch hinter dem Programm stecken andere Pläne. MotoGP 14.08.2026 - 12:23",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.847Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-arzt-charte-psychische-gesundheit-fahrer",
+      "url": "https://www.speedweek.com/a/motogp/motogp-arzt-charte-psychische-gesundheit-fahrer",
+      "title": "MotoGP-Arzt Charte: «Habe schwierige Situationen mit Fahrern erlebt!»",
+      "summary": "MotoGP-Arzt Charte: «Habe schwierige Situationen mit Fahrern erlebt!» MotoGP-Chefarzt Dr. Angel Charte will zukünftig die psychische Gesundheit der Fahrer in der Motorrad-WM sicherstellen. Als Vorbild sollen spanische Fußballmannschaften oder die NBA dienen. MotoGP 14.08.2026 - 07:41",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.847Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/enea-bastianini-nach-sprintrennen-ich-bin-zurueck",
+      "url": "https://www.speedweek.com/a/motogp/enea-bastianini-nach-sprintrennen-ich-bin-zurueck",
+      "title": "Enea Bastianini nach Sprintrennen: «Ich bin zurück!»",
+      "summary": "Enea Bastianini nach Sprintrennen: «Ich bin zurück!» MotoGP 16.08.2025 - 20:06",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.849Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/vr46-ducati-jetzt-steht-auch-der-zweite-fahrer-fest",
+      "url": "https://www.speedweek.com/a/motogp/vr46-ducati-jetzt-steht-auch-der-zweite-fahrer-fest",
+      "title": "VR46 Ducati: Jetzt steht auch der zweite Fahrer fest",
+      "summary": "VR46 Ducati: Jetzt steht auch der zweite Fahrer fest MotoGP 16.08.2025 - 20:02",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.849Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/red-bull-ring-welche-faktoren-den-sprint-entschieden",
+      "url": "https://www.speedweek.com/a/motogp/red-bull-ring-welche-faktoren-den-sprint-entschieden",
+      "title": "Red Bull Ring: Welche Faktoren den Sprint entschieden",
+      "summary": "Red Bull Ring: Welche Faktoren den Sprint entschieden MotoGP 16.08.2025 - 19:48",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.849Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/honda-ass-johann-zarco-schlug-sich-selbst-blau",
+      "url": "https://www.speedweek.com/a/motogp/honda-ass-johann-zarco-schlug-sich-selbst-blau",
+      "title": "Honda-Ass Johann Zarco schlug sich selbst blau",
+      "summary": "Honda-Ass Johann Zarco schlug sich selbst blau MotoGP 16.08.2025 - 19:30",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.849Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marco-bezzecchi-4-valentino-rossi-eilte-zu-hilfe",
+      "url": "https://www.speedweek.com/a/motogp/marco-bezzecchi-4-valentino-rossi-eilte-zu-hilfe",
+      "title": "Marco Bezzecchi (4.): Valentino Rossi eilte zu Hilfe",
+      "summary": "Marco Bezzecchi (4.): Valentino Rossi eilte zu Hilfe MotoGP 16.08.2025 - 19:14",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.850Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/schockmoment-fuer-alex-marquez-waere-fast-weggerutscht",
+      "url": "https://www.speedweek.com/a/motogp/schockmoment-fuer-alex-marquez-waere-fast-weggerutscht",
+      "title": "Schockmoment für Alex Marquez: Wäre fast weggerutscht",
+      "summary": "Schockmoment für Alex Marquez: Wäre fast weggerutscht MotoGP 16.08.2025 - 18:31",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.850Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/nur-die-marquez-brueder-konnten-pedro-acosta-schlagen",
+      "url": "https://www.speedweek.com/a/motogp/nur-die-marquez-brueder-konnten-pedro-acosta-schlagen",
+      "title": "Nur die Marquez-Brüder konnten Pedro Acosta schlagen",
+      "summary": "Nur die Marquez-Brüder konnten Pedro Acosta schlagen MotoGP 16.08.2025 - 18:06",
+      "language": "de",
+      "publishedAt": "2026-08-17T01:05:49.850Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804865/csc-mid-travel-kit-can-am-defender-hd11-price-and-specs/",
+      "url": "https://www.rideapart.com/news/804865/csc-mid-travel-kit-can-am-defender-hd11-price-and-specs",
+      "title": "This Mid-Travel Kit Makes the New Can-Am Defender HD11 the Perfect Backcountry Companion",
+      "summary": "Better travel, better clearance, Cedar Suspension Co.",
+      "language": "en",
+      "publishedAt": "2026-08-16T11:56:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805014/we-visit-the-bear-mr-beef-chicago-on-a-motorcycle-video/",
+      "url": "https://www.rideapart.com/news/805014/we-visit-the-bear-mr-beef-chicago-on-a-motorcycle-video",
+      "title": "Riding To Mr. Beef, The Real-Life 'The Bear' Location, on a Royal Enfield Guerrilla 450",
+      "summary": "Good food and good motorcycles go together like peanut butter and jelly. First stop: Home of 'The Bear,' Mr. Beef on Orleans in Chicago!",
+      "language": "en",
+      "publishedAt": "2026-08-15T14:00:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804863/us-army-switched-its-autonomy-program-from-gm-isv-to-polaris-mrzr/",
+      "url": "https://www.rideapart.com/news/804863/us-army-switched-its-autonomy-program-from-gm-isv-to-polaris-mrzr",
+      "title": "Here's Why Polaris Is Working on Autonomous Side-By-Side Systems",
+      "summary": "When the U.S. Army says \"jump,\" you say \"How high?\"",
+      "language": "en",
+      "publishedAt": "2026-08-14T13:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804642/kawasaki-versys-900-spied-testing-in-the-wild-new-team-green-bike-incoming/",
+      "url": "https://www.rideapart.com/news/804642/kawasaki-versys-900-spied-testing-in-the-wild-new-team-green-bike-incoming",
+      "title": "Kawasaki Versys 900 Spied Testing in the Wild. New Team Green Bike Incoming",
+      "summary": "A Kawasaki Versys 900 was just spied testing. Here's everything we can tell from the shots.",
+      "language": "en",
+      "publishedAt": "2026-08-14T12:56:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/804745/royal-enfield-motoverse-more-than-meets-the-eye/",
+      "url": "https://www.rideapart.com/features/804745/royal-enfield-motoverse-more-than-meets-the-eye",
+      "title": "Royal Enfield Is Coming For Bigger Bikes, And Motoverse Could Be Ground Zero",
+      "summary": "Motoverse 2026 could give Royal Enfield the perfect stage to show just how serious it is about moving beyond up the displacement ranks.",
+      "language": "en",
+      "publishedAt": "2026-08-14T12:33:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804736/trackhouse-motogp-team-wants-regular-folks-to-apply-to-be-its-next-racer/",
+      "url": "https://www.rideapart.com/news/804736/trackhouse-motogp-team-wants-regular-folks-to-apply-to-be-its-next-racer",
+      "title": "Trackhouse MotoGP Says They're Hiring a Racer. Maybe We Should All Apply?",
+      "summary": "They can't reject everyone, right?",
+      "language": "en",
+      "publishedAt": "2026-08-14T12:15:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804564/bmw-is-making-an-m-1000-rs-that-aims-to-be-the-most-powerful-sport-tourer-on-the-market/",
+      "url": "https://www.rideapart.com/news/804564/bmw-is-making-an-m-1000-rs-that-aims-to-be-the-most-powerful-sport-tourer-on-the-market",
+      "title": "BMW Is Making an M 1000 RS That Aims To Be the Most Powerful Sport-Tourer on the Market",
+      "summary": "According to EPA filings, a BMW M 1000 RS is on the way in 2027. Here's what we can work out from the filings.",
+      "language": "en",
+      "publishedAt": "2026-08-14T11:44:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804731/polaris-patents-new-autonomous-vehicle-tech-for-sxs-utv-army/",
+      "url": "https://www.rideapart.com/news/804731/polaris-patents-new-autonomous-vehicle-tech-for-sxs-utv-army",
+      "title": "Polaris Wants Autonomous Vehicles. Likely For Its Army Contracts",
+      "summary": "Why should the aftermarket military industrial complex be the only profiteers?",
+      "language": "en",
+      "publishedAt": "2026-08-14T11:22:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/804746/ducati-patent-ev-motorcycle-18500rpm/",
+      "url": "https://www.rideapart.com/news/804746/ducati-patent-ev-motorcycle-18500rpm",
+      "title": "Ducati’s Future Electric Motorcycle Could Rev To 18,500 RPM",
+      "summary": "Ducati already built the electric race bike. Now give the rest of us something stupidly fun.",
+      "language": "en",
+      "publishedAt": "2026-08-14T11:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/suzuki-gb-has-already-sold-more-motorcycles-2026-whole-2025",
+      "url": "https://www.visordown.com/news/suzuki-gb-has-already-sold-more-motorcycles-2026-whole-2025",
+      "title": "Suzuki reveals huge sales increase compared with 2025",
+      "summary": "Suzuki’s expanded motorcycle range and pricing realignments are having a positive impact on sales compared to 2025. Suzuki GB has confirmed a huge increase in motorcycle sales compared to 2025, with more than 1,000 extra units sold year-on-year. This has contributed to a 62 per cent increase in total sales this calendar year, meaning more motorcycles have already been sold in 2026 compared with the entirety of 2025. One of the reasons behind the increase in sales has been the Japanese manufacturer’s willingness to reduce the overall prices of its models. In the last year alone, Suzuki has revealed price realignments across 13 of its road-going models, including the GSX-S1000GX+, which has seen its OTR (on the road) price reduced by nearly £3,000. Additionally, the company has also dropped £1,000 from the original prices of its modern classic GSX-8T and GSX-8TT bikes, both of which are part of Suzuki’s recently expanded range. You might be interested in reading our 2025 Suzuki GSX-8T and GSX-8TT review . Speaking of the brand’s growing line-up, we must make mention of the returning GSX-R1000R, and the newly-launched SV-7GX, which was unveiled at the 2025 EICMA show in Milan, Italy, last November. The GSX-R1000R is one of the company’s most iconic models, while the SV-7GX offers a very affordable way into the middleweight sports touring segment at £6,999. You might be interested in reading our 2026 Suzuki SV-7GX review . As well as the new models and price realignments, Suzuki",
+      "language": "en",
+      "publishedAt": "2026-08-17T01:06:00.705Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/2027-ducati-panigale-v4-sp-revealed-carb-filing",
+      "url": "https://www.visordown.com/news/2027-ducati-panigale-v4-sp-revealed-carb-filing",
+      "title": "New Ducati Panigale V4 SP model expected for 2027",
+      "summary": "A new Ducati Panigale V4 SP looks set to position itself between the standard V4 and the race homologated V4 R in 2027. Ducati looks set to usher in a new Panigale V4 SP for 2027, which has been certified via documents from the California Air Resources Board (CARB), according to a report from Motorcycle.com . The SP name is no stranger to Ducati, and has been used by the Italian marque across numerous model line-ups in the past. However, there is currently no SP variant in the heavily saturated Panigale V4 range. But that looks set to change heading into 2027, with the new Panigale V4 SP likely to position itself somewhere between the standard V4, and the race homologated V4 R, which is used by teams in major championships such as the WorldSBK series, and BSB . CARB had already certified the 2027 Ducati Panigale V4 line-up in March 2026, although Ducati is believed to have submitted a revised version last month, specifically mentioning the new V4 SP. The inclusion of a new SP version should come as no surprise after the previous generation V4 featured SP and SP2 models. Details of the new V4 SP remain scarce, however, we do know that it will feature the same 1,103cc engine that’s used by other Panigale V4 bikes. Expect the new V4 SP to feature a spec sheet not too dissimilar from the V4 R, and one that is therefore higher than the current V4. Previous iterations of the SP included adjustable billet aluminium footpegs, carbon fibre wheels, a brushed aluminium fuel tank, upgrad",
+      "language": "en",
+      "publishedAt": "2026-08-17T01:06:00.705Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/james-bond-mission-impossible-stunt-rider-reveals-favourite-kawasaki-bike-use",
+      "url": "https://www.visordown.com/news/james-bond-mission-impossible-stunt-rider-reveals-favourite-kawasaki-bike-use",
+      "title": "Rick English reveals favourite type of movie stunt and his “go-to” Kawasaki",
+      "summary": "Legendary stunt rider Rick English has revealed his favourite Kawasaki motorcycle to use when performing movie scenes. Veteran stunt performer Rick English has revealed his “go-to” motorcycle to use for stunt scenes, as well as his favourite type of movie stunt to perform, which may surprise you. English is one of the UK’s biggest names when it comes to the stunt world, which has seen him perform major stunts in numerous blockbuster films. English, who has over 27 years of experience in the industry, has delivered stunts in James Bond, Mission: Impossible and Jason Bourne movies. He has also ridden Batman’s iconic Batcycle, while he recently worked alongside Jason Momoa on the 2026 film, Supergirl. Below is a social media post from when English was spotted filming a scene in The Flash movie a few years ago. This has led English to ride, but also drive, some of the most iconic motorcycles and cars seen in Hollywood movies over the years, but when speaking to Kawasaki UK, English went on to discuss which type of stunt scene is his favourite, revealing a particularly surprising answer. \"I do a lot of car stunt driving as well, and getting behind the wheel of the Batmobile has definitely been one of the highlights. In the latest Batman film, I was also responsible for one of the big jumps through the flames, which was incredible to be part of. “But if you ask me what I enjoy the most, it's still bike crashes. They're challenging, technical and there's a real art to making them lo",
+      "language": "en",
+      "publishedAt": "2026-08-17T01:06:00.705Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/kawasaki-launches-ps1500-part-exchange-deal-z-7-and-ninja-7-hybrid",
+      "url": "https://www.visordown.com/news/kawasaki-launches-ps1500-part-exchange-deal-z-7-and-ninja-7-hybrid",
+      "title": "Kawasaki offers £1,500 part-exchange boost on hybrid bikes",
+      "summary": "Kawasaki is offering £1,500 towards a part-exchange on its Z 7 Hybrid and Ninja 7 Hybrid, with the deal running until the end of September. Kawasaki is offering riders a £1,500 part-exchange allowance on its Z 7 Hybrid and Ninja 7 Hybrid, in an attempt to make its unusual hybrid motorcycles a little easier to get into. The offer applies to both models and runs until 30 September 2026. Kawasaki is also promoting the bikes alongside its K-Options finance package, although the exact monthly payment will depend on the deal and individual circumstances. The Z 7 Hybrid and Ninja 7 Hybrid arrived in 2024 and are notable for being the first mass-produced strong hybrid motorcycles. Both use Kawasaki's 451cc parallel-twin engine alongside an electric motor and a relatively small battery pack, with the system designed to provide a mixture of petrol and electric propulsion rather than simply using electrification as a fuel-saving exercise. Kawasaki claims the hybrid setup can deliver acceleration comparable with a 1,000cc-class supersport bike while returning fuel economy more in line with a 250cc machine. That's a bold claim, although the hybrid system's real party trick is its ability to switch between different riding modes depending on what you're asking of it. The bikes can operate using the petrol engine, electric motor or both together, with the rider able to select from several modes. There's also an automated six-speed transmission, making the two Kawasaki hybrids rather differe",
+      "language": "en",
+      "publishedAt": "2026-08-17T01:06:00.705Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/benelli-trk-902-xplorer-beyond-the-map/",
+      "url": "https://www.eicma.it/en/benelli-trk-902-xplorer-beyond-the-map",
+      "title": "Benelli TRK 902 Xplorer, beyond the map",
+      "summary": "Benelli expands its lineup with the TRK 902 Xplorer , a crossover built for riders eager to push their wheels far beyond the asphalt. The new adventure machine's off-road DNA is clear at a glance: a compact, manually adjustable windscreen, handguards with integrated turn signals, standard LED auxiliary lights, and—most importantly—spoked wheels measuring 19 inches up front and 17 in the rear, wrapped in Pirelli Scorpion Rally STR M+S tires. Feeding the journey is a 21-liter fuel tank, while a punchy 904cc twin-cylinder engine beats at its core, pumping out 93.2 hp (68.5 kW) at 9,000 rpm and 90 Nm of torque at 6,500 rpm. Power delivery is managed by a Ride-By-Wire throttle featuring three distinct riding modes: Normal, Rain, and Sport . The sturdy steel trellis frame with reinforcing plates is paired with a fully adjustable 43mm Marzocchi upside-down fork (handling rebound, compression, and preload). In the rear, a monoshock with a remote adjuster handles hydraulic rebound damping and spring preload. Suspension travel sits at a generous 170mm, ground clearance reaches 215mm, and the seat height is set at an accessible 840mm. Stopping power is anchored by Brembo: dual 320mm discs with 4-piston radial calipers up front, and a single 260mm disc with a 2-piston caliper in the back, all governed by a disengageable cornering ABS for supreme off-road control. The tech sheet is stacked with rider aids, including a switchable Traction Control system, Quick Shift, Cruise Control, and a",
+      "language": "en",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/16/074100015/impresi-desain-toyota-veloz-q-hybrid-tampil-modern",
+      "url": "https://otomotif.kompas.com/read/2026/08/16/074100015/impresi-desain-toyota-veloz-q-hybrid-tampil-modern",
+      "title": "Impresi Desain Toyota Veloz Q Hybrid, Tampil Modern",
+      "summary": "Impresi Desain Toyota Veloz Q Hybrid, Tampil Modern JAKARTA, KOMPAS.com - Toyota Veloz Hybrid (HEV) menjadi salah satu pilihan baru bagi konsumen yang menginginkan mobil keluarga dengan teknologi elektrifikasi. Selain menawarkan sistem hybrid, Veloz HEV juga tetap mempertahankan karakter desain yang menjadi ciri khas mobil keluarga menengah dari Toyota. Salah satu variannya adalah Toyota Veloz HEV tipe Q yang menawarkan sejumlah fitur lengkap, termasuk perangkat hiburan yang lebih besar dan kamera 360 derajat. Baca juga: Tips Aman Berkendara ke Puncak Saat Long Weekend 17-an Kesan pertama saat melihat Toyota Veloz Q Hybrid datang dari bagian depan. Mobil ini memiliki grille berbentuk trapezoidal dengan pola diamond cut yang membuat wajahnya terlihat tegas. Grille tersebut dipadukan dengan aksen krom yang memanjang di bagian atas lampu utama, tepat di bawah bonnet. Kap mesin yang lebar turut memberikan kesan berotot pada bagian depan. Lampu utama menggunakan teknologi LED dengan desain pipih. Di dalamnya terdapat daytime running light (DRL), sementara lampu sein juga sudah menggunakan LED. Dari samping, karakter Veloz Q Hybrid terlihat lebih kokoh berkat garis bodi yang tegas dan penggunaan overfender berwarna hitam. Bagian bawah pintu juga dihiasi aksen yang membuat tampilan samping tidak terlihat polos. Baca juga: Baterai Mobil Hybrid Drop? Ini Indikasi dan Cara Mengatasinya Salah satu detail yang cukup menarik perhatian adalah pelek dual-tone berukuran 17 inci. Desainnya te",
+      "language": "id",
+      "publishedAt": "2026-08-17T01:06:14.819Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/16/072100715/lsuv-terlaris-juli-2026--xpander-cross-melonjak-rush-masih-dominan",
+      "url": "https://otomotif.kompas.com/read/2026/08/16/072100715/lsuv-terlaris-juli-2026--xpander-cross-melonjak-rush-masih-dominan",
+      "title": "LSUV Terlaris Juli 2026: Xpander Cross Melonjak, Rush Masih Dominan",
+      "summary": "LSUV Terlaris Juli 2026: Xpander Cross Melonjak, Rush Masih Dominan JAKARTA, KOMPAS.com Toyota Rush masih menjadi low sport utility vehicle (LSUV) terlaris di Indonesia pada Juli 2026. Berdasarkan data Gabungan Industri Kendaraan Bermotor Indonesia ( Gaikindo ), distribusi Rush dari pabrik ke diler alias wholesales mencapai 2.548 unit. Angka tersebut naik 7,3 persen dibanding satu bulan lalu yang mencatat 2.374 unit. Daihatsu Terios mengikuti di posisi kedua dengan distribusi 1.458 unit, tumbuh 3,6 persen dari 1.407 unit pada Juni 2026. Baca juga: Wuling Aira EV Dimodifikasi, Tampil Kalcer dengan Pelek Retro Australia KOMPAS.com/Gilang Mitsubishi Xpander Cross di IIMS 2026 Perubahan paling signifikan terjadi pada Mitsubishi Xpander Cross. Model tersebut mencatat distribusi 1.057 unit, atau melonjak 83,5 persen secara bulanan. Kenaikan tersebut membuat Xpander Cross naik ke posisi ketiga, sekaligus menggeser Suzuki XL7. XL7 sebenarnya juga mengalami pertumbuhan. Distribusinya naik 25,1 persen, dari 801 unit pada Juni 2026 menjadi 1.002 unit pada Juli 2026. Di bawahnya, Hyundai Stargazer X mencatat kenaikan 41,5 persen menjadi 201 unit dari sebelumnya 142 unit. Honda BR-V juga tumbuh 17,8 persen menjadi 119 unit, sedangkan Citroen C3 Aircross menjadi satu-satunya model yang mengalami penurunan hingga 24 persen pada periode sama. Baca juga: Cara Naik Transjakarta Rp 8 Saat HUT RI ke-81 KOMPAS.com/Gilang Daihatsu Terios GJAW 2025 Saudara-saudara kita di Nusa Tenggara Timur tengah",
+      "language": "id",
+      "publishedAt": "2026-08-17T01:06:14.819Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/16/080100615/populasi-kendaraan-listrik-indonesia-sudah-tembus-ratusan-ribu-unit",
+      "url": "https://otomotif.kompas.com/read/2026/08/16/080100615/populasi-kendaraan-listrik-indonesia-sudah-tembus-ratusan-ribu-unit",
+      "title": "Populasi Kendaraan Listrik Indonesia Sudah Tembus Ratusan Ribu Unit",
+      "summary": "Populasi Kendaraan Listrik Indonesia Sudah Tembus Ratusan Ribu Unit JAKARTA, KOMPAS.com Sepeda motor listrik menjadi kelompok terbesar dalam populasi kendaraan listrik berbasis baterai (KBLBB) di Indonesia. Hingga sekitar April 2026, jumlah motor listrik mencapai lebih dari separuh total kendaraan listrik yang beredar di Tanah Air. Berdasarkan data yang diolah Kementerian Perindustrian (Kemenperin), total populasi kendaraan listrik di Indonesia telah mencapai 468.231 unit hingga April 2026. Dari jumlah tersebut, kendaraan listrik roda dua mencapai 242.909 unit, sedangkan kendaraan listrik roda empat penumpang sebanyak 223.100 unit. Baca juga: Membaca Fenomena Jaecoo J5 EV di Tengah Gempuran SUV Listrik Indonesia United Mahasiswa UNISSULA kunjungi pabrik motor listrik United Artinya, populasi motor listrik saat ini masih lebih besar dibandingkan mobil listrik. Jika dibandingkan dengan total populasi KBLBB yang tercatat, motor listrik menyumbang sekitar 51,9 persen, sementara mobil listrik penumpang sekitar 47,6 persen. Besarnya populasi tersebut menunjukkan bahwa elektrifikasi kendaraan roda dua menjadi salah satu bagian penting dalam perkembangan ekosistem kendaraan listrik nasional. Perkembangan kendaraan listrik nasional mencatat pertumbuhan yang sangat cepat. Populasi KBLBB disebut mengalami pertumbuhan eksponensial dengan compound annual growth rate (CAGR) lebih dari 150 persen sepanjang 2020-2025. Kendaraan roda dua dan roda empat menjadi penggerak utama pertumbuhan ters",
+      "language": "id",
+      "publishedAt": "2026-08-17T01:06:14.819Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/16/060100215/info-jadwal-dan-lokasi-cfd-jakarta-hari-ini-ada-di-3-titik",
+      "url": "https://otomotif.kompas.com/read/2026/08/16/060100215/info-jadwal-dan-lokasi-cfd-jakarta-hari-ini-ada-di-3-titik",
+      "title": "Info Jadwal dan Lokasi CFD Jakarta Hari Ini, Ada di 3 Titik",
+      "summary": "Info Jadwal dan Lokasi CFD Jakarta Hari Ini, Ada di 3 Titik JAKARTA, KOMPAS.com Hari Bebas Kendaraan Bermotor (HBKB) atau Car Free Day (CFD) untuk wilayah Jakarta kembali digelar pada Minggu (16/8/2026). Berikut info lokasi dan waktu CFD Jakarta. Sama seperti pada kegiatakan sebelumnya, kegiatan ini hadir buat warga Jakarta yang ingin berolahraga atau menikmati suasana bebas kendaraan bermotor pada akhir pekan. Kali ini, terdapat tiga lokasi yang bisa menjadi pilihan masyarakat untuk berolahraga, bersepeda, berjalan kaki, atau sekadar menghabiskan waktu bersama keluarga. Baca juga: Spesifikasi United RX6000, Motor Listrik yang Bisa Ngecas di SPKLU Selain kawasan Jalan Sudirman dan Jalan Thamrin yang menjadi lokasi utama, CFD juga digelar di Jalan H.R. Rasuna Said, Kuningan, Jakarta Selatan, serta di Jalan Danau Sunter Selatan, Jakarta Utara. A post shared by INFOCARFREEDAY (@infocarfreeday_) Kawasan Sudirman-Thamrin tetap menjadi salah satu lokasi CFD yang paling populer di Jakarta. CFD di lokasi ini berlangsung mulai pukul 05.30 hingga 10.00 WIB. Rutenya membentang dari Jalan Jenderal Sudirman hingga Jalan M.H. Thamrin. Baca juga: Waspada Bahaya Motor Melintas Saat One Way di Jalur Puncak Masyarakat dapat memanfaatkan kawasan tersebut untuk berbagai aktivitas, seperti berlari, bersepeda, berjalan santai, hingga berolahraga bersama komunitas. Pada pelaksanaan CFD kali ini, terdapat pula booth layanan paspor SIMAS (Pasporia) dari Imigrasi di area Wisma KEIAI, Sudirman. KOMPAS.",
+      "language": "id",
+      "publishedAt": "2026-08-17T01:06:14.819Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
