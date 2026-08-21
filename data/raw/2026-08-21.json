@@ -1,0 +1,811 @@
+{
+  "collectedAt": "2026-08-21T01:08:03.270Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/volle-kraft-voraus-ktm-mit-korrigierten-motogp-triebwerken-in-aragon",
+      "url": "https://www.speedweek.com/a/motogp/volle-kraft-voraus-ktm-mit-korrigierten-motogp-triebwerken-in-aragon",
+      "title": "Volle Kraft voraus: KTM mit korrigierten MotoGP-Triebwerken in Aragon",
+      "summary": "Neu Volle Kraft voraus: KTM mit korrigierten MotoGP-Triebwerken in Aragon Nach Spurensuche in der KTM-MotoGP-Abteilung, einem Antrag beim Herstellerverband und einer längeren Wartezeit konnten die Motoren der RC16 vor dem Aragon-GP nun gemäß FIM-Protokoll revidiert werden. MotoGP 20.08.2026 - 19:50",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.401Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/johann-zarco-kommt-zurueck-lcr-bestaetigt-den-start-des-franzosen-in-aragon",
+      "url": "https://www.speedweek.com/a/motogp/johann-zarco-kommt-zurueck-lcr-bestaetigt-den-start-des-franzosen-in-aragon",
+      "title": "Johann Zarco kommt zurück! LCR bestätigt den Start des Franzosen in Aragon",
+      "summary": "Johann Zarco kommt zurück! LCR bestätigt den Start des Franzosen in Aragon MotoGP 20.08.2026 - 14:17",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.401Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/argentinien-gp-in-buenos-aires-inspektion-von-hoffnungstraeger-perrone",
+      "url": "https://www.speedweek.com/a/motogp/argentinien-gp-in-buenos-aires-inspektion-von-hoffnungstraeger-perrone",
+      "title": "Argentinien-GP in Buenos Aires: Inspektion von Hoffnungsträger Perrone",
+      "summary": "Argentinien-GP in Buenos Aires: Inspektion von Hoffnungsträger Perrone MotoGP 20.08.2026 - 12:15",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.401Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/achtung-pramac-teammanager-gino-borsoi-warnt-vor-ticketbetrug",
+      "url": "https://www.speedweek.com/a/motogp/achtung-pramac-teammanager-gino-borsoi-warnt-vor-ticketbetrug",
+      "title": "Achtung! Pramac-Yamaha-Teammanager Gino Borsoi warnt vor Ticketbetrug",
+      "summary": "Achtung! Pramac-Yamaha-Teammanager Gino Borsoi warnt vor Ticketbetrug MotoGP 20.08.2026 - 09:48",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.402Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/scott-redding-2019-unfall-fast-verblutet",
+      "url": "https://www.speedweek.com/a/motogp/scott-redding-2019-unfall-fast-verblutet",
+      "title": "Als Sott Redding 2019 fast verblutete: «Ich dachte, ich schaffe es nicht»",
+      "summary": "Als Sott Redding 2019 fast verblutete: «Ich dachte, ich schaffe es nicht» MotoGP 20.08.2026 - 07:29",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.402Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/schlecht-recherchiert-der-fall-gonzalez-bleibt-ein-grosses-motogp-raetsel",
+      "url": "https://www.speedweek.com/a/motogp/schlecht-recherchiert-der-fall-gonzalez-bleibt-ein-grosses-motogp-raetsel",
+      "title": "Schlecht recherchiert: Der Fall «Gonzalez» bleibt ein großes MotoGP-Rätsel",
+      "summary": "Schlecht recherchiert: Der Fall «Gonzalez» bleibt ein großes MotoGP-Rätsel Sonderbar ist noch untertrieben, wenn es um die Situation von Moto2-Tabellenführer Manuel Gonzalez geht. Wie ist es möglich, dass der kompletteste Fahrer wieder nicht in die Königsklasse aufsteigt? MotoGP 19.08.2026 - 18:43",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.404Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-erster-stoppie-alter",
+      "url": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-erster-stoppie-alter",
+      "title": "Kindheitserinnerungen von Toprak – wie alt er bei seinem ersten Stoppie war",
+      "summary": "Kindheitserinnerungen von Toprak – wie alt er bei seinem ersten Stoppie war MotoGP-Rookie Toprak Razgatlioglu erzählt, in welchem Alter er seinen ersten Stoppie probierte. An seinen ersten «Save» kann sich der Pramac-Yamaha-Pilot nicht mehr erinnern. «Ich hatte viele davon!» MotoGP 19.08.2026 - 15:52",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.404Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aleix-espargaro-sepang-crash-metall-entfernt-comeback-motogp-honda",
+      "url": "https://www.speedweek.com/a/motogp/aleix-espargaro-sepang-crash-metall-entfernt-comeback-motogp-honda",
+      "title": "Aleix Espargaro: Nach Sepang-Crash wurden Platten und Schrauben entfernt",
+      "summary": "Aleix Espargaro: Nach Sepang-Crash wurden Platten und Schrauben entfernt Bei Aleix Espargaro wurde das Metall operativ entfernt, das ihm nach seinem Horrorcrash in Sepang im April in den Rücken eingesetzt worden war. Er freut sich auf sein Comeback auf der MotoGP-Honda. MotoGP 19.08.2026 - 13:01",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.404Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/fermin-aldeguer-comeback-nach-assen-crash",
+      "url": "https://www.speedweek.com/a/motogp/fermin-aldeguer-comeback-nach-assen-crash",
+      "title": "Fermin Aldeguer (Ducati): Nach Assen-Crash zurück auf dem Motorrad",
+      "summary": "Fermin Aldeguer (Ducati): Nach Assen-Crash zurück auf dem Motorrad MotoGP-Ass Fermin Aldeguer (Gresini Ducati) will beim Aragon-GP sein Comeback geben. In dieser Woche trainierte er nach seinem Sturz in Assen das erste Mal wieder auf dem Motorrad. MotoGP 19.08.2026 - 10:23",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.404Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/scott-redding-mangelnde-unterstuetzung-pass-ausrede",
+      "url": "https://www.speedweek.com/a/motogp/scott-redding-mangelnde-unterstuetzung-pass-ausrede",
+      "title": "Scott Redding über mangelnde Unterstützung: «Der Pass ist nur die Ausrede»",
+      "summary": "Scott Redding über mangelnde Unterstützung: «Der Pass ist nur die Ausrede» Redding gewann 2008 in Donington vor Marc Marquez. Im Podcast erklärt er jetzt, warum die beiden Karrieren danach so weit auseinandergingen – und nimmt Großbritannien in die Pflicht. MotoGP 19.08.2026 - 07:39",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.404Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aprilia-spurtet-martin-sieht-unglaubliches-potenzial",
+      "url": "https://www.speedweek.com/a/motogp/aprilia-spurtet-martin-sieht-unglaubliches-potenzial",
+      "title": "Aprilia spurtet: Martin sieht unglaubliches Potenzial",
+      "summary": "Aprilia spurtet: Martin sieht unglaubliches Potenzial MotoGP 19.08.2025 - 19:38",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.407Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/was-jack-miller-ueber-den-balaton-park-circuit-denkt",
+      "url": "https://www.speedweek.com/a/motogp/was-jack-miller-ueber-den-balaton-park-circuit-denkt",
+      "title": "Was Jack Miller über den Balaton Park Circuit denkt",
+      "summary": "Was Jack Miller über den Balaton Park Circuit denkt MotoGP 19.08.2025 - 15:40",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.407Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/zeitplan-fuer-die-motogp-premiere-am-plattensee",
+      "url": "https://www.speedweek.com/a/motogp/zeitplan-fuer-die-motogp-premiere-am-plattensee",
+      "title": "Zeitplan für die MotoGP-Premiere am Plattensee",
+      "summary": "Zeitplan für die MotoGP-Premiere am Plattensee MotoGP 19.08.2025 - 14:10",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.407Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/spielberg-soundprobe-das-schaulaufen-der-gp-legenden",
+      "url": "https://www.speedweek.com/a/motogp/spielberg-soundprobe-das-schaulaufen-der-gp-legenden",
+      "title": "Spielberg-Soundprobe: Das Schaulaufen der GP-Legenden",
+      "summary": "Spielberg-Soundprobe: Das Schaulaufen der GP-Legenden MotoGP 19.08.2025 - 11:35",
+      "language": "de",
+      "publishedAt": "2026-08-21T01:07:33.407Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "lta-coe-2026-08-2",
+      "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+      "title": "新加坡 COE Category D（摩托车）最新中标价：S$11,301（2026-08 第2轮）",
+      "summary": "2026-08 第1轮：中标价 S$10,503（配额 521，收到投标 591 份，中标 518 份）；2026-08 第2轮：中标价 S$11,301（配额 512，收到投标 686 份，中标 501 份）",
+      "language": "en",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "category": "local-market",
+      "tags": [
+        "coe",
+        "singapore"
+      ],
+      "metrics": {},
+      "rawMeta": {
+        "dataSource": "data.gov.sg",
+        "datasetId": "d_69b3380ad7e51aff3a7dcc84eba52b8a"
+      },
+      "sourceSlug": "lta-coe-motorcycle",
+      "sourceName": "新加坡 LTA COE 摩托车类别（Category D）投标结果"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805501/trump-administration-usda-moves-to-kill-roadless-rule-the-public-approves-of/",
+      "url": "https://www.rideapart.com/news/805501/trump-administration-usda-moves-to-kill-roadless-rule-the-public-approves-of",
+      "title": "Repealing The Roadless Rule Doesn't Mean More Off-Road Trails",
+      "summary": "Nor does it mean better fire mitigation. It just allows for more mining, extraction, and development.",
+      "language": "en",
+      "publishedAt": "2026-08-20T13:09:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805362/never-knew-i-needed-an-ayrton-senna-pwc-until-sea-doo-made-this-limited-edition-model/",
+      "url": "https://www.rideapart.com/news/805362/never-knew-i-needed-an-ayrton-senna-pwc-until-sea-doo-made-this-limited-edition-model",
+      "title": "Would F1 Legend Ayrton Senna Rock This Special Edition Sea-Doo? We Think So",
+      "summary": "Sea-Doo just revealed details about its 2027 RXP-X Senna 350, which is a limited-edition model honoring the late, great Ayrton Senna.",
+      "language": "en",
+      "publishedAt": "2026-08-20T12:38:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805351/motsmann-engineering-outranger-camper-is-perfect-for-your-utv-camping/",
+      "url": "https://www.rideapart.com/news/805351/motsmann-engineering-outranger-camper-is-perfect-for-your-utv-camping",
+      "title": "You Could Tow This Adorable and Rugged Camper With Your UTV And Sleep Like a King",
+      "summary": "Rooftop tent? So old-fashioned.",
+      "language": "en",
+      "publishedAt": "2026-08-20T12:17:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805447/2027-kawasaki-ninja-e1-launch-specs-price/",
+      "url": "https://www.rideapart.com/news/805447/2027-kawasaki-ninja-e1-launch-specs-price",
+      "title": "Kawasaki Changed Almost Nothing On Its Electric Ninja This Year",
+      "summary": "Kawasaki apparently looked at its EV and said, “Yeah, let's keep that.”",
+      "language": "en",
+      "publishedAt": "2026-08-20T11:56:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/805507/can-am-concepts-might-preview-the-future-says-design-director-alain-massicotte/",
+      "url": "https://www.rideapart.com/features/805507/can-am-concepts-might-preview-the-future-says-design-director-alain-massicotte",
+      "title": "Can-Am Went For Car-Style Concepts, And They Could Preview Future Product",
+      "summary": "Can-Am's concepts are properly wild things. And does that 6x6 Defender have a Maverick R engine heart?",
+      "language": "en",
+      "publishedAt": "2026-08-20T11:34:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805372/harley-davidson-wants-to-expand-its-customization-offerings/",
+      "url": "https://www.rideapart.com/news/805372/harley-davidson-wants-to-expand-its-customization-offerings",
+      "title": "Harley's Already Massive Customization Catalog Is About To Get Bigger",
+      "summary": "Remember the 800-page accessories catalog? Yeah, you're gonna get even more real soon.",
+      "language": "en",
+      "publishedAt": "2026-08-20T11:15:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805334/sea-doo-just-made-the-fastest-pwc-ever-and-retained-its-0-60-mph-crown/",
+      "url": "https://www.rideapart.com/news/805334/sea-doo-just-made-the-fastest-pwc-ever-and-retained-its-0-60-mph-crown",
+      "title": "Sea-Doo Just Made The Fastest PWC Ever",
+      "summary": "Sea-Doo just dropped its new 2027 RXP-X 350 performance PWC, which has the fastest acceleration and most horsepower on the market.",
+      "language": "en",
+      "publishedAt": "2026-08-20T11:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805189/bmw-spied-testing-all-new-middleweight-adventure-motorcycle/",
+      "url": "https://www.rideapart.com/news/805189/bmw-spied-testing-all-new-middleweight-adventure-motorcycle",
+      "title": "BMW Spied Testing An All-New Middleweight Adventure Motorcycle",
+      "summary": "A prototype BMW middleweight adventure motorcycle was spied testing. All signs point to this being either an F 600 GS or a revival of the F 650 GS.",
+      "language": "en",
+      "publishedAt": "2026-08-19T13:05:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805274/royal-enfield-himalayan-440-confirmed-but-why/",
+      "url": "https://www.rideapart.com/news/805274/royal-enfield-himalayan-440-confirmed-but-why",
+      "title": "Royal Enfield Already Has A Himalayan 450, So Why Is It Making A 440?",
+      "summary": "Same name, almost the same displacement, two completely different motorcycles.",
+      "language": "en",
+      "publishedAt": "2026-08-19T12:22:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805230/sena-prism-2-action-camera-mesh-communications-recording-features/",
+      "url": "https://www.rideapart.com/news/805230/sena-prism-2-action-camera-mesh-communications-recording-features",
+      "title": "Sena Revives Prism Action Camera, But It Just Looks Like Everything Else",
+      "summary": "Is this enough to set it apart?",
+      "language": "en",
+      "publishedAt": "2026-08-19T12:10:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805213/how-does-a-zxmoto-820rr-compare-to-a-ducati-panigale-v2-on-track-richard-hammond-investigates/",
+      "url": "https://www.rideapart.com/news/805213/how-does-a-zxmoto-820rr-compare-to-a-ducati-panigale-v2-on-track-richard-hammond-investigates",
+      "title": "Richard Hammond 'Compares' ZXMoto 820RR to a Ducati Panigale V2 on Track. We Have Thoughts",
+      "summary": "Former Top Gear presenter Richard Hammond headed to China to see how the ZXMoto 820RR stacks up against a Ducati Panigale V2 on track.",
+      "language": "en",
+      "publishedAt": "2026-08-19T11:58:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805234/cardo-upgrades-public-mesh-31-riders/",
+      "url": "https://www.rideapart.com/news/805234/cardo-upgrades-public-mesh-31-riders",
+      "title": "Cardo Just Turned Motorcycle Intercoms Into Public Voice Chats",
+      "summary": "Cardo basically put an open multiplayer lobby inside your helmet.",
+      "language": "en",
+      "publishedAt": "2026-08-19T11:36:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805245/2027-honda-pioneer-lineup-announcement-prices-specs/",
+      "url": "https://www.rideapart.com/news/805245/2027-honda-pioneer-lineup-announcement-prices-specs",
+      "title": "Honda’s 2027 Pioneer UTVs Are Back To Get Some Actual Work Done",
+      "summary": "Honda actually remembered the “utility” part of UTV.",
+      "language": "en",
+      "publishedAt": "2026-08-19T11:23:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/805280/big-bike-sales-decline-india-heres-why/",
+      "url": "https://www.rideapart.com/features/805280/big-bike-sales-decline-india-heres-why",
+      "title": "Big Motorcycles Have A Problem: Small Bikes Are Getting Too Damn Good",
+      "summary": "Why buy twice the engine when you don’t need it?",
+      "language": "en",
+      "publishedAt": "2026-08-19T11:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/barber-vintage-motorsports-museum-reveals-new-ducati-and-suzuki-exhibitions",
+      "url": "https://www.visordown.com/news/barber-vintage-motorsports-museum-reveals-new-ducati-and-suzuki-exhibitions",
+      "title": "Ducati and Suzuki to headline the 2026 Barber Vintage Festival",
+      "summary": "The Barber Vintage Motorsports Museum, founded by the late George Barber Jr, has introduced two new exhibitions in 2026 that will celebrate major milestones. The annual Barber Vintage Festival, which is organised by the Barber Vintage Motorsports Museum, is set to take on a new look in 2026. That’s because Ducati and Suzuki will be celebrated in the form of two all-new exhibitions by the museum, which was founded by the late George Barber Jr. Barber passed away at the age of 85 in February, with his death marking the end of an era for American motorsport culture. His museum was founded in 1994, and over the last 21 years, it has regularly staged the annual Barber Vintage Festival. This year’s event will be kickstarted by the two above-mentioned exhibitions, one of which focuses on Ducati turning 100 years of age, while the other is specific to Suzuki’s GSX-R family. Ultan Guilfoyle, museum board member and co-curator of “The Art of the Motorcycle,” is in charge of organising the Ducati 100 and GSX-R|40 exhibitions. They will both be unveiled on Wednesday 7 October, and will be located on the third and fifth floors of the museum, which is based at the Barber Motorsports Park in Birmingham, Alabama. Speaking about the museum’s new plans, Guilfoyle said: “When I first met George Barber, his vision for what the Barber Vintage Motorsports Museum and Barber Motorsports Park could bring to Birmingham and a wider audience was astonishing for its farsightedness. Part of that vision wa",
+      "language": "en",
+      "publishedAt": "2026-08-21T01:07:43.438Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/europes-cheapest-and-most-expensive-petrol-prices-revealed",
+      "url": "https://www.visordown.com/news/europes-cheapest-and-most-expensive-petrol-prices-revealed",
+      "title": "Going touring? These are Europe’s cheapest and most expensive places for petrol",
+      "summary": "European petrol prices vary by more than €1 per litre. Here are the cheapest and most expensive countries, plus where the UK sits in the rankings. Petrol prices can make a surprisingly big difference to the cost of a European motorcycle tour, and a new study has revealed just how much prices vary between countries. Research from Czechvignette.cz has compared average prices for 95-octane unleaded petrol across 41 European countries, finding a difference of €1.01 (£0.86) per litre between the cheapest and most expensive locations. For bikers, that means where you choose to fill up could have a noticeable impact on the cost of a long-distance trip, particularly if you're crossing several countries. Sweden is the cheapest country in the study, with petrol costing an average of €1.31 (£1.12) per litre. Malta follows at €1.34 (£1.15), with North Macedonia third at €1.41 (£1.21). Andorra, which coincidentally is the home of choice for MotoGP racers, is next at €1.49 (£1.27), while Moldova and Bosnia and Herzegovina both record €1.50 (£1.28) per litre. Iceland, perhaps surprisingly given its remote location, is also among the cheaper countries at €1.52 (£1.30). Bulgaria follows at €1.53 (£1.31), Hungary at €1.58 (£1.35) and Cyprus at €1.59 (£1.36). San Marino, Slovenia and Luxembourg complete the cheapest end of the table, all recording €1.62 (£1.38) per litre. The UK is not included in the headline findings of the report, despite being listed in the underlying data. The reason is th",
+      "language": "en",
+      "publishedAt": "2026-08-21T01:07:43.438Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/british-musician-yungblud-suffers-broken-leg-motorcycle-accident-sturgis",
+      "url": "https://www.visordown.com/news/british-musician-yungblud-suffers-broken-leg-motorcycle-accident-sturgis",
+      "title": "Yungblud suffers broken leg in motorcycle accident, but vows to keep “giggin”",
+      "summary": "British musician Yungblud has confirmed plans to continue his European tour despite suffering a broken leg in a motorcycle accident. British music star Dominic Harrison, best known as Yungblud, has suffered a broken leg in a motorcycle accident, although the musician is still planning to perform despite the injury. According to Billboard, Yungblud suffered his injury while attending the Sturgis Motorcycle Rally, in South Dakota, which took place from August 7-16. As expected, the 2026 Rally proved to be a popular event with both Americans and people from all over the world. According to reports, members of the public described this year’s event as a “return to form”, with many local hotels, camping sites and street bars reaching full capacity. The Doncaster-born artist was one of the star names in attendance, which included a live performance from Yungblud before suffering the broken left leg. Yungblud shared details of his injury as part of a social media post on Sunday, August 16, although the singer has vowed to continue his tour with visits to Portugal and Belgium this week. “Leg fu**ed. Still giggin. Still standin (sort of). Portugal and Belgium I’m comin and it’s gonna be f***ing mad. See you next week. Let’s ride.” Clearly in good spirit despite his injury, Yungblud somewhat ironically chose Elton John’s “I’m Still Standing” soundtrack as the featured song on his post. It’s unclear how the accident happened, or what motorcycle Yungblud was riding at the time. That bein",
+      "language": "en",
+      "publishedAt": "2026-08-21T01:07:43.438Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/mcl26-sets-stage-all-new-modern-classic-motorcycle-display",
+      "url": "https://www.visordown.com/news/mcl26-sets-stage-all-new-modern-classic-motorcycle-display",
+      "title": "12 classic motorcycles are heading to MCL26 as part of a new feature",
+      "summary": "MCL26 is set to feature a carefully selected collection of 12 classic motorcycles, including a Kawasaki GPZ750 Turbo and a Mike Hailwood replica. If you’re planning to attend this year’s MCL26 event in Birmingham, then this all-new display of 12 classic motorcycles should be on your to-do list. MCL26, in collaboration with The Moulsdale Foundation, will feature a carefully selected collection of 12 motorcycles ranging from the 1980s to the 2000s. Named ‘The Collection’, the new display is part of the event’s wider plans to introduce new activities to this year’s show, which takes place at the NEC from November 21-29. If you're unfamiliar with The Moulsdale Foundation, it is a charitable foundation and collection company that’s based on the outskirts of Glasgow, which houses in excess of 400 motorcycles and 300 cars. That number does ebb and flow, though, as private models and collections are regularly loaned for public viewings. With regards to the display that will be featured at the NEC, MCL arranged for Mike Armitage, Editor of Classic Bike, to select the top twelve motorcycles that will be in attendance. This list will include a high-mileage Honda MBX80, as well as Kawasaki’s iconic GPZ750 Turbo. The GPZ750 is the smaller sibling of the GPZ900 motorcycle that was ridden by Tom Cruise in the original Top Gun movie. The GPZ750 was produced by Kawasaki from late 1983 to 1985, with development starting in January 1981 as a turbocharged 650, before it eventually became a 750 m",
+      "language": "en",
+      "publishedAt": "2026-08-21T01:07:43.438Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/car-tuner-mansory-turns-its-hand-two-wheels-yamaha-tmax-560-custom",
+      "url": "https://www.visordown.com/news/car-tuner-mansory-turns-its-hand-two-wheels-yamaha-tmax-560-custom",
+      "title": "Mansory has turned a TMAX into what it calls a “mega scooter”",
+      "summary": "Best known for souping up Bugattis and G Wagons, Mansory has turned a Yamaha TMAX into a carbon-clad “mega scooter”. The tuning house Mansory might be best known for hopping up hypercars for rich people who go by the first name ‘Sheikh’, but it’s also getting into the two-wheeler game. The first ‘bike’ to get the Mansory treatment was the Vespa Elettrica Monaco Edition, although its latest target is bigger in every way. You may also like to read our Yamaha TMAX Tech MAX (2025) Review Introducing the Mansory Maxi Scooter, which started as a Yamaha TMAX 560. Sitting above the strapline “Power. Prestige. Perfection”, the new machine is basically a carbon fibre-covered version of the bog-standard TMAX, with seemingly little or no mechanical upgrades to speak of. That’s really no surprise, given how different the Yamaha’s mechanicals are compared to the hypercars the company usually deals with. What it does have is seemingly all the carbon fibre. From the mirror covers to carbon ‘Mansory’ badges that replace the famous tuning forks, there are no huge swathes of carbon bodywork, just little flashes of it from nose to tail. It does feature a revised front fairing, with larger, more flared nostrils crowning the nose cone. The paint scheme for the bike is, according to Mansory, a “typical Mansory colour scheme” – that’s turquoise to you and me. For those looking to Mansory their TMAX, it looks as though the machine can be created by purchasing the kit of parts, which the brand notes h",
+      "language": "en",
+      "publishedAt": "2026-08-21T01:07:43.438Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/20/090200415/penjualan-kendaraan-elektrifikasi-melonjak-55x-di-indonesia-2021-2025",
+      "url": "https://otomotif.kompas.com/read/2026/08/20/090200415/penjualan-kendaraan-elektrifikasi-melonjak-55x-di-indonesia-2021-2025",
+      "title": "Penjualan Kendaraan Elektrifikasi Melonjak 55X di Indonesia 2021-2025",
+      "summary": "Penjualan Kendaraan Elektrifikasi Melonjak 55X di Indonesia 2021-2025 JAKARTA, KOMPAS.com - Kendaraan elektrifikasi semakin mendapat tempat di pasar otomotif Indonesia. Dalam kurun waktu 2021-2025, penjualan kendaraan elektrifikasi yang terdiri atas battery electric vehicle (BEV), hybrid electric vehicle (HEV), dan plug-in hybrid electric vehicle (PHEV) tumbuh sangat pesat. Berdasarkan data penjualan wholesales Gabungan Industri Kendaraan Bermotor Indonesia (Gaikindo), total kendaraan elektrifikasi yang terjual pada 2021 baru mencapai 3.158 unit. Baca juga: Pameran Perlengkapan Motor Hadirkan Brand Lokal dan Global Empat tahun kemudian, jumlah tersebut melonjak menjadi 175.144 unit pada 2025. Artinya, dalam periode tersebut penjualan kendaraan elektrifikasi meningkat sekitar 55 kali lipat. KOMPAS.com/STANLY RAVEL Toyota GIIAS 2026 Pertumbuhan ini juga terjadi ketika pasar mobil nasional justru mengalami penurunan. Pada 2021, total pasar mobil nasional mencapai 887.202 unit. Baca juga: Rapor Semester I VKTR, Penjualan Naik 56 Persen Angka tersebut sempat menembus 1 juta unit pada 2022 dan 2023, masing-masing 1.048.040 unit dan 1.005.802 unit. Setelah itu, pasar kembali menyusut menjadi 865.723 unit pada 2024 dan 803.687 unit pada 2025. Di tengah pasar yang mengecil tersebut, kendaraan elektrifikasi justru terus tumbuh. Pada 2025, porsinya bahkan mencapai 21,79 persen dari total pasar kendaraan nasional. AI CHAT GPT komparasi Mobil Listrik ringkas Aion UT VS Chery Q Data Gaikin",
+      "language": "id",
+      "publishedAt": "2026-08-21T01:07:57.430Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/20/071200415/penjelasan-jaecoo-indonesia-soal-kejadian-j5-ev-di-semarang",
+      "url": "https://otomotif.kompas.com/read/2026/08/20/071200415/penjelasan-jaecoo-indonesia-soal-kejadian-j5-ev-di-semarang",
+      "title": "Penjelasan Jaecoo Indonesia Soal Kejadian J5 EV di Semarang",
+      "summary": "Penjelasan Jaecoo Indonesia Soal Kejadian J5 EV di Semarang JAKARTA, KOMPAS.com - Belum lama ini, pengguna Jaecoo J5 EV, Theodorus Herutomo Theo, mengunggah keluhannya pada grup Facebook Jaecoo J5 EV Indonesia. Dia menyebutkan telah mengalami kerusakan pada mobilnya. \" Dalam perjalanan saya ke Semarang, tiba2 ada suara \"pletak\" dan ngga lama kemudian muncul indikator gambar kura2 berwarna hijau, yg memberikan notif yg mengakibatkan laju kecepatan maks hanya 30 km/jam, dari CS advice kalau mbl matikan mesin 30 menit sd 1 jam, dan setelah 40 menit jalan normal kembali, sehari setelah sampai di Semarang mesin dinyalakan muncul kembali gbr kura2, slnjutnya bawa ke bengkel JAECOO Semarang dan info klo nepelnya pecah, kesimpulannya hrs ganti battray yg hmpr 200 jt ,\" tulis Theo, dalam unggahannya. Baca juga: Membaca Fenomena Jaecoo J5 EV di Tengah Gempuran SUV Listrik Indonesia Menanggapi unggahan tersebut, Jim Ma, Business Unit Director Omoda & Jaecoo Indonesia , mengatakan, kejadian tersebut adalah kecelakaan mobil yang normal. Dok. Jaecoo Pengguna Jaecoo J5 EV yang mengalami kerusakan pada bagaian baterai \"Sebenarnya, kami sudah berbicara dengan konsumen tersebut. Kami juga sudah berbicara dengan konsumen mengenai masalah ini,\" ujar Jim Ma, kepada wartawan, saat ditemui di Tangerang, Rabu (19/8/2026). \"Menurut saya, akan lebih baik jika konsumen tersebut yang memberikan update mengenai kejadian ini. Sehingga, dia bisa memberikan cerita yang lengkap, dibandingkan kami memberikan",
+      "language": "id",
+      "publishedAt": "2026-08-21T01:07:57.431Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/20/092200015/daftar-mobil-listrik-rp-400-jutaan-ada-apa-saja-",
+      "url": "https://otomotif.kompas.com/read/2026/08/20/092200015/daftar-mobil-listrik-rp-400-jutaan-ada-apa-saja-",
+      "title": "Daftar Mobil Listrik Rp 400 Jutaan, Ada Apa Saja?",
+      "summary": "Daftar Mobil Listrik Rp 400 Jutaan, Ada Apa Saja? JAKARTA, KOMPAS.com Pilihan mobil listrik di Indonesia semakin beragam. Tak hanya bermain di segmen harga Rp 200 jutaan hingga Rp 300 jutaan, sejumlah pabrikan juga menawarkan kendaraan listrik di kelas menengah dengan banderol sekitar Rp 400 jutaan. Pada rentang harga tersebut, konsumen sudah bisa mendapatkan berbagai model mulai dari hatchback, SUV, hingga MPV listrik dengan kapasitas penumpang lebih banyak. Beberapa merek yang menawarkan mobil listrik Rp 400 jutaan antara lain BYD, MG, Aion, Chery, Geely, VinFast, hingga Wuling. Baca juga: Pameran Perlengkapan Motor Hadirkan Brand Lokal dan Global Aion memiliki beberapa pilihan mobil listrik di rentang harga Rp 400 jutaan hingga mendekati Rp 500 jutaan. Model termurahnya adalah Aion Y Plus Exclusive yang dipasarkan dengan harga Rp 419 juta. Sementara varian Premium dibanderol Rp 479 juta. Selain itu, ada Aion V Exclusive yang menjadi SUV listrik dengan harga Rp 499 juta. Pendatang baru di pasar mobil listrik Indonesia, Aletra, juga memiliki model di kelas ini. Aletra L8 EV hadir sebagai MPV listrik dengan harga Rp 488 juta. Mobil ini menawarkan konfigurasi kabin luas untuk kebutuhan keluarga. BYD menjadi salah satu merek mobil listrik yang cukup agresif di Indonesia. Pabrikan asal China ini menawarkan beberapa model di kisaran Rp 400 jutaan. Ada BYD Atto 3 Advanced dengan harga Rp 415 juta, kemudian BYD M6 yang menyasar segmen MPV listrik dengan pilihan konfigurasi tujuh pe",
+      "language": "id",
+      "publishedAt": "2026-08-21T01:07:57.431Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/20/084200915/acosta-tak-gentar-dibandingkan-marquez--fokus-adaptasi-ducati",
+      "url": "https://otomotif.kompas.com/read/2026/08/20/084200915/acosta-tak-gentar-dibandingkan-marquez--fokus-adaptasi-ducati",
+      "title": "Acosta Tak Gentar Dibandingkan Marquez: Fokus Adaptasi Ducati",
+      "summary": "Acosta Tak Gentar Dibandingkan Marquez: Fokus Adaptasi Ducati JAKARTA, KOMPAS.com - Pedro Acosta akan menghadapi tantangan besar pada MotoGP musim depan. Pebalap muda asal Spanyol itu bakal berada dalam satu garasi dengan Marc Marquez setelah memutuskan bergabung dengan Ducati. Kepindahan Acosta ke Ducati menjadi salah satu langkah paling menarik di bursa pebalap MotoGP . Pasalnya, ia akan menjadi rekan satu tim salah satu pebalap tersukses dalam sejarah kelas utama. Meski begitu, Acosta mengaku tidak merasa terbebani dengan statusnya sebagai rekan setim Marquez. Saya tidak tahu apa yang akan saya temukan di garasi nanti, tapi di sisi lain saya tidak merasa tertekan, ujar Acosta dikutip dari Motosan.es , Rabu (19/8/2026). Menurut Acosta, dirinya dan Marquez datang dengan kondisi yang berbeda dalam perjalanan karier masing-masing. Baca juga: Rapor Semester I VKTR, Penjualan Naik 56 Persen AFP/FERENC ISZA Marc Marquez (Ducati Lenovo Team) beraksi dalam balapan utama MotoGP Hongaria 2026 di Sirkuit Balaton Park di Balatonfokajar, Hongaria, pada 7 Juni 2026. (Foto oleh Ferenc ISZA / AFP) Marc berada di akhir kariernya. Saya berada di awal karier saya, kata Acosta. Berada satu tim dengan Marquez tentu menjadi tantangan tersendiri bagi Acosta. Pasalnya, pebalap berjuluk The Baby Alien tersebut dikenal sebagai salah satu pebalap paling dominan di MotoGP dan sering menjadi patokan bagi rekan satu timnya. Namun, Acosta melihat kesempatan tersebut sebagai pengalaman berharga untuk berk",
+      "language": "id",
+      "publishedAt": "2026-08-21T01:07:57.431Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
