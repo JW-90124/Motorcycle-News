@@ -1,0 +1,801 @@
+{
+  "collectedAt": "2026-08-24T01:07:26.096Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jack-miller-8h-suzuka-weniger-abstimmung-mehr-spass",
+      "url": "https://www.speedweek.com/a/motogp/jack-miller-8h-suzuka-weniger-abstimmung-mehr-spass",
+      "title": "Jack Miller über 8h Suzuka: Warum weniger Abstimmung mehr Spaß bedeutet",
+      "summary": "Jack Miller über 8h Suzuka: Warum weniger Abstimmung mehr Spaß bedeutet Jack Miller stand bei den 8 Stunden von Suzuka bereits dreimal am Start. Der MotoGP-Routinier erklärt, warum ihn gerade die Kompromisse des Langstreckensports besonders reizen. MotoGP 23.08.2026 - 19:50",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.498Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/simon-crafar-horror-unfall-wendepunkt-motogp",
+      "url": "https://www.speedweek.com/a/motogp/simon-crafar-horror-unfall-wendepunkt-motogp",
+      "title": "Simon Crafar: Wie ein Horror-Unfall zum Wendepunkt seines Lebens wurde",
+      "summary": "Simon Crafar: Wie ein Horror-Unfall zum Wendepunkt seines Lebens wurde MotoGP 23.08.2026 - 14:06",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.498Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-motogp-durchbruch-2027-analyse",
+      "url": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-motogp-durchbruch-2027-analyse",
+      "title": "Analyse: Was für und gegen Topraks MotoGP-Durchbruch 2027 spricht",
+      "summary": "Analyse: Was für und gegen Topraks MotoGP-Durchbruch 2027 spricht MotoGP 23.08.2026 - 11:39",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.498Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ducati-erste-motogp-winglets-2010",
+      "url": "https://www.speedweek.com/a/motogp/ducati-erste-motogp-winglets-2010",
+      "title": "Ducatis erste MotoGP-Winglets: «Heute beinahe lächerlich»",
+      "summary": "Ducatis erste MotoGP-Winglets: «Heute beinahe lächerlich» MotoGP 23.08.2026 - 10:09",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.498Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/raul-fernandez-harte-motogp-jahre-wm-anwaerter-2026",
+      "url": "https://www.speedweek.com/a/motogp/raul-fernandez-harte-motogp-jahre-wm-anwaerter-2026",
+      "title": "Raul Fernandez über harte MotoGP-Jahre: «Man hinterfragt alles»",
+      "summary": "Raul Fernandez über harte MotoGP-Jahre: «Man hinterfragt alles» MotoGP 23.08.2026 - 07:31",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.498Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/guenther-steiner-tech3-motogp-einstieg",
+      "url": "https://www.speedweek.com/a/motogp/guenther-steiner-tech3-motogp-einstieg",
+      "title": "Günther Steiner: «Meine Frau sagte: 'Du bist ein Idiot!'»",
+      "summary": "Günther Steiner: «Meine Frau sagte: 'Du bist ein Idiot!'» Tech3-Teambesitzer Günther Steiner erzählt, wie die Idee zum Einstieg in die MotoGP entstand – und verrät, wie deutlich die erste Reaktion seiner Frau auf das Projekt ausfiel. MotoGP 22.08.2026 - 19:44",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.500Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/senna-agius-ueber-casey-stoner-gold-wert",
+      "url": "https://www.speedweek.com/a/motogp/senna-agius-ueber-casey-stoner-gold-wert",
+      "title": "Senna Agius über Idol Casey Stoner: «Wenn er etwas sagt, ist es Gold wert»",
+      "summary": "Senna Agius über Idol Casey Stoner: «Wenn er etwas sagt, ist es Gold wert» Senna Agius hat mit Casey Stoner nicht nur ein großes Vorbild, sondern auch einen wertvollen Ratgeber. Der Moto2-Pilot erklärt, was ihn am zweimaligen MotoGP-Weltmeister beeindruckt. MotoGP 22.08.2026 - 14:48",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.501Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/technik-guru-gigi-dall-igna-simulationen-um-das-maximum-herauszuholen",
+      "url": "https://www.speedweek.com/a/motogp/technik-guru-gigi-dall-igna-simulationen-um-das-maximum-herauszuholen",
+      "title": "Technik-Guru Gigi Dall’Igna: Simulationen «um das Maximum herauszuholen»",
+      "summary": "Technik-Guru Gigi Dall’Igna: Simulationen «um das Maximum herauszuholen» Die MotoGP wird immer komplexer, die Werkzeuge für den Einsatz der Motorräder mit ihr. Ducati-Rennsportchef Dall’Igna gab einen Einblick in die Auswirkungen auf die MotoGP-Abteilung der Bologneser. MotoGP 22.08.2026 - 11:06",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.501Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/johann-zarco-fireblade-test-verletztes-knie",
+      "url": "https://www.speedweek.com/a/motogp/johann-zarco-fireblade-test-verletztes-knie",
+      "title": "Johann Zarco testet Honda Fireblade: So reagiert sein verletztes Knie",
+      "summary": "Johann Zarco testet Honda Fireblade: So reagiert sein verletztes Knie MotoGP-Routinier Johann Zarco saß unmittelbar vor der Ankündigung seines Comebacks in Aragon erstmals seit seiner Verletzung auf einem Superbike und verriet, wie sein Knie auf die Belastung reagierte. MotoGP 22.08.2026 - 09:18",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.501Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-chefarzt-charte-interview-abschalten",
+      "url": "https://www.speedweek.com/a/motogp/motogp-chefarzt-charte-interview-abschalten",
+      "title": "MotoGP-Chefarzt Charte: «Wenn ich nicht abschalten würde, wäre ich tot!»",
+      "summary": "MotoGP-Chefarzt Charte: «Wenn ich nicht abschalten würde, wäre ich tot!» Dr. Angel Charte arbeitet schon viele Jahre in der MotoGP-WM. Der Spanier erklärt, aus welchem Holz man geschnitzt sein muss, um seinen Job zu machen. Weshalb ihm die Fahrer vertrauen. MotoGP 22.08.2026 - 07:22",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.501Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/die-motogp-startet-2027-auf-den-strassen-von-adelaide-oder-doch-nicht",
+      "url": "https://www.speedweek.com/a/motogp/die-motogp-startet-2027-auf-den-strassen-von-adelaide-oder-doch-nicht",
+      "title": "Die MotoGP startet 2027 auf den Straßen von Adelaide, oder doch nicht?",
+      "summary": "Die MotoGP startet 2027 auf den Straßen von Adelaide, oder doch nicht? Das Projekt ist gewagt und doch beschlossene Sache: Erstmals in der Geschichte der MotoGP soll es 2027 auf einem Stadtkurs um den Sieg gehen. Doch der Widerstand gegen den Adelaide-GP wächst. MotoGP 21.08.2026 - 19:58",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.501Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/faehrt-vinales-in-aragon-ersatz-pol-espargaro-sitzt-auf-gepackten-koffern",
+      "url": "https://www.speedweek.com/a/motogp/faehrt-vinales-in-aragon-ersatz-pol-espargaro-sitzt-auf-gepackten-koffern",
+      "title": "Fährt Vinales in Aragon? Ersatz Pol Espargaro sitzt auf gepackten Koffern",
+      "summary": "Fährt Vinales in Aragon? Ersatz Pol Espargaro sitzt auf gepackten Koffern Gresini bestätigte die Rückkehr von Fermin Aldeguer für den Aragon-GP und LCR meldete den Einsatz von Johann Zarco. Und was ist mit Sonderfall Maverick Vinales? Bis heute gibt es keine Antworten. MotoGP 21.08.2026 - 15:15",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.501Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/fuer-sitzenbleiber-marini-gilt-verletzungen-gehoeren-dazu-und-geben-energie",
+      "url": "https://www.speedweek.com/a/motogp/fuer-sitzenbleiber-marini-gilt-verletzungen-gehoeren-dazu-und-geben-energie",
+      "title": "Für Sitzenbleiber Marini gilt: Verletzungen gehören dazu und geben Energie",
+      "summary": "Für Sitzenbleiber Marini gilt: Verletzungen gehören dazu und geben Energie Verglichen mit anderen MotoGP-Piloten muss Luca Marini nur selten aus dem Kiesbett geborgen werden. Dennoch hat der Italiener einen realistischen Blick auf die Verletzungen und die Rehabilitation. MotoGP 21.08.2026 - 10:06",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.501Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marco-bezzecchi-aprilia-superbike-training-misano",
+      "url": "https://www.speedweek.com/a/motogp/marco-bezzecchi-aprilia-superbike-training-misano",
+      "title": "Marco Bezzecchi (Aprilia): Training auf dem Superbike statt Erholung",
+      "summary": "Marco Bezzecchi (Aprilia): Training auf dem Superbike statt Erholung Aprilia-Ass Marco Bezzecchi und seine Kumpels von der VR46 Academy absolvierten in dieser Woche eine Trainingseinheit in Misano. Er brachte sich in Stellung für die letzten zehn MotoGP-Events 2026. MotoGP 21.08.2026 - 07:34",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.502Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jorge-martin-aprilia-hatte-koerperlich-zu-kaempfen",
+      "url": "https://www.speedweek.com/a/motogp/jorge-martin-aprilia-hatte-koerperlich-zu-kaempfen",
+      "title": "Jorge Martin (Aprilia): «Hatte körperlich zu kämpfen»",
+      "summary": "Jorge Martin (Aprilia): «Hatte körperlich zu kämpfen» MotoGP 22.08.2025 - 21:42",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.503Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/joan-mir-habe-das-potenzial-schon-frueh-gesehen",
+      "url": "https://www.speedweek.com/a/motogp/joan-mir-habe-das-potenzial-schon-frueh-gesehen",
+      "title": "Joan Mir: «Habe das Potenzial schon früh gesehen»",
+      "summary": "Joan Mir: «Habe das Potenzial schon früh gesehen» MotoGP 22.08.2025 - 20:59",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.504Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pol-espargaro-ktm-nimmt-stellung-zu-den-geruechten",
+      "url": "https://www.speedweek.com/a/motogp/pol-espargaro-ktm-nimmt-stellung-zu-den-geruechten",
+      "title": "Pol Espargaro (KTM) nimmt Stellung zu den Gerüchten",
+      "summary": "Pol Espargaro (KTM) nimmt Stellung zu den Gerüchten MotoGP 22.08.2025 - 20:15",
+      "language": "de",
+      "publishedAt": "2026-08-24T01:06:51.504Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805637/husqvarna-gasgas-rear-brake-caliper-recall-stop-ride-notice/",
+      "url": "https://www.rideapart.com/news/805637/husqvarna-gasgas-rear-brake-caliper-recall-stop-ride-notice",
+      "title": "KTM Says Don't Ride These Husqvarna And GasGas Off-Road Bikes Because Of A Risk Of Death",
+      "summary": "The rear brake caliper on several years and models of Husqvarna and GasGas off-road machines could crack or break in use, causing a serious risk of injury or death.",
+      "language": "en",
+      "publishedAt": "2026-08-23T12:05:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805584/sturgis-saw-a-25-decrease-in-crashes-this-year-while-drug-arrests-rose/",
+      "url": "https://www.rideapart.com/news/805584/sturgis-saw-a-25-decrease-in-crashes-this-year-while-drug-arrests-rose",
+      "title": "Sturgis Saw A 25% Decrease In Crashes This Year, While Drug Arrests Rose",
+      "summary": "The Rally Tally is in after the Sturgis Motorcycle Rally. While traffic accidents resulting in fatalities and injuries were down, felony drug arrests were up.",
+      "language": "en",
+      "publishedAt": "2026-08-22T11:24:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805631/dirt-bike-rider-gets-chased-by-police-and-helicopters-but-stops-to-make-calls/",
+      "url": "https://www.rideapart.com/news/805631/dirt-bike-rider-gets-chased-by-police-and-helicopters-but-stops-to-make-calls",
+      "title": "This Is the Most Chaotic Motorcycle Police Chase We've Ever Seen",
+      "summary": "This probably isn't the best time to \"phone a friend.\"",
+      "language": "en",
+      "publishedAt": "2026-08-21T13:28:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805626/livewire-slashes-one-motorcycle-price-by-over-half-ev/",
+      "url": "https://www.rideapart.com/news/805626/livewire-slashes-one-motorcycle-price-by-over-half-ev",
+      "title": "LiveWire $17,000 Price Cut Might Be The Deal of The Century. Or a Portent of Doom",
+      "summary": "The LiveWire One is getting old, and sales have not been great.",
+      "language": "en",
+      "publishedAt": "2026-08-21T12:47:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805340/yungblud-crashes-harley-davidson-and-breaks-leg-at-sturgis-rally/",
+      "url": "https://www.rideapart.com/news/805340/yungblud-crashes-harley-davidson-and-breaks-leg-at-sturgis-rally",
+      "title": "Singer Yungblud Crashed His Motorcycle At Sturgis and Broke His Leg, Says The Tour Is Still On",
+      "summary": "His 'Idols' world tour remains a go.",
+      "language": "en",
+      "publishedAt": "2026-08-21T12:15:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805480/2027-sea-doo-spark-x-is-almost-too-capable-as-entry-level-pwc/",
+      "url": "https://www.rideapart.com/news/805480/2027-sea-doo-spark-x-is-almost-too-capable-as-entry-level-pwc",
+      "title": "All-New 2027 Sea-Doo Spark X Is Almost Too Capable For An Entry-level PWC",
+      "summary": "Sea-Doo just added the all-new Spark X to its lineup for 2027, and it packs way more than you'd expect for its price.",
+      "language": "en",
+      "publishedAt": "2026-08-21T11:50:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805527/can-am-defender-xu-outlander-pro-specs-details-price/",
+      "url": "https://www.rideapart.com/news/805527/can-am-defender-xu-outlander-pro-specs-details-price",
+      "title": "Can-Am's Defender UTV Just Got Even More Utilitarian, And For Good Reason",
+      "summary": "It's got racks, rulers, tool holders, and everything you need for a hard day's work.",
+      "language": "en",
+      "publishedAt": "2026-08-21T11:38:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805619/morgan-3-wheeler-for-sale-so-you-should-buy-it/",
+      "url": "https://www.rideapart.com/news/805619/morgan-3-wheeler-for-sale-so-you-should-buy-it",
+      "title": "This Is The Only Good Three-Wheeler. So Buy It Now",
+      "summary": "Morgan's 3-Wheeler remains the GOAT.",
+      "language": "en",
+      "publishedAt": "2026-08-21T11:18:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/805534/brain-surgeon-says-wear-a-helmet-so-wear-a-helmet/",
+      "url": "https://www.rideapart.com/features/805534/brain-surgeon-says-wear-a-helmet-so-wear-a-helmet",
+      "title": "A Brain Surgeon Says Wear A Motorcycle Helmet. So Wear A Damn Helmet",
+      "summary": "Because the truth is your brain doesn't care about your politics.",
+      "language": "en",
+      "publishedAt": "2026-08-21T11:00:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/no-better-time-buy-livewire-one-now-more-half-its-launch-price",
+      "url": "https://www.visordown.com/news/no-better-time-buy-livewire-one-now-more-half-its-launch-price",
+      "title": "If you really wanted an original Harley-Davidson LiveWire but couldn’t afford one, now is the time to buy one!",
+      "summary": "Costing around £30,000 when launched under the Harley-Davidson banner, the now LiveWire One is now looking like a bit of a bargain. Visordown first got its hands on the production Harley-Davidson LiveWire in 2019, at the official European launch in Barcelona. And on the whole, we loved it, although its near £30k price tag was a stumbling block. And that’s an issue, because when you add a sky-high price with an emerging technology, early adopters can be hard to find. And they were; in the UK during its first year, the Harley-Davidson-badged LiveWire sold iat a snail's pace, and the story wasn’t much better in Harley’s homeland. In fact, in the entire time the bike was available with a bar and shield on the ‘tank’, it’s estimated that between 500 and 700 were sold globally. Whichever way you spin it, that’s a seriously low return for a bike that cost hundreds of millions to design, develop and manufacture. The slow sales led to price cuts, and when LiveWire became its own standalone brand in 2021, the price of the rebadged (but technically identical) LiveWire One dropped just under £20,000. That helped sales somewhat, with global sales estimated to be between 2,000 and 3,000 units after the reduction. Still, it’s not really enough to get the champagne corks popping in the Harley boardroom. Well, now there has been another price cut, and this one might actually start to move the needle. Here in the UK a brand spanking new LiveWire One, you know, the bike you’d be paying nearly £",
+      "language": "en",
+      "publishedAt": "2026-08-24T01:07:02.671Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/sena-launches-apex-bluetooth-intercoms-replaceable-batteries",
+      "url": "https://www.visordown.com/news/sena-launches-apex-bluetooth-intercoms-replaceable-batteries",
+      "title": "Sena's new Bluetooth intercoms have a feature riders will actually appreciate",
+      "summary": "Sena has launched its new Apex and Apex Plus Bluetooth intercoms, with replaceable batteries, up to 40 hours of combined talk time and a range of 1.6km. Sena has launched its first Bluetooth motorcycle intercoms with replaceable batteries, with the new Apex and Apex Plus designed to tackle one of the more annoying limitations of helmet communication systems. Both units come with two 620mAh batteries and a dual charger, with each battery providing up to 20 hours of talk time. That means up to 40 hours is available between the two batteries, while Sena says both can be charged in around two hours. A 20-minute fast charge provides up to two hours of communication per battery. The Apex is designed for two-person communication, while the Apex Plus increases that to four users. Both have an intercom range of up to 1.6km, along with Bluetooth 6.0, second-generation 40mm HD speakers, FM radio and AI-based microphone noise cancellation. Sena has also fitted a Quick Pair button, magnetic mounting and Qi wireless charging, while both systems are IPX7 water resistant. There is also support for Sena's Wave Intercom, which uses a mobile network connection to provide effectively unlimited range and cross-brand compatibility. The replaceable battery setup is arguably the most interesting part of the package. Rather than relying on an internal battery that eventually loses capacity and leaves the whole unit needing replacement or repair, Apex owners can carry a charged spare and swap it over",
+      "language": "en",
+      "publishedAt": "2026-08-24T01:07:02.672Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/norton-manx-r-becomes-first-combustion-engined-production-bike-win-idea-design-award",
+      "url": "https://www.visordown.com/news/norton-manx-r-becomes-first-combustion-engined-production-bike-win-idea-design-award",
+      "title": "Norton’s Manx R has just become the first combustion-engined production bike to win an IDEA Award",
+      "summary": "The Manx R has been recognised by an international design jury for its stripped-back approach to superbike styling, making Norton the first manufacturer to win an IDEA Award for a production combustion-engined motorcycle. Norton’s Manx R has picked up a Bronze award at the 2026 International Design Excellence Awards (IDEA), making it the first combustion-engined production motorcycle to receive the accolade. You may also like to read our Norton Manx R review . The award, organised by the Industrial Designers Society of America (IDSA), puts Norton’s new flagship among a very small number of motorcycles recognised by the 45-year-old design programme. The Manx R was recognised in the Automotive and Transportation category, with the jury apparently buying into Norton’s deliberately stripped-back approach to superbike design. While modern sports bikes have increasingly become covered in winglets, vents, creases and racing-inspired graphics, Norton has gone in the opposite direction with the Manx R, using cleaner surfaces, exposed mechanical components and a more restrained overall design. That approach is part of Norton’s wider ‘Resurgence’ strategy under TVS ownership, with the design direction shaped by Professor Gerry McGovern OBE and led by Norton’s Head of Design, Simon Skinner. The Manx R is the first model to emerge from the new-generation Norton range and is intended to establish the visual language for what follows. It is not just a styling exercise, either. The Manx R us",
+      "language": "en",
+      "publishedAt": "2026-08-24T01:07:02.672Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/ex-steve-mcqueen-scott-flying-squirrel-sidecar-outfit-sale",
+      "url": "https://www.visordown.com/news/ex-steve-mcqueen-scott-flying-squirrel-sidecar-outfit-sale",
+      "title": "Another day, another McQueen-owned bike, but this time, with a twist!",
+      "summary": "Owned by McQueen until he passed away, the Scott Flying Squirrel is one of the more unusual machines the movie star and racer owned. It seems like every week a new two-wheeled marvel, formerly owned by Steve McQueen, emerges from the woodwork. For the most part, they tend to be Brit-built singles and twins, with a significant number being off-road scramblers and desert racers. This bike is different. The Scott Flying Squirrel might be British-built, introduced in the 1920s, although it’s a very different kind of machine we usually see from the late icon’s collection. For starters, this is a proper vintage machine, having built in 1937 or ‘38. The second thing that marks it out as interesting is the sidecar outfit. McQueen passed away in 1980, and the Flying Squirrel and its sidecar were apparently restored while the machine was still in his ownership. Remaining in his ownership till his death, the bike was then subsequently sold through the McQueen estate auction in Las Vegas in 1984. It then found its way back into private ownership, and is now being offered through Bring a Trailer by a dealer in Newbury Park, California. The outfit is powered by Scott’s 498cc liquid-cooled two-stroke parallel-twin, a long-stroke ‘Power Plus’ engine lifted from the company’s sports models. It uses a thermosiphon radiator, Amal pre-Monobloc carburettor, Pilgrim oil pump and Lucas magneto, with the engine driving through a three-speed gearbox. The chassis is just as interesting, with a triangu",
+      "language": "en",
+      "publishedAt": "2026-08-24T01:07:02.672Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/norway-adopts-prime-style-biker-safety-markings-following-successful-scheme-scotland",
+      "url": "https://www.visordown.com/news/norway-adopts-prime-style-biker-safety-markings-following-successful-scheme-scotland",
+      "title": "The road safety markings that debuted in Scotland are now making their way across the North Sea",
+      "summary": "From Scotland to Norway: motorcycle-specific road markings are being used to influence rider behaviour and improve safety. Motorcycle-specific road markings might look like little more than another bit of paint on the road, but growing evidence suggests they can actually change the way riders approach bends. The Federation of European Motorcyclists’ Associations (FEMA) is highlighting the potential of road markings designed specifically with motorcycles in mind, pointing to evidence from Austria and the UK showing that they can encourage riders to adopt safer lines through corners. The basic idea is fairly simple. Rather than relying solely on warning signs telling riders to slow down, markings are positioned on or before a bend to influence where a motorcycle travels through it. The thinking is that riders naturally avoid riding over painted areas, creating a kind of visual funnel which encourages a safer road position. It is not a completely new idea. As we reported previously in our report on motorcycle road markings, Scotland has already been using its own version of the system. Known as PRIME, the markings are designed to influence rider speed, braking point and road position before bends. That system has since been extended to Wales, where PRIME markings have been installed at several locations on routes including the A5, A487 and A483. Research into the Scottish scheme found significant improvements in rider behaviour, including reduced speeds and better road positioni",
+      "language": "en",
+      "publishedAt": "2026-08-24T01:07:02.672Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/richard-hammond-stunned-chinese-sportsbike-after-ducati-panigale-v2-showdown",
+      "url": "https://www.visordown.com/news/richard-hammond-stunned-chinese-sportsbike-after-ducati-panigale-v2-showdown",
+      "title": "Richard Hammond pits the ZXMoto 820RR against Ducati Panigale V2 power",
+      "summary": "Richard Hammond travels to China to test the ZXMoto 820RR against a Ducati Panigale V2, and admits Chinese motorcycles have come a long way. Richard Hammond has been given a rather convincing reminder of just how quickly China’s motorcycle industry is catching up with established European manufacturers, after putting the new ZXMoto 820RR head-to-head with an older-spec Ducati Panigale V2. Hammond travelled to China to meet ZXMoto founder Zhang Xue, with the pair spending a day testing the 820RR against Ducati’s middleweight sportsbike across a series of challenges. While Hammond was happy to admit Zhang was considerably quicker than him, he also seemed suitably impressed with the supersport machine itself. The test began with a motorcycle gymkhana, to test the agility of the 820RR. Zhang threw the bike around the tight course considerably faster than Hammond, who admitted he took around 50 per cent longer to complete it. That led to the two talking about the bike’s chassis, including its adjustable rake, which Hammond noted could significantly alter the handling dynamics of the bike. Things got considerably more interesting, though, when they hit the track. Despite admitting he had not ridden a motorcycle on a circuit for around 20 years, Hammond praised the 820RR’s stability, front-end feel and the way its three-cylinder engine delivered its torque. “This thing does feel properly planted,” Hammond said, later adding that the front end had “masses of authority”. A professiona",
+      "language": "en",
+      "publishedAt": "2026-08-24T01:07:02.672Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/new-ducati-desmo450-eds-added-dre-adventure-academy-training-range",
+      "url": "https://www.visordown.com/news/new-ducati-desmo450-eds-added-dre-adventure-academy-training-range",
+      "title": "1-2-1 coaching is now available with Ducati’s Desmo450 EDS",
+      "summary": "Ducati has added the new Desmo450 EDS to its growing DRE Academy model range, with 1-2-1 coaching now available aboard the enduro motorcycle. Ducati’s first modern enduro motorcycle can now be ridden as part of the company’s official Desmo450 EDS Try Out Days initiative. After entering the off-road segment with the motocross-focused Desmo450 MX, Ducati then turned its attention to the enduro scene with the new Desmo450 EDS, which landed in UK dealerships at a price of £11,245 earlier this summer. Built on the same platform as the Desmo450 MX, the new enduro model takes those foundations and reshapes them in the form of a larger 8.5-litre fuel tank, revised suspension, a six-speed gearbox, additional protection and a retuned version of Ducati's unique Desmodromic 449.6cc single-cylinder engine. Ducati is also the only manufacturer that provides a Desmodromic valvetrain in the class, making its enduro motorcycle a one-of-a-kind machine, to some degree. The bike’s unique enduro engine setup, and other features such as fully adjustable 49mm Showa upside-down forks that offer 310mm of travel, Kashima coating on the fork legs, specifically tuned for enduro purposes, a fully adjustable Showa monoshock with 301mm of travel, a cast aluminium swingarm, Brembo brakes with single Galfer discs – 260mm (front) and 240mm (rear) – and finally, Metzeler Six Days Extreme tyres, can all be enjoyed through the Italian manufacturer’s training scheme. The Desmo450 EDS Try Out Days programme offers",
+      "language": "en",
+      "publishedAt": "2026-08-24T01:07:02.672Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/23/074100015/jutaan-mobil-kena-recall-di-china-karena-masalah-pintu-ini-daftarnya",
+      "url": "https://otomotif.kompas.com/read/2026/08/23/074100015/jutaan-mobil-kena-recall-di-china-karena-masalah-pintu-ini-daftarnya",
+      "title": "Jutaan Mobil kena Recall di China karena Masalah Pintu, Ini Daftarnya",
+      "summary": "Jutaan Mobil kena Recall di China karena Masalah Pintu, Ini Daftarnya BEIJING, KOMPAS.com Sejumlah produsen otomotif melakukan recall besar-besaran di China akibat persoalan yang terlihat sederhana, yakni handle atau tuas pembuka pintu darurat di dalam kabin. Recall tersebut melibatkan sekitar 4,3 juta kendaraan dari berbagai merek, mulai dari Tesla , Xiaomi, Leapmotor, Xpeng, Geely melalui Zeekr, Chery, Dongfeng, BAIC hingga FAW. Langkah ini menjadi salah satu recall otomotif terbesar yang pernah dilakukan di China. Persoalannya bukan semata-mata karena handle pintu tidak bekerja. Regulator China menyoroti desain tuas pembuka mekanis darurat di dalam kabin yang dinilai sulit dikenali dan dioperasikan karena warnanya menyerupai panel interior. Kondisi tersebut berpotensi menjadi masalah ketika kendaraan mengalami kecelakaan berat yang membuat sistem kelistrikan tegangan rendah tidak berfungsi. Dalam situasi seperti ini, penumpang harus mengandalkan mekanisme pembuka pintu secara manual untuk keluar dari kendaraan. Jika tuas darurat sulit ditemukan, proses evakuasi penumpang maupun upaya penyelamatan dari luar kendaraan berpotensi terhambat. Dok. Carscoops.com Xiaomi YU7 dan Tesla Model Y Dari sejumlah merek yang terlibat, Tesla mencatat jumlah kendaraan paling besar dalam recall terkait mekanisme pintu ini. Sekitar 2,98 juta unit Tesla terdampak, terdiri dari kendaraan produksi China maupun unit impor. Model yang masuk program tersebut mencakup Model 3, Model Y, Model X, dan",
+      "language": "id",
+      "publishedAt": "2026-08-24T01:07:19.511Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/23/082100115/kredit-motor-listrik-murah-kenapa-konsumen-tidak-tertarik-",
+      "url": "https://otomotif.kompas.com/read/2026/08/23/082100115/kredit-motor-listrik-murah-kenapa-konsumen-tidak-tertarik-",
+      "title": "Kredit Motor Listrik Murah, kenapa Konsumen Tidak Tertarik?",
+      "summary": "Kredit Motor Listrik Murah, kenapa Konsumen Tidak Tertarik? JAKARTA, KOMPAS.com - Skema pembiayaan sepeda motor listrik saat ini makin menggiurkan. Berbagai stimulus hingga subsidi potongan uang muka membuat cicilan bulanan motor listrik kini bisa sejajar, bahkan lebih terjangkau dibandingkan motor bermesin bensin. Salah satu contohnya terlihat pada skema kredit Polytron Fox 350. Motor listrik bongsor ini dibanderol dengan harga on the road (OTR) Rp 22.500.000. Lewat subsidi Rp 6,5 juta yang langsung memotong besaran uang muka, konsumen cukup menyerahkan DP sebesar Rp 2 juta saja. Cicilan terendahnya bahkan menyentuh angka Rp 498.000 per bulan untuk tenor 35 bulan dengan DP Rp 7,5 juta (setelah subsidi). Jika dikombinasikan dengan biaya sewa baterai sebesar Rp 200.000 per bulan dan biaya daya harian, total biaya operasionalnya hanya sekitar Rp 8.838 per hari. Angka ini jauh lebih murah ketimbang mengoperasikan motor bensin kelas 150 cc. Baca juga: KPPU Ingatkan Risiko Persaingan Timpang di Industri Motor Listrik KOMPAS.com/DIO DANANJAYA Exotic Sprinter AT jadi motor listrik termurah di GIIAS dengan banderol Rp 9,9 juta. Lantas, mengapa penetrasi motor listrik belum selaris hitungan matematikanya? Pengamat Otomotif Yannes Martinus menilai ada faktor keuangan masyarakat serta perhitungan risiko lembaga pembiayaan. Bagi kelompok menengah ke bawah, sepeda motor bukan sekadar alat transportasi harian atau sarana mencari nafkah, melainkan aset ekonomis yang harus bisa dicairkan cep",
+      "language": "id",
+      "publishedAt": "2026-08-24T01:07:19.511Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/23/114716115/bisnis-parkir-dianggap-gampang-cuan-benarkah-ini-faktanya",
+      "url": "https://otomotif.kompas.com/read/2026/08/23/114716115/bisnis-parkir-dianggap-gampang-cuan-benarkah-ini-faktanya",
+      "title": "Bisnis Parkir Dianggap Gampang Cuan, Benarkah? Ini Faktanya",
+      "summary": "Bisnis Parkir Dianggap Gampang Cuan, Benarkah? Ini Faktanya JAKARTA, KOMPAS.com - Bisnis parkir kerap dianggap sebagai usaha yang mudah dan menguntungkan. Cukup menyediakan lahan, mengatur kendaraan yang keluar-masuk, kemudian menarik tarif parkir. Anggapan tersebut membuat bisnis parkir terlihat sederhana di mata masyarakat umum. Namun di balik uang yang masuk dari setiap kendaraan, terdapat berbagai biaya yang harus dikeluarkan operator. Ketua Indonesia Parking Association (IPA) Rio Octaviano mengatakan, masih ada pihak yang melihat bisnis parkir hanya dari sisi pendapatan tanpa memperhitungkan biaya yang harus dikeluarkan. Baca juga: Jutaan Mobil kena Recall di China karena Masalah Pintu, Ini Daftarnya \"Kadang ada oknum yang berpikiran bisnis parkir ini duit banyak, akhirnya malah merusak ekosistem bisnis,\" kata Rio kepada Kompas.com, Sabtu (22/8/2026). KOMPAS.com/DIO DANANJAYA Sistem parkir pintar eNOS dirancang untuk memberikan pengalaman parkir yang benar-benar tanpa sentuhan. Dalam kerja sama antara operator parkir resmi dan pemilik lahan atau landlord, terdapat beberapa skema pembagian hasil. Dalam skema ini, pemilik lahan memperoleh sekitar 30-40 persen dari Nett Revenue. Artinya, pembagian dilakukan setelah Gross Revenue dikurangi pajak parkir, tetapi sebelum biaya SDM, amortisasi investasi, dan biaya operasional dikurangi. Baca juga: Alasan Pintu Belakang Truk Kontainer Suka Terbuka Pada metode ini, seluruh biaya diperhitungkan terlebih dahulu. Setelah Nett Revenue",
+      "language": "id",
+      "publishedAt": "2026-08-24T01:07:19.511Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/23/120100915/waspada-modus-debt-collector-cek-nomor-rangka-mobil",
+      "url": "https://otomotif.kompas.com/read/2026/08/23/120100915/waspada-modus-debt-collector-cek-nomor-rangka-mobil",
+      "title": "Waspada, Modus Debt Collector Cek Nomor Rangka Mobil",
+      "summary": "Waspada, Modus Debt Collector Cek Nomor Rangka Mobil JAKARTA, KOMPAS.com - Video yang memperlihatkan aktivitas mencurigakan di area parkir Gelora Bung Karno (GBK), Senayan, Jakarta Pusat, viral di media sosial. Terlihat seseorang masuk ke bagian kolong mobil yang sedang terparkir. Orang tersebut kemudian memeriksa bagian rangka kendaraan yang diduga untuk mencari nomor rangka . Aktivitas tersebut diduga dilakukan oleh dua pria yang memeriksa nomor rangka sejumlah mobil di area parkir GBK. Direktur Umum Pusat Pengelola Komplek Gelora Bung Karno (PPK GBK) Hadi Sulistia mengatakan, aktivitas pemeriksaan nomor rangka tersebut diduga dilakukan oleh debt collector . Baca juga: Kredit Motor Listrik Murah, kenapa Konsumen Tidak Tertarik? \"Dari kepolisian disampaikan bahwa perbuatan tersebut diduga dilakukan oleh debt collector,\" ujar Hadi mengutip Megapolitan Kompas.com, Jumat (21/8/2026). Hadi menjelaskan, debt collector tersebut diduga sedang mencari kendaraan yang menunggak pembayaran angsuran kredit . Untuk memastikan kendaraan yang dicari, kemudian diduga memeriksa identitas fisik kendaraan, termasuk nomor rangka. Baca juga: Info Jadwal dan Lokasi CFD Bogor Hari Ini \"Debt collector ini mencari kendaraan yang menunggak pembayaran angsuran kredit, lalu memasang pelat nomor tidak semestinya. Untuk memastikannya, mereka mencari identitas kendaraan lain seperti nomor rangka,\" jelas Hadi. lelang.go.id Foto nomor rangka Nissan GT-R R34 yang akan dilelang pemerintah Sebab nomor rangka d",
+      "language": "id",
+      "publishedAt": "2026-08-24T01:07:19.511Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
