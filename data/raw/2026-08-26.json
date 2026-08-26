@@ -1,0 +1,945 @@
+{
+  "collectedAt": "2026-08-26T01:08:15.000Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-aragon-zeitplan",
+      "url": "https://www.speedweek.com/a/motogp/motogp-aragon-zeitplan",
+      "title": "Zurück in Spanien: Der Zeitplan für das MotoGP-Wochenende in Aragon",
+      "summary": "Zurück in Spanien: Der Zeitplan für das MotoGP-Wochenende in Aragon Kommendes Wochenende gastiert die MotoGP-WM im MotorLand Aragon. Den Zeitplan für die Trainings und Rennen gibt es hier im Überblick. Auch der Harley-Davidson Bagger World Cup ist wieder am Start. MotoGP 25.08.2026 - 19:57",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.642Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ktm-tech3-verabschiedet-enea-bastianini",
+      "url": "https://www.speedweek.com/a/motogp/ktm-tech3-verabschiedet-enea-bastianini",
+      "title": "MotoGP-Team Red Bull KTM Tech3 verabschiedete sich von Enea Bastianini",
+      "summary": "MotoGP-Team Red Bull KTM Tech3 verabschiedete sich von Enea Bastianini MotoGP 25.08.2026 - 17:43",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.642Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pedro-acosta-ktm-extrem-kart-rennen-vor-motogp-aragon",
+      "url": "https://www.speedweek.com/a/motogp/pedro-acosta-ktm-extrem-kart-rennen-vor-motogp-aragon",
+      "title": "Pedro Acosta (KTM): Extrem-Kart-Rennen vor dem MotoGP-Event in Aragon",
+      "summary": "Pedro Acosta (KTM): Extrem-Kart-Rennen vor dem MotoGP-Event in Aragon MotoGP 25.08.2026 - 15:55",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.642Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-carlos-ezpeleta-stellvertretender-ceo",
+      "url": "https://www.speedweek.com/a/motogp/motogp-carlos-ezpeleta-stellvertretender-ceo",
+      "title": "Liberty stärkt Ezpeleta-Familie: Carlos ist jetzt stellvertretender CEO",
+      "summary": "Liberty stärkt Ezpeleta-Familie: Carlos ist jetzt stellvertretender CEO MotoGP 25.08.2026 - 13:41",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.642Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/vinales-fehlt-aragon-pol-espargaro-ersetzt",
+      "url": "https://www.speedweek.com/a/motogp/vinales-fehlt-aragon-pol-espargaro-ersetzt",
+      "title": "Vinales auch in Aragon nicht am Start – Pol Espargaro springt erneut ein",
+      "summary": "Vinales auch in Aragon nicht am Start – Pol Espargaro springt erneut ein MotoGP 25.08.2026 - 09:23",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.643Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/formel-1/ferrari-zoff-mit-hamilton-und-leclerc-jetzt-ist-teamchef-vasseur-gefordert",
+      "url": "https://www.speedweek.com/a/formel-1/ferrari-zoff-mit-hamilton-und-leclerc-jetzt-ist-teamchef-vasseur-gefordert",
+      "title": "Ferrari-Zoff mit Hamilton und Leclerc: Jetzt ist Teamchef Vasseur gefordert",
+      "summary": "Thema der Woche Ferrari-Zoff mit Hamilton und Leclerc: Jetzt ist Teamchef Vasseur gefordert Ferrari ging beim Grossen Preis der Niederlande leer aus: Lewis Hamilton Vierter, Charles Leclerc Fünfter. Nachher waren beide Piloten sauer, und Teamchef Fred Vasseur geriet in Erklärungsnot. Weiterlesen",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.643Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-startunfall-barcelona-bremsen-sicherheit",
+      "url": "https://www.speedweek.com/a/motogp/motogp-startunfall-barcelona-bremsen-sicherheit",
+      "title": "Gefährliche MotoGP-Starts: «Wenn man zu spät dran ist, hat man verloren»",
+      "summary": "Gefährliche MotoGP-Starts: «Wenn man zu spät dran ist, hat man verloren» Der schwere Startunfall von Johann Zarco bei der MotoGP in Barcelona rückte die Sicherheit in den Fokus. Danilo Petrucci erklärt die Grenzen beim Bremsen und präsentiert einen Lösungsvorschlag. MotoGP 24.08.2026 - 19:45",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.643Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/razgatlioglu-crash-red-bull-flugtag",
+      "url": "https://www.speedweek.com/a/motogp/razgatlioglu-crash-red-bull-flugtag",
+      "title": "Razgatlioglu mit Bruchlandung: Spektakulärer Absturz beim Red Bull Flugtag",
+      "summary": "Razgatlioglu mit Bruchlandung: Spektakulärer Absturz beim Red Bull Flugtag Toprak Razgatlioglu ist für spektakuläre Stunts bekannt. Beim Red Bull Flugtag in der Türkei sollte der MotoGP-Pilot diesmal abheben – doch der Versuch endete schneller als gedacht. MotoGP 24.08.2026 - 15:30",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.643Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/netflix-motogp-actionfilm-alan-ritchson-gp-wunderkind",
+      "url": "https://www.speedweek.com/a/motogp/netflix-motogp-actionfilm-alan-ritchson-gp-wunderkind",
+      "title": "Netflix-MotoGP-Film: 1,90-m-Hüne soll GP-Wunderkind spielen",
+      "summary": "Netflix-MotoGP-Film: 1,90-m-Hüne soll GP-Wunderkind spielen Die MotoGP soll zum Schauplatz eines neuen Netflix-Actionfilms werden. Mit Alan Ritchson ist ein prominenter Hauptdarsteller vorgesehen – dessen Statur allerdings Fragen aufwirft. MotoGP 24.08.2026 - 12:15",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.643Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/maverick-vinales-mountainbike-weltcup-les-gets",
+      "url": "https://www.speedweek.com/a/motogp/maverick-vinales-mountainbike-weltcup-les-gets",
+      "title": "Maverick Vinales: Ablenkung beim Mountainbike-Weltcup in Les Gets",
+      "summary": "Maverick Vinales: Ablenkung beim Mountainbike-Weltcup in Les Gets Während hinter dem Start von Maverick Vinales in Aragon weiterhin ein Fragezeichen steht, gönnte sich der angeschlagene Tech3-KTM-Pilot einen Ausflug zum Mountainbike-Weltcup. MotoGP 24.08.2026 - 10:08",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.643Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/enea-bastianini-2027-trackhouse-aprilia-wechsel",
+      "url": "https://www.speedweek.com/a/motogp/enea-bastianini-2027-trackhouse-aprilia-wechsel",
+      "title": "Jetzt offiziell: Enea Bastianini wechselt 2027 zu Trackhouse-Aprilia",
+      "summary": "Jetzt offiziell: Enea Bastianini wechselt 2027 zu Trackhouse-Aprilia Was seit Wochen als offenes Geheimnis galt, ist nun offiziell: Enea Bastianini wechselt 2027 zu Trackhouse-Aprilia und wird dort Teamkollege von Raul Fernandez. MotoGP 24.08.2026 - 09:34",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.644Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/fabio-di-giannantonio-motivation-konstanz-training",
+      "url": "https://www.speedweek.com/a/motogp/fabio-di-giannantonio-motivation-konstanz-training",
+      "title": "Fabio di Giannantonio über Motivation: «Es gibt gute und schlechte Tage»",
+      "summary": "Fabio di Giannantonio über Motivation: «Es gibt gute und schlechte Tage» MotoGP-Pilot Fabio Di Giannantonio gewährt Einblicke in seinen Trainingsalltag. Der Italiener verrät, warum für ihn nicht Motivation, sondern vor allem Konstanz entscheidend ist. MotoGP 24.08.2026 - 07:11",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.644Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/uccio-sorgt-sich-um-bagnaia-nicht-aufgeben",
+      "url": "https://www.speedweek.com/a/motogp/uccio-sorgt-sich-um-bagnaia-nicht-aufgeben",
+      "title": "Uccio sorgt sich um Bagnaia: «Nicht aufgeben!»",
+      "summary": "Uccio sorgt sich um Bagnaia: «Nicht aufgeben!» MotoGP 25.08.2025 - 14:31",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.645Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/morbidelli-nach-strafe-nicht-meine-sicht-der-dinge",
+      "url": "https://www.speedweek.com/a/motogp/morbidelli-nach-strafe-nicht-meine-sicht-der-dinge",
+      "title": "Morbidelli nach Strafe: «Nicht meine Sicht der Dinge»",
+      "summary": "Morbidelli nach Strafe: «Nicht meine Sicht der Dinge» MotoGP 25.08.2025 - 11:39",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.645Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aldeguer-nach-sturz-so-schnell-wie-marquez",
+      "url": "https://www.speedweek.com/a/motogp/aldeguer-nach-sturz-so-schnell-wie-marquez",
+      "title": "Aldeguer nach Sturz so schnell wie Marquez",
+      "summary": "Aldeguer nach Sturz so schnell wie Marquez MotoGP 25.08.2025 - 09:39",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.645Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/analyse-motogp-ungarn-die-entscheidenden-faktoren",
+      "url": "https://www.speedweek.com/a/motogp/analyse-motogp-ungarn-die-entscheidenden-faktoren",
+      "title": "Analyse MotoGP Ungarn: Die entscheidenden Faktoren",
+      "summary": "Analyse MotoGP Ungarn: Die entscheidenden Faktoren MotoGP 25.08.2025 - 08:19",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.645Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/acosta-crash-kameramann-kommt-mit-schrecken-davon",
+      "url": "https://www.speedweek.com/a/motogp/acosta-crash-kameramann-kommt-mit-schrecken-davon",
+      "title": "Acosta-Crash: Kameramann kommt mit Schrecken davon!",
+      "summary": "Acosta-Crash: Kameramann kommt mit Schrecken davon! MotoGP 25.08.2025 - 07:29",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.645Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/technik-streik-di-giannantonios-rennen-fuer-die-ehre",
+      "url": "https://www.speedweek.com/a/motogp/technik-streik-di-giannantonios-rennen-fuer-die-ehre",
+      "title": "Technik-Streik: Di Giannantonios Rennen für die Ehre",
+      "summary": "Technik-Streik: Di Giannantonios Rennen für die Ehre MotoGP 24.08.2025 - 22:27",
+      "language": "de",
+      "publishedAt": "2026-08-26T01:07:35.645Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805934/livewores-tiny-ev-road-legal-mini-bike-is-finally-available-at-a-dealership-near-you/",
+      "url": "https://www.rideapart.com/news/805934/livewores-tiny-ev-road-legal-mini-bike-is-finally-available-at-a-dealership-near-you",
+      "title": "Livewire's Tiny EV Mini Bike Is Finally Available At A Dealership Near You",
+      "summary": "LiveWire's S4 Honcho Trail is rolling into US dealerships right now. Its performance is suited to off-road pursuits, but the competition is stiff.",
+      "language": "en",
+      "publishedAt": "2026-08-25T13:21:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805917/lg-energy-solutions-solid-state-battery-technology-is-still-far-from-reality/",
+      "url": "https://www.rideapart.com/news/805917/lg-energy-solutions-solid-state-battery-technology-is-still-far-from-reality",
+      "title": "Solid-State Batteries Are Still A Future Tech, Not a Present One",
+      "summary": "Solid-state batteries are always a future technology that's always just out of reach. For now.",
+      "language": "en",
+      "publishedAt": "2026-08-25T12:43:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805846/bmw-gsa-anniversary-edition-launch-brazil/",
+      "url": "https://www.rideapart.com/news/805846/bmw-gsa-anniversary-edition-launch-brazil",
+      "title": "BMW’s Giant Anniversary GS Is Cool, But The Little One Might Actually Matter More",
+      "summary": "The rare GS gets the spotlight, the little one might hold the future.",
+      "language": "en",
+      "publishedAt": "2026-08-25T12:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805732/polaris-partners-with-minnesota-4h-club-for-youth-safety/",
+      "url": "https://www.rideapart.com/news/805732/polaris-partners-with-minnesota-4h-club-for-youth-safety",
+      "title": "Polaris and Minnesota's 4H Want Youth Riders To Be Safe WithUpdated Safety Program",
+      "summary": "Youth safety in the powersports space has become a necessary conversation.",
+      "language": "en",
+      "publishedAt": "2026-08-25T11:56:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805924/yamaha-is-planning-something-big-for-eicma-2026-will-we-get-the-tenere-900/",
+      "url": "https://www.rideapart.com/news/805924/yamaha-is-planning-something-big-for-eicma-2026-will-we-get-the-tenere-900",
+      "title": "Yamaha Is Planning Something Big For EICMA 2026. Will We Get The Tenere 900?",
+      "summary": "Yamaha just announced that it's going to launch something big at EICMA, \"redefining the standard\".",
+      "language": "en",
+      "publishedAt": "2026-08-25T11:38:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805805/ultraviolette-riding-academy-open-to-all-riders-india/",
+      "url": "https://www.rideapart.com/news/805805/ultraviolette-riding-academy-open-to-all-riders-india",
+      "title": "This EV Company Wants You To Bring Your Gas Bike To Its Riding School",
+      "summary": "No EV? No problem. Ultraviolette wants you at its riding school anyway.",
+      "language": "en",
+      "publishedAt": "2026-08-25T11:23:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/reviews/805929/2027-kawasaki-teryx-h2-is-a-supercharged-mud-flinging-delight-first-drive-review/",
+      "url": "https://www.rideapart.com/reviews/805929/2027-kawasaki-teryx-h2-is-a-supercharged-mud-flinging-delight-first-drive-review",
+      "title": "First Drive: The 2027 Kawasaki Teryx H2 Is A Supercharged, Mud-Flinging Delight",
+      "summary": "Raw power is one thing, but harnessing and handling refinements that let drivers get the most out of all that power is another planet.",
+      "language": "en",
+      "publishedAt": "2026-08-25T11:00:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805757/honda-cb400-super-four-eclutch/",
+      "url": "https://www.rideapart.com/news/805757/honda-cb400-super-four-eclutch",
+      "title": "Will Honda's New CB400 Super Four E-Clutch Win Over Modern Riders?",
+      "summary": "A refreshing, much-needed spin on a timeless concept, or something else?",
+      "language": "en",
+      "publishedAt": "2026-08-24T13:14:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805702/ex-motogp-rider-thinks-british-passports-are-holding-back-riders/",
+      "url": "https://www.rideapart.com/news/805702/ex-motogp-rider-thinks-british-passports-are-holding-back-riders",
+      "title": "Ex-MotoGP Rider Thinks British Passports Are Holding Back Some Racers",
+      "summary": "Former MotoGP rider, Scott Redding, thinks that some British racers are at a disadvantage simply due to where they're from; the current BSB rider offered up a good solution.",
+      "language": "en",
+      "publishedAt": "2026-08-24T12:47:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805657/indonesia-reinstates-ev-motorcycle-incentives/",
+      "url": "https://www.rideapart.com/news/805657/indonesia-reinstates-ev-motorcycle-incentives",
+      "title": "Indonesia Wants People To Buy EV Motorcycles So Bad It’s Literally Offering Them Cash",
+      "summary": "Can government subsidy really cure range anxiety?",
+      "language": "en",
+      "publishedAt": "2026-08-24T12:25:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805729/tank-motorcycle-atv-patent/",
+      "url": "https://www.rideapart.com/news/805729/tank-motorcycle-atv-patent",
+      "title": "Check Out This Rad Tank You Ride Like a Motorcycle",
+      "summary": "A tankcycle? A motortank? Whatever you want to call it, it's set to go anywhere.",
+      "language": "en",
+      "publishedAt": "2026-08-24T12:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805742/honda-motocompo-competitor-mazda-suitcase-car-custom/",
+      "url": "https://www.rideapart.com/news/805742/honda-motocompo-competitor-mazda-suitcase-car-custom",
+      "title": "Everyone Loves Honda's Motocompo. Did It Ever Have Any Serious Competition?",
+      "summary": "Competition, yes. Serious, not so much. Only 3 were ever made, so these guys decided to make their own updated version in 2026.",
+      "language": "en",
+      "publishedAt": "2026-08-24T11:53:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805720/norton-manx-r-becomes-first-production-ice-motorcycle-to-win-an-ide-award-in-decades/",
+      "url": "https://www.rideapart.com/news/805720/norton-manx-r-becomes-first-production-ice-motorcycle-to-win-an-ide-award-in-decades",
+      "title": "Norton Manx R Becomes First Production ICE Motorcycle To Win An IDEA In Decades",
+      "summary": "The Manx R just took home Bronze in the Automotive and Transportation category. That makes it the first production ICE superbike to ever win an IDEA.",
+      "language": "en",
+      "publishedAt": "2026-08-24T11:36:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805724/alan-ritchson-netflix-motogp-heist-film-is-in-production/",
+      "url": "https://www.rideapart.com/news/805724/alan-ritchson-netflix-motogp-heist-film-is-in-production",
+      "title": "'Reacher' Actor Alan Ritchson Will Star In MotoGP-Inspired Heist Film For Netflix, With 'Fast and the Furious' Connections",
+      "summary": "Have Netflix's execs ever met a MotoGP rider before? Because, uh, they're not that tall.",
+      "language": "en",
+      "publishedAt": "2026-08-24T11:13:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/steve-hislops-championship-winning-ducati-998rs-sale-ps180000",
+      "url": "https://www.visordown.com/news/steve-hislops-championship-winning-ducati-998rs-sale-ps180000",
+      "title": "Ducati 998RS faster than Valentino Rossi’s 2002 MotoGP bike goes up for sale",
+      "summary": "A very rare, fully BSB-spec, championship-winning race bike has gone up for sale in the UK, and it just so happens to be Steve Hislop’s 2002 Ducati 998RS. Remember Steve Hislop’s dominant 2002 BSB season aboard the Monstermob Ducati 998RS? Well, that exact motorcycle is now available to buy. Hislop was victorious eight times with the 998RS that season, also achieving 10 pole positions and 13 fastest laps. Hislop’s bike is a full factory-built 998RS which formed part of a dominant run for the Italian manufacturer in BSB during the late 90s/early 2000s. Ducati machinery won every British Superbike title from 1999 through to 2004, although Hislop became the first rider to win the championship with the new 998 model, which took over from the 996RS. Incredibly, Hislop also broke the Donington Park lap record that season, posting a lap time that was faster than Valentino Rossi’s MotoGP pole lap from the same year. Of course, a direct comparison cannot be made between the two bikes, as the premier class was still using 500cc two-stroke prototypes at the time. However, it still shows just how capable the 998RS was that year to beat a full-spec Grand Prix machine. Offered with the bike is an original race suit and a special helmet used by the Scottish rider, who tragically passed away in July, 2003. Hislop died after suffering a crash while piloting his Robinson R44 helicopter. As well as his exploits in BSB, Hislop was one of the best TT racers of his generation, winning at the iconi",
+      "language": "en",
+      "publishedAt": "2026-08-26T01:07:49.048Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/triumph-legend-norman-hyde-takes-ride-recall-dementia-uk",
+      "url": "https://www.visordown.com/news/triumph-legend-norman-hyde-takes-ride-recall-dementia-uk",
+      "title": "Now 81 and living with dementia, Norman Hyde is riding 81 miles to raise money for Dementia UK.",
+      "summary": "Former Triumph development engineer and record holder Norman Hyde is taking on an 81-mile ride as part of his Ride to Recall campaign for Dementia UK. Not many people can claim to have played a leading role in creating some of the UK’s most famous bikes, set world speed records, and then spent decades making those same bikes faster. Norman Hyde is one of the few people who genuinely can. Now aged 81 and living with dementia, Hyde is using motorcycles once again to raise awareness and money for Dementia UK through his Ride to Recall campaign. Hyde has challenged himself to ride 81 miles, representing his age, without using a Sat-Nav or other electronic navigation aid. The challenge is intended to highlight the importance of memory while raising money for the charity. Hyde has already completed his own 81-mile ride around the North Cotswolds, joined by 20 friends and colleagues from the motorcycle industry. The wider Ride to Recall campaign is running throughout 2026, with other riders encouraged to take on their own 81-mile challenges and support the fundraising effort. For someone whose life has been so closely linked with motorcycles, it's a fitting way to tackle what is clearly a very personal challenge. If you're not familiar with the name, Norman Hyde is one of those characters whose influence on British motorcycling is greater than many modern riders might realise. Hyde joined Triumph as an apprentice in 1964, eventually qualifying as a mechanical engineer and moving int",
+      "language": "en",
+      "publishedAt": "2026-08-26T01:07:49.048Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/london-borough-wants-charge-bikers-park-motorcycle-parking-fees-spread-across-capital",
+      "url": "https://www.visordown.com/news/london-borough-wants-charge-bikers-park-motorcycle-parking-fees-spread-across-capital",
+      "title": "Another London borough wants to start charging bikers to park",
+      "summary": "Hammersmith & Fulham is consulting on introducing motorcycle parking charges, meaning another London borough could soon make bikers pay to park. There was a time when the biggest advantages of riding a motorcycle into London were that you could avoid the jams, and then park it for free once you got there. One of those advantages is disappearing, with Hammersmith & Fulham now consulting on plans to introduce motorcycle parking charges. At present, motorcycles can park free of charge in shared-use, resident and pay-and-display bays across the borough, although there are some restrictions in the Caxton Village area. The council is now consulting on how motorcycle parking could be changed, with the consultation closing at 5pm on 18 September 2026. The council says its Cabinet approved the introduction of paid motorcycle parking as part of its Parking Strategy back in October 2024. The current consultation is therefore about how the policy should be implemented, rather than whether motorcycles should continue to park for free indefinitely. Hammersmith & Fulham would not be the first London borough to take this route. Westminster currently charges £1 a day for dedicated solo motorcycle bays, with weekly, monthly, quarterly and annual options also available. Camden has also introduced charges, with non-electric motorcycles currently paying £1.30 a day to use its solo motorcycle bays, while fully electric motorcycles pay 66p. That means Hammersmith & Fulham would become part of a gro",
+      "language": "en",
+      "publishedAt": "2026-08-26T01:07:49.048Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/ls2s-best-selling-modular-helmet-gains-four-new-colours",
+      "url": "https://www.visordown.com/news/ls2s-best-selling-modular-helmet-gains-four-new-colours",
+      "title": "BMW’s M1000 RR seems to have inspired this new LS2 colourway",
+      "summary": "LS2 has launched four new colour options aboard its best-selling Advant X modular helmet, two of which look very similar to a pair of BMW superbikes. LS2’s best-selling Advant X motorcycle helmet now has four new Nova colourways to choose from, all of which will cost UK customers £329.99. With the UK currently going through one of its warmest summers in recent memory, there might never have been a better time to buy your next helmet, and if a front-flip lid is what you’re after, LS2’s Advant X could be a contender. The helmet is fully certified to P/J standards, meaning it can be used in both the open and closed position. Additionally, the Advant X is certified to the latest ECE 22.06 safety standards, and is available in two outer shell sizes. In terms of ventilation, ports are located at the chin and forehead, while internal channelling through the EPS liner and large exhaust ports are also part of the lid’s air flow setup. Inside the helmet is a breathable, hypoallergenic comfort liner that is both removable and washable. Furthermore, the helmet weighs just 1600g, which is achieved through the shell’s High Performance Fibreglass Composite (HPFC) construction. When opening the front of the helmet from the closed position, LS2 says “the opening mechanism holds the chin bar close to the face, so there’s less leverage on the neck and head when opening and closing, and it automatically lifts the visor with the chin bar for hassle-free operation”. Riders will also benefit from a",
+      "language": "en",
+      "publishedAt": "2026-08-26T01:07:49.048Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/carl-fogarty-and-model-kit-maker-pocher-launch-ducati-panigale-v2-superquadro-final-edition",
+      "url": "https://www.visordown.com/news/carl-fogarty-and-model-kit-maker-pocher-launch-ducati-panigale-v2-superquadro-final-edition",
+      "title": "New 1:4-scale Panigale V2 Superquadro Final Edition launched by Pocher",
+      "summary": "Carl Fogarty has teamed up with large-scale model kit maker Pocher on a new £789 Ducati Panigale V2 Superquadro Final Edition. Four-time World Superbike champion Carl Fogarty has teamed up with Pocher on the release of a new 1:4-scale Ducati Panigale V2 Superquadro Final Edition model kit, which is accompanied by a Ducati Superquadro V2 Engine Model Kit. Fogarty remains Ducati’s most successful WorldSBK rider ever, and his expertise with regards to the Italian brand’s race-spec superbike is unmatched by many. On the other hand, Pocher is a premium large-scale die-cast model kit company that’s also known for their Porsche, Pagani and Ferrari model designs. The release of the new Ducati Panigale V2 Superquadro Final Edition, along with the separate engine kit, is rather special in numerous ways. The first of those is to do with actually ordering the product, as the 99th person who orders the Superquadro Final Edition will be invited to an exclusive Pocher event where they can meet Fogarty. They can also have their model kit signed by the superbike legend. This will take place at The Bike Shed in London. Then there’s the build process, which is estimated to take around 30 hours to complete due to its Skill Level 6 rating, according to Pocher. The new model kit will cost customers £789,99, and it will be available to buy in September. As well as taking around 30 hours to construct, the Final Edition model kit includes more than 700 pieces. When Ducati launched the production vers",
+      "language": "en",
+      "publishedAt": "2026-08-26T01:07:49.048Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/husqvarna-issue-2022-2024-model-recall-over-potential-rear-brake-failure",
+      "url": "https://www.visordown.com/news/husqvarna-issue-2022-2024-model-recall-over-potential-rear-brake-failure",
+      "title": "Husqvarna initiates 2022-2024 enduro and cross-country model recall",
+      "summary": "Husqvarna has initiated a recall on its 2022-2024 enduro and cross-country models that are fitted with Braktec brake systems, over fears the rear caliper could fail. Husqvarna has confirmed a recall is underway regarding some enduro and cross-country models produced from 2022-2024. The recall is specific to motorcycles that were fitted with Braktec braking systems, as the rear caliper could potentially fail. Husqvarna says that during market monitoring it was deemed that under certain conditions the brake caliper could break due to excessive loads being applied. While the chances of the system breaking are considered “rare”, the company has begun a recall of all models that could be faulty. As a precautionary measure, Husqvarna says “the rear brake caliper, including the caliper bracket, must be replaced on all motorcycles subject to the campaign”. Only a limited number of cases have so far been detected, with all changes set to be made free of charge. That is standard procedure when brands initiate these kinds of recalls, however, customers should be aware that changes can only be made at authorised Husqvarna dealerships. Customers who own one of the affected models will be notified by letter to schedule an appointment. In addition, customers can also check whether their enduro or cross-country motorcycle is affected via the company’s official website. Husqvarna is one of several companies that has found itself needing to issue a recall over certain 2024 models in recent yea",
+      "language": "en",
+      "publishedAt": "2026-08-26T01:07:49.048Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/honda-ev-outlier-electric-motorcycle-wins-red-dot-design-award",
+      "url": "https://www.visordown.com/news/honda-ev-outlier-electric-motorcycle-wins-red-dot-design-award",
+      "title": "Honda’s wild EV Outlier concept has won a Red Dot Design Award, thanks to its radical low-slung design and unusual in-wheel motors.",
+      "summary": "Honda’s wild EV Outlier Concept has won a 2026 Red Dot Design Award thanks to in-wheel motors and space-age design. Honda’s futuristic EV Outlier Concept has picked up a Red Dot Design Award, with the electric motorcycle concept recognised in the Design Concept category. The award comes less than a year after Honda first showed the Outlier at the Japan Mobility Show in October 2025. It was designed to explore what a motorcycle could look like beyond 2030, rather than simply adapting the conventional motorcycle formula to electric power. The Outlier uses in-wheel motors at both the front and rear, allowing Honda’s designers considerably more freedom with the layout than would be possible with a conventional petrol engine. The result is an extremely low-slung machine with a notably low riding position and unusual proportions. Honda says the design is based around its ‘Precision of Intrinsic Design’ theme for its electric motorcycles, with the Outlier intended to be “unconstrained by boundaries”. The company also says the low seating position is intended to give the rider a more dramatic field of view and a stronger sense of acceleration. There is plenty of concept-bike styling, too, including smooth bodywork and a smoked-clear outer structure intended to expose and highlight the mechanical elements beneath it. The Outlier was not the only Honda electric motorcycle project to receive recognition from Red Dot this year. A brand film called 'What Is a Motorcycle? / Electric Motorc",
+      "language": "en",
+      "publishedAt": "2026-08-26T01:07:49.048Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/givi-x36-modular-designed-for-every-riding-segment/",
+      "url": "https://www.eicma.it/en/givi-x36-modular-designed-for-every-riding-segment",
+      "title": "GIVI X36 modular: designed for every riding segment",
+      "summary": "The new line-up proposed by GIVI currently features three distinct versions , expertly crafted to satisfy every type of enthusiast while seamlessly blending top-tier technology and comfort. GIVI expands its helmet portfolio with the brand-new X36 modular. At the heart of this project lies the Flip Back system: the chin guard can rotate fully up to 180 degrees, integrating smoothly into the rear shell , making it the ideal solution for riders who effortlessly switch between city streets and long-distance touring. Maximum safety is guaranteed by the dual P/J ECE 22.06 homologation, allowing the helmet to be worn in both open-face and full-face configurations. The range features three versions—Carbon, Fiberglass, and Technopolymer—spanning a total of 19 color and graphic variations. Standing out for its featherlight feel is the Carbon model , which also comes equipped with a complementary 75% smoked visor as standard. The comprehensive standard equipment features an anti-scratch visor pre-set for a Pinlock lens (included), an integrated sun visor, and a shell available in two sizes. When it comes to comfort, the fully removable, hypoallergenic interior has been engineered to provide an ergonomic fit that remains exceptionally comfortable even for riders who wear glasses. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano",
+      "language": "en",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/25/081200615/tanpa-sertifikasi-baterai-harga-motor-listrik-bekas-masih-gelap",
+      "url": "https://otomotif.kompas.com/read/2026/08/25/081200615/tanpa-sertifikasi-baterai-harga-motor-listrik-bekas-masih-gelap",
+      "title": "Tanpa Sertifikasi Baterai Harga Motor Listrik Bekas Masih Gelap",
+      "summary": "Tanpa Sertifikasi Baterai Harga Motor Listrik Bekas Masih Gelap JAKARTA, KOMPAS.com - Ketiadaan standar sertifikasi kesehatan baterai ( state of health ) yang resmi dan terpercaya menjadi alasan utama pasar sepeda motor listrik bekas di Indonesia belum terbentuk secara transparan. Pengamat Otomotif Yannes Martinus menjelaskan, belum adanya standar penilaian untuk komponen termahal pada kendaraan listrik tersebut membuat calon pembeli maupun pedagang motor bekas berada dalam ketidakpastian. \"Selama pasar bekas motor listrik belum dalam dan belum ada standar sertifikasi kesehatan baterai yang dipercaya, konsumen tetap ragu,\" ujar Yannes saat dihubungi Kompas.com belum lama ini. Baca juga: Bocoran Kriteria Motor Listrik yang Bisa Ikut Program Molinas tangkapan layar/facebook Ilustrasi motor listrik bekas Yannes menegaskan, tanpa adanya sertifikasi baterai yang dapat diakses publik, pasar sekunder tidak memiliki acuan objektif untuk menaksir kualitas dan performa motor listrik bekas . Dampaknya, nilai jual kembali kendaraan menjadi sangat liar dan tidak pasti. \"Harga baru yang murah saja belum cukup jika nilai jual kembalinya masih tidak pasti,\" tegas Yannes. Ketiadaan sertifikasi ini memukul langsung sudut pandang keuangan konsumen segmen middle-low , yang selama ini menjadikan kepastian harga bekas sebagai syarat utama sebelum membeli sepeda motor. \"Nilai jual kembali ( residual value ) masih menjadi kendala paling krusial karena motor sering dianggap aset yang bisa dicairkan c",
+      "language": "id",
+      "publishedAt": "2026-08-26T01:08:06.596Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/25/070200915/wacana-tarif-parkir-rp-60.000-per-jam-ini-penjelasan-pemprov-dki",
+      "url": "https://otomotif.kompas.com/read/2026/08/25/070200915/wacana-tarif-parkir-rp-60.000-per-jam-ini-penjelasan-pemprov-dki",
+      "title": "Wacana Tarif Parkir Rp 60.000 per Jam, Ini Penjelasan Pemprov DKI",
+      "summary": "Wacana Tarif Parkir Rp 60.000 per Jam, Ini Penjelasan Pemprov DKI JAKARTA, KOMPAS.com Pengendara di Jakarta perlu bersiap menghadapi kemungkinan perubahan tarif parkir. Pemerintah Provinsi (Pemprov) DKI Jakarta tengah membahas kenaikan tarif parkir dengan sistem zonasi, meski hingga kini belum ada angka final yang ditetapkan. Wacana ini mencuat setelah muncul usulan tarif parkir kendaraan roda empat yang bisa mencapai Rp 60.000 per jam. Namun, Gubernur DKI Jakarta Pramono Anung menegaskan angka tersebut bukan berasal dari Pemprov DKI Jakarta. Pramono juga mengatakan, pihaknya masih mencari besaran tarif yang dianggap wajar dengan mempertimbangkan berbagai kondisi. Baca juga: Hambatan Riil Motor Listrik: Belum Cocok untuk Menengah Bawah PRJ 2026 Area parkir mobil bagi pengunjung PRJ 2026 Pemerintah DKI Jakarta tentunya dalam memutuskan pasti mempertimbangkan banyak hal, termasuk berapa harga yang wajar, ujar Pramono saat ditemui di Jakarta, Senin (24/8/2026). Pramono juga mengaku baru mengetahui angka Rp 60.000 setelah ramai diperbincangkan masyarakat. Angka berapa? Rp60.000 ya? Itu sama sekali bukan angka dari Pemerintah DKI Jakarta. Itu saya sendiri tidak tahu angkanya dari mana, kata dia. Baca juga: Pemerintah Evaluasi Skema Insentif Motor Listrik agar Mudah Diserap KOMPAS.com/ RUBY RACHMADINA Gubernur DKI Jakarta Pramono Anung mengungkapkan tarif parkir di Jakarta belum mengalami kenaikan selama hampir 14 tahun, Sabtu (22/8/2026). Wacana kenaikan tarif parkir muncul dalam",
+      "language": "id",
+      "publishedAt": "2026-08-26T01:08:06.596Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/25/092200215/suzuki-e-sky--mobil-listrik-terbaru-jarak-tempuh-310-km",
+      "url": "https://otomotif.kompas.com/read/2026/08/25/092200215/suzuki-e-sky--mobil-listrik-terbaru-jarak-tempuh-310-km",
+      "title": "Suzuki e Sky: Mobil Listrik Terbaru Jarak Tempuh 310 Km",
+      "summary": "Suzuki e Sky: Mobil Listrik Terbaru Jarak Tempuh 310 Km JAKARTA, KOMPAS.com - Suzuki resmi memperkenalkan mobil listrik mungil terbarunya, e Sky, yang merupakan versi produksi dari konsep Vision e-Sky yang diperkenalkan pada 2025. Berbeda dari beberapa mobil konsep yang mengalami banyak perubahan saat masuk tahap produksi, Suzuki e Sky masih mempertahankan sebagian besar desain awalnya. Hanya beberapa detail yang dibuat lebih sederhana untuk menyesuaikan kebutuhan produksi massal. Suzuki e Sky akan mulai dijual di Jepang pada musim gugur 2026. Sementara pasar Eropa dan Inggris diperkirakan akan mendapatkan mobil listrik ini mulai 2027. Kehadiran e Sky menjadi langkah Suzuki memperluas jajaran kendaraan listrik. Model ini menjadi mobil listrik produksi ketiga Suzuki setelah e Vitara di segmen SUV ringkas dan e Every untuk kendaraan niaga ringan. Baca juga: Bahaya Cas Power Bank di Bus: Risiko Korsleting yang Mengintai! Selain itu, e Sky juga menjadi mobil listrik penumpang pertama Suzuki yang masuk ke segmen kendaraan listrik ringan alias Kei Car di Jepang yang tengah berkembang. Mengutip Carscoops , Senin (24/8/2026), secara tampilan, Suzuki e Sky terlihat sebagai evolusi dari Vision e-Sky. Meski sudah masuk tahap produksi, karakter desain mobil konsep masih cukup terasa. Bagian depan kini menggunakan lampu utama LED berukuran lebih besar dengan tampilan lebih gelap. Sementara gril LED yang ada pada versi konsep diganti dengan panel hitam yang lebih sederhana. Logo Suzuki dit",
+      "language": "id",
+      "publishedAt": "2026-08-26T01:08:06.596Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/08/25/084200815/bahaya-cas-power-bank-di-bus--pemicu-kebakaran-dan-korsleting-fatal",
+      "url": "https://otomotif.kompas.com/read/2026/08/25/084200815/bahaya-cas-power-bank-di-bus--pemicu-kebakaran-dan-korsleting-fatal",
+      "title": "Bahaya Cas Power Bank di Bus: Pemicu Kebakaran dan Korsleting Fatal",
+      "summary": "Bahaya Cas Power Bank di Bus: Pemicu Kebakaran dan Korsleting Fatal JAKARTA, KOMPAS.com - Salah satu pemicu utama insiden kebakaran bus di jalan raya adalah kebiasaan penumpang mengisi ulang daya power bank menggunakan fasilitas stopkontak yang tersedia di dalam kabin bus. Kapasitas penyimpanan daya yang besar pada power bank membuat perangkat ini menghasilkan panas yang signifikan saat diisi ulang. Saat pengisian daya power bank di bus mengalami kegagalan fungsi, berujung pada korsleting listrik , percikan api, hingga panas ekstrem. Insiden korsleting kelistrikan karena power bank di dalam ruang kabin bus tentu bukan hal sepele. Baca juga: Bahaya Cas Power Bank di Bus: Risiko Korsleting yang Mengintai! Mengingat material interior bus didominasi oleh bahan sintetis, pemahaman mengenai komponen mana saja yang paling rentan tersulut api menjadi krusial bagi operator maupun penumpang. R&D Manager Karoseri Laksana, Kusririn, menjelaskan, kerentanan interior bus sangat dipengaruhi oleh letak infrastruktur kelistrikan atau colokan listrik yang disediakan. \"Ya pastinya kalau colokan untuk pengisian daya biasanya di bagian atas di louver AC . Karena kabel sambungan charge ada di situ. Ada juga colokan charge yang ditaruh di dek samping. Di kursi juga bisa ditempatkan, jadi tergantung interaksi antara tempat colokan charge -nya juga,\" katanya kepada Kompas.com, Senin (25/8/2026). Jika terjadi lonjakan arus pendek (korsleting) akibat penggunaan power bank yang memicu panas berlebih dan",
+      "language": "id",
+      "publishedAt": "2026-08-26T01:08:06.596Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
