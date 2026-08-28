@@ -1,0 +1,857 @@
+{
+  "collectedAt": "2026-08-28T09:27:39.280Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/enea-bastianini-motogp-wechsel-ktm-aprilia",
+      "url": "https://www.speedweek.com/a/motogp/enea-bastianini-motogp-wechsel-ktm-aprilia",
+      "title": "Enea Bastianini erklärt MotoGP-Wechsel: Darum verlässt er KTM für Aprilia",
+      "summary": "Neu Enea Bastianini erklärt MotoGP-Wechsel: Darum verlässt er KTM für Aprilia Enea Bastianinis Abschied von KTM ist besiegelt. Der Italiener erklärte vor dem MotoGP-Rennwochenende in Aragon, warum er sich früh für Trackhouse-Aprilia entschied. MotoGP 28.08.2026 - 09:31",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.308Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ai-ogura-operation-comeback-misano-motogp",
+      "url": "https://www.speedweek.com/a/motogp/ai-ogura-operation-comeback-misano-motogp",
+      "title": "Pechvogel Ai Ogura (Aprilia): Operation erledigt – Comeback in Misano?",
+      "summary": "Pechvogel Ai Ogura (Aprilia): Operation erledigt – Comeback in Misano? MotoGP 28.08.2026 - 08:26",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.308Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-aragon-tv-zeiten-trainings-rennen",
+      "url": "https://www.speedweek.com/a/motogp/motogp-aragon-tv-zeiten-trainings-rennen",
+      "title": "Das MotoGP-Event in Aragon: Wo die Trainings und Rennen gezeigt werden",
+      "summary": "Das MotoGP-Event in Aragon: Wo die Trainings und Rennen gezeigt werden MotoGP 28.08.2026 - 06:58",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.308Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-fahrerfeld-2027-stand-vertraege",
+      "url": "https://www.speedweek.com/a/motogp/motogp-fahrerfeld-2027-stand-vertraege",
+      "title": "MotoGP-Fahrerfeld 2027: Bild wird immer klarer – wo es noch unscharf ist",
+      "summary": "MotoGP-Fahrerfeld 2027: Bild wird immer klarer – wo es noch unscharf ist MotoGP 27.08.2026 - 22:13",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.308Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-izan-guevara-motogp-2027",
+      "url": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-izan-guevara-motogp-2027",
+      "title": "Toprak Razgatlioglu betont: Für Izan Guevara wird es leichter als für ihn",
+      "summary": "Toprak Razgatlioglu betont: Für Izan Guevara wird es leichter als für ihn MotoGP 27.08.2026 - 21:02",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.309Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jack-miller-motogp-aus-zweites-karriere-kapitel",
+      "url": "https://www.speedweek.com/a/motogp/jack-miller-motogp-aus-zweites-karriere-kapitel",
+      "title": "Jack Miller über sein MotoGP-Aus: Zeit für das zweite Karriere-Kapitel",
+      "summary": "Jack Miller über sein MotoGP-Aus: Zeit für das zweite Karriere-Kapitel Am Donnerstag wurde das Ende der Zusammenarbeit zwischen MotoGP-Routinier Jack Miller und Pramac Yamaha offiziell. In Aragon erklärte er, warum er den Blick konsequent nach vorne richtet. MotoGP 27.08.2026 - 20:08",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.310Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/johann-zarco-comeback-aragon-honda",
+      "url": "https://www.speedweek.com/a/motogp/johann-zarco-comeback-aragon-honda",
+      "title": "Johann Zarco (LCR Honda) vor Comeback in Aragon: «Ich bin süchtig!»",
+      "summary": "Johann Zarco (LCR Honda) vor Comeback in Aragon: «Ich bin süchtig!» Gut drei Monate nach dem schweren Startunfall von Barcelona sitzt Johann Zarco im MotorLand Aragon wieder auf der Honda. Der MotoGP-Pilot sprach über seine Zwangspause und seine Zukunftspläne. MotoGP 27.08.2026 - 19:04",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.311Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jorge-martin-lobt-marc-marquez-aragon-motogp",
+      "url": "https://www.speedweek.com/a/motogp/jorge-martin-lobt-marc-marquez-aragon-motogp",
+      "title": "Jorge Martin adelt Marc Marquez: «Nur mit ihm zu kämpfen, wäre schon gut»",
+      "summary": "Jorge Martin adelt Marc Marquez: «Nur mit ihm zu kämpfen, wäre schon gut» Mit 31 Punkten Vorsprung rollt Jorge Martin ins 13. MotoGP-Wochenende im MotorLand. Dort fährt er das erste Rennen auf der Aprilia und zeigt viel Respekt gegenüber Aragon-Spezialist Marc Marquez. MotoGP 27.08.2026 - 17:51",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.311Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marc-marquez-schulter-operationen-motogp-aragon",
+      "url": "https://www.speedweek.com/a/motogp/marc-marquez-schulter-operationen-motogp-aragon",
+      "title": "Marc Marquez: «Das hängt mit meinen sieben Schulter-Operationen zusammen»",
+      "summary": "Marc Marquez: «Das hängt mit meinen sieben Schulter-Operationen zusammen» Alle Konkurrenten sind sich einig: MotoGP-Champ Marc Marquez ist der Fahrer, den es in Aragon zu schlagen gilt. Der 33-Jährige betont hingegen, dass er nach wie vor körperlich nicht in Bestform ist. MotoGP 27.08.2026 - 17:11",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.311Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/bezzecchi-aprilia-schmerztherapie-sachsenring-crash-aragon",
+      "url": "https://www.speedweek.com/a/motogp/bezzecchi-aprilia-schmerztherapie-sachsenring-crash-aragon",
+      "title": "Bezzecchi (Aprilia) leidet: «Vielleicht nicht die beste Schmerztherapie»",
+      "summary": "Bezzecchi (Aprilia) leidet: «Vielleicht nicht die beste Schmerztherapie» MotoGP-Ass Marco Bezzecchi hat immer noch mit den Nachwirkungen seines Sachsenring-Crashs zu kämpfen. Welche Strategie er in Aragon im Duell mit Marc Marquez anwendet und was er Ai Ogura wünscht. MotoGP 27.08.2026 - 17:05",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.311Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pramac-izan-guevara-2027-teamkollege-toprak-razgatlioglu",
+      "url": "https://www.speedweek.com/a/motogp/pramac-izan-guevara-2027-teamkollege-toprak-razgatlioglu",
+      "title": "Pramac: Izan Guevara wird 2027 der Teamkollege von Toprak Razgatlioglu",
+      "summary": "Pramac: Izan Guevara wird 2027 der Teamkollege von Toprak Razgatlioglu Nachdem Pramac Yamaha am 27. August Jack Miller offiziell verabschiedete, wurde einige Stunden später sein Nachfolger präsentiert: Moto2-Ass Izan Guevara wird 2027 in die MotoGP aufsteigen. MotoGP 27.08.2026 - 14:49",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.311Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/di-giannantonio-sechser-im-lotto-fuer-ktm",
+      "url": "https://www.speedweek.com/a/motogp/di-giannantonio-sechser-im-lotto-fuer-ktm",
+      "title": "Für Fabio Di Giannantonio steht fest: Das ist ein Sechser im Lotto für KTM",
+      "summary": "Für Fabio Di Giannantonio steht fest: Das ist ein Sechser im Lotto für KTM Die fünf erfolgreichsten MotoGP-Fahrer 2026 sind vor den Rennen am Wochenende durch 41 Punkte getrennt. Fabio Di Giannantonio geht davon aus, dass das Pendel in Aragon zu Gunsten Ducatis ausschlägt. MotoGP 27.08.2026 - 14:49",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.311Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/acosta-ueber-marquez-motogp-aragon-podium-chancen",
+      "url": "https://www.speedweek.com/a/motogp/acosta-ueber-marquez-motogp-aragon-podium-chancen",
+      "title": "Acosta über Marquez: «Nicht umsonst ist hier eine Kurve nach ihm benannt»",
+      "summary": "Acosta über Marquez: «Nicht umsonst ist hier eine Kurve nach ihm benannt» Vor dem MotoGP-Event in Aragon schätzte Pedro Acosta seine Chancen auf einen Podestplatz ein. Die spanische Strecke liegt ihm sehr gut. Was der KTM-Pilot über Marc Marquez, Ducati und Aprilia sagte. MotoGP 27.08.2026 - 14:29",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.311Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/bagnaia-panik-aragon-motogp",
+      "url": "https://www.speedweek.com/a/motogp/bagnaia-panik-aragon-motogp",
+      "title": "Pecco Bagnaia hatte bei der Ankunft in Aragon kurz Panik – wie sie verflog",
+      "summary": "Pecco Bagnaia hatte bei der Ankunft in Aragon kurz Panik – wie sie verflog Das MotoGP-Wochenende in Silverstone beschrieb Ducati-Star Francesco Bagnaia als «Desaster». Der Italiener verrät, weshalb er sich in den Rennen am Wochenende in Aragon deutlich weiter vorne sieht. MotoGP 27.08.2026 - 13:44",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.312Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/acosta-motogp-rivalitaeten-keine-freunde-im-fahrerlager",
+      "url": "https://www.speedweek.com/a/motogp/acosta-motogp-rivalitaeten-keine-freunde-im-fahrerlager",
+      "title": "Acosta über MotoGP-Rivalitäten: «Ich hatte im Fahrerlager noch nie Freunde»",
+      "summary": "Acosta über MotoGP-Rivalitäten: «Ich hatte im Fahrerlager noch nie Freunde» MotoGP 26.08.2026 - 06:49",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.313Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-2026-das-fahrerfeld-der-naechsten-saison",
+      "url": "https://www.speedweek.com/a/motogp/motogp-2026-das-fahrerfeld-der-naechsten-saison",
+      "title": "MotoGP 2026: Das Fahrerfeld der nächsten Saison",
+      "summary": "MotoGP 2026: Das Fahrerfeld der nächsten Saison MotoGP 27.08.2025 - 19:35",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.313Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/phaenomen-alex-rins-mit-hohem-tempo-ganz-hinten",
+      "url": "https://www.speedweek.com/a/motogp/phaenomen-alex-rins-mit-hohem-tempo-ganz-hinten",
+      "title": "Phänomen Alex Rins: Mit hohem Tempo ganz hinten",
+      "summary": "Phänomen Alex Rins: Mit hohem Tempo ganz hinten MotoGP 27.08.2025 - 17:18",
+      "language": "de",
+      "publishedAt": "2026-08-28T09:27:00.313Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/806203/road-raging-truck-driver-kills-motorcyclist-in-minnesota/",
+      "url": "https://www.rideapart.com/news/806203/road-raging-truck-driver-kills-motorcyclist-in-minnesota",
+      "title": "A Semi Truck Driver Was Just Charged With Killing A Motorcyclist With His Truck, Then Fleeing The Scene",
+      "summary": "Witness reports and dashcam footage both tell a story of a truck driver who simply wasn't willing to get passed by a motorcycle on a highway.",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:10:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/806054/john-mcguinness-becomes-oldest-rider-to-win-around-the-iom-mountain-course/",
+      "url": "https://www.rideapart.com/news/806054/john-mcguinness-becomes-oldest-rider-to-win-around-the-iom-mountain-course",
+      "title": "John McGuinness Becomes Oldest Solo Rider To Win Around The IoM Mountain Course",
+      "summary": "John McGuinness hadn't had a victory on the Isle of Man since 2019, but put that seven-year streak to an end with a Senior race win at the Classic TT.",
+      "language": "en",
+      "publishedAt": "2026-08-27T12:56:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/806210/ace-cafe-closes-friday-bike-nights-excessive-hoonage/",
+      "url": "https://www.rideapart.com/news/806210/ace-cafe-closes-friday-bike-nights-excessive-hoonage",
+      "title": "The Famous Motorcycling Mecca, The Ace Cafe, Has Closed Its Bike Nights The Last 6 Weeks Due To Alleged Bad Behavior",
+      "summary": "The issue seems to be not what the Ace Cafe does or doesn't do on its own property, but what happens on the public road in front of the cafe.",
+      "language": "en",
+      "publishedAt": "2026-08-27T12:37:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/806081/yamaha-xsr900-sp-coming-soon-nhtsa-filing/",
+      "url": "https://www.rideapart.com/news/806081/yamaha-xsr900-sp-coming-soon-nhtsa-filing",
+      "title": "Forget The XSR900 GP. Yamaha Might Have Something Even Spicier Coming",
+      "summary": "Give the XSR900 Öhlins and Brembos and take my stupid money.",
+      "language": "en",
+      "publishedAt": "2026-08-27T12:13:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/806059/former-worldsbk-champion-auctions-one-of-one-motorcycle-for-late-sons-charity/",
+      "url": "https://www.rideapart.com/news/806059/former-worldsbk-champion-auctions-one-of-one-motorcycle-for-late-sons-charity",
+      "title": "Former Motorcycle Racing Champion Auctions One-of-One Sonic-Inspired Motorcycle For Late Son's Charity",
+      "summary": "Sylvain Guintoli, former WorldSBK champion, is auctioning a one-of-one Sonic-inspired motorcycle to raise money for his late son, Luca.",
+      "language": "en",
+      "publishedAt": "2026-08-27T11:35:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/806066/liberty-media-says-carlos-and-carmelo-ezpeleta-still-run-motogp/",
+      "url": "https://www.rideapart.com/news/806066/liberty-media-says-carlos-and-carmelo-ezpeleta-still-run-motogp",
+      "title": "The Ezpeletas Will Continue to Run MotoGP",
+      "summary": "Liberty Media may own the show, but it's the Ezpeletas that wield the power.",
+      "language": "en",
+      "publishedAt": "2026-08-27T11:27:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/806082/cfmoto-massive-growth-us-and-the-world-2026/",
+      "url": "https://www.rideapart.com/features/806082/cfmoto-massive-growth-us-and-the-world-2026",
+      "title": "China's CFMoto Is Growing While The Rest Of The Motorcycle Market Is Barely Moving",
+      "summary": "Even if the motorcycle market isn’t exactly booming right now, CFMoto apparently found the cheat code.",
+      "language": "en",
+      "publishedAt": "2026-08-27T11:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/806064/honda-kumamoto-motorcycle-plant-resumes-operation/",
+      "url": "https://www.rideapart.com/news/806064/honda-kumamoto-motorcycle-plant-resumes-operation",
+      "title": "Honda Had to Close A Motorcycle Plant After An Earthquake, But It's Back Doing What It Does Best",
+      "summary": "After a 6.8 earthquake in July, Honda's Kumamoto plant in Japan has resumed operations.",
+      "language": "en",
+      "publishedAt": "2026-08-26T13:53:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805946/yozma-in10-electric-dirt-bike-kids-adults/",
+      "url": "https://www.rideapart.com/news/805946/yozma-in10-electric-dirt-bike-kids-adults",
+      "title": "This 40-MPH Electric Pit Bike Costs Less Than An iPhone And That's Insane",
+      "summary": "Somewhere, an ER doctor just felt a disturbance in the Force.",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:40:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/806055/glacier-national-park-may-soon-allow-snowmobile-use-for-inholders/",
+      "url": "https://www.rideapart.com/news/806055/glacier-national-park-may-soon-allow-snowmobile-use-for-inholders",
+      "title": "Glacier National Park Could Soon Allow Snowmobile Access. But Only For a Few People",
+      "summary": "Homeowners have long lobbied to use anything other than their own two legs. And now that might occur.",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:26:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/806052/honda-motra-off-road-50cc-for-sale/",
+      "url": "https://www.rideapart.com/features/806052/honda-motra-off-road-50cc-for-sale",
+      "title": "This Awesome, Tiny Off-Road Honda Motorbike Is The Definition Of The Road Less Traveled",
+      "summary": "It's also the apparent answer to the question, \"what if your Motocompo could haul all your stuff off road?\"",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:07:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/806049/toyota-teases-hilux-champ-pickup-utv-for-usa-sale/",
+      "url": "https://www.rideapart.com/news/806049/toyota-teases-hilux-champ-pickup-utv-for-usa-sale",
+      "title": "Is Toyota Bringing It's Adorable Tiny Truck to America as a UTV? I Hope So",
+      "summary": "Americans need cheaper transportation, but don't want to give up capability. Could this Toyota pickup from Asia be the answer?",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:40:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805942/dirt-bike-car-custom-build-weird-crash-video/",
+      "url": "https://www.rideapart.com/news/805942/dirt-bike-car-custom-build-weird-crash-video",
+      "title": "This Gnarly Crash Shows You Exactly Why Wearing A Helmet Matters. And It Could've Been Worse",
+      "summary": "This video would be a hard one to watch if it ended differently, as there's an absolutely insane crash that goes as well as it possibly could have gone.",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:20:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/805947/honda-wn7-subscription-model-australia/",
+      "url": "https://www.rideapart.com/news/805947/honda-wn7-subscription-model-australia",
+      "title": "Honda's EV Motorcycle Is Apparently So Exclusive, You Can't Even Buy It Outright",
+      "summary": "Folks in Australia can ride Honda’s newest EV, they just can't get too attached to the ownership part",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:03:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/fema-research-suggests-one-two-bikers-miscalculates-motorcycle-braking-distances",
+      "url": "https://www.visordown.com/news/fema-research-suggests-one-two-bikers-miscalculates-motorcycle-braking-distances",
+      "title": "Do you really know how quickly you can stop in an emergency?",
+      "summary": "New research has found that around half of motorcyclists need more stopping distance than they initially expect, despite most considering themselves experienced riders. Research by the German Institute for Two-Wheeler Safety (IFZ) has found that around one in two bikers misjudges the required braking distance in an emergency. The findings, shared by the Federation of European Motorcyclists’ Associations (FEMA), come from IFZ’s “Limits of Perception When Braking – Estimation and Reality of Braking Distances with the Motorcycle in Comparison” study. Snappy name aside, the research centred around finding out how accurately riders could calculate the correct stopping distance. 50 participants took part, with the research body analysing 200 braking runs and focusing on speeds of 50kph (31mph), 70kph (43mph) and 80kph (49mph). The test was carried out at the ADAC traffic training centre in Recklinghausen, Germany, on a specially prepared and closed section of tarmac. The surface was deliberately chosen for its high grip, while the site provided enough room to safely conduct emergency braking from 80kph. Each participant sat on their own motorcycle at a fixed point on the test track and was asked to identify where they thought they would come to a stop following an emergency braking manoeuvre. A member of the research team then walked to the rider's chosen stopping point with a cone, allowing the researchers to physically mark the rider's estimate. The distance from the braking line",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:27:11.937Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/mag-demands-more-police-forces-fight-motorcycle-theft-campaign-launched",
+      "url": "https://www.visordown.com/news/mag-demands-more-police-forces-fight-motorcycle-theft-campaign-launched",
+      "title": "MAG’s new anti-theft campaign targets four key areas",
+      "summary": "MAG has confirmed the re-launch of its 'Fight Motorcycle Theft' campaign, after the Metropolitan Police could not say how many motorcycles are stolen in a single year. The Motorcycle Action Group, otherwise known as MAG, has re-launched its ‘Fight Motorcycle Theft’ campaign with a view to limiting how many motorcycles are stolen each year. This comes after the Metropolitan Police could not state how many motorcycles are stolen in a year without manually checking close to 100,000 vehicle theft records, according to a report from MAG. Theft has been an ongoing issue when it comes to motorcycles in the UK for far too long, and as a result MAG has launched several campaigns over the years. This latest campaign prioritises four key areas, which are called Counted, Apprehended, Secured, and Returned. Within those categories are specific actions that MAG is convinced police forces need to be using as part of their attempts to crack down on motorcycle theft . The campaign’s requirements are as follows: “That motorcycle theft be recorded as its own crime classification, rather than folded into general vehicle theft (Counted); that police response prioritise identification and charging over sentence length (Apprehended); that motorcycles and motorcycle parking be built and provided to resist theft (Secured); and that police forces adopt a written protocol for responding to live vehicle-tracker alerts (Returned).” The report went on to provide details about some of the impacts motorcycl",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:27:11.938Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/british-speedway-racer-responds-stamp-allegations-after-post-race-scuffle",
+      "url": "https://www.visordown.com/news/british-speedway-racer-responds-stamp-allegations-after-post-race-scuffle",
+      "title": "“I did not stamp on him”: Speedway racer clears up confusing video footage",
+      "summary": "Speedway racer Chris ‘Bomber’ Harris has responded to online allegations suggesting he stamped on a competitor following a post-race scuffle. A post-race scuffle between two speedway racers has led to one of the riders involved sharing his view on the incident, after receiving online criticism. Chris ‘Bomber’ Harris was one of the riders involved in the incident, which took place at a British Speedway meet between the Glasgow Tigers and Plymouth Gladiators. Following one of the race heats, Glasgow Tigers rider Harris and Ben Barker came to blows on the cool down lap. The two riders got very close as words were exchanged, before Harris shoved Barker away from him. The pair then collided when Harris turned directly into the path of Barker, who was unable to avoid his rival. The social media footage shows Harris trying to remove himself from the melee, but in doing so it appears as though he stamped in the direction of Barker. However, Harris has since provided an explanation as to what happened, saying he did not stamp on his opponent and that he was instead trying to free himself from between the two bikes, before he intended to help Barker back to his feet. But before he could help Barker, mechanics managed to get in between the two riders which led to Harris being ushered away. Speaking about the incident, Harris said: “JUST TO CLEAR UP THE INCIDENT AT PLYMOUTH “I wasn’t going to comment on what happened after the race, but after seeing some of the comments and conclusions b",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:27:11.938Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/2027-kawasaki-w230-gains-new-colour-price-remains-same",
+      "url": "https://www.visordown.com/news/2027-kawasaki-w230-gains-new-colour-price-remains-same",
+      "title": "Kawasaki reveals light change to modern classic W230",
+      "summary": "Kawasaki’s attempts to make further headway in the modern classic segment have resulted in the W230 gaining a new colourway for 2027. Kawasaki has refreshed its W230 modern classic with a new colour option for 2027, although the bike’s price remains unchanged. As was the case previously, riders will be limited to just one colourway aboard the 2027 W230, with a new Ebony paint scheme replacing the Metallic Matte Dark Green. However, this slight refresh will have no impact on the price of the motorcycle, which stays at £4,654. The W230, which arrived as a new bike for 2026, is a smaller model that’s based on the company’s 650-W1 from the 1960s. For 2027, the new bike remains unchanged mechanically and technically, meaning it continues to be powered by a 233cc air-cooled single that produces 17.3bhp at 7,000rpm and 13.7Ib-ft of torque at 5,800rpm. The W230 is one of several retro-inspired models within Kawasaki’s complete motorcycle range, which features a dedicated Retro Sport line-up that includes the Z650RS and Z900RS models. Braking is handled by a single 265mm disc that’s paired with a dual-piston caliper up front. At the rear is a single 220mm disc and single-piston caliper. The suspension setup comprises 37mm telescopic forks at the front and twin shocks with adjustable preload. Seat height comes in at 745mm, while the bike features a curb weight of 143kg - the estimated dry weight of the W230 is 133kg. Additionally, riders will benefit from 150mm of ground clearance and",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:27:11.938Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/restored-ex-mike-hailwood-factory-honda-rc173-set-become-ps1m-bike",
+      "url": "https://www.visordown.com/news/restored-ex-mike-hailwood-factory-honda-rc173-set-become-ps1m-bike",
+      "title": "One of the most important Honda race bikes ever heads to auction",
+      "summary": "Iconic Auctioneers is set to auction a piece of racing history with this ex-Mike Hailwood Factory Honda RC173, which could sell for £1m. A fully restored, Factory Honda RC173 raced by Mike Hailwood in the 1960s, will soon go up for sale in the UK. However, it’s set to command a price tag far beyond what you would expect. According to Iconic Auctioneers, which is the company responsible for selling the ex-Hailwood motorcycle, it could fetch a price anywhere from £750,000 to £950,000. But it’s not unusual to see a vintage bike, especially one that claimed a Grand Prix title, to sell for more than the estimated price. If that were to happen in this instance, we could be talking about a £1m bike. Hailwood raced this exact bike to the 1966 350cc world championship, beating Giacomo Agostini in the process. What makes this bike even more special is that it was built especially for Hailwood, who at the time was also competing in the 250cc and 500cc categories. Hailwood was victorious at the West German, French, Dutch, Czech, Finnish and Ulster GPs with this bike, which also included setting numerous fastest laps along the way. Hailwood went on to race the same bike the following year, although this was done as part of invitational race entries at selected events. Following its journey as a race bike, it then formed part of the Wheatcroft Donington Collection for several years before it was sold at auction in 1997, by the Hailwood family. The bike has stayed with the same UK-based own",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:27:11.938Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/john-mcguinness-30th-anniversary-isle-man-tt-honda-fireblade-announced",
+      "url": "https://www.visordown.com/news/john-mcguinness-30th-anniversary-isle-man-tt-honda-fireblade-announced",
+      "title": "McPint gets a 30th Anniversary ‘Blade, but only 15 are to be produced",
+      "summary": "As John McGuinness celebrates 30 years of TT competition, Honda has rolled out a very exclusive special edition Fireblade to mark the occasion. Honda has revealed a new special edition Fireblade, honouring John McGuinness as he celebrates 30 years of competing at the front of the world’s greatest motorcycle road race. Called the CBR1000RR-R Fireblade SP JM 30th Anniversary, the bike is strictly limited to just 15 units, and is a detailed recreation of the bike McGuinness rode in this year’s TT races. But even that machine isn’t the start of this bike's paintjob’s story. The bike that kick-started McPint’s career was the Paul Bird Motorsport-liveried Honda RS250, which he rode to 15th position in 1996. It was three years later that McGuinness won his first TT, the Lightweight 250 race, again riding a Honda but this time a TSR250. Mechanically, the bike is as per the standard Fireblade SP, meaning you get semi-active and electronically adjustable Ohlins suspension and Brembo braking hardware. Electronically, it boasts a six-axis IMU, meaning cornering ABS, traction control and wheelie control, while the engine boasts the same 214bhp as the stock bike. On top of that, the new special edition boasts the faithfully recreated paintjob, a numbered plaque on the top clamp, a TT-spec tall screen, seat cowl and a HRC oil filler cap, GB Racing engine covers, an Evotech radiator guard, brake lever guard and paddock stand bobbins. It also comes with some off-bike special edition trinkets,",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:27:11.938Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/motorcycle-production-resumes-vast-honda-kumamoto-plant",
+      "url": "https://www.visordown.com/news/motorcycle-production-resumes-vast-honda-kumamoto-plant",
+      "title": "Honda resumes production following Kumamoto earthquake",
+      "summary": "The Kumamoto earthquake measured 6.8 on the Magnitude Scale and forced the closure of one of Honda’s biggest factories. Motorcycle production has now resumed at the Honda Kumamoto plant, following an M6.8 earthquake that resulted in the loss of 39 lives. The quake, which happened on July 28, 2026, lasted just 16 seconds, with the plant closing as a result. It’s not clear whether any damage to the plant or manufacturing equipment was found, or if the closure was simply to check that the systems were safe to continue being used. A press release, issued by Honda Japan on August 20, reads: “Now that the factory is nearing completion, Honda will resume finished vehicle production from Monday, the 24th. Going forward, we will continue to prioritize the safety of our employees and work in cooperation with all relevant parties to ensure a stable supply of our products.” The Kumamoto plant is one of Honda’s flagship two-wheeler facilities, and as such builds some of its most important models. Bikes that roll off the production line there include the CBR600RR, Gold Wing, X-ADV, Super Cub and GB350. Kumamoto was Honda’s fourth domestic production facility, and remains its largest on home soil. Established in 1976, the site employs between 2,000 and 3,000 staff, according to Webike Japan. Aside from Honda’s two-wheeled facilities, the quake also hit its four-wheeled production plants. The Saitama Plant, Suzuka Plant, and the Honda Auto Body Co., Ltd. (located in Yokkaichi City, Mie Prefe",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:27:11.938Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/jeremy-mcwilliams-joins-indian-motorcycle-new-role-imr-uk-rally",
+      "url": "https://www.visordown.com/news/jeremy-mcwilliams-joins-indian-motorcycle-new-role-imr-uk-rally",
+      "title": "Indian Motorcycle announces former GP racing guest of honour for IMR UK Rally",
+      "summary": "Jeremy McWilliams will star as the guest of honour at Indian Motorcycle’s upcoming IMR UK Rally, which takes place at the iconic Brooklands Museum on August 28-30. Indian Motorcycle’s upcoming IMR UK Rally is set to receive a sprinkling of racing royalty in the form of Jeremy McWilliams, with the former MotoGP racer set to attend as a guest of honour. When it comes to racing, McWilliams is as experienced with different championships and different machinery as they come. The 62-year-old has previously competed in MotoGP , the British Superbike Championship, MotoAmerica’s King of the Baggers series, the North West 200, and in Moto2. The latter included a one-off appearance from McWilliams at the age of 50, when he competed as a wildcard at the British Grand Prix in 2014. Despite his age, McWilliams has regularly taken part in major events over the last few years, including an appearance at this year’s North West 200. McWilliams has also held various roles outside of racing, including being a test rider for KTM. In 2022, McWilliams joined the King of the Bagger series with the Indian Wrecking Crew team, where he raced an Indian Challenger motorcycle. McWilliams achieved multiple podiums and a historic win at the Daytona 200 during that season. He also competed in the Super Hooligans series aboard an Indian FTR race bike. But his latest adventure with the American company will be as a guest of honour at this week’s IMR UK Rally, which has been organised alongside Rideworx, otherw",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:27:11.938Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/symphony-125i-syms-top-selling-scooter-gets-a-fresh-look/",
+      "url": "https://www.eicma.it/en/symphony-125i-syms-top-selling-scooter-gets-a-fresh-look",
+      "title": "Symphony 125i, SYM's top-selling scooter, gets a fresh look",
+      "summary": "For several years, the SYM Symphony 125i has been a true standout in the high-wheel 125cc scooter market. To stay at the top as the segment grows more crowded and competitive, the Symphony gets a refresh for the 2026. Without altering a design that remains fresh both stylistically and technically, SYM's designers focused on a few very specific areas. Aesthetically, there are essentially two main updates: LED indicators and a brand-new rear light cluster. These tweaks give the SYM Symphony 125i a sharper look while boosting active safety through enhanced visibility. Hop into the saddle, and your eyes are immediately drawn to the new digital dashboard . The Symphony 125i's standard equipment—which already includes a 33-litre Shad top box and a USB port— is now further enriched with a windscreen . Four colors are available: White, Pacific Blue, Pastel Grey, and Titanium Grey. And to wrap things up with a side note: all of the above applies equally to the 50cc version as well. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano - Pi e cf: 04145450153 N° iscrizione 04145450153 - Capitale sociale sottoscritto e versato: 100.000 euro Made by Agenzia YES S.p.A.",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    }
+  ]
+}
