@@ -4897,6 +4897,204 @@
       },
       "sourceSlug": "kompas-otomotif",
       "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/rudi-moser-stimme-verstummt-geschichten-bleiben",
+      "url": "https://www.speedweek.com/a/motogp/rudi-moser-stimme-verstummt-geschichten-bleiben",
+      "title": "Rudi Moser: Seine Stimme verstummt, seine Geschichten bleiben",
+      "summary": "«Wieder Schmetterlinge im Bauch»: Loris Capirossi als MotoGP-Legende geehrt",
+      "language": "de",
+      "publishedAt": "2026-09-13T01:55:33.914Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-zukunft-die-frage-ist-nicht-ob-sondern-wann-china-am-start-steht",
+      "url": "https://www.speedweek.com/a/motogp/motogp-zukunft-die-frage-ist-nicht-ob-sondern-wann-china-am-start-steht",
+      "title": "MotoGP-Zukunft: Die Frage ist nicht ob, sondern wann China am Start steht",
+      "summary": "MotoGP MotoGP-Zukunft: Die Frage ist nicht ob, sondern wann China am Start steht",
+      "language": "de",
+      "publishedAt": "2026-09-13T01:55:33.914Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://news.yamaha-motor.co.jp/news/2026/0731/personnel.html",
+      "url": "https://news.yamaha-motor.co.jp/news/2026/0731/personnel.html",
+      "title": "Announcement of Personnel Changes",
+      "summary": "July31,2026 [Corporate] Announcement of Personnel Changes",
+      "language": "en",
+      "publishedAt": "2026-09-13T01:55:44.070Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/kawasaki-z500-z500-se-fresh-colours-for-my-2027/",
+      "url": "https://www.eicma.it/en/kawasaki-z500-z500-se-fresh-colours-for-my-2027",
+      "title": "Kawasaki Z500 / Z500 SE: fresh colours for my 2027",
+      "summary": "The technicians from Akashi have updated the Z500 and Z500 SE for 2027. While keeping its fierce Sugomi styling and sharp technical DNA untouched, the big update brings a fresh wave of striking new graphics and colour combinations. The standard Z500 for 2027 is proposed in Ebony / Metallic Carbon Gray, whereas the Z500 SE is available in Candy Persimmon Red / Metallic Carbon Gray or Pearl Blizzard White / Candy Lime Green Type 3 / Ebony. Underneath the tank beats the 451cc twin-cylinder engine pushing out 45 hp, designed specifically for A2 license riders. Its trellis frame champions agility and mass centralization, while the low 785 mm seat height, active riding position, and wide handlebars guarantee both comfort and total control. An Assist & Slipper clutch keeps lever action light while preventing rear-wheel hop and lock-ups during rapid downshifting. On the technology front, the Z500 relies on clean LCD instrumentation, while the SE raises the bar with a vibrant TFT display featuring a digital speedometer and tachometer, gear position indicator with shift lamp, dual trip meters, and instant or average fuel economy readouts. Both models keep you connected to your ride via smartphone integration through the Rideology App. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano - Pi e cf: 04145450153 N° iscrizione 041454",
+      "language": "en",
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/honda-refreshes-the-colour-palette-for-the-nc750x-twin-cylinder/",
+      "url": "https://www.eicma.it/en/honda-refreshes-the-colour-palette-for-the-nc750x-twin-cylinder",
+      "title": "Honda refreshes the colour palette for the NC750X twin-cylinder",
+      "summary": "For 2027, Honda is giving its mid-size crossover a fresh aesthetic look: the Japanese manufacturer leaves the mechanics untouched while expanding the range of available colors. The 2027 NC750X will be available in four distinct shades: the brand-new Glint Wave Blue Metallic joins the updated Mat Deep Mud Gray and Earth Black , alongside the returning Earth Khaki . The latter models feature fairing parts crafted from Durabio , a biomass-derived polycarbonate resin. The practical 23-liter front utility compartment —located where the fuel tank usually sits and easily capable of swallowing a full-face helmet—remains a standout feature. Mechanically, everything stays true to the previous generation: the proven 745 cc parallel twin powers the bike, fully compliant with Euro5+ regulations . It features Throttle By Wire electronic acceleration, 5 Riding Modes (3 presets, 2 custom), and multi-level HSTC traction control . The engine pumps out 58.6 horsepower at 6,750 rpm and 69 Nm of peak torque at 4,750 rpm, with a 35 kW restricted variant also available for A2 license holders. Riders can still choose between a traditional six-speed manual gearbox and Honda’s innovative Dual Clutch Transmission (DCT) . Suspension duties are handled by a 41 mm Showa SDBV telescopic fork and a Pro-Link rear monoshock, both offering 120 mm of travel. Braking relies on dual 296 mm front discs and a single 240 mm rear disc, paired with dual-channel ABS. Finally, the modern 5-inch TFT digital display comes",
+      "language": "en",
+      "publishedAt": "2026-08-04T16:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/held-summer-motorcycle-gloves-comfort-and-technology-for-riding/",
+      "url": "https://www.eicma.it/en/held-summer-motorcycle-gloves-comfort-and-technology-for-riding",
+      "title": "Held summer motorcycle gloves: comfort and technology for riding",
+      "summary": "As a historic company with eighty years of excellence and innovation in motorcycle gear, Held combines ergonomics, safety, and meticulous craftsmanship into three new summer gloves designed to offer optimal riding feel and ventilation. The Tactura model focuses on lightness and complete freedom of movement thanks to its Spandex and mesh back, paired with a Chamude palm featuring silicone for a secure grip, backed by EN 13594:2015 certification. Stepping up, the Hamada 2 balances advanced protection with precision control by combining goatskin and Nypsan, integrating D3O knuckle protectors, SuperFabric inserts, NUDUD smartphone-friendly technology, and ACS ventilation. Finally, rounding out the lineup is the Sambia KTC 2 , a premium product for summer touring. This model combines an extremely durable kangaroo leather palm, a highly perforated back with a knitted wrist cover, NUDUD touchscreen technology, and advanced protections, including an injected knuckle cover and Armaprotec reinforcements. A wide range of colour options and sizes is available. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano - Pi e cf: 04145450153 N° iscrizione 04145450153 - Capitale sociale sottoscritto e versato: 100.000 euro Made by Agenzia YES S.p.A.",
+      "language": "en",
+      "publishedAt": "2026-08-04T16:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/benelli-trk-902-stradale-ready-to-rule-the-asphalt/",
+      "url": "https://www.eicma.it/en/benelli-trk-902-stradale-ready-to-rule-the-asphalt",
+      "title": "Benelli TRK 902 Stradale, ready to rule the asphalt",
+      "summary": "Following its debut at EICMA 2025, the Benelli TRK 902 Stradale is now ready to hit the road. The first units are arriving at dealerships these days in two color options: Pure White and Pastel Grey. Compared with the Xplorer version, t he Stradale stands out primarily for its 17-inch lightweight alloy wheels, Marzocchi adjustable suspension with relatively short travel, and a seat height of just 820 mm. Visually, the Benelli TRK 902 Stradale features a dedicated electrically adjustable touring windscreen. Beneath its 21-litre metal fuel tank, which promises a theoretical range of more than 400 km, lies a Euro 5+ compliant parallel-twin engine producing 93.2 hp and 90 Nm of torque. The steel trellis frame is paired with an aluminium swingarm and a Brembo braking system featuring twin 320 mm front discs, radial-mount monobloc calipers and a radial master cylinder. The equipment package is particularly comprehensive. Standard features include a 7-inch TFT display with Bluetooth and Wi-Fi connectivity, switchable Bosch cornering ABS, switchable traction control, and cruise control. The motorcycle also comes with an ARAS rider assistance suite incorporating Blind Spot Detection (BSD), Lane Change Assist (LCA) and Rear Collision Warning (RCW). For the Italian market launch, the standard equipment also includes a pair of side panniers. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condi",
+      "language": "en",
+      "publishedAt": "2026-08-03T16:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/eicma-2026-online-ticket-sales-open-kicking-off-the-road-to-the-83rd-edition/",
+      "url": "https://www.eicma.it/en/eicma-2026-online-ticket-sales-open-kicking-off-the-road-to-the-83rd-edition",
+      "title": "EICMA 2026: ONLINE TICKET SALES OPEN, KICKING OFF THE ROAD TO THE 83rd EDITION",
+      "summary": "The countdown to the 83rd International Two-Wheel Exhibition officially begins today with the opening of online ticket sales for EICMA 2026, taking place at Fiera Milano Rho from 5 to 8 November, with 3 and 4 November reserved for the press and industry professionals. Tickets are now available exclusively through the official website, www.eicma.it , the event's only authorised ticket sales channel. As part of the launch promotion, visitors can purchase admission tickets for €15 instead of €20 until 12:00 pm (CEST) on Tuesday, 15 September , plus a fixed €1.50 booking fee. The opening of ticket sales officially marks the start of the journey towards EICMA 2026, a programme of special initiatives that will accompany enthusiasts, companies and industry professionals all the way to the November exhibition. A key milestone along this journey will be EICMA Riding X Fest, taking place on 19 and 20 September at Max Land MX Raceway Park in Chignolo Po (Pavia). This brand-new event, entirely dedicated to the world of specialist off-road riding, will offer free admission and give visitors the opportunity to test the latest motocross and enduro models from leading manufacturers while enjoying an immersive off-road experience, further building excitement ahead of the International Two-Wheel Exhibition. The 2026 edition will be supported by the communication campaign \" Always the first time. Every year, a discovery. \", portraying EICMA as the place where the global two-wheel industry comes",
+      "language": "en",
+      "publishedAt": "2026-07-29T16:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/loboo-wanderer-storage-and-protection-for-adventure-riding/",
+      "url": "https://www.eicma.it/en/loboo-wanderer-storage-and-protection-for-adventure-riding",
+      "title": "Loboo Wanderer, storage and protection for adventure riding",
+      "summary": "Built for the relentless spirit of travel and off-road exploration, the new Loboo Wanderer side bag breaks the mold by merging traditional gear storage with an innovative passive-protection system for your motorcycle. The icing on the cake is the integrated inflation system. Equipped with a sleek top-mounted valve and a rubber hand pump, the structure transforms at a moment's notice into an impact-absorbing buffer engineered to handle up to 300 kg of pressure when you need it most. Crafted from a rugged 60/40 TPU and nylon waterproof composite fabric, backed by watertight zippers and an IPX7 waterproof rating against temporary immersion, this bag laughs in the face of brutal weather. Engineered for lightning-fast installation on standard 25 mm crash bars, the Wanderer goes the extra mile for your peace of mind with a robust anti-theft lock, an integrated cable to secure the zipper, and high-visibility reflective inserts for those late-night stretches on the road. Available in stealthy black and fully loaded with mounting gear and maintenance essentia ls, it’s the ultimate companion to elevate your protection and practicality on every long-haul journey. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano - Pi e cf: 04145450153 N° iscrizione 04145450153 - Capitale sociale sottoscritto e versato: 100.000 euro Made by Agen",
+      "language": "en",
+      "publishedAt": "2026-07-29T16:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
     }
   ]
 }
