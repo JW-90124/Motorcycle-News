@@ -138,9 +138,17 @@ export class DeepSeekClient implements JsonModelClient {
       }
 
       let payload: z.infer<typeof responseSchema>;
+      // Read as text first and log a slice on failure — an "invalid
+      // response envelope" error used to give no way to tell an actual
+      // malformed response apart from, say, an unexpected error body,
+      // without reproducing locally. Found 2026-09-13 diagnosing a stuck
+      // pipeline: this is what made the real cause (truncation from an
+      // oversized backlog, not the envelope itself) visible at all.
+      const bodyText = await response.text();
       try {
-        payload = responseSchema.parse(await response.json());
+        payload = responseSchema.parse(JSON.parse(bodyText));
       } catch {
+        console.error(`DeepSeek response envelope mismatch, raw body (first 500 chars): ${bodyText.slice(0, 500)}`);
         throw new DeepSeekError(
           "DeepSeek returned an invalid response envelope",
           "invalid_response",

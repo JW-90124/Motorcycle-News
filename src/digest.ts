@@ -36,6 +36,17 @@ const MAX_TOP_STORIES = 3;
 // Cap per category section once source count grew enough to regularly blow
 // past a readable length (found 2026-08-03: 67 signals in one run).
 const MAX_ITEMS_PER_CATEGORY = 10;
+// Hard cap on how many signals go into a single digest call at all — the
+// render cap above already limits output to ~60-66 items, so anything
+// beyond a generous margin above that will never survive scoring anyway.
+// Found 2026-09-13: a 2+ week gap in successful runs (see maxTokens below)
+// let the "new signals" backlog balloon to 224 in one run, which blew
+// through maxTokens and kept failing — with nothing capping input size,
+// a large backlog and a failing digest call fed each other in a loop
+// (failed run → data never committed → still "new" next run → backlog
+// grows further). Capping input size makes a digest call succeed
+// regardless of how large a backlog gets.
+const MAX_SIGNALS_PER_DIGEST = 120;
 
 const CATEGORY_LABELS: Record<string, string> = {
   racing: "赛事赛果",
@@ -102,9 +113,28 @@ async function main() {
     );
   }
 
-  const client = new DeepSeekClient({ apiKey });
+  // Default 60s timeout is fine for the small sub-push calls this client
+  // also makes, but generating structured JSON for up to
+  // MAX_SIGNALS_PER_DIGEST items routinely takes longer — found 2026-09-13:
+  // a 120-item request timed out at 60s with no response yet (a separate
+  // failure from the truncation this same incident also exposed).
+  const client = new DeepSeekClient({ apiKey, timeoutMs: 180_000 });
   const contextSignals = await readRecentContextSignals(dateStr);
-  const scored = scoreSignals(raw.signals, contextSignals);
+  let scored = scoreSignals(raw.signals, contextSignals);
+
+  if (raw.signals.length > MAX_SIGNALS_PER_DIGEST) {
+    const keepIndices = scored
+      .map((item, i) => ({ i, score: item.heat + item.confidence }))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, MAX_SIGNALS_PER_DIGEST)
+      .map((entry) => entry.i)
+      .sort((a, b) => a - b); // keep original order — score determines *which* survive, not the reading order
+    console.log(
+      `本次信号数 ${raw.signals.length} 超过单次主推上限 ${MAX_SIGNALS_PER_DIGEST}，按热度+置信度只取前 ${MAX_SIGNALS_PER_DIGEST} 条；其余 ${raw.signals.length - MAX_SIGNALS_PER_DIGEST} 条已抓取入库、不会重复抓取，只是不会出现在今天的主推里。`,
+    );
+    raw.signals = keepIndices.map((i) => raw.signals[i]!);
+    scored = keepIndices.map((i) => scored[i]!);
+  }
 
   // Selection is entirely deterministic (our own scoring), not left to the
   // model's judgment — the model's job is writing content for whatever
@@ -126,13 +156,17 @@ async function main() {
       .map((entry) => entry.index),
   );
 
-  // 5,000 was sized for the handful of signals seen in early testing —
-  // found 2026-08-03 that a real run with 67 signals (after adding more
-  // sources) truncated mid-JSON at that limit. DeepSeek's actual ceiling is
-  // far higher (384k token max output), so this has generous headroom for
-  // realistic volume rather than being tightly tuned to today's count.
+  // Raised 5,000 -> 16,000 -> 60,000 across two real incidents: 67 signals
+  // truncated at 5,000 (2026-08-03), then 224 signals (a 2+ week backlog
+  // from a stuck pipeline, see MAX_SIGNALS_PER_DIGEST above) truncated at
+  // 16,000 (2026-09-13) — a 120-item request (post-cap) then used 37,200 of
+  // a 40,000 budget, too close for comfort. Input is now capped at
+  // MAX_SIGNALS_PER_DIGEST, so this only needs headroom for that many
+  // items' worth of structured output, not an unbounded backlog — 60,000
+  // is comfortable for ~120 items and still far under DeepSeek's actual
+  // 384k-token output ceiling.
   const { system, user } = buildDigestPrompt(raw.signals, topIndexSet, overviewIndexSet);
-  const result = await client.completeJson({ system, user, maxTokens: 16_000 });
+  const result = await client.completeJson({ system, user, maxTokens: 60_000 });
 
   let parsed: z.infer<typeof digestResponseSchema>;
   try {

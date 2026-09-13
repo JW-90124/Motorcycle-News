@@ -37,6 +37,38 @@ jobs:
         if: github.event_name != 'push'
         run: npm run collect
 
+      # Commits collected data immediately, independent of whether digest
+      # generation below succeeds. Found 2026-09-13: when the old single
+      # commit-at-the-end step depended on digest succeeding, a digest
+      # failure meant collected data was never committed — since collect.ts
+      # only marks a signal "seen" in the state.json that THIS step
+      # persists, an uncommitted run's signals looked "new" again on the
+      # next run too. That fed a 2+ week failure loop (each run's backlog
+      # kept growing instead of shrinking, making the underlying digest
+      # failure worse each time) that silently discarded six days' worth of
+      # real collected data before anyone noticed the pipeline was stuck.
+      - name: Commit collected data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "Collect signals $(date -u +%Y-%m-%d)"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt), rebasing onto origin/main and retrying..."
+            git fetch origin main
+            git rebase origin/main
+          done
+          echo "::error::Push still failing after 5 rebase attempts."
+          exit 1
+
       - name: Generate digest
         if: github.event_name != 'push'
         run: npm run digest
@@ -60,17 +92,17 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
-      - name: Commit collected data and digests
+      - name: Commit digests
         if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ digests/
+          git add digests/
           if git diff --staged --quiet; then
             echo "Nothing new to commit."
             exit 0
           fi
-          git commit -m "Automated collection $(date -u +%Y-%m-%d)"
+          git commit -m "Automated digest $(date -u +%Y-%m-%d)"
           # main can move between checkout and here (a manual push landing
           # mid-run, or another triggered run) — retry with a rebase instead
           # of failing outright, the same recovery used manually this
