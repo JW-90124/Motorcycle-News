@@ -1,0 +1,707 @@
+{
+  "collectedAt": "2026-09-14T03:19:11.686Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/bastianini-verzweifelte-auf-der-hausstrecke-es-ist-immer-das-gleiche",
+      "url": "https://www.speedweek.com/a/motogp/bastianini-verzweifelte-auf-der-hausstrecke-es-ist-immer-das-gleiche",
+      "title": "Bastianini verzweifelte auf seiner Hausstrecke: «Es ist immer das Gleiche!»",
+      "summary": "Bastianini verzweifelte auf seiner Hausstrecke: «Es ist immer das Gleiche!» Mieses Qualifying am Samstag, am Sonntag dann von Startplatz 16 mit Top-Zeiten vor auf Platz 8: Tech3-Pilot Enea Bastianini wandelt in Misano bei seinem MotoGP-Heimrennen zwischen den Extremen. MotoGP 13.09.2026 - 20:26",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.680Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ducati-pilot-aldeguer-fuhr-aprilia-mit-starkem-wochenende-ins-misano-koma",
+      "url": "https://www.speedweek.com/a/motogp/ducati-pilot-aldeguer-fuhr-aprilia-mit-starkem-wochenende-ins-misano-koma",
+      "title": "Ducati-Pilot Aldeguer fuhr Aprilia mit starkem Wochenende ins Misano-Koma",
+      "summary": "Ducati-Pilot Aldeguer fuhr Aprilia mit starkem Wochenende ins Misano-Koma MotoGP 13.09.2026 - 19:17",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.680Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-motogp-misano-fazit",
+      "url": "https://www.speedweek.com/a/motogp/toprak-razgatlioglu-motogp-misano-fazit",
+      "title": "Toprak Razgatlioglu: «Ich überhole nie jemanden, so geht das jedes Rennen»",
+      "summary": "Toprak Razgatlioglu: «Ich überhole nie jemanden, so geht das jedes Rennen» MotoGP 13.09.2026 - 18:22",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.680Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jorge-martin-wm-fuehrung-verloren-misano-aprilia",
+      "url": "https://www.speedweek.com/a/motogp/jorge-martin-wm-fuehrung-verloren-misano-aprilia",
+      "title": "WM-Führung weg, Jorge Martin durchgereicht: Aprilia-Star wurde überrascht",
+      "summary": "WM-Führung weg, Jorge Martin durchgereicht: Aprilia-Star wurde überrascht MotoGP 13.09.2026 - 17:36",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.680Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pecco-bagnaia-frueh-am-boden-ich-habe-versucht-diggia-zu-folgen",
+      "url": "https://www.speedweek.com/a/motogp/pecco-bagnaia-frueh-am-boden-ich-habe-versucht-diggia-zu-folgen",
+      "title": "Pecco Bagnaia früh am Boden: «Ich habe versucht, Diggia zu folgen»",
+      "summary": "Pecco Bagnaia früh am Boden: «Ich habe versucht, Diggia zu folgen» MotoGP 13.09.2026 - 17:21",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.680Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/bezzecchi-nach-abflug-in-runde-1-koennen-die-zeit-nicht-zurueckdrehen",
+      "url": "https://www.speedweek.com/a/motogp/bezzecchi-nach-abflug-in-runde-1-koennen-die-zeit-nicht-zurueckdrehen",
+      "title": "Bezzecchi nach Abflug in Runde 1: «Können die Zeit nicht zurückdrehen»",
+      "summary": "Bezzecchi nach Abflug in Runde 1: «Können die Zeit nicht zurückdrehen» Pole-Position mit furiosem Rundenrekord, Platz 2 im Sprint, die Führung nach dem MotoGP-Rennstart – und das abrupte Aus in Kurve 13. Marco Bezzecchi verlor sein Heimrennen in der ersten Runde. MotoGP 13.09.2026 - 16:38",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.683Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marc-marquez-2026-motogp-wm-leader-misano",
+      "url": "https://www.speedweek.com/a/motogp/marc-marquez-2026-motogp-wm-leader-misano",
+      "title": "Marc Marquez 2026 erstmals MotoGP-WM-Leader: «Es fühlt sich unwirklich an»",
+      "summary": "Marc Marquez 2026 erstmals MotoGP-WM-Leader: «Es fühlt sich unwirklich an» 102 Punkte Rückstand nach Mugello, sieben Grand Prix später die WM-Führung: Titelverteidiger Marc Marquez gewann in Misano zum siebten Mal in der MotoGP und übernahm die Spitze in der Gesamtwertung. MotoGP 13.09.2026 - 16:20",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.683Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ktm-ass-acosta-nach-weiterem-gp-podium-die-motivation-laesst-nicht-nach",
+      "url": "https://www.speedweek.com/a/motogp/ktm-ass-acosta-nach-weiterem-gp-podium-die-motivation-laesst-nicht-nach",
+      "title": "KTM-Ass Acosta nach weiterem GP-Podium: «Die Motivation lässt nicht nach!»",
+      "summary": "KTM-Ass Acosta nach weiterem GP-Podium: «Die Motivation lässt nicht nach!» Bis zum Grand Prix am Sonntag verlief das MotoGP-Wochenende in Misano für Pedro Acosta unbefriedigend. Nach dem Warm-Up fand der KTM-Werkspilot die richtige Ansprache und fuhr im Rennen aufs Podium. MotoGP 13.09.2026 - 15:58",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.683Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/attacke-attacke-attacke-alex-marquez-widmete-platz-2-marco-simoncelli",
+      "url": "https://www.speedweek.com/a/motogp/attacke-attacke-attacke-alex-marquez-widmete-platz-2-marco-simoncelli",
+      "title": "Attacke, Attacke, Attacke: Alex Marquez widmete Platz 2 Marco Simoncelli",
+      "summary": "Attacke, Attacke, Attacke: Alex Marquez widmete Platz 2 Marco Simoncelli Alex Marquez sorgte für Furore. Der Gresini-Pilot rückte Sieger Marc gefährlich nahe. Für den Vizeweltmeister war das miserable Qualifying mit der Podestfahrt zur Ehren von SIC58 wieder gut gemacht. MotoGP 13.09.2026 - 15:31",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.684Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/live-ticker-motogp-misano-marquez-vs-martin",
+      "url": "https://www.speedweek.com/a/motogp/live-ticker-motogp-misano-marquez-vs-martin",
+      "title": "Live-Ticker MotoGP Misano: Aprilia-Schlappe – Marc Marquez ist WM-Leader!",
+      "summary": "Live-Ticker MotoGP Misano: Aprilia-Schlappe – Marc Marquez ist WM-Leader! Polesetter Marco Bezzecchi stürzte, Aprilia-Kollege Jorge Martin konnte gegen Ducati nichts ausrichten: Der Grand Prix in Misano wurde zur Galavorstellung von MotoGP-Gigant Marc Marquez. MotoGP 13.09.2026 - 13:31",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.684Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/warm-up-misano-weisser-bezzecchi-schnellster-vor-mm93-rookie-moreira-3",
+      "url": "https://www.speedweek.com/a/motogp/warm-up-misano-weisser-bezzecchi-schnellster-vor-mm93-rookie-moreira-3",
+      "title": "Warm-up Misano: Weißer Bezzecchi Schnellster vor «MM93», Rookie Moreira 3.",
+      "summary": "Warm-up Misano: Weißer Bezzecchi Schnellster vor «MM93», Rookie Moreira 3. Im kurzen Warm-up der MotoGP in Misano war es wieder Marco Bezzecchi, der das Tempo vorgab. Im Vespa-Design war «Bez» klar der Schnellste vor Marc Marquez und Honda-Rookie Diogo Moreira. MotoGP 13.09.2026 - 10:11",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.684Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/-weisse-perle-aprilia-asse-bezzecchi-und-martin-fahren-gp-im-vespa-design",
+      "url": "https://www.speedweek.com/a/motogp/-weisse-perle-aprilia-asse-bezzecchi-und-martin-fahren-gp-im-vespa-design",
+      "title": "«Weiße Perle»: Aprilia-Asse Bezzecchi und Martin fahren GP im Vespa-Design",
+      "summary": "«Weiße Perle»: Aprilia-Asse Bezzecchi und Martin fahren GP im Vespa-Design Für das weitere Italo-Heimspiel von Aprilia im Rahmen des San Marino-GP präsentiert sich das offizielle Werksteam zu Ehren der Konzernmarke Vespa ganz in Weiß. Das Piaggio-Kultgerät feiert Jubiläum. MotoGP 13.09.2026 - 09:10",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.684Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-misano-live-uebertragung-zeiten",
+      "url": "https://www.speedweek.com/a/motogp/motogp-misano-live-uebertragung-zeiten",
+      "title": "Ab 11 Uhr: Wo die Rennen der MotoGP-WM in Misano live zu sehen sind",
+      "summary": "Ab 11 Uhr: Wo die Rennen der MotoGP-WM in Misano live zu sehen sind Am Sonntag finden auf dem Misano World Circuit Marco Simoncelli die Grands Prix der Klassen Moto3, Moto2 und MotoGP statt. SPEEDWEEK.com gibt eine Übersicht, wann und wo die Rennen gezeigt werden. MotoGP 13.09.2026 - 07:07",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.684Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aufgeschluesselt-das-war-der-motogp-sprint-von-misano",
+      "url": "https://www.speedweek.com/a/motogp/aufgeschluesselt-das-war-der-motogp-sprint-von-misano",
+      "title": "Aufgeschlüsselt: Das war der MotoGP-Sprint von Misano",
+      "summary": "Aufgeschlüsselt: Das war der MotoGP-Sprint von Misano MotoGP 13.09.2025 - 20:05",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.686Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pecco-bagnaia-13-sprintete-zurueck-in-den-albtraum",
+      "url": "https://www.speedweek.com/a/motogp/pecco-bagnaia-13-sprintete-zurueck-in-den-albtraum",
+      "title": "Pecco Bagnaia (13.) sprintete zurück in den Albtraum",
+      "summary": "Pecco Bagnaia (13.) sprintete zurück in den Albtraum MotoGP 13.09.2025 - 19:33",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.686Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pedro-acosta-nach-platz-5-habe-mein-leben-riskiert",
+      "url": "https://www.speedweek.com/a/motogp/pedro-acosta-nach-platz-5-habe-mein-leben-riskiert",
+      "title": "Pedro Acosta nach Platz 5: «Habe mein Leben riskiert»",
+      "summary": "Pedro Acosta nach Platz 5: «Habe mein Leben riskiert» MotoGP 13.09.2025 - 19:21",
+      "language": "de",
+      "publishedAt": "2026-09-14T03:18:41.686Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/807852/superatv-accessories-company-acquires-four-new-offroad-parts-businesses/",
+      "url": "https://www.rideapart.com/news/807852/superatv-accessories-company-acquires-four-new-offroad-parts-businesses",
+      "title": "SuperATV Just Acquired a Host of Off-Road Brands",
+      "summary": "High Lifter, Snorkel Your ATV, Falcon Ridge, and Side By Side Stuff are now all under the same umbrella.",
+      "language": "en",
+      "publishedAt": "2026-09-13T11:53:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/adventure-motorcycle-registrations-grow-41-cent-july",
+      "url": "https://www.visordown.com/news/adventure-motorcycle-registrations-grow-41-cent-july",
+      "title": "Adventure motorcycles continue to steer the UK’s positive sales numbers",
+      "summary": "Adventure motorcycle registrations grew by 41 per cent in July compared to the same month in 2025. 2026 has so far been a strong year for motorcycle sales in the UK, which continued in July, according to the latest statistics provided by the Motorcycle Industry Association (MCIA). The adventure segment has played a key role in the ongoing growth month-to-month vs 2025, and that was also the case in July. Adventure motorcycle registrations were up by a staggering 41.8 per cent compared to the same month in 2025. Year-to-date, adventure motorcycle sales are also holding strong, with an overall increase of 26.2 per cent. The naked motorcycle segment also flourished in July, with registrations growing by 24.5 per cent compared with July 2025. Not far behind that was the touring segment, with monthly registrations growing by 18.2 per cent. Year-to-date registrations for the entire motorcycle segment have grown by 16.1 per cent, while YTD scooter sales are up by 15.4 per cent. In terms of individual models, the best-performing bike in July 2026 was the Honda CB125F, which sold 185 units in the naked category. That was then followed by the CB1000GT which sold 141 units, while third place went the way of the GB350S, meaning Honda finished the month with the three best-selling motorcycles. Speaking about the continued signs of growth, as well as what the motorcycle industry needs from the new government going forward, MCIA CEO, Tony Campbell, said: “July’s market reinforces the import",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.444Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/superbike-factory-customers-and-staff-unite-reddit-and-whatsapp-groups-after-administration",
+      "url": "https://www.visordown.com/news/superbike-factory-customers-and-staff-unite-reddit-and-whatsapp-groups-after-administration",
+      "title": "People power! Superbike Factory customers and staff unite to share information and spread awareness",
+      "summary": "Superbike Factory customers and former staff have created online groups to share information following the motorcycle dealer's administration. The collapse of Superbike Factory has prompted affected customers and staff to organise themselves online, with Reddit and WhatsApp groups now being used to share information about the administration and help people work out what to do next. The groups have been set up in the aftermath of Superbike Factory entering administration on 20 July 2026, when the company's appointed administrators confirmed that the business had ceased trading with immediate effect. One customer who contacted Visordown said they initially discovered the community through a discussion on a legal advice forum on Reddit. The discussion has since become a focal point for people attempting to share experiences and information following the dealer's collapse. The Reddit discussion includes contributions from people affected in different ways, while a separate WhatsApp group has been established specifically for Superbike Factory customers and staff. The WhatsApp group describes itself as being for “Affected Customers and staff”, with the intention of bringing people together to exchange information as the administration progresses. According to the customer who contacted Visordown, the people involved include customers who had purchased motorcycles but were waiting to collect them, people who had bikes with Superbike Factory for servicing or maintenance, people who",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.444Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/patritalia-wants-ducati-and-mv-agusta-its-italian-only-plan-raises-questions",
+      "url": "https://www.visordown.com/news/patritalia-wants-ducati-and-mv-agusta-its-italian-only-plan-raises-questions",
+      "title": "Ducati bidder wants MV Agusta too... and Triumph out of Moto2!",
+      "summary": "The group behind a €2.5bn bid for Ducati has outlined what it would do if the deal goes through, including replacing Triumph in Moto2 and making the entire operation Italian! Patritalia has reiterated its bid to buy Ducati from the Audi/Volkswagen Group, claiming that its €2.5bn offer remains on the table indefinitely and outlining what it would do if it gets its hands on the Bologna-based manufacturer. And if it’s CEO and founder is to be believed, it isn't stopping at Ducati. The Italian group says MV Agusta is also among its targets, with the stated aim of returning both brands, and other unnamed Italian companies, to Italian ownership. Patritalia says this is central to its founding philosophy and that Ducati and MV Agusta are of interest specifically because they are currently foreign-owned. Quite how far that philosophy would extend is where things get interesting. In a lengthy social media statement aimed at correcting what Patritalia describes as \"distorted\" reporting about its plans, the company says that if it acquires Ducati, its \"Italian Patriotism\" would be applied at every level of the business. Most notably, it says its companies would be \"always and only\" made up of Italians, regardless of the skills foreign employees might bring. That appears to mean a Ducati workforce that is exclusively Italian, from the workshop floor sweeper, right up to the president. Quite how that would work in practice is less clear. Ducati is an international manufacturer with a glob",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.444Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/ducati-sets-out-future-plans-huge-eu121m-motorcycle-rd-investment",
+      "url": "https://www.visordown.com/news/ducati-sets-out-future-plans-huge-eu121m-motorcycle-rd-investment",
+      "title": "Ducati secures major research and development investment fund",
+      "summary": "Despite ongoing rumours of the company potentially being sold, Ducati is set to strengthen its research and development capabilities through a new €121m investment fund. Ducati has secured a €121m (around £104m) investment fund to strengthen competitiveness, innovation and growth through its new project, ‘Ducati Raise the Bar’. Ducati says the new programme will focus heavily on the company’s R&D (Research and Development) sector, as well as technical innovation. The Ministry of Enterprises and Made in Italy authorised the new agreement, according to Ducati, which includes a non-repayable grant from the Ministry of €33.5m, which converts to roughly £28.7m. This means that just over 25 per cent of the programme will be funded by the government ministry. What all of this indicates is that Ducati, despite ongoing rumours of the company being sold by current owners Volkswagen AG, is set to invest heavily in the development of future motorcycles, its racing programmes, and the company’s wider business operations. At the heart of Ducati’s new programme will be “industrial research and experimental development”, with the Bologna-based company allocating €99m (around £85m) to this particular sector. Alongside the research and development plan, which Ducati hopes will strengthen its position as one of the biggest motorcycle brands in the world, the programme is also about contributing to local areas in Italy. Speaking about this subject, Ducati goes on to say that “the initiative is a",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.444Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/norton-reveals-architect-designed-showroom-concept-200-dealer-global-expansion",
+      "url": "https://www.visordown.com/news/norton-reveals-architect-designed-showroom-concept-200-dealer-global-expansion",
+      "title": "Norton has a surprising plan to take on Ducati, BMW and Triumph",
+      "summary": "Norton teams up with Foster + Partners to create a new global dealership concept as it pushes towards a worldwide network of more than 200 retailers. Norton is betting that selling premium motorcycles shouldn't feel like buying any other bike. Instead of another dealership refresh with swanky signage and posh furniture, the British brand has teamed up with world-renowned architecture firm Foster + Partners to create a completely new retail experience. You may also like to read our Norton Manx R review . The new showroom design, which is part of Norton’s 200-dealer global expansion, is intended to change how customers experience the brand, with motorcycles displayed more like fine art than machines lined up on a sales floor. Norton says the concept combines gallery-style displays with dedicated areas where customers can configure their bikes, explore the engineering behind them and interact with digital displays. If the name Foster + Partners sounds familiar, there's a good reason. The British architecture firm, founded by Sir Norman Foster, is responsible for some of the world's most recognisable buildings, including London's Gherkin skyscraper, Apple's headquarters in California and Wembley Stadium's redevelopment. Bringing a firm with that pedigree into motorcycle retail is an unusual move, and shows Norton is aiming to position itself firmly at the premium end of the market. Rather than building one enormous flagship showroom, Norton says the concept has been designed to w",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.444Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/european-parliament-launches-new-motorcycling-mep-club",
+      "url": "https://www.visordown.com/news/european-parliament-launches-new-motorcycling-mep-club",
+      "title": "Motorcyclists now have an official voice inside the European Parliament",
+      "summary": "The European Parliament has launched a new cross-party Motorcycling MEP Club, giving riders a dedicated voice as new transport and environmental laws continue to emerge. The European Parliament now has an official group dedicated to motorcycles, with a new cross-party Motorcycling MEP Club launching in Brussels as the industry looks to strengthen its influence over future transport legislation. The new group was formally established on 1 July, bringing together Members of the European Parliament from across the political spectrum with the aim of ensuring motorcycles, scooters and mopeds continue to be considered when new mobility, environmental and road safety policies are developed. The club elected Andreas Glück as its first Chair, with Matej Tonin, Bernd Lange and Nora Junco serving as Vice-Chairs. To mark the launch, members joined the European Association of Motorcycle Manufacturers (ACEM) for its annual Summer Ride, completing a 50km route through and around Brussels before attending an evening reception. The event also marked the first public appearance of Markus Flasch in his new role as ACEM President, having taken over the position following the association's General Assembly in Munich. While the ride itself was largely symbolic, the formation of the Motorcycling MEP Club could prove significant. In recent years, the European Union has introduced or proposed legislation covering everything from emissions and recycled materials to vehicle safety, battery regulations",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.444Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/livewire-dodges-penny-stock-scare-shares-rebound-above-2-days-after-nyse-warning",
+      "url": "https://www.visordown.com/news/livewire-dodges-penny-stock-scare-shares-rebound-above-2-days-after-nyse-warning",
+      "title": "LiveWire shares surge above $2 just days after penny stock warning",
+      "summary": "Harley-Davidson-backed LiveWire was warned its shares had slipped below NYSE listing requirements, but within days the stock had climbed back above $2. It looked like another grim chapter in LiveWire's difficult few years, but just days after being warned it had effectively become a penny stock, the electric motorcycle firm saw its share price bounce back above the crucial $2 mark. The Harley-Davidson-backed EV brand confirmed it received a notice from the New York Stock Exchange (NYSE) on July 23 after its shares had averaged below $1 over a consecutive 30 trading-day period, putting it in breach of the exchange's continued listing rules. While that sounds serious, the notice doesn't mean LiveWire is about to disappear from the NYSE, and the company has up to six months to restore compliance. While \"penny stock\" sounds like a throwaway label, it carries real consequences. Companies with shares trading at very low prices are often seen as higher-risk investments, something that can put off larger investors and pile further pressure on the share price. For firms listed on the NYSE, staying above $1 is also important because falling below that level for a sustained period can eventually lead to delisting if the issue isn't fixed. Under NYSE rules, LiveWire has ten business days to tell the exchange how it intends to fix the problem. One option on the table is a reverse stock split, which would reduce the number of shares in circulation while increasing their individual value, a",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.444Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/patritalia-doubles-down-eu25bn-ducati-bid-ai-motogp-images-and-bold-italian-only-rider-pledge",
+      "url": "https://www.visordown.com/news/patritalia-doubles-down-eu25bn-ducati-bid-ai-motogp-images-and-bold-italian-only-rider-pledge",
+      "title": "Ducati bidder Patritalia escalates takeover saga with Ai race bikes and all-Italian MotoGP promise!",
+      "summary": "Patritalia has issued a fresh statement insisting its €2.5bn bid for Ducati is genuine, while sharing AI-generated race bike concepts and promising an all-Italian Ducati racing line-up. The increasingly bizarre saga surrounding the reported bid to buy Ducati has taken another twist, with Italian firm Patritalia publishing a lengthy public statement insisting its €2.5 billion offer is real. The document arrives as Patritalia simultaneously teases an all-Italian future for Ducati's racing programme, complete with AI-generated MotoGP, Moto2, and Moto3 race bikes. The latest development comes after reports questioning whether a formal offer to acquire Ducati Motor Holding had ever been made. In its statement, Patritalia says it was forced to break its own confidentiality after what it describes as inaccurate reporting and speculation surrounding the proposal. According to the company, a formal offer to acquire 100 per cent of Ducati Motor Holding was submitted on June 25, 2026, to the relevant contacts within Audi and the wider Volkswagen Group. Patritalia says the proposal was worth €2.5bn and insists it was both transmitted and received, adding that it is prepared to publish documentation and electronic receipts to support that claim. What the company doesn’t claim is that negotiations are taking place, or that Ducati is even actually for sale. Instead, it repeatedly stresses that only Audi, as Ducati's current owner, has the authority to accept or reject the proposal, while co",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.444Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/italian-firm-patritalia-confirms-ducati-takeover-bid-its-ceo-doubles-down-sale-claims",
+      "url": "https://www.visordown.com/news/italian-firm-patritalia-confirms-ducati-takeover-bid-its-ceo-doubles-down-sale-claims",
+      "title": "Ducati takeover bidder's CEO takes to social media to back sale claims",
+      "summary": "Ducati's sale rumours have taken another twist, with an Italian investment company confirming the news, while the firm's CEO publicly backed the claim on social media. For more than a year, rumours that Ducati could be sold by Volkswagen Group have come and gone, fuelled by reports of wider restructuring within the German automotive giant rather than anything direct from the Borgo Panigale. Now, for the first time, a company has publicly confirmed it has made an offer to buy the Italian manufacturer. Speaking to RideApart, Massimo Ros, founder of Italian investment company Patritalia S.p.A., said his company had formally approached Volkswagen with a bid to acquire Ducati Motor Holding in its entirety. \"I can confirm that the rumours are well founded. Patritalia S.p.A has formally expressed its interest and is fully prepared to acquire 100% of Ducati Motor Holding S.p.A.\" According to Ros, Patritalia was founded with the aim of returning iconic Italian companies to Italian ownership. \"The sole mission I set behind the creation of Patritalia is to 'bring back home' our Italian companies and iconic Italian brands that are currently under foreign ownership and bring them back under Italian control. Our objective is to promote a form of industrial repossession, allowing these historic brands to once again be guided by Italian vision, culture, creativity, with the goal of restoring the soul of the Italian entrepreneurial spirit.\" Ros went on to argue that brands such as Ducati have",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.444Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/features/eu-makes-recycled-plastics-mandatory-cars-are-motorcycles-next",
+      "url": "https://www.visordown.com/features/eu-makes-recycled-plastics-mandatory-cars-are-motorcycles-next",
+      "title": "Honda may have predicted the EU's next move on motorcycle sustainability",
+      "summary": "The EU has made recycled plastics mandatory for new cars from 2032. Motorcycles are exempt for now, but Honda's early adoption suggests the industry may already know what’s coming. When Honda announced last year that it was expanding the use of recycled plastics and bio-based materials across its motorcycle range, it looked like either another step on the road towards a more sustainable future, or a brand going above and beyond to seem more green. Fast forward to today, though, and that decision suddenly looks rather more significant. The European Union has now formally adopted its new End-of-Life Vehicle Regulation (ELVR), introducing mandatory recycled plastic content for all newly type-approved passenger cars and vans from 2032. Motorcycles aren't included in the legislation, but history suggests bike manufacturers would be unwise to assume they'll stay outside the scope forever. The regulation, published in the Official Journal of the European Union on July 24 and coming into force on August 13, is one of the biggest shake-ups of automotive manufacturing in decades. From September 1, 2032, every newly type-approved passenger car and van sold in the EU will need to contain at least 15 per cent recycled plastic, with that figure rising to 25 per cent for newly type-approved vehicles from September 1, 2036. At least one fifth of that recycled material must come from end-of-life vehicles, creating a closed-loop recycling system that keeps plastics from scrapped vehicles in us",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.445Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/general/funny-video-just-how-do-they-build-rocket-iii",
+      "url": "https://www.visordown.com/news/general/funny-video-just-how-do-they-build-rocket-iii",
+      "title": "Before manufacturers discovered influencers, Triumph made this viral masterpiece",
+      "summary": "Motorcycle marketing has changed beyond recognition, but this classic Triumph Rocket III video remains as absolute comedy gold. Before social media algorithms, before influencers, before every bike launch needed a cinematic drone shot and someone dramatically staring into the middle distance, Triumph quietly released what might still be the funniest motorcycle video ever made. You may also like to read our Triumph Rocket 3 review . Originally uploaded back in 2007 to promote the then-new Rocket III Classic, the spoof factory documentary has somehow aged better than plenty of modern motorcycle marketing campaigns. Presented as a serious behind-the-scenes look inside Triumph's production line, the video quickly descends into the kind of glorious nonsense that has us waiting for Basil Fawlty to appear. Engines are tested to the sound of banjo music \"for safety purposes\", workers carefully harvest chrome from fields, and the bike's legendary handling is apparently thanks to \"argument juice\" extracted from the female brain. And as for the 2,300cc engine which is apparently “grown from embryo engines, germinated in a nutrient-rich sludge medium” and then left in a cupboard by the photocopiers. It's exactly the sort of deadpan British humour that made me fall in love with British comedy back in the 80s and 90s. From The Fast Show to Vic and Bob’s Big Night Out, this piece of comedic artwork was a perfect snapshot of where UK comedy was at the time. We first shared the clip on Visord",
+      "language": "en",
+      "publishedAt": "2026-09-14T03:18:52.445Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/14/090200315/ekspor-mobil-indonesia-naik-pasar-ice-masih-jadi-andalan",
+      "url": "https://otomotif.kompas.com/read/2026/09/14/090200315/ekspor-mobil-indonesia-naik-pasar-ice-masih-jadi-andalan",
+      "title": "Ekspor Mobil Indonesia Naik, Pasar ICE Masih Jadi Andalan",
+      "summary": "Ekspor Mobil Indonesia Naik, Pasar ICE Masih Jadi Andalan JAKARTA, KOMPAS.com I ndonesia masih mempertahankan perannya sebagai salah satu basis produksi mobil bermesin pembakaran internal atau internal combustion engine (ICE), di tengah pergeseran industri otomotif global menuju kendaraan elektrifikasi. Hal tersebut tercermin dari kinerja ekspor CBU (Completely Built Up) alias mobil rakitan Indonesia, yang masih cukup kuat sepanjang 2026. Sekretaris Umum Gabungan Industri Kendaraan Bermotor Indonesia (Gaikindo) Kukuh Kumara mengatakan, tren ekspor pada Agustus 2026 menunjukkan perkembangan yang cukup baik dibandingkan tahun sebelumnya. Baca juga: Hasil Klasemen Moto3 2026: Veda Ega di Posisi 7, Quiles Kokoh di Atas Ada kecenderungan cukup baik ya (ekspor Agustus 2026). Trennya juga cukup bagus dibanding dengan tahun lalu, kata Kukuh. Menurut dia, masih banyak negara yang mengandalkan kendaraan konvensional sehingga permintaan mobil bermesin ICE tetap terbuka bagi industri otomotif Indonesia. Karena masih banyak negara yang juga masih pakai mobil konvensional. Itu kan kebanyakan ICE, ujar Kukuh. Kukuh menyebut sejumlah negara menjadi tujuan utama ekspor kendaraan dari Indonesia, seperti Filipina, Vietnam, Meksiko, negara-negara Timur Tengah, Thailand, hingga Australia. Baca juga: Hasil Moto3 San Marino 2026: Veda Ega Finis P18, Quiles Menang Dramatis Istimewa Pabrik Mitsubishi di Indonesia. Berdasarkan data Gaikindo, ekspor mobil dalam bentuk utuh atau completely built up (CBU",
+      "language": "id",
+      "publishedAt": "2026-09-14T03:19:07.144Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/14/082200915/pengguna-bicara-soal-biaya-kepemilikan-vinfast-vf3-selama-1-tahun",
+      "url": "https://otomotif.kompas.com/read/2026/09/14/082200915/pengguna-bicara-soal-biaya-kepemilikan-vinfast-vf3-selama-1-tahun",
+      "title": "Pengguna Bicara Soal Biaya Kepemilikan VinFast VF3 Selama 1 Tahun",
+      "summary": "Pengguna Bicara Soal Biaya Kepemilikan VinFast VF3 Selama 1 Tahun JAKARTA, KOMPAS.com Mobil listrik menawarkan biaya operasional yang relatif rendah dibandingkan mobil bermesin bensin. Selain biaya energi yang lebih murah, biaya perawatan juga menjadi salah satu pertimbangan konsumen saat membeli mobil listrik. Hal tersebut juga dirasakan Billy, pengguna VinFast VF3 tahun 2026 asal Tasikmalaya, Jawa Barat. Pria berusia 36 tahun itu memilih VinFast VF3 karena sejumlah karakter yang menurutnya sesuai dengan kebutuhan berkendara sehari-hari. \"Suka bentuknya, lincah, ground clearence tinggi, RWD, akselerasi responsif, serta punya radius putar yang sangat baik,\" kata Billy kepada Kompas.com , belum lama ini. Baca juga: Jadwal MotoGP 2026 Usai GP San Marino, Balapan di Red Bull Ring Untuk kebutuhan pengisian daya, Billy mengaku lebih banyak memanfaatkan fasilitas pengisian daya gratis yang tersedia di SPKLU V-GREEN. Meski demikian, sesekali dirinya tetap melakukan pengisian daya di rumah. \"Charge di SPKLU V-GREEN gratis, jika sesekali charge di rumah seminggu full charge sekitar Rp 20.000,\" ujar Billy. Jika diasumsikan melakukan pengisian penuh di rumah satu kali setiap minggu dengan biaya sekitar Rp20.000, maka pengeluaran listrik untuk mengisi daya selama satu tahun menjadi sekitar Rp1,04 juta. Rp20.000 x 52 minggu = Rp1.040.000 per tahun. Angka tersebut bisa lebih rendah apabila dalam praktiknya Billy lebih sering memanfaatkan SPKLU V-GREEN gratis. Selain biaya listrik, pemilik",
+      "language": "id",
+      "publishedAt": "2026-09-14T03:19:07.144Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/14/070200515/komentar-toyota-soal-pangsa-pasar-yang-susut-",
+      "url": "https://otomotif.kompas.com/read/2026/09/14/070200515/komentar-toyota-soal-pangsa-pasar-yang-susut-",
+      "title": "Komentar Toyota Soal Pangsa Pasar yang Susut",
+      "summary": "Komentar Toyota Soal Pangsa Pasar yang Susut JAKARTA, KOMPAS.com Toyota masih mempertahankan posisinya sebagai pemimpin pasar otomotif Indonesia di tengah persaingan yang semakin ketat sepanjang 2026. Berdasarkan data Gabungan Industri Kendaraan Bermotor Indonesia (Gaikindo), penjualan mobil secara wholesales pada Januari-Agustus 2026 mencapai 599.491 unit. Angka tersebut tumbuh 20,1 persen dibandingkan periode yang sama tahun lalu sebanyak 499.315 unit. Dari jumlah tersebut, Toyota menjadi merek dengan distribusi terbesar. Sepanjang delapan bulan pertama 2026, Toyota mencatat wholesales 175.931 unit atau menguasai 29,3 persen pasar. Baca juga: Hasil Klasemen Moto3 2026: Veda Ega di Posisi 7, Quiles Kokoh di Atas Dok. TAM Ilustrasi booth Toyota di IIMS 2026 Capaian tersebut meningkat 9,2 persen dibandingkan periode yang sama tahun lalu yang berada di angka 161.080 unit. Namun, pertumbuhan Toyota masih berada di bawah pertumbuhan pasar nasional. Alhasil, pangsa pasar Toyota terkoreksi dari 32,3 persen pada Januari-Agustus 2025, menjadi 29,3 persen tahun ini. Kondisi serupa terjadi pada penjualan ritel. Toyota membukukan penjualan 172.871 unit dengan pangsa pasar 29,1 persen. Angka tersebut naik 3 persen dibandingkan periode yang sama tahun lalu sebanyak 167.811 unit. Meski penjualan meningkat, pangsa pasar Toyota kembali turun dari 32,1 persen menjadi 29,1 persen. Baca juga: Hasil Moto3 San Marino 2026: Veda Ega Finis P18, Quiles Menang Dramatis Marketing Director PT Toyota-As",
+      "language": "id",
+      "publishedAt": "2026-09-14T03:19:07.144Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/14/074200015/jorge-martin-ungkap-alasan-kalah-di-misano",
+      "url": "https://otomotif.kompas.com/read/2026/09/14/074200015/jorge-martin-ungkap-alasan-kalah-di-misano",
+      "title": "Jorge Martin Ungkap Alasan Kalah di Misano",
+      "summary": "Jorge Martin Ungkap Alasan Kalah di Misano JAKARTA, KOMPAS.com - Jorge Martin harus merelakan peluang meraih kemenangan pada MotoGP San Marino 2026 setelah mengalami masalah arm pump atau arm pump. Pebalap Aprilia itu sempat memimpin balapan MotoGP San Marino yang berlangsung di Sirkuit Misano , Minggu (13/9/2026). Namun, kondisi lengannya memburuk hingga membuat performanya menurun drastis. Martin sebenarnya tampil menjanjikan sejak awal balapan. Setelah rekan setimnya, Marco Bezzecchi, yang start dari pole position terjatuh pada lap pertama, Martin menjadi salah satu kandidat kuat untuk meraih kemenangan. Baca juga: Selisih Poin Makin Ketat, Martin Optimistis Bisa Lawan Marquez Martin sempat membuntuti Marc Marquez pada fase awal balapan. Pebalap asal Spanyol itu kemudian menyalip Marquez untuk mengambil alih posisi terdepan pada lap kedelapan dari total 27 lap. Dok. @89jorgemartin Jorge Martin saat berlaga pada MotoGP San Marino 2026 Keunggulan Martin bahkan sempat mencapai sekitar 0,8 detik. Namun, situasi berubah ketika balapan memasuki pertengahan. Kecepatan Martin tiba-tiba menurun akibat masalah pada lengan. Dalam beberapa lap berikutnya, ia kehilangan banyak waktu dari Marquez yang kemudian mengambil alih posisi terdepan. Martin akhirnya finis di posisi kelima dengan selisih sekitar 14 detik dari Marquez. Ia bahkan kehilangan hampir satu detik setiap lap dari pemimpin balapan. Baca juga: Jorge Martin Acuh Soal Gelar Juara Dunia MotoGP 2026 Saya mempunyai masalah besa",
+      "language": "id",
+      "publishedAt": "2026-09-14T03:19:07.144Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
