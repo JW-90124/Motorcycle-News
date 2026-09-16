@@ -1,0 +1,901 @@
+{
+  "collectedAt": "2026-09-16T03:17:21.202Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ai-ogura-comeback-red-bull-ring-motogp",
+      "url": "https://www.speedweek.com/a/motogp/ai-ogura-comeback-red-bull-ring-motogp",
+      "title": "Nach Motocross-Verletzung: Ai Ogura gibt Comeback auf dem Red Bull Ring",
+      "summary": "Nach Motocross-Verletzung: Ai Ogura gibt Comeback auf dem Red Bull Ring Trackhouse-Ass Ai Ogura wird beim MotoGP-Event in Spielberg wieder auf seine Aprilia RS-GP steigen. Nach zwei verpassten Grands Prix steigt der Japaner in Österreich wieder in den Titelkampf ein. MotoGP 15.09.2026 - 22:57",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.145Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pit-beirer-ktm-misano-marquez",
+      "url": "https://www.speedweek.com/a/motogp/pit-beirer-ktm-misano-marquez",
+      "title": "Pit Beirer (KTM): Pedro und Alex sind losgeballert und haben Marc eingeholt",
+      "summary": "Pit Beirer (KTM): Pedro und Alex sind losgeballert und haben Marc eingeholt MotoGP 15.09.2026 - 19:27",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.146Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/johann-zarco-grid-strafe-sturz-misano",
+      "url": "https://www.speedweek.com/a/motogp/johann-zarco-grid-strafe-sturz-misano",
+      "title": "Johann Zarco (LCR Honda): «Die Strafe hat alles noch schlechter gemacht!»",
+      "summary": "Johann Zarco (LCR Honda): «Die Strafe hat alles noch schlechter gemacht!» MotoGP 15.09.2026 - 16:25",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.146Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/maverick-vinales-fehlt-red-bull-ring-espargaro-ersetzt",
+      "url": "https://www.speedweek.com/a/motogp/maverick-vinales-fehlt-red-bull-ring-espargaro-ersetzt",
+      "title": "Bitter für Maverick Vinales (KTM): Auch kein Start auf dem Red Bull Ring",
+      "summary": "Bitter für Maverick Vinales (KTM): Auch kein Start auf dem Red Bull Ring MotoGP 15.09.2026 - 11:19",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.146Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/alex-marquez-ueber-marc-hangar-7-servustv",
+      "url": "https://www.speedweek.com/a/motogp/alex-marquez-ueber-marc-hangar-7-servustv",
+      "title": "Alex Marquez (Ducati) über seinen Bruder: «Marc hat ein wenig gespielt!»",
+      "summary": "Alex Marquez (Ducati) über seinen Bruder: «Marc hat ein wenig gespielt!» MotoGP 15.09.2026 - 10:07",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.146Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/formel-1/grosser-preis-von-spanien-auf-dem-neuen-madring-strecke-top-oder-flop",
+      "url": "https://www.speedweek.com/a/formel-1/grosser-preis-von-spanien-auf-dem-neuen-madring-strecke-top-oder-flop",
+      "title": "Grosser Preis von Spanien auf dem neuen Madring: Strecke top oder Flop?",
+      "summary": "Thema der Woche Grosser Preis von Spanien auf dem neuen Madring: Strecke top oder Flop? Die Madrilenen hatten sich viel vorgenommen für den ersten Formel-1-WM-Lauf ihrer Stadt seit 1981. Aber sind die hohen Erwartungen an den neuen Mischkurs Madring wirklich erfüllt worden? Mathias Brunner Weiterlesen",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.148Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/oesterreich-gp-motogp-zeitplan-red-bull-ring",
+      "url": "https://www.speedweek.com/a/motogp/oesterreich-gp-motogp-zeitplan-red-bull-ring",
+      "title": "Österreich-GP: Der Zeitplan für das MotoGP-Event auf dem Red Bull Ring",
+      "summary": "Österreich-GP: Der Zeitplan für das MotoGP-Event auf dem Red Bull Ring Vom 18. bis 20. September gastiert die MotoGP-WM im österreichischen Spielberg. Den Zeitplan für das Event gibt es hier im Überblick. Auch die Red Bull Rookies und der Bagger World Cup sind am Start. MotoGP 15.09.2026 - 07:31",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.149Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jorge-martin-armpump-op-wm-titel",
+      "url": "https://www.speedweek.com/a/motogp/jorge-martin-armpump-op-wm-titel",
+      "title": "Jorge Martin (Aprilia) rätselt: Das kostet ihn möglicherweise den WM-Titel",
+      "summary": "Jorge Martin (Aprilia) rätselt: Das kostet ihn möglicherweise den WM-Titel 2019 ließ sich Jorge Martin wegen Arm-pump operieren, sieben Jahre später treten wieder Schmerzen auf. Der ehemalige MotoGP-Weltmeister überlegt, wie er damit im eng gestrickten Kalender umgehen soll. MotoGP 14.09.2026 - 19:44",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.149Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-misano-spritproblem-fernandez-quartararo",
+      "url": "https://www.speedweek.com/a/motogp/motogp-misano-spritproblem-fernandez-quartararo",
+      "title": "Sprit reichte fast nicht – Fernandez hatte dasselbe Problem wie Quartararo",
+      "summary": "Sprit reichte fast nicht – Fernandez hatte dasselbe Problem wie Quartararo Raul Fernandez (Trackhouse) hatte im MotoGP-Rennen in Misano alle Hände voll zu tun, um mit seiner Aprilia ins Ziel zu kommen. Wie bei Quartararo (Yamaha), wäre auch ihm fast der Sprit ausgegangen. MotoGP 14.09.2026 - 15:53",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.149Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/moto-gp-misano-binder-keine-staerke-ktm",
+      "url": "https://www.speedweek.com/a/motogp/moto-gp-misano-binder-keine-staerke-ktm",
+      "title": "Binder (11.) sieht ein: «Hatte an diesem Wochenende keine einzige Stärke!»",
+      "summary": "Binder (11.) sieht ein: «Hatte an diesem Wochenende keine einzige Stärke!» Brad Binder fand beim MotoGP-Event in Misano nicht den Extra-Speed, um vorne mitmischen zu können – so wie KTM-Teamkollege Pedro Acosta. Der Südafrikaner freut sich nun auf den Österreich-GP. MotoGP 14.09.2026 - 11:02",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.149Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/quartararo-yamaha-misano-weniger-motorleistung",
+      "url": "https://www.speedweek.com/a/motogp/quartararo-yamaha-misano-weniger-motorleistung",
+      "title": "Bitter: Quartararo (Yamaha) musste mit noch weniger Motorleistung fahren",
+      "summary": "Bitter: Quartararo (Yamaha) musste mit noch weniger Motorleistung fahren Fabio Quartararo hatte im MotoGP-Grand-Prix in Misano mit einem lästigen Problem zu kämpfen. Weil seine Yamaha so viel Treibstoff verbrauchte, musste er die Power reduzieren. Der Franzose war ratlos. MotoGP 14.09.2026 - 09:01",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.150Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pecco-bagnaia-wir-waren-happy-mit-dem-crash",
+      "url": "https://www.speedweek.com/a/motogp/pecco-bagnaia-wir-waren-happy-mit-dem-crash",
+      "title": "Pecco Bagnaia: «Wir waren happy mit dem Crash!»",
+      "summary": "Pecco Bagnaia: «Wir waren happy mit dem Crash!» MotoGP 15.09.2025 - 20:12",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.152Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/acosta-kann-wieder-lachen-die-anderen-waren-muede",
+      "url": "https://www.speedweek.com/a/motogp/acosta-kann-wieder-lachen-die-anderen-waren-muede",
+      "title": "Acosta kann wieder lachen: Die Anderen waren müde!",
+      "summary": "Acosta kann wieder lachen: Die Anderen waren müde! MotoGP 15.09.2025 - 19:18",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.152Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marc-marquez-6-ein-test-fuer-den-valencia-test",
+      "url": "https://www.speedweek.com/a/motogp/marc-marquez-6-ein-test-fuer-den-valencia-test",
+      "title": "Marc Marquez (6.): «Ein Test für den Valencia-Test»",
+      "summary": "Marc Marquez (6.): «Ein Test für den Valencia-Test» MotoGP 15.09.2025 - 18:49",
+      "language": "de",
+      "publishedAt": "2026-09-16T03:16:51.152Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/807903/ducati-100th-anniversary-celebration-ongoing-bolognia-italy/",
+      "url": "https://www.rideapart.com/news/807903/ducati-100th-anniversary-celebration-ongoing-bolognia-italy",
+      "title": "Ducati Is Turning This Entire Iconic Italian City Into Its 100th Anniversary Exhibition",
+      "summary": "Apparently, blowing out 100 candles wasn’t dramatic enough, so Ducati decided to take over Bologna instead.",
+      "language": "en",
+      "publishedAt": "2026-09-15T13:12:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/807897/2027-yamaha-wr450f-specs-features-price-usa/",
+      "url": "https://www.rideapart.com/news/807897/2027-yamaha-wr450f-specs-features-price-usa",
+      "title": "The Yamaha WR450F Already Had Enough Power. So Yamaha Fixed Everything Else",
+      "summary": "Yamaha looked at its 450cc enduro monster and apparently decided the problem wasn’t a lack of violence.",
+      "language": "en",
+      "publishedAt": "2026-09-15T12:52:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808141/tvs-rtx300-makes-its-way-to-europe/",
+      "url": "https://www.rideapart.com/news/808141/tvs-rtx300-makes-its-way-to-europe",
+      "title": "The Company Backing Norton Just Built A $5,000-ish Adventure Motorcycle Loaded With Big-Bike Tech",
+      "summary": "Apparently nobody told TVS that cheap adventure bikes are supposed to come with cheap-bike equipment.",
+      "language": "en",
+      "publishedAt": "2026-09-15T12:21:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808249/the-harley-davidson-ridden-during-september-11th-is-heading-to-a-museum/",
+      "url": "https://www.rideapart.com/news/808249/the-harley-davidson-ridden-during-september-11th-is-heading-to-a-museum",
+      "title": "The Harley From the Iconic 9/11 Photo Is Heading to The Brand's Museum",
+      "summary": "I have this image burned into my mind, having seen it so many times since 9/11.",
+      "language": "en",
+      "publishedAt": "2026-09-15T12:06:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808000/agv-debuts-pista-gp-r3-at-san-marino-motogp-grand-prix-ushers-in-next-level-protection/",
+      "url": "https://www.rideapart.com/news/808000/agv-debuts-pista-gp-r3-at-san-marino-motogp-grand-prix-ushers-in-next-level-protection",
+      "title": "AGV Debuts Brand New Pista GP R3 Helmet and Ushers in Next-Level Protection",
+      "summary": "AGV just launched the Pista GP R3, a successor to the hugely popular Pista GP RR. But the use of new technology means this should be one of the safest lids on the market.",
+      "language": "en",
+      "publishedAt": "2026-09-15T11:53:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808020/ducati-l-twin-powered-wood-chipper-custom/",
+      "url": "https://www.rideapart.com/news/808020/ducati-l-twin-powered-wood-chipper-custom",
+      "title": "What Do You Do With A Spare Ducati 750 SS Engine? Swap It Into A Wood Chipper, Obviously.",
+      "summary": "The way I immediately Googled \"Is there an Italian dub of the movie 'Fargo?'\" for absolutely no reason whatsoever.",
+      "language": "en",
+      "publishedAt": "2026-09-15T11:24:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808218/mv-agusta-issues-statement-about-restructuring-and-investor-seeking/",
+      "url": "https://www.rideapart.com/news/808218/mv-agusta-issues-statement-about-restructuring-and-investor-seeking",
+      "title": "MV Agusta Confirms Financial Restructuring And That It's Looking For An Investor in Statement",
+      "summary": "MV Agusta released a statement detailing its current financial situation, including that it's going through a managed restructuring, and looking for outside investors to secure its future.",
+      "language": "en",
+      "publishedAt": "2026-09-15T11:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/807965/motogp-gets-an-official-motorbike-simulator-handlebar-set/",
+      "url": "https://www.rideapart.com/news/807965/motogp-gets-an-official-motorbike-simulator-handlebar-set",
+      "title": "MotoGP 26 Gets An Official Motorbike Simulator Handlebar Set",
+      "summary": "Moza Racing just dropped details about its upcoming motorbike simulator, which is the first motorbike simulation product developed in collaboration with MotoGP.",
+      "language": "en",
+      "publishedAt": "2026-09-14T13:26:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/807855/fire-extinguisher-batch-recall-safety-replacement-instructions/",
+      "url": "https://www.rideapart.com/news/807855/fire-extinguisher-batch-recall-safety-replacement-instructions",
+      "title": "Fire Extinguisher Recalled Because It May Not Put Out Fire, And May Also Explode. Check Yours Now.",
+      "summary": "In a classic case of \"you had ONE JOB,\" a specific batch of Prepared Hero Fire Spray Canisters is being recalled and you should stop use immediately.",
+      "language": "en",
+      "publishedAt": "2026-09-14T12:54:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/807872/triumph-tf450-engine-rocker-arm-safety-recall/",
+      "url": "https://www.rideapart.com/news/807872/triumph-tf450-engine-rocker-arm-safety-recall",
+      "title": "Triumph TF450 Owners, You Need To Stop Riding Your Bikes Until You Can Get This Recall Fixed",
+      "summary": "The engine could stall due to an engine rocker arm issue, which could also break your exhaust valves in operation.",
+      "language": "en",
+      "publishedAt": "2026-09-14T12:24:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/807861/the-northforge-dispatch-all-electric-military-motorcycle-is-wild/",
+      "url": "https://www.rideapart.com/news/807861/the-northforge-dispatch-all-electric-military-motorcycle-is-wild",
+      "title": "This Canadian Military EV Motorcycle Has An Old Front End, And Three Swappable Batteries",
+      "summary": "Girder forks on an electric military motorcycle? Sure, why not.",
+      "language": "en",
+      "publishedAt": "2026-09-14T12:13:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/807878/honda-v3r-ecompressor-youtube-documentary-development-series-launched/",
+      "url": "https://www.rideapart.com/news/807878/honda-v3r-ecompressor-youtube-documentary-development-series-launched",
+      "title": "Honda Really Wants You To Get Hyped For Its New V3R E-Compressor. Are You?",
+      "summary": "Team Red just launched a new behind-the-scenes docuseries on the development of the V3R E-Compressor powerplant, and you can follow along.",
+      "language": "en",
+      "publishedAt": "2026-09-14T11:56:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/807812/yet-another-wsbk-star-joins-the-motogp-rankings-following-his-former-rival/",
+      "url": "https://www.rideapart.com/news/807812/yet-another-wsbk-star-joins-the-motogp-rankings-following-his-former-rival",
+      "title": "Another WSBK Star Joins the MotoGP Rankings. And He's Following His Former Rival",
+      "summary": "Nicolo Bulega will replace Frankie Morbidelli at VR46 for the 2027 MotoGP season. A move not dissimilar to Toprak Razgatlıoğlu's last year.",
+      "language": "en",
+      "publishedAt": "2026-09-14T11:27:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/807877/honda-super-cub-tokyo-80s-limited-edition/",
+      "url": "https://www.rideapart.com/news/807877/honda-super-cub-tokyo-80s-limited-edition",
+      "title": "Give Me This Adorable Honda Super Cub Tokyo Limited '80s Edition Right Now",
+      "summary": "The dream of the '80s through a windscreen lovingly tinted the same yellow as vintage McDonald's ashtrays is too strong to ignore.",
+      "language": "en",
+      "publishedAt": "2026-09-14T11:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/benda-rock-707-joins-chinese-brands-growing-cruiser-motorcycle-range",
+      "url": "https://www.visordown.com/news/benda-rock-707-joins-chinese-brands-growing-cruiser-motorcycle-range",
+      "title": "Benda’s Rock 707 could be the smartest cruiser you’ve never heard of",
+      "summary": "Benda’s new Rock 707 is a 692cc V-twin cruiser with electronic clutch technology and automatic air suspension. Benda is adding a new cruiser to its burgeoning range as the 692cc, V-twin-powered Rock 707 joins the family. You may also like to read our Benda LFC 700 review . And while the classic bobber styling is the first thing to catch the eye, it’s the spec sheet for this bike that is arguably the big talking point. The engine which powers the bike is a fairly unassuming liquid-cooled V-twin, boasting a beginner-friendly 72bhp and 68Nm (50lb ft) of torque. What connects the engine with the back wheel, though, is where things get interesting. Benda has fitted the bike with its BEC (Benda Electronic Clutch) MK-III system, which does a similar job to Yamaha’s Y-AMT and Honda’s E-Clutch. The technology allows the rider to pull away, change gear and come to a halt without touching the bike’s clutch lever. As is the case with the Honda system, full manual control is still possible, as the Rock 707 retains a traditional clutch lever on the bars. The chassis of the bike features a steel tube frame and aluminium swingarm, with non-adjustable USD forks that are mated to a single four-piston disc brake set-up. Where things get really interesting, though, is at the back of the bike. Instead of conventional twin shocks, which are pretty much de rigueur on a bike like this, the Benda wears a pair of dual-chamber electronic air suspension units. The system allows for automatic ride height",
+      "language": "en",
+      "publishedAt": "2026-09-16T03:16:59.495Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/indian-motorcycle-confirms-2027-indian-riders-fest-dates-after-record-attendance",
+      "url": "https://www.visordown.com/news/indian-motorcycle-confirms-2027-indian-riders-fest-dates-after-record-attendance",
+      "title": "Tickets for one Indian Motorcycle’s biggest 2027 events are already on sale",
+      "summary": "Indian Motorcycle has confirmed the Indian Riders Fest will return in June 2027 following this year’s record attendance. Following a record attendance at this year’s event, Indian Motorcycle has already revealed details about the 2027 Indian Riders Fest, including dates and location. The four-day event takes place from 17-20 June, in Lipno nad Vltavou, which is located in the South Bohemia region of the Czech Republic. It will feature live entertainment every evening and plenty of riding opportunities, while custom bikes will also be on display as part of the AMD-Approved Budweis Custom Show. This is the only international custom bike show exclusively dedicated to the American motorcycle maker. Full details for the 2027 event have not yet been confirmed, however, Indian Motorcycle says visitors can expect the festival to include a drag strip on an airfield. The public can also expect to see various stunt shows and the company’s latest models, with demo rides available. Christophe Thevenet, Director of International Sales for Indian Motorcycle, said this about next year’s event: “The growth of the IRF has been impressive, and it has become a highlight of the event calendar outside of North America. It’s the riders that make everything possible, and it’s been a real privilege to meet and thank people from so many countries during this special year for Indian Motorcycle. “Alongside Jean-Marie and his team, we’re delighted to confirm the event for 2027 and look forward to working",
+      "language": "en",
+      "publishedAt": "2026-09-16T03:16:59.495Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/suzuki-gsx-r1000r-stealth-edition-launches-italy",
+      "url": "https://www.visordown.com/news/suzuki-gsx-r1000r-stealth-edition-launches-italy",
+      "title": "Suzuki’s latest special edition is apparently inspire by a speedboat engine",
+      "summary": "The Suzuki GSX-R1000R Stealth edition draws inspiration from the Suzuki Stealth Line outboard engine range. Suzuki fans in Italy can now get their hands on a new special edition, as the GSX-R1000R Stealth Edition is launched. You may like to read our Suzuki GSX-R1000R review . The bike is said to be inspired by Suzuki’s Stealth Line outboard engine range, meaning it gets a black paint job with gloss and matte accents, which are said to give it an “aggressive yet elegant look”. Other changes for the new model are light, with the titanium Akrapovic exhaust being the only notable technical update. Other changes are rear seat cover, carbon fibre winglets, a smoked screen and a limited edition number decal on the airbox cover. The new bike will be priced €21,690 (around £18,500) although simply being an Italy resident doesn’t guarantee bagging one as just ten are set to be produced. The new model, which is sadly only available in Italy, has us reminiscing about the GSX-R1000R Phantom model. The Phantom, which was revived most recently in 2021 featured a number of technical and aestheitc updates, including a Yohimuira exhaust system, a smoked double bubble screen, single seat cowl, tank pad, fuel cap trim, and track-focused brake and clutch lever guards. The first Phantom edition of the GSX-R appeared in the mid-2000s, on the now-legendary K6. The last Pahntom to appear, in 2021, was the swansong special edition for the model before its Euro emissions-enforced hiatus. The GSX-R1000",
+      "language": "en",
+      "publishedAt": "2026-09-16T03:16:59.495Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/sam-sunderland-ride-triumph-tiger-1200-rally-explorer-around-world-record-attempt",
+      "url": "https://www.visordown.com/news/sam-sunderland-ride-triumph-tiger-1200-rally-explorer-around-world-record-attempt",
+      "title": "Sam Sunderland completes the first leg of his world record attempt on a new 2027 Triumph Tiger 1200",
+      "summary": "Sam Sunderland has reached Istanbul after covering 2,356 miles in the opening leg of his attempt to break the motorcycle circumnavigation record. Sam Sunderland has completed the first leg of his attempt to become the fastest person to circumnavigate the world on a motorcycle, covering 2,356 miles from Greenwich to Istanbul in 39 hours and 34 minutes. You may also like to read our Triumph Tiger 1200 review . The two-time Dakar Rally winner and Red Bull athlete set off from Greenwich at 03:00 UTC on Saturday 5 September, beginning an attempt to beat the existing motorcycle circumnavigation record of 19 days, 8 hours and 25 minutes. Sunderland reached Istanbul at 21:50 UTC on Sunday 6 September, having ridden through England, France, Italy, Slovenia, Croatia, Serbia, Bulgaria and Turkey. The first leg forms part of an 18,000-plus-mile route which will take him across five continents and through two antipodal points. The clock is stopped for overseas crossings, meaning Sunderland's time aboard the Le Shuttle between England and France does not count towards his record time. Rest periods, however, are included, making the 39-hour, 34-minute running time for the opening leg a significant first marker in the attempt. The first leg was not completely straightforward, either. Sunderland accidentally travelled around 20 miles off route during the opening section, with the clock continuing to run while he corrected the mistake. Those miles do not count towards the required record milea",
+      "language": "en",
+      "publishedAt": "2026-09-16T03:16:59.495Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/carb-filings-reveal-upcoming-new-ducati-model-collaboration-luxury-car-maker",
+      "url": "https://www.visordown.com/news/carb-filings-reveal-upcoming-new-ducati-model-collaboration-luxury-car-maker",
+      "title": "CARB filings reveal upcoming new Ducati model",
+      "summary": "Ducati looks set to launch a new model which will be the result of a collaboration with a luxury car maker. CARB (California Air Resources Board) filings in the US have shed light on a potential new Ducati model, which appears to be the result of a collaboration with luxury car maker Bentley. The filings specifically note two models, A ‘Ducati Diavel For Bentley’ and a ‘Ducati Diavel For Bentley Mulliner’. Both new machines appear in the same filing as the standard Diavel and a Diavel S. Mulliner is Bentley’s in-house bespoke division, responsible for the company’s most heavily personalised and exclusive cars. It has been around in various forms for more than 100 years, and today sits at the top of Bentley’s range and is responsible for creating one-off and limited-run models with higher levels of customisation and detailing than the standard cars. More details about the bikes, and what sets them apart from the standard models, aren’t known, as CARB filings only detail the machine’s environmental compliance, emissions, and climate risks. Should the new bikes be announced later this year, they would not be the first bikes to come via a collaboration with a car maker. In 2013, Ducati teamed up with the high-performance subsidiary of Mercedes, with the resulting run of Diavel Carbon AMG models totalling 743 limited edition units. More recently Ducati created a model inspired by its sister company, Lamborghini, with the Diavel 1260 Lamborghini numbering just over 600 units worldw",
+      "language": "en",
+      "publishedAt": "2026-09-16T03:16:59.495Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/harley-davidson-announces-winner-new-creators-custom-clash-competition",
+      "url": "https://www.visordown.com/news/harley-davidson-announces-winner-new-creators-custom-clash-competition",
+      "title": "Custom-built Harley-Davidson Breakout wins new European competition",
+      "summary": "Harley-Davidson has confirmed the first winner of its recently-launched Creators Custom Clash competition, following a summer-long battle between six creators. Harley-Davidson has announced Jack NBC as the first winner of its new Creators Custom Clash competition. The Italian creator saw his Harley-Davidson Breakout machine presented as the winner of the competition at this summer’s European Bike Week 2026 event, which took place in Faak am See, Austria. The competition involved six creators from different European countries, all of which partnered with authorised Harley dealers to transform a stock motorcycle into a one-of-a-kind custom build. Although it was Jack NBC’s Breakout machine that won the competition, all six builds were displayed together for the first time at European Bike Week 2026. The winning build took on a performance-inspired approach that included aggressive styling cues, and heavy use of premium components. While experienced with customising Harley-Davidson motorcycles, the Creators Custom Clash build was Jack NBC’s most ambitious yet, according to Harley-Davidson. French creator, Eskyas, produced a striking Street Bob build, while Spain's Javier Gallardo transformed a stock Low Rider into a machine called, “Nómada”, which is a modern chopper inspired by freedom, exploration and life on the road. In the UK, tattoo artist Miles Langford revealed a Clubsport-inspired Street Bob, blending high-performance engineering with personalised artistic touches. Fran",
+      "language": "en",
+      "publishedAt": "2026-09-16T03:16:59.495Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/mv-agusta-responds-reports-financial-problems-and-production-halt",
+      "url": "https://www.visordown.com/news/mv-agusta-responds-reports-financial-problems-and-production-halt",
+      "title": "MV Agusta speaks out about “operational and financial difficulties”",
+      "summary": "MV Agusta has confirmed it is working through a period of financial imbalance, while saying reports surrounding its future contain speculation and incomplete information. MV Agusta has responded to reports that it has halted motorcycle production at its Varese factory, with the Italian manufacturer confirming that it is working through a period of financial and operational difficulty. The statement comes after reports emerged earlier this week claiming that production had been paused following the collapse of a proposed agreement with CFMoto. That agreement was reportedly set to see CFMoto take a 49 per cent stake in MV Agusta and provide investment as part of a wider restructuring plan. MV Agusta has not directly confirmed the reported production halt or the details of the CFMoto agreement. It has, however, confirmed that the company has been working for several months to restore its financial position following its separation from KTM and that it has entered Italy's Composizione Negoziata della Crisi (CNC) process. The CNC is a legal framework intended to help companies experiencing temporary financial imbalance work with creditors and other stakeholders while developing a route towards recovery. In UK business terms, it’s not a million miles from the formal restructuring process businesses on this side of the channel use. MV Agusta says entering the process requires there to be concrete prospects for recovery. The company has also confirmed that its shareholder, Art of Mob",
+      "language": "en",
+      "publishedAt": "2026-09-16T03:16:59.495Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/royal-enfield-updates-350-range-and-launches-new-finance-offers",
+      "url": "https://www.visordown.com/news/royal-enfield-updates-350-range-and-launches-new-finance-offers",
+      "title": "Royal Enfield updates 350 range and launches new finance offers",
+      "summary": "More choice, more kit and new ways to ride: Royal Enfield updates its 350cc range and finance offers Buying a new bike doesn’t mean compromising on style, substance, or value anymore, thanks to Royal Enfield, which has updated its hugely popular 350cc range. Boosting the family for 2026 is more tech and convenience, while a series of current finance and accessory offers gives riders more ways to buy a new machine and then make it their own. The HNTR 350 and Meteor 350 both now benefit from an assist and slipper clutch, making gear changes easier while helping to maintain control while downshifting. Both also feature Royal Enfield’s Tripper navigation pod, alongside fast-charging USB-C connectivity on the handlebars and LED lighting. The HNTR 350 remains one of the most accessible ways into Royal Enfield ownership, with monthly payments starting from £59.99 a month and prices starting at £3,899 for the Rio White version. The classy-looking London Red and Tokyo Black models are priced at a slightly higher but still affordable £3,999. The Meteor 350 offers a little more laid-back touring ability, also with monthly payments from £59.99 and prices ranging from £4,099 for Fireball Orange through to £4,299 for Sundowner Orange. There is also a choice of Stellar Matt Grey at £4,199, plus Supernova Black and Aurora Retro Green at £4,249. The Sundowner Orange Meteor 350 is particularly interesting for riders looking for a more traditional-looking cruiser. Alongside its retro-inspired c",
+      "language": "en",
+      "publishedAt": "2026-09-16T03:16:59.495Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/bmw-m-1000-rr-r-and-xr-get-limited-100-jahre-nurburgring-editions",
+      "url": "https://www.visordown.com/news/bmw-m-1000-rr-r-and-xr-get-limited-100-jahre-nurburgring-editions",
+      "title": "We might not be able to ride the Nürburgring like we used to, but you can now buy a special edition BMW that honours it",
+      "summary": "BMW Motorrad is celebrating the Nürburgring’s 100th anniversary with limited-edition M 1000 RR, R and XR models. BMW is marking the Nürburgring’s 100th anniversary with limited-edition versions of its M1000 RR, M1000 R and M1000 XR, with just 23 examples of the three bikes coming to the UK. The ‘100 Jahre Nürburgring’ editions have been created to celebrate the German circuit’s centenary in 2027. The Nürburgring officially opened on June 18, 1927, and BMW Motorrad is producing 100 examples of each motorcycle worldwide. All three bikes get the same core anniversary treatment, including a historical Nürburgring Green paint finish, anniversary decals, carbon wheels, black sub-frames and swingarms, and an Alcantara-look seat with ‘100’ embroidery. There’s also a painted fuel tank featuring Nordschleife decoration, while the airbox cover carries a special anniversary design and ‘one of 100’ marking. The standard specification includes BMW’s M Track Package, while an M Cover Kit is supplied with the M1000 RR and M1000 R. BMW is also throwing in an M motorcycle mat carrying the 100 Jahre (years) Nürburgring logo and a rear paddock stand. The three bikes retain their distinct characters beneath the special paint and equipment. The BMW M1000 RR is the most track-focused of the trio, using BMW’s M-developed superbike package with its focus on aerodynamics, lightweight construction and outright circuit performance. The M1000 R takes the same basic high-performance approach in naked-bike",
+      "language": "en",
+      "publishedAt": "2026-09-16T03:16:59.495Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/carl-fogarty-helps-pocher-reveal-14-scale-ducati-panigale-v2-superquadro-final-edition",
+      "url": "https://www.visordown.com/news/carl-fogarty-helps-pocher-reveal-14-scale-ducati-panigale-v2-superquadro-final-edition",
+      "title": "Pocher and Carl Fogarty unveil 1:4-scale Panigale V2 model",
+      "summary": "Pocher has teamed up with Carl Fogarty to reveal a 1:4-scale Ducati Panigale V2 Superquadro Final Edition, complete with more than 700 parts and working features. Ever wanted to own a Ducati that you can plonk on a coffee table? Well, now you can, as Pocher has revealed its stunning quarter scale Panigale V2 Superquadro Final Edition kit. Helping to reveal the new model was none other than Carl Fogarty, which took place at a special event at the Bike Shed, London. ‘Foggy’ is a four-time World Superbike Champion, each of which came courtesy of Ducati machinery. While Foggy also rode for Honda during his career, in both WSBK and MotoGP, his name is synonymous with the Borgo Panigale brand, meaning he holds legend status to Ducatisti worldwide. Finished in Ducati’s signature red, the 1:4-scale model recreates the Panigale V2 Superquadro Final Edition with more than 700 precision-engineered parts. That includes a detailed recreation of the engine and chassis, along with multi-textured fairings, a digital dash and working suspension. There are also a few moving parts, including steerable handlebars, working suspension and a functional chain, giving the model more in common with the real thing than your average static display piece. Pocher says the model takes more than 30 hours to build and carries a Skill Level 6 rating, so this isn’t quite a case of snapping a few bits together and sticking it on the shelf. It costs £789.99 and is aimed squarely at collectors and serious model b",
+      "language": "en",
+      "publishedAt": "2026-09-16T03:16:59.495Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/16/070200915/land-cruiser-fj-meluncur-akhir-2026-harga-di-bawah-rp-1-miliar-",
+      "url": "https://otomotif.kompas.com/read/2026/09/16/070200915/land-cruiser-fj-meluncur-akhir-2026-harga-di-bawah-rp-1-miliar-",
+      "title": "Land Cruiser FJ Meluncur Akhir 2026, Harga di Bawah Rp 1 Miliar?",
+      "summary": "Land Cruiser FJ Meluncur Akhir 2026, Harga di Bawah Rp 1 Miliar? JAKARTA, KOMPAS.com PT Toyota Astra Motor (TAM) menargetkan Toyota Land Cruiser FJ meluncur di Indonesia pada akhir 2026. SUV yang membawa DNA keluarga Land Cruiser tersebut saat ini masih dalam tahap studi dan finalisasi sebelum resmi dipasarkan. Marketing Director PT Toyota Astra Motor (TAM) Bansar Maduma mengatakan, Toyota masih menentukan waktu yang tepat untuk memperkenalkan Land Cruiser FJ kepada konsumen. Meski demikian, perusahaan menargetkan peluncuran dapat dilakukan sebelum tutup tahun. Yang jelas, targetnya akhir tahun. Jadi diharapkan akhir tahun kami bisa meluncurkan, sehingga teman-teman ataupun customer yang sudah menunggu bisa merasakan dan memiliki produk ini, kata Bansar di Yogyakarta (14/9/2026). Baca juga: Berburu Sparepart Suzuki, Ada Penyalur Resmi yang Masih Lengkap KOMPAS.com/Ruly Kurniawan Land Cruiser FJ tampil spesial di GIIAS 2026 Antusiasme konsumen terhadap SUV tersebut juga disebut cukup tinggi. Setelah diperkenalkan di GIIAS Jakarta, Toyota Space, dan sejumlah pameran Toyota di daerah, lebih dari 300 konsumen telah mendaftarkan ketertarikannya melalui jaringan dealer. Customer saat ini bukan dalam tahap pemesanan, tetapi baru mendaftarkan interest. Kemudian dari seluruh diler, kalau dihitung sekarang sudah ratusan, lebih dari 300 (konsumen), ujarnya. Baca juga: Daftar Mobil Listrik Terlaris hingga Agustus 2026: Jaecoo J5 Memimpin KOMPAS.com/Aris Harvenda Interior Toyota Land Crui",
+      "language": "id",
+      "publishedAt": "2026-09-16T03:17:12.723Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/16/082200215/mobil-baru-kia-tertangkap-kamera-sedang-tes-jalan",
+      "url": "https://otomotif.kompas.com/read/2026/09/16/082200215/mobil-baru-kia-tertangkap-kamera-sedang-tes-jalan",
+      "title": "Mobil Baru Kia Tertangkap Kamera Sedang Tes Jalan",
+      "summary": "Mobil Baru Kia Tertangkap Kamera Sedang Tes Jalan JAKARTA, KOMPAS.com - Kia Sales Indonesia diyakini tengah menyiapkan model baru untuk pasar otomotif Indonesia. Indikasi tersebut muncul setelah sebuah mobil yang masih ditutupi stiker kamuflase tertangkap kamera sedang menjalani pengujian di jalan. Mobil tersebut terlihat sedang terparkir di salah satu rest area yang berada di wilayah Jawa Barat. Lantaran seluruh bagian bodinya masih dibalut kamuflase, identitas model yang digunakan untuk pengujian belum dapat dipastikan. Baca juga: Kia PV7 Meluncur, Van Listrik dengan Ruang Kargo Besar Meski demikian, secara kasat mata mobil tersebut memiliki siluet yang menyerupai Hyundai Stargazer . Bentuk bodinya terlihat mengarah ke kendaraan multiguna atau MPV yang memiliki konfigurasi tiga baris kursi. Kompas.com/Donny Diduga mobil baru Kia sedang tes jalan Petunjuk lain terlihat pada bagian bawah mobil. Ketika diperhatikan dari kolong, terdapat logo Kia pada bagian knalpot. Temuan tersebut kemudian dikonfirmasi kepada Kia Sales Indonesia untuk mengetahui apakah kendaraan yang tertangkap kamera merupakan salah satu model baru Kia yang sedang dipersiapkan untuk Indonesia. Namun, Kia menyebut identitas mobil tersebut belum bisa dipastikan hanya berdasarkan komponen yang digunakan. Pasalnya, Kia dan Hyundai berada dalam satu grup perusahaan dan sejumlah modelnya menggunakan komponen yang sama. Baca juga: Harga Kia Carens Manual 2026 OTR Jakarta Mulai Rp 269 Juta \"Kia dan Hyundai itu 1 gru",
+      "language": "id",
+      "publishedAt": "2026-09-16T03:17:12.723Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/16/072200415/sering-fast-charging-ini-efeknya-pada-soh-baterai-mobil-listrik",
+      "url": "https://otomotif.kompas.com/read/2026/09/16/072200415/sering-fast-charging-ini-efeknya-pada-soh-baterai-mobil-listrik",
+      "title": "Sering Fast Charging? Ini Efeknya pada SOH Baterai Mobil Listrik",
+      "summary": "Sering Fast Charging? Ini Efeknya pada SOH Baterai Mobil Listrik JAKARTA, KOMPAS.com Fitur fast charging menjadi salah satu kemudahan yang ditawarkan mobil listrik. Dengan pengisian daya berkecepatan tinggi, pemilik kendaraan bisa mengisi baterai dalam waktu lebih singkat dibandingkan menggunakan pengisian daya biasa. Namun, muncul pertanyaan mengenai dampaknya terhadap kondisi baterai jika fast charging terlalu sering digunakan. Apakah kebiasaan tersebut bisa membuat baterai mobil listrik lebih cepat rusak? Baca juga: Lepas L8 PHEV Punya Garansi Mesin 10 Tahun atau 1 Juta Km Kepala Teknisi Domo Hybrid EV, Yogig Pramono, mengatakan, penggunaan fast charging secara terus-menerus memang bisa berdampak terhadap kondisi baterai dalam jangka panjang. \"Kalau keseringan fast charging ini akan membuat baterai kurang bagus buat jangka panjang. Sering melakukan fast charging baterai akan cepat mengalami penurunan SOH. Mungkin tidak sekarang tapi jangka panjang,\" ujar Yogig kepada Kompas.com, Selasa (15/9/2026). SOH atau State of Health merupakan salah satu parameter yang digunakan untuk melihat kondisi kesehatan baterai. Nilai tersebut menggambarkan kapasitas baterai saat ini dibandingkan dengan kondisi ketika masih baru. Semakin rendah nilai SOH, berarti kemampuan baterai dalam menyimpan energi sudah mengalami penurunan. Menurut Yogig, penurunan SOH bisa berlangsung lebih cepat apabila pemilik kendaraan terlalu sering menggunakan fasilitas fast charging , terutama pengisian dengan day",
+      "language": "id",
+      "publishedAt": "2026-09-16T03:17:12.723Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/16/084200415/valentino-rossi-sambut-nicolo-bulega-gabung-vr46-di-motogp-2027",
+      "url": "https://otomotif.kompas.com/read/2026/09/16/084200415/valentino-rossi-sambut-nicolo-bulega-gabung-vr46-di-motogp-2027",
+      "title": "Valentino Rossi Sambut Nicolo Bulega Gabung VR46 di MotoGP 2027",
+      "summary": "Valentino Rossi Sambut Nicolo Bulega Gabung VR46 di MotoGP 2027 JAKARTA, KOMPAS.com Valentino Rossi menyambut positif keputusan Nicolo Bulega bergabung dengan tim VR46 Ducati untuk menjalani debut penuh di MotoGP 2027. Bulega akan naik kelas ke MotoGP setelah tampil dominan di Kejuaraan Dunia Superbike (WorldSBK) musim ini. Pebalap Ducati tersebut telah menyepakati kontrak dengan tim milik Rossi untuk musim depan. Kepindahan Bulega ke VR46 juga menjadi cerita menarik. Pasalnya, pebalap asal Italia itu pernah menjadi bagian dari tim VR46 saat mengawali kariernya di ajang Grand Prix. Namun, perjalanan Bulega di ajang Grand Prix tidak berjalan mulus. Selama tampil di Moto3, dia hanya mengoleksi dua podium. Sementara itu, tiga musim di Moto2 juga tidak menghasilkan podium untuk Bulega. Setelah itu, Bulega berpisah dengan VR46 Academy dan melanjutkan kariernya di World Supersport pada 2022. Baca juga: Lepas L8 PHEV Punya Garansi Mesin 10 Tahun atau 1 Juta Km Keputusan tersebut justru menjadi titik balik dalam kariernya. Bulega berhasil menjadi juara dunia World Supersport pada 2023 sebelum melanjutkan kiprahnya di WorldSBK bersama Ducati. Dalam dua musim pertamanya di WorldSBK, Bulega finis sebagai runner-up. Sementara musim ini, dia tampil dominan dan berada di jalur untuk merebut gelar juara dunia. Kami sangat senang dan sangat bangga, ujar Rossi, mengutip Crash , Selasa (15/9/2026). Dok. @nicolo_bulega11 Nicolo Bulega akan menggantikan Marc Marquez di sisa MotoGP 2025 dan menja",
+      "language": "id",
+      "publishedAt": "2026-09-16T03:17:12.723Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
