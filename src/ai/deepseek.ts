@@ -1,7 +1,7 @@
 /**
  * DeepSeek JSON-completion client — ported near-verbatim from agent-pulse's
- * `src/ai/deepseek.ts` (MIT licensed). Retry/backoff, response-envelope
- * validation, and error classification are unchanged.
+ * `src/ai/deepseek.ts` (MIT licensed). Invalid JSON completions share the
+ * bounded retry/backoff budget used for transient request failures.
  */
 
 import { z } from "zod";
@@ -164,7 +164,17 @@ export class DeepSeekClient implements JsonModelClient {
       try {
         value = JSON.parse(choice.message.content);
       } catch {
-        throw new DeepSeekError("DeepSeek returned invalid JSON content", "invalid_json");
+        if (attempt < this.maxAttempts) {
+          console.warn(
+            `DeepSeek returned invalid JSON content (attempt ${attempt}/${this.maxAttempts}); retrying.`,
+          );
+          await this.wait(backoffMilliseconds(attempt));
+          continue;
+        }
+        throw new DeepSeekError(
+          `DeepSeek returned invalid JSON content after ${attempt} attempts`,
+          "invalid_json",
+        );
       }
       const promptTokens = payload.usage?.prompt_tokens ?? 0;
       const completionTokens = payload.usage?.completion_tokens ?? 0;
