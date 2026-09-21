@@ -7,7 +7,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "test": "tsx --test src/ai/deepseek.test.ts",
+    "test": "tsx --test src/ai/deepseek.test.ts src/daily-collection.test.ts",
     "collect": "tsx src/collect.ts",
     "digest": "tsx src/digest.ts",
     "weekly-digest": "tsx src/weekly-digest.ts",

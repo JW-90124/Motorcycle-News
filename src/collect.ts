@@ -7,7 +7,7 @@
  * separate, later stages — see 待办事项.md in the Obsidian knowledge base.
  */
 
-import { mkdir, writeFile } from "node:fs/promises";
+import { saveDailyCollection } from "./daily-collection.js";
 import { fetchArticleExcerpt } from "./collectors/article-excerpt.js";
 import { getAdapter } from "./collectors/index.js";
 import { createSafeFetcher } from "./fetcher.js";
@@ -93,8 +93,7 @@ async function main() {
 
   const dateStr = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Singapore" }).format(new Date());
   const outPath = `data/raw/${dateStr}.json`;
-  await mkdir("data/raw", { recursive: true });
-  await writeFile(outPath, `${JSON.stringify({ collectedAt: new Date().toISOString(), signals: newSignals }, null, 2)}\n`, "utf8");
+  await saveDailyCollection(outPath, newSignals);
   await saveState(state);
 
   console.log(`\n信源  抓到  新增  错误`);
