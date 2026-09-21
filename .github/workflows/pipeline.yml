@@ -26,6 +26,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # This job writes back to main. Reruns must use its current data
+          # and fixes, rather than the original run's historical commit.
+          ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
