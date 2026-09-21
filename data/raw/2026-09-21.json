@@ -1,0 +1,757 @@
+{
+  "collectedAt": "2026-09-21T03:16:41.666Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-2027-red-bull-ring-termin-keine-preiserhoehung",
+      "url": "https://www.speedweek.com/a/motogp/motogp-2027-red-bull-ring-termin-keine-preiserhoehung",
+      "title": "MotoGP 2027 auf dem Red Bull Ring: Der Termin steht – keine Preiserhöhung!",
+      "summary": "MotoGP 2027 auf dem Red Bull Ring: Der Termin steht – keine Preiserhöhung! Der MotoGP-Termin Mitte September war ein Versuch, für 2027 planen die Macher auf dem Red Bull Ring in Österreich um. Erfreulich für alle Motorsportverrückten: Die Ticketpreise bleiben gleich. MotoGP 20.09.2026 - 21:47",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.985Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ogura-spielberg-trackhouse",
+      "url": "https://www.speedweek.com/a/motogp/ogura-spielberg-trackhouse",
+      "title": "Ogura war froh, in Spielberg zurückzukehren: «Es ist hier ziemlich einfach»",
+      "summary": "Ogura war froh, in Spielberg zurückzukehren: «Es ist hier ziemlich einfach» MotoGP 20.09.2026 - 20:33",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.985Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/brad-binder-sprit-sparen-moto2-mapping",
+      "url": "https://www.speedweek.com/a/motogp/brad-binder-sprit-sparen-moto2-mapping",
+      "title": "Brad Binder (6.) musste Sprit sparen: «Verdammtes Moto2-Mapping!»",
+      "summary": "Brad Binder (6.) musste Sprit sparen: «Verdammtes Moto2-Mapping!» MotoGP 20.09.2026 - 19:04",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.985Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/fermin-aldeguer-8-zu-diggia-rempler-es-gab-schon-schlimmere-manoever",
+      "url": "https://www.speedweek.com/a/motogp/fermin-aldeguer-8-zu-diggia-rempler-es-gab-schon-schlimmere-manoever",
+      "title": "Fermin Aldeguer (8.) zu Diggia-Rempler: Es gab schon schlimmere Manöver!",
+      "summary": "Fermin Aldeguer (8.) zu Diggia-Rempler: Es gab schon schlimmere Manöver! MotoGP 20.09.2026 - 18:15",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.985Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-spielberg-acosta-angst-strategie",
+      "url": "https://www.speedweek.com/a/motogp/motogp-spielberg-acosta-angst-strategie",
+      "title": "Spielberg-Sieger Acosta hatte Angst: «Habe mir fast in die Hose gemacht!»",
+      "summary": "Spielberg-Sieger Acosta hatte Angst: «Habe mir fast in die Hose gemacht!» MotoGP 20.09.2026 - 17:29",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.985Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marc-marquez-niederlagen-pedro-acosta-favorit",
+      "url": "https://www.speedweek.com/a/motogp/marc-marquez-niederlagen-pedro-acosta-favorit",
+      "title": "WM-Führung weg, zwei Niederlagen: Marc Marquez nennt Pedro Acosta «Favorit»",
+      "summary": "WM-Führung weg, zwei Niederlagen: Marc Marquez nennt Pedro Acosta «Favorit» Der Red Bull Ring in Spielberg war früher Ducati-Land, doch diese Zeiten sind vorbei. KTM gab die Pace vor, Aprilia war Best of the Rest. Jorge Martin schlug Weltmeister Marc Marquez in beiden Rennen. MotoGP 20.09.2026 - 17:13",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.990Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/bezzecchi-aprilia-motogp-rehabilitation-platz-3",
+      "url": "https://www.speedweek.com/a/motogp/bezzecchi-aprilia-motogp-rehabilitation-platz-3",
+      "title": "Aprilia-Kämpfer Bezzecchi (3.): «Mein Job war, glaube ich, ziemlich gut»",
+      "summary": "Aprilia-Kämpfer Bezzecchi (3.): «Mein Job war, glaube ich, ziemlich gut» Aprilia-Werksfahrer Marco Bezzecchi gelang nur eine Woche nach dem katastrophalen Ende seines Heimrennens in Misano die komplette MotoGP-Rehabilitation. Wie schon im Sprint landete «Bez» auf Platz 3. MotoGP 20.09.2026 - 16:05",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.990Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jorge-martin-red-bull-ring-platz-2-acosta-sieg",
+      "url": "https://www.speedweek.com/a/motogp/jorge-martin-red-bull-ring-platz-2-acosta-sieg",
+      "title": "Jorge Martin deklassierte Marc Marquez (5.): «Es war alles unter Kontrolle»",
+      "summary": "Jorge Martin deklassierte Marc Marquez (5.): «Es war alles unter Kontrolle» Aprilia-Werkspilot Jorge Martin holte sich auf dem Red Bull Ring nach seinem Sieg am Samstag im Grand Prix Platz 2 und zollte seinem Rivalen Pedro Acosta für dessen ersten MotoGP-Triumph Respekt. MotoGP 20.09.2026 - 15:52",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.990Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/beirer-ueber-acosta-sieg-ktm-motogp-spielberg",
+      "url": "https://www.speedweek.com/a/motogp/beirer-ueber-acosta-sieg-ktm-motogp-spielberg",
+      "title": "Beirer über Acosta-Sieg: «Auf diesen Moment haben wir sehr lange gewartet!»",
+      "summary": "Beirer über Acosta-Sieg: «Auf diesen Moment haben wir sehr lange gewartet!» KTM durfte sich Dank Pedro Acosta in Spielberg über den ersten MotoGP-Sieg nach einer langen Durststrecke freuen. Die ersten Reaktionen von CEO Gottfried Neumeister und Rennchef Pit Beirer. MotoGP 20.09.2026 - 15:52",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.990Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pedro-acosta-erster-motogp-sieg-red-bull-ring",
+      "url": "https://www.speedweek.com/a/motogp/pedro-acosta-erster-motogp-sieg-red-bull-ring",
+      "title": "Pedro Acosta (KTM) überglücklich: «Der erste Sieg ist immer sehr speziell!»",
+      "summary": "Pedro Acosta (KTM) überglücklich: «Der erste Sieg ist immer sehr speziell!» Pedro Acosta hat es geschafft! Am Sonntag holte er auf dem Red Bull Ring seinen ersten Grand-Prix-Sieg in der MotoGP. Nach dem Crash im Sprint war es auch ein Happy End für KTM. MotoGP 20.09.2026 - 15:29",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.990Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-spielberg-live-ticker-pedro-acosta-ktm",
+      "url": "https://www.speedweek.com/a/motogp/motogp-spielberg-live-ticker-pedro-acosta-ktm",
+      "title": "Live-Ticker Spielberg: Freudentaumel bei KTM – 1. MotoGP-Sieg für Acosta!",
+      "summary": "Live-Ticker Spielberg: Freudentaumel bei KTM – 1. MotoGP-Sieg für Acosta! KTM-Werksfahrer Pedro Acosta hat seinen Crash im Sprint wie nichts weggesteckt und auf dem Red Bull Ring seinen ersten Grand Prix in der Premier-Class gewonnen. Martin baute die WM-Führung aus. MotoGP 20.09.2026 - 13:20",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.990Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/spielberg-warm-up-bezzecchi-vorne-acosta-und-binder-mit-crash",
+      "url": "https://www.speedweek.com/a/motogp/spielberg-warm-up-bezzecchi-vorne-acosta-und-binder-mit-crash",
+      "title": "Spielberg, Warm-up: Bezzecchi vorne, Acosta und Binder mit Crash",
+      "summary": "Spielberg, Warm-up: Bezzecchi vorne, Acosta und Binder mit Crash Nach einem ereignisreichen Sprint-Samstag bereiten sich die MotoGP auf den Großen Preis von Österreich vor. Schnellster im Warm-up war Marco Bezzecchi. Wieder ein grober Fehler von Pedro Acosta. MotoGP 20.09.2026 - 10:09",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.990Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-spielberg-live-uebertragung-zeiten",
+      "url": "https://www.speedweek.com/a/motogp/motogp-spielberg-live-uebertragung-zeiten",
+      "title": "Ab 11 Uhr: Wo die Rennen der MotoGP-WM in Spielberg live zu sehen sind",
+      "summary": "Ab 11 Uhr: Wo die Rennen der MotoGP-WM in Spielberg live zu sehen sind Am Sonntag finden auf dem Red Bull Ring in der Steiermark die Grands Prix der Klassen Moto3, Moto2 und MotoGP statt. SPEEDWEEK.com gibt eine Übersicht, wann und wo die Rennen gezeigt werden. MotoGP 20.09.2026 - 07:33",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.991Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/toprak-schimpfte-frust-ueber-mieses-q1-und-aerger-ueber-pol-espargaro",
+      "url": "https://www.speedweek.com/a/motogp/toprak-schimpfte-frust-ueber-mieses-q1-und-aerger-ueber-pol-espargaro",
+      "title": "Toprak schimpfte: Frust über mieses Q1 und Ärger über Pol Espargaro",
+      "summary": "Toprak schimpfte: Frust über mieses Q1 und Ärger über Pol Espargaro Pramac-Yamaha-Pilot Toprak Razgatlioglu kämpft weiter am Ende der Konkurrenz. Der MotoGP-Rookie über sinnlose Manöver zu Rennbeginn und die wenigen positiven Aspekte des Sprints auf dem Red Bull Ring. MotoGP 19.09.2026 - 22:42",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.991Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marc-marquez-wm-fuehrung-verloren-ursache-niederlage",
+      "url": "https://www.speedweek.com/a/motogp/marc-marquez-wm-fuehrung-verloren-ursache-niederlage",
+      "title": "WM-Führung ist futsch: Marc Marquez nennt die Ursache für die Niederlage",
+      "summary": "WM-Führung ist futsch: Marc Marquez nennt die Ursache für die Niederlage MotoGP 19.09.2026 - 16:59",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.992Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-sprint-spielberg-acosta-debakel-martin-wm-leader",
+      "url": "https://www.speedweek.com/a/motogp/motogp-sprint-spielberg-acosta-debakel-martin-wm-leader",
+      "title": "MotoGP-Sprint Spielberg: Debakel für Pedro Acosta – Martin wieder WM-Leader",
+      "summary": "MotoGP-Sprint Spielberg: Debakel für Pedro Acosta – Martin wieder WM-Leader MotoGP 19.09.2026 - 15:27",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.992Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/beirer-ducati-850er-tester-bulega-vorteil-kurzfristig",
+      "url": "https://www.speedweek.com/a/motogp/beirer-ducati-850er-tester-bulega-vorteil-kurzfristig",
+      "title": "Beirer über Ducati und 850er-Tester Bulega: «Vorteil wird kurzfristig sein»",
+      "summary": "Beirer über Ducati und 850er-Tester Bulega: «Vorteil wird kurzfristig sein» MotoGP 19.09.2026 - 06:25",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.992Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/wie-vinales-in-misano-sein-tech3-team-ueberraschte",
+      "url": "https://www.speedweek.com/a/motogp/wie-vinales-in-misano-sein-tech3-team-ueberraschte",
+      "title": "Wie Vinales in Misano sein Tech3-Team «überraschte»",
+      "summary": "Wie Vinales in Misano sein Tech3-Team «überraschte» MotoGP 20.09.2025 - 09:09",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.993Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/guenther-steiner-erste-idee-ein-neues-team-gruenden",
+      "url": "https://www.speedweek.com/a/motogp/guenther-steiner-erste-idee-ein-neues-team-gruenden",
+      "title": "Günther Steiner: «Erste Idee, ein neues Team gründen»",
+      "summary": "Günther Steiner: «Erste Idee, ein neues Team gründen» MotoGP 19.09.2025 - 16:41",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.993Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/nadia-padovani-findet-man-nicht-in-vielen-teams",
+      "url": "https://www.speedweek.com/a/motogp/nadia-padovani-findet-man-nicht-in-vielen-teams",
+      "title": "Nadia Padovani: «Findet man nicht in vielen Teams!»",
+      "summary": "Nadia Padovani: «Findet man nicht in vielen Teams!» MotoGP 19.09.2025 - 15:37",
+      "language": "de",
+      "publishedAt": "2026-09-21T03:15:58.993Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808675/this-is-the-oldest-harley-davidson-dealership-in-the-world-illinois/",
+      "url": "https://www.rideapart.com/news/808675/this-is-the-oldest-harley-davidson-dealership-in-the-world-illinois",
+      "title": "This Is The Oldest Harley-Davidson Dealership In The World",
+      "summary": "A Harley-Davidson dealership in Illinois has now been declared as the oldest one in the world, having begun as a Motor Co. property way back in 1909.",
+      "language": "en",
+      "publishedAt": "2026-09-20T12:36:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808636/los-angeles-new-ebike-regulations-recommended/",
+      "url": "https://www.rideapart.com/news/808636/los-angeles-new-ebike-regulations-recommended",
+      "title": "Los Angeles Is Coming For The Electric Dirt Bikes Everyone Pretends Are E-Bikes",
+      "summary": "The problem with calling everything an e-bike is that some of these things are very obviously motorcycles.",
+      "language": "en",
+      "publishedAt": "2026-09-19T12:49:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808558/norton-brings-historic-1953-manx-to-goodwood-revival/",
+      "url": "https://www.rideapart.com/news/808558/norton-brings-historic-1953-manx-to-goodwood-revival",
+      "title": "Norton Brings Historic 1953 Manx to Goodwood Revival To Compete in Barry Sheene Memorial Trophy",
+      "summary": "Norton is partnering with Works Racing to compete in the Barry Sheene Memorial Trophy aboard a 1953 Norton Manx 30M ‘Long Stroke’ at the Goodwood Revival.",
+      "language": "en",
+      "publishedAt": "2026-09-18T13:49:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808617/motocap-testing-reveals-declining-motorcycle-gear-safety/",
+      "url": "https://www.rideapart.com/news/808617/motocap-testing-reveals-declining-motorcycle-gear-safety",
+      "title": "Are Motorcycle Gear Companies Cutting Protection To Save Money? Researchers Say ‘Yes’",
+      "summary": "Your expensive gear might meet the rules, but researchers say some manufacturers are giving you less protection anyway.",
+      "language": "en",
+      "publishedAt": "2026-09-18T12:58:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808426/2027-beta-rr-race-models-unveiled/",
+      "url": "https://www.rideapart.com/news/808426/2027-beta-rr-race-models-unveiled",
+      "title": "Beta Just Added More Electronics To Its Race Bikes While Refusing To Kill The Carburetor",
+      "summary": "Launch control on one side of the garage, a Keihin carburetor on the other. Beta sees absolutely no problem here.",
+      "language": "en",
+      "publishedAt": "2026-09-18T12:27:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808548/six-suzuki-motorcycles-will-get-a-price-drop-in-2027-heres-the-full-list/",
+      "url": "https://www.rideapart.com/news/808548/six-suzuki-motorcycles-will-get-a-price-drop-in-2027-heres-the-full-list",
+      "title": "Six Suzuki Motorcycles Are Getting Price Drops. Here’s the Full List",
+      "summary": "Suzuki is dropping the price of six of its models by up to $1,191 for 2027. Is this enough to sway you over to the yellow side?",
+      "language": "en",
+      "publishedAt": "2026-09-18T12:07:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808425/honda-uber-eats-partnership-safe-riding-app/",
+      "url": "https://www.rideapart.com/news/808425/honda-uber-eats-partnership-safe-riding-app",
+      "title": "Honda Wants To Score How Safely Uber Eats Couriers Ride. Our Dystopian World Continues",
+      "summary": "Honda’s new phone-based riding assessor can track how you brake, accelerate, and steer, then turn your habits into a score.",
+      "language": "en",
+      "publishedAt": "2026-09-18T11:46:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808418/vintage-honda-dirtbikes-facebook-marketplace-will-they-run/",
+      "url": "https://www.rideapart.com/news/808418/vintage-honda-dirtbikes-facebook-marketplace-will-they-run",
+      "title": "Picking Up A Trio Of Vintage Honda Dirtbikes For Only $300 Is The Best Investment",
+      "summary": "These little XL75s are dead simple single cylinders, and are friendly and unintimidating. But will they run?",
+      "language": "en",
+      "publishedAt": "2026-09-18T11:15:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808417/cardo-launches-the-worlds-first-mx-helmet-with-integrated-mesh-communication/",
+      "url": "https://www.rideapart.com/news/808417/cardo-launches-the-worlds-first-mx-helmet-with-integrated-mesh-communication",
+      "title": "Cardo Launches the World’s First MX Helmet With Integrated Mesh Communication",
+      "summary": "Cardo just launched the world's first motocross helmet with an integrated communication system. Is this what the off-road world needs?",
+      "language": "en",
+      "publishedAt": "2026-09-18T11:04:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.visordown.com/news?page=1",
+      "url": "https://www.visordown.com/news?page=1",
+      "title": "Go to next page",
+      "summary": "Crash Media Group Ltd 2025. The total or partial reproduction of text, photographs or illustrations is not permitted in any form.",
+      "language": "en",
+      "publishedAt": "2026-09-21T03:16:24.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "title-attribute-link",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.facebook.com/visordown/",
+      "url": "https://www.facebook.com/visordown",
+      "title": "Facebook",
+      "summary": "Facebook",
+      "language": "en",
+      "publishedAt": "2026-09-21T03:16:24.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "title-attribute-link",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.instagram.com/visordown/",
+      "url": "https://www.instagram.com/visordown",
+      "title": "Instagram",
+      "summary": "Instagram",
+      "language": "en",
+      "publishedAt": "2026-09-21T03:16:24.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "title-attribute-link",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.youtube.com/@visordown",
+      "url": "https://www.youtube.com/@visordown",
+      "title": "YouTube",
+      "summary": "YouTube",
+      "language": "en",
+      "publishedAt": "2026-09-21T03:16:24.389Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "title-attribute-link",
+        "dateInferred": true
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/honda-forza-750-two-new-colour-options-are-available/",
+      "url": "https://www.eicma.it/en/honda-forza-750-two-new-colour-options-are-available",
+      "title": "Honda Forza 750, two new colour options are available",
+      "summary": "Using the same strategy adopted for the 2027 X-ADV 750 and NC750X, Honda has refreshed the Forza 750 with nothing more than an updated colour range. Specifically, the flagship model of the Forza family gains two new colour options. Alongside the returning Mat Warm Ash Metallic, customers can now choose the new Gunmetal Black Metallic , featuring an all-black look, and the elegant Mat Iridium Gray Metallic . From a technical point of view, the Forza 750 remains unchanged since the introduction of the 2025 model year. It can be identified by its headlight with integrated LED daytime running lights and turn indicators. Behind the electrically adjustable windscreen sits a 5-inch full-colour TFT display with Honda RoadSync connectivity. Standard equipment includes cruise control, three-level traction control and five riding modes to manage the 58.6 hp produced by the engine, paired with Honda's Dual Clutch Transmission (DCT). The new Forza 750 is also available in a restricted version for A2 licence holders. The chassis package continues to feature a tubular steel frame, an upside-down front fork, a Pro-Link rear suspension with aluminium swingarm, 17-inch front and 15-inch rear wheels, and radially mounted brake calipers. Under the seat there is enough storage space for a full-face helmet, while a USB socket is conveniently positioned on the handlebar. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - C",
+      "language": "en",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/kappa-expands-its-rider-lineup-with-two-smart-accessories/",
+      "url": "https://www.eicma.it/en/kappa-expands-its-rider-lineup-with-two-smart-accessories",
+      "title": "Kappa expands its rider lineup with two smart accessories",
+      "summary": "With the KPM1 and KBH50 , Kappa is enriching its lineup of universal gear for motorcycles and scooters, offering two practical solutions engineered for both daily commuting and long-haul adventures. The first novelty, the KPM1 , lets riders securely mount their smartphone to handlebars ranging from 22 to 32 mm in diameter, ensuring rock-solid stability on the move. Compact and light, this new smartphone mount features a reinforced nylon chassis with TPU side inserts designed to absorb vibrations and impacts. A quick-detach mechanism makes mounting or removing the phone a breeze, while the adjustable cradle accommodates devices from 65 to 90 mm wide. The second highlight from Kappa is the KBH50 bottle holder . Crafted from a blend of reinforced nylon, silicone, and steel, its design guarantees a firm grip on any tubular bar, fitting motorcycles, scooters, and e-bikes alike. It can securely cradle bottles and flasks with diameters between 32 and 77 mm, and the non-slip silicone interior lining keeps everything locked in place even when tackling bumpy terrain. Additionally, interlocking gears allow for precise angle adjustments in both horizontal and vertical setups. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano - Pi e cf: 04145450153 N° iscrizione 04145450153 - Capitale sociale sottoscritto e versato: 100.000 euro",
+      "language": "en",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    }
+  ]
+}
