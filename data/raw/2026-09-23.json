@@ -1,0 +1,681 @@
+{
+  "collectedAt": "2026-09-23T03:16:28.072Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-kalender-2027-ohne-ungarn-gp",
+      "url": "https://www.speedweek.com/a/motogp/motogp-kalender-2027-ohne-ungarn-gp",
+      "title": "Jetzt offiziell: MotoGP-Kalender 2027 ohne Ungarn-Grand-Prix",
+      "summary": "Jetzt offiziell: MotoGP-Kalender 2027 ohne Ungarn-Grand-Prix Am Dienstag wurde verkündet, dass das MotoGP-Finale auch 2027 in Valencia stattfinden wird. Kurz darauf folgte die Nachricht, dass der Ungarn-GP nach zwei Jahren wieder aus dem Kalender fliegt. MotoGP 22.09.2026 - 20:38",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.932Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/acosta-crew-chief-trip-hoelle-retour",
+      "url": "https://www.speedweek.com/a/motogp/acosta-crew-chief-trip-hoelle-retour",
+      "title": "Acosta-Crew-Chief: «Firma war auf einem Trip in die Hölle und retour»",
+      "summary": "Acosta-Crew-Chief: «Firma war auf einem Trip in die Hölle und retour» MotoGP 22.09.2026 - 19:31",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.932Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-saisonfinale-2027-valencia-ende-november",
+      "url": "https://www.speedweek.com/a/motogp/motogp-saisonfinale-2027-valencia-ende-november",
+      "title": "MotoGP-Saisonfinale 2027 findet in Valencia statt – wieder Ende November",
+      "summary": "MotoGP-Saisonfinale 2027 findet in Valencia statt – wieder Ende November MotoGP 22.09.2026 - 15:57",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.932Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/vinales-spielberg-test-fitness-check-japan-gp",
+      "url": "https://www.speedweek.com/a/motogp/vinales-spielberg-test-fitness-check-japan-gp",
+      "title": "Vinales beim Spielberg-Test – Fitness-Check für seine letzten MotoGP-Rennen",
+      "summary": "Vinales beim Spielberg-Test – Fitness-Check für seine letzten MotoGP-Rennen MotoGP 22.09.2026 - 14:54",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.932Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/joan-mir-krankheit-verpasst-japan-indonesien-gp",
+      "url": "https://www.speedweek.com/a/motogp/joan-mir-krankheit-verpasst-japan-indonesien-gp",
+      "title": "Mysteriöse Krankheit: Joan Mir verpasst auch die GP in Japan und Indonesien",
+      "summary": "Mysteriöse Krankheit: Joan Mir verpasst auch die GP in Japan und Indonesien MotoGP 22.09.2026 - 10:34",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.932Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/takaaki-nakagami-ueberrascht-honda-stammfahrer-niveau",
+      "url": "https://www.speedweek.com/a/motogp/takaaki-nakagami-ueberrascht-honda-stammfahrer-niveau",
+      "title": "Taka Nakagami überraschte: Aus dem Stand so gut wie die Honda-Stammfahrer",
+      "summary": "Taka Nakagami überraschte: Aus dem Stand so gut wie die Honda-Stammfahrer Als Ersatz für Honda-Werkspilot Joan Mir kam Takaaki Nakagami zu einem unerwarteten MotoGP-Einsatz auf dem Red Bull Ring. Der Japaner überraschte mit einer Performance auf dem Niveau der Stammfahrer. MotoGP 22.09.2026 - 07:22",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.936Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/exklusiv-aus-spielberg-erste-bilder-von-senna-agius-auf-der-motogp-ktm",
+      "url": "https://www.speedweek.com/a/motogp/exklusiv-aus-spielberg-erste-bilder-von-senna-agius-auf-der-motogp-ktm",
+      "title": "Exklusiv aus Spielberg: Erste Bilder von Senna Agius auf der MotoGP-KTM",
+      "summary": "Exklusiv aus Spielberg: Erste Bilder von Senna Agius auf der MotoGP-KTM Nach dem KTM-Sieg beim Heim-GP testeten auch die Österreicher die 850er für 2027. Neben MotoGP-Triumphator Pedro Acosta fuhr erstmals auch Senna Agius für Tech3. SPEEDWEEK.com erwischte den Aussie. MotoGP 21.09.2026 - 20:45",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.937Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/red-bull-ring-exklusiv-850er-motogp-test-mit-marquez-acosta-zarco-co",
+      "url": "https://www.speedweek.com/a/motogp/red-bull-ring-exklusiv-850er-motogp-test-mit-marquez-acosta-zarco-co",
+      "title": "Red Bull Ring exklusiv: 850er-MotoGP-Test mit Marquez, Acosta, Zarco Co.",
+      "summary": "Red Bull Ring exklusiv: 850er-MotoGP-Test mit Marquez, Acosta, Zarco & Co. Erst zum zweiten Mal fand ein gemeinsamer MotoGP-Test aller Werke mit Reifenausrüster Pirelli statt. Auf den Red Bull Ring gingen der Weltmeister, Neulinge und auch der mögliche Rückkehrer Vinales. MotoGP 21.09.2026 - 19:12",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.937Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jack-miller-yamaha-debakel-bagger-zeiten",
+      "url": "https://www.speedweek.com/a/motogp/jack-miller-yamaha-debakel-bagger-zeiten",
+      "title": "Jack Miller nach Yamaha-Debakel: «Das sind verdammte Bagger-Zeiten!»",
+      "summary": "Jack Miller nach Yamaha-Debakel: «Das sind verdammte Bagger-Zeiten!» Jack Miller wurde beim Österreich-GP Letzter und verlor mehr als eine Minute. Der Pramac-MotoGP-Pilot fand nach dem Yamaha-Debakel drastische Worte und erklärte die technischen Ursachen. MotoGP 21.09.2026 - 17:17",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.937Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/di-giannantonio-raetselt-ducati-schlaappe-oesterreich",
+      "url": "https://www.speedweek.com/a/motogp/di-giannantonio-raetselt-ducati-schlaappe-oesterreich",
+      "title": "Fabio di Giannantonio rätselt nach Ducati-Schlappe: «Wirklich seltsam!»",
+      "summary": "Fabio di Giannantonio rätselt nach Ducati-Schlappe: «Wirklich seltsam!» Fabio Di Giannantonio blieb beim MotoGP-Wochenende in Österreich weitgehend blass und verlor einen Platz in der WM. Vor allem die fehlende Haftung am Hinterrad seiner Ducati stellte ihn vor Rätsel. MotoGP 21.09.2026 - 14:33",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.937Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/johann-zarco-aufholjagd-bester-honda-oesterreich",
+      "url": "https://www.speedweek.com/a/motogp/johann-zarco-aufholjagd-bester-honda-oesterreich",
+      "title": "Starke Aufholjagd von Johann Zarco (10.): Bester Honda-Pilot in Österreich",
+      "summary": "Starke Aufholjagd von Johann Zarco (10.): Bester Honda-Pilot in Österreich Ob im Qualifying, Sprint oder im Hauptrennen – Johann Zarco hielt am MotoGP-Wochenende auf dem Red Bull Ring die Honda-Flagge hoch. Bemerkenswert war die Vorstellung des Franzosen am Sonntag. MotoGP 21.09.2026 - 13:13",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.937Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-red-bull-ring-yamaha-quartararo-frust",
+      "url": "https://www.speedweek.com/a/motogp/motogp-red-bull-ring-yamaha-quartararo-frust",
+      "title": "Keine Punkte und großer Frust bei Fabio Quartararo (Yamaha): «Wie erwartet»",
+      "summary": "Keine Punkte und großer Frust bei Fabio Quartararo (Yamaha): «Wie erwartet» Yamaha hatte bei der MotoGP auf dem Red Bull Ring nichts zu melden. Für die besten Ergebnisse sorgte Werkspilot Fabio Quartararo – aber außerhalb der Punkteränge. MotoGP 21.09.2026 - 10:40",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.937Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/rookie-check-2-von-3-etabliert-gegenlaeufiger-trend",
+      "url": "https://www.speedweek.com/a/motogp/rookie-check-2-von-3-etabliert-gegenlaeufiger-trend",
+      "title": "Rookie-Check: 2 von 3 etabliert, gegenläufiger Trend",
+      "summary": "Rookie-Check: 2 von 3 etabliert, gegenläufiger Trend MotoGP 21.09.2025 - 10:34",
+      "language": "de",
+      "publishedAt": "2026-09-23T03:15:55.939Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808804/get-your-application-in-for-royal-enfields-build-train-race-series-if-you-want-a-free-ride/",
+      "url": "https://www.rideapart.com/news/808804/get-your-application-in-for-royal-enfields-build-train-race-series-if-you-want-a-free-ride",
+      "title": "Royal Enfield’s 'Build. Train. Race.' Series Is Back and You Have a Shot at Racing for Free",
+      "summary": "Royal Enfield's Build Train Race series is now taking applications. If accepted, you've basically got a free ride to race in 2027.",
+      "language": "en",
+      "publishedAt": "2026-09-22T13:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808992/stark-electric-supermoto-breaks-track-record-held-by-audi-r8-lms-in-shocking-display-of-speed/",
+      "url": "https://www.rideapart.com/news/808992/stark-electric-supermoto-breaks-track-record-held-by-audi-r8-lms-in-shocking-display-of-speed",
+      "title": "This Electric Supermoto Broke A Track Record Held By A V10 Racecar",
+      "summary": "Stark now holds the lap record at the Autòdrom de Sitges-Terramar, after the Varg SM Skoll completed the circuit in a time of 41.888 seconds.",
+      "language": "en",
+      "publishedAt": "2026-09-22T12:47:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808996/polaris-shutters-vietnam-plant-after-selling-indian-motorcycle/",
+      "url": "https://www.rideapart.com/news/808996/polaris-shutters-vietnam-plant-after-selling-indian-motorcycle",
+      "title": "Polaris Is Shuttering Its Vietnam Plant After Indian's Sale",
+      "summary": "There's no need for a motorcycle plant when you don't sell motorcycles anymore.",
+      "language": "en",
+      "publishedAt": "2026-09-22T12:33:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808884/tvs-mini-race-bike-rr200-for-kids/",
+      "url": "https://www.rideapart.com/news/808884/tvs-mini-race-bike-rr200-for-kids",
+      "title": "This Company Built A Mini Race Motorcycle For Kids. 10-Year-Old Me Is Extremely Jealous",
+      "summary": "At 10, I had a bicycle and questionable judgment. These kids get 23 horsepower, race slicks, and professional coaching.",
+      "language": "en",
+      "publishedAt": "2026-09-22T12:23:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808986/2027-kawasaki-stx-310r-jet-ski-is-a-supercharged-pwc-that-has-310-horsepower/",
+      "url": "https://www.rideapart.com/news/808986/2027-kawasaki-stx-310r-jet-ski-is-a-supercharged-pwc-that-has-310-horsepower",
+      "title": "Kawasaki Threw An Insane 310 HP Supercharged Engine Into A Jet Ski",
+      "summary": "I feel the need—the need, for speed.",
+      "language": "en",
+      "publishedAt": "2026-09-22T11:42:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808888/honda-new-electric-mountain-bike-coming-soon/",
+      "url": "https://www.rideapart.com/news/808888/honda-new-electric-mountain-bike-coming-soon",
+      "title": "Honda's New Electric Mountain Bike Makes Us Yearn For Some Trails",
+      "summary": "Honda looked at all the motorcycles in its garage and decided we needed yet another excuse to disappear into the woods.",
+      "language": "en",
+      "publishedAt": "2026-09-22T11:19:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/809007/ducati-expedition-masters-iceland-adventure-was-the-best-way-to-see-the-country/",
+      "url": "https://www.rideapart.com/features/809007/ducati-expedition-masters-iceland-adventure-was-the-best-way-to-see-the-country",
+      "title": "Ducati's Expedition Masters Iceland Program Is the Coolest Way To See The Country",
+      "summary": "Hans Zimmer's 'Time' played in my head and in my headphones a lot.",
+      "language": "en",
+      "publishedAt": "2026-09-22T11:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808802/suzuki-could-deliver-a-new-sv650-at-eicma-2026/",
+      "url": "https://www.rideapart.com/news/808802/suzuki-could-deliver-a-new-sv650-at-eicma-2026",
+      "title": "Is Suzuki's Best Motorcycle Making a Real Return To Form?",
+      "summary": "Yes, the Suzuki SV650 is likely the brand's best motorcycle ever.",
+      "language": "en",
+      "publishedAt": "2026-09-21T13:26:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808780/zxmoto-signs-skyler-howes-ahead-of-2027-dakar-debut/",
+      "url": "https://www.rideapart.com/news/808780/zxmoto-signs-skyler-howes-ahead-of-2027-dakar-debut",
+      "title": "ZXMoto Signs Skyler Howes Ahead of Dakar Debut. But Can They Challenge The Field?",
+      "summary": "ZXMoto just signed Skyler Howes to its factory Dakar team. Can they challenge Kove to be crowned China's best rally raid manufacturer?",
+      "language": "en",
+      "publishedAt": "2026-09-21T12:50:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808731/triumph-originals-2026-voting-now-open/",
+      "url": "https://www.rideapart.com/news/808731/triumph-originals-2026-voting-now-open",
+      "title": "Seven Countries Built Wild Triumph Scramblers, And Now You Get To Pick The Winner",
+      "summary": "Canada built a giant supermoto, America went full Forest Service, and somehow you're expected to choose just one.",
+      "language": "en",
+      "publishedAt": "2026-09-21T12:29:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808690/ktm-450-rally-replica-hits-us-dealerships-for-the-first-time-in-history/",
+      "url": "https://www.rideapart.com/news/808690/ktm-450-rally-replica-hits-us-dealerships-for-the-first-time-in-history",
+      "title": "KTM 450 Rally Replica Hits US Dealerships for the First Time in History",
+      "summary": "KTM has never launched any of its 450 Rally Replica motorcycles in the US, but that will change for the 2027 model.",
+      "language": "en",
+      "publishedAt": "2026-09-21T12:08:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808699/polaris-stealth-military-850-snowmobile-specs-features/",
+      "url": "https://www.rideapart.com/news/808699/polaris-stealth-military-850-snowmobile-specs-features",
+      "title": "Polaris Made A Stealth Snowmobile Because Apparently That’s A Thing Now",
+      "summary": "Blackout mode, infrared lights, an 850cc two-stroke, and actual military contracts. Snowmobiles just got tactical.",
+      "language": "en",
+      "publishedAt": "2026-09-21T11:48:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808680/carb-filing-shows-new-ducati-streetfighter-v4-sp-on-horizon/",
+      "url": "https://www.rideapart.com/news/808680/carb-filing-shows-new-ducati-streetfighter-v4-sp-on-horizon",
+      "title": "CARB Order Shows New Ducati Streetfighter V4 SP on the Horizon",
+      "summary": "A recent CARB executive order shows a new Ducati Streetfighter V4 SP is on its way and could be on sale by 2027.",
+      "language": "en",
+      "publishedAt": "2026-09-21T11:17:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/808678/harley-davidson-partners-with-hunting-brand-realtree-again/",
+      "url": "https://www.rideapart.com/news/808678/harley-davidson-partners-with-hunting-brand-realtree-again",
+      "title": "Harley Partners With Realtree Again. Now Please Make Some Technical Outerwear",
+      "summary": "Realtree x Harley-Davidson returns. But I have the same issue as I did last time.",
+      "language": "en",
+      "publishedAt": "2026-09-21T11:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/kawasaki-ninja-h2-supercharged-street-and-track-beyond-limits/",
+      "url": "https://www.eicma.it/en/kawasaki-ninja-h2-supercharged-street-and-track-beyond-limits",
+      "title": "Kawasaki Ninja H2 Supercharged: street and track, beyond limits",
+      "summary": "After a few years away, Kawasaki brings back the supercharged Ninja H2 for the 2027 model year in two variants. On one side is the road-legal Ninja H2 , while on the other is the H2R, exclusively designed for track use. Giving the project a new lease of life is a major update that leaves the styling largely unchanged while almost completely revising the mechanics. Specifically, the changes include the compressor impeller, fuel system, pistons, cylinder head, cylinders, crankshaft and camshafts. The throttle bodies, exhaust system and transmission ratios are also new. The result for the road-going Ninja H2 is 209 hp with Ram Air at speed, together with even stronger mid-range torque. The H2R, meanwhile, raises the performance bar even further, exceeding 300 hp. On the chassis side, alongside the steel trellis frame, there are numerous high-end components, including KYB AOS-II forks, an Öhlins TTX36 rear shock and Brembo Hypure front brake calipers. The equipment also includes a new instrument cluster and a comprehensive suite of rider-assistance systems , including revised KTRC traction control and KLCM launch control. As for colours, the only option is Mirror Coated Spark Black, while alongside the standard version, the limited-edition Ninja H2 Carbon is also available. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Mila",
+      "language": "en",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/23/090200815/dilema-jual-motor-listrik-bekas-harga-anjlok-atau-pilih-upgrade",
+      "url": "https://otomotif.kompas.com/read/2026/09/23/090200815/dilema-jual-motor-listrik-bekas-harga-anjlok-atau-pilih-upgrade",
+      "title": "Dilema Jual Motor Listrik Bekas, Harga Anjlok atau Pilih Upgrade",
+      "summary": "Dilema Jual Motor Listrik Bekas, Harga Anjlok atau Pilih Upgrade JAKARTA, KOMPAS.com - Motor listrik memang menawarkan efisiensi dan performa yang mantap untuk kebutuhan harian. Biaya operasional bisa ditekan, serta tenaga dan torsinya terasa instan. Namun, salah satu pertimbangan utama masyarakat Indonesia sebelum memboyong motor listrik adalah harga jual kembalinya. Mengingat harga awal yang berada di kisaran belasan hingga puluhan juta rupiah, saat dijual kembali tak jarang harganya ditawar di bawah Rp 10 juta. Lantas, bagaimana pandangan para pengguna yang sudah menggunakan motor listrik sehari-hari? Baca juga: Harga Motor Listrik Bekas mulai Rp 5 Jutaan, Ini Gambaran Pasarnya KOMPAS.com/DIO DANANJAYA Booth motor listrik Uwinfly di GIIAS 2025 Kiagus Abdul Rofi, pengguna Uwinfly T5 sejak 2022, mengaku sempat berencana menjual kendaraan listriknya karena tergiur dengan model baru di pasaran. Kepikiran buat upgrade. Makin ke sini makin banyak motor listrik yang fiturnya bagus, contohnya Polytron. Jadi ingin upgrade karena lebih cocok untuk penggunaan sehari-hari, ujar Kiagus kepada Kompas.com, Senin (21/9/2026) . Ketika mencoba menanyakan ke diler, Kiagus terkejut lantaran nilai tukarnya ditawar sangat rendah. Kemarin saya sudah tanya ke diler buat jualnya. Mereka ngasih harga murah banget karena bukan official dari mereka (Uwinfly). Rencananya mau jual sendiri, tapi belum tahu jadi atau enggak. Sejujurnya agak kesel, tapi ya karena banyak orang yang belum tahu value -nya, j",
+      "language": "id",
+      "publishedAt": "2026-09-23T03:16:22.862Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/23/084200415/pasar-mobil-kemayoran-dan-ancaman-sparepart-palsu-online",
+      "url": "https://otomotif.kompas.com/read/2026/09/23/084200415/pasar-mobil-kemayoran-dan-ancaman-sparepart-palsu-online",
+      "title": "Pasar Mobil Kemayoran dan Ancaman Sparepart Palsu Online",
+      "summary": "Pasar Mobil Kemayoran dan Ancaman Sparepart Palsu Online JAKARTA, KOMPAS.com - Bagi para pemilik mobil di kawasan Jakarta dan sekitarnya, Pasar Mobil Kemayoran (PMK) sudah lama menjadi salah satu sentra favorit untuk berburu sparepart maupun melakukan modifikasi kendaraan. Namun, sejak pandemi COVID-19 merebak, tren belanja masyarakat bergeser ke platform digital. Kebiasaan membeli suku cadang secara online tersebut terbawa hingga sekarang, membuat kondisi Pasar Mobil Kemayoran tidak seramai dulu. Baca juga: Keluhan Pedagang Pasar Mobil Kemayoran, Toko Makin Sepi KOMPAS.com/FATHAN Toko di Pasar Mobil Kemayoran, lokasi yang berdekatan dengan toko yang terbakar Gempuran pasar online ini pun menghadirkan dilema tersendiri bagi para pedagang. Sebagian memilih tetap bertahan berjualan secara offline demi menjaga kualitas barang, sementara lainnya terpaksa ikut terjun ke ranah online meski harus menghadapi persaingan harga yang kian tidak sehat. Juned, pemilik bengkel Auto Service spesialis kaki-kaki di Pasar Mobil Kemayoran, mengingatkan para pemilik mobil agar tidak mudah tergiur harga murah di toko online . Sebab, banyak komponen vital seperti tie rod yang dijual online ternyata merupakan barang servisan atau rekondisi. Asal jangan banyak orang beli online . Itu barang seperti tie rod , barang servisan. Belanja online , dipasang, enggak tahunya seminggu copot. Kejadiannya banyak, sampai patah, ujar Juned saat ditemui Kompas.com, Selasa (22/9/2026). Baca juga: Perkuat Daya Saing:",
+      "language": "id",
+      "publishedAt": "2026-09-23T03:16:22.863Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/23/080200615/kijang-innova-reborn-disulap-jadi-clean-racing-habis-rp-100-jutaan",
+      "url": "https://otomotif.kompas.com/read/2026/09/23/080200615/kijang-innova-reborn-disulap-jadi-clean-racing-habis-rp-100-jutaan",
+      "title": "Kijang Innova Reborn Disulap Jadi Clean Racing, Habis Rp 100 Jutaan",
+      "summary": "Kijang Innova Reborn Disulap Jadi Clean Racing, Habis Rp 100 Jutaan JAKARTA, KOMPAS.com - Toyota Kijang Innova dikenal sebagai salah satu mobil yang dekat dengan kebutuhan keluarga Indonesia. Hal tersebut juga menjadi alasan Andri Firmansyah memilih Toyota Kijang Innova Reborn keluaran 2017 untuk menemani aktivitas keluarga. Pria asal Bekasi ini membeli Kijang Innova Reborn tipe G bukan untuk mengejar tampilan atau mengikuti tren modifikasi . Mobil tersebut sejak awal memang dipilih sebagai kendaraan keluarga sekaligus digunakan untuk aktivitas sehari-hari. Namun, seiring berjalannya waktu, mobil yang terus digunakan sehari-hari mulai mengalami sejumlah masalah pada bagian bodi. Baca juga: BRIN Soroti Fasilitas Uji Baterai Mobil Listrik, Belum Memadai Beberapa bagian mobil milik Andri mulai mengalami lecet dan penyok. Dari situ, muncul ide untuk tidak sekadar memperbaiki kondisi mobil, tetapi sekaligus memberikan sentuhan personal. \"Sebenarnya ini mobil waktu saya beli hanya untuk mobil keluarga. Berjalannya waktu dan pemakaian harian ada beberapa bodi yang lecet-lecet dan penyok. Akhirnya dari beberapa mobil modifikasi saya, saya memutuskan untuk memperbaiki sekaligus dimodifikasi sekalian,\" kata Andri kepada Kompas.com , Selasa (22/9/2026). dok Andri Modifikasi Toyota Kijang Innova Reborn Andri kemudian mulai menyusun konsep yang sesuai dengan karakter mobil sekaligus selera pribadinya. Ia memilih konsep clean racing untuk Kijang Innova Reborn miliknya. Konsep tersebut menu",
+      "language": "id",
+      "publishedAt": "2026-09-23T03:16:22.863Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/23/062200915/perbandingan-biaya-servis-motor--indonesia-vs.-australia-bikin-kaget",
+      "url": "https://otomotif.kompas.com/read/2026/09/23/062200915/perbandingan-biaya-servis-motor--indonesia-vs.-australia-bikin-kaget",
+      "title": "Perbandingan Biaya Servis Motor: Indonesia vs. Australia Bikin Kaget",
+      "summary": "Perbandingan Biaya Servis Motor: Indonesia vs. Australia Bikin Kaget JAKARTA, KOMPAS.com - Biaya servis sepeda motor di Australia ternyata tidak murah. Apalagi jika pekerjaan yang dilakukan cukup banyak dan melibatkan penggantian komponen. Hal tersebut dialami Ray, mantan jurnalis sekaligus bikers yang kini menetap di Perth, Australia Barat. Baca juga: BRIN Soroti Fasilitas Uji Baterai Mobil Listrik, Belum Memadai Ray menceritakan pengalamannya ketika melakukan servis motor Honda Forza 300 , motor yang dipakainya buat harian. Selain servis dia juga melakukan sejumlah komponen, mulai penggantian ban, kampas rem depan dan belakang, karet seal sok depan, hingga perbaikan kebocoran mesin. Foto: Nazar Ray Bengkel motor di Australia \"Estimasi servis, kata mekaniknya. Itu pun dia enggak menyebut ongkos jasa, cuma spare part saja. Ganti oli, lalu untuk jasanya,\" kata Ray kepada Kompas.com , akhir pekan lalu. \"Waktu itu ganti ban, ganti kampas rem belakang dan depan, karet seal sok depan, ada kebocoran mesin, lalu bersihin VIN number karena mesti kelihatan jelas, dan meluruskan cakram,\" katanya. Ray mengatakan, total biaya servis yang mesti dikeluarkan cukup besar bahkan hingga belasan juta. \"Totalnya antara 1.200-1.300 dollar Australia,\" katanya. Baca juga: IMHAX 2026 Diklaim Catat Rekor, Dikunjungi 18.693 Orang Jika dikonversikan ke rupiah, biayanya sekitar Rp 15 juta-Rp 16,5 juta. Nilai yang besar jika dibandingkan dengan biaya servis motor yang umum ditemui di Indonesia. Foto: Ren",
+      "language": "id",
+      "publishedAt": "2026-09-23T03:16:22.863Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
