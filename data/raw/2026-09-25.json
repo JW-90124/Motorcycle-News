@@ -1,0 +1,679 @@
+{
+  "collectedAt": "2026-09-25T03:23:06.716Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ktm-chef-neumeister-firmenkreditkarten-gesperrt",
+      "url": "https://www.speedweek.com/a/motogp/ktm-chef-neumeister-firmenkreditkarten-gesperrt",
+      "title": "KTM-Chef Neumeister über schwerste Zeit: «Alle Firmenkreditkarten gesperrt»",
+      "summary": "KTM-Chef Neumeister über schwerste Zeit: «Alle Firmenkreditkarten gesperrt» Fast vier Jahre musste KTM auf einen Grand-Prix-Sieg in der MotoGP warten, das Kunststück gelang beim Heimrennen in Spielberg. KTM-Chef Gottfried Neumeister blickt zurück auf die harten Zeiten. MotoGP 24.09.2026 - 19:09",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.679Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-mugello-vertrag-verlaengert-bis-2031",
+      "url": "https://www.speedweek.com/a/motogp/motogp-mugello-vertrag-verlaengert-bis-2031",
+      "title": "Highspeed in der Toskana: Mugello bis mindestens 2031 im MotoGP-Kalender",
+      "summary": "Highspeed in der Toskana: Mugello bis mindestens 2031 im MotoGP-Kalender MotoGP 24.09.2026 - 17:43",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.679Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-vertrag-portimao-bis-2029",
+      "url": "https://www.speedweek.com/a/motogp/motogp-vertrag-portimao-bis-2029",
+      "title": "Vertrag wurde verlängert: MotoGP-Asse fahren bis 2029 in Portimao",
+      "summary": "Vertrag wurde verlängert: MotoGP-Asse fahren bis 2029 in Portimao MotoGP 24.09.2026 - 12:45",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.679Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/dalligna-ducati-niederlage-spielberg-motogp",
+      "url": "https://www.speedweek.com/a/motogp/dalligna-ducati-niederlage-spielberg-motogp",
+      "title": "Dall’Igna zu Ducati-Niederlage in Spielberg: «Insgesamt glanzlose Leistung»",
+      "summary": "Dall’Igna zu Ducati-Niederlage in Spielberg: «Insgesamt glanzlose Leistung» MotoGP 24.09.2026 - 10:14",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.679Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/liberty-media-motogp-know-how-formel-1-fussball",
+      "url": "https://www.speedweek.com/a/motogp/liberty-media-motogp-know-how-formel-1-fussball",
+      "title": "Zukunft unter Liberty: Know-how aus Formel 1 und Fußball für die MotoGP",
+      "summary": "Zukunft unter Liberty: Know-how aus Formel 1 und Fußball für die MotoGP MotoGP 23.09.2026 - 19:17",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.679Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-reglement-verbot-practice-starts-boxengasse",
+      "url": "https://www.speedweek.com/a/motogp/motogp-reglement-verbot-practice-starts-boxengasse",
+      "title": "MotoGP-Reglement: Verbot von «Practice Starts» aus der Boxengasse",
+      "summary": "MotoGP-Reglement: Verbot von «Practice Starts» aus der Boxengasse Ab 2027 dürfen die MotoGP-Piloten keine «Practice Starts» in der Ausfahrt an der Boxengasse vornehmen. Derzeit sind diese auf rund 30 Prozent aller Strecken erlaubt. Der Grund für das Verbot. MotoGP 23.09.2026 - 15:50",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.684Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-japan-chantra-ersetzt-mir-motegi",
+      "url": "https://www.speedweek.com/a/motogp/motogp-japan-chantra-ersetzt-mir-motegi",
+      "title": "Überraschung bei Honda: Somkiat Chantra ersetzt Joan Mir in Motegi",
+      "summary": "Überraschung bei Honda: Somkiat Chantra ersetzt Joan Mir in Motegi Beim MotoGP-Event in Japan wird Somkiat Chantra im Honda-Werksteam Joan Mir ersetzen. Der thailändische Superbike-Pilot bekommt somit einen weiteren Einsatz in der Königsklasse auf der RC213V. MotoGP 23.09.2026 - 10:21",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.684Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/spielberg-motogp-test-bestzeit-moreira-agius-ueberrascht",
+      "url": "https://www.speedweek.com/a/motogp/spielberg-motogp-test-bestzeit-moreira-agius-ueberrascht",
+      "title": "Spielberg-Test: Bestzeit für Moreira (Honda) – Senna Agius überraschte",
+      "summary": "Spielberg-Test: Bestzeit für Moreira (Honda) – Senna Agius überraschte Obwohl der MotoGP-Test in Spielberg mit den 850er-Motorrädern und den Pirelli-Reifen unter Ausschluss der Öffentlichkeit stattfand, sind die Rundenzeiten der Protagonisten durchgesickert. MotoGP 23.09.2026 - 08:52",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.684Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/asien-auftakt-japan-feiert-die-motogp-asse-in-tokio",
+      "url": "https://www.speedweek.com/a/motogp/asien-auftakt-japan-feiert-die-motogp-asse-in-tokio",
+      "title": "Asien-Auftakt: Japan feiert die MotoGP-Asse in Tokio",
+      "summary": "Asien-Auftakt: Japan feiert die MotoGP-Asse in Tokio MotoGP 24.09.2025 - 17:17",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.687Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aprilia-vom-sorgenkind-zum-ersten-ducati-verfolger",
+      "url": "https://www.speedweek.com/a/motogp/aprilia-vom-sorgenkind-zum-ersten-ducati-verfolger",
+      "title": "Aprilia: Vom Sorgenkind zum ersten Ducati-Verfolger",
+      "summary": "Aprilia: Vom Sorgenkind zum ersten Ducati-Verfolger MotoGP 24.09.2025 - 15:24",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.687Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/stoner-und-rossi-flat-track-training-in-tavullia",
+      "url": "https://www.speedweek.com/a/motogp/stoner-und-rossi-flat-track-training-in-tavullia",
+      "title": "Stoner und Rossi: Flat-Track-Training in Tavullia",
+      "summary": "Stoner und Rossi: Flat-Track-Training in Tavullia MotoGP 24.09.2025 - 13:32",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.687Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/abe-haga-aoki-japans-grosse-500er-wildcard-helden",
+      "url": "https://www.speedweek.com/a/motogp/abe-haga-aoki-japans-grosse-500er-wildcard-helden",
+      "title": "Abe, Haga, Aoki: Japans große 500er-Wildcard-Helden",
+      "summary": "Abe, Haga, Aoki: Japans große 500er-Wildcard-Helden MotoGP 24.09.2025 - 12:33",
+      "language": "de",
+      "publishedAt": "2026-09-25T03:22:35.687Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "lta-coe-2026-09-2",
+      "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+      "title": "新加坡 COE Category D（摩托车）最新中标价：S$12,201（2026-09 第2轮）",
+      "summary": "2026-09 第1轮：中标价 S$12,556（配额 514，收到投标 657 份，中标 495 份）；2026-09 第2轮：中标价 S$12,201（配额 522，收到投标 605 份，中标 494 份）",
+      "language": "en",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "category": "local-market",
+      "tags": [
+        "coe",
+        "singapore"
+      ],
+      "metrics": {},
+      "rawMeta": {
+        "dataSource": "data.gov.sg",
+        "datasetId": "d_69b3380ad7e51aff3a7dcc84eba52b8a"
+      },
+      "sourceSlug": "lta-coe-motorcycle",
+      "sourceName": "新加坡 LTA COE 摩托车类别（Category D）投标结果"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809328/canam-partners-with-farm-rescue-non-profit/",
+      "url": "https://www.rideapart.com/news/809328/canam-partners-with-farm-rescue-non-profit",
+      "title": "America's Farmers Are Struggling. Can-Am Is Helping Farm Rescue Alleviate Some of the Burden",
+      "summary": "The Canadian brand is partnering with Farm Rescue to help fund and support its operations.",
+      "language": "en",
+      "publishedAt": "2026-09-24T13:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809249/ex-motogp-race-winner-fails-to-secure-bagger-world-cup-title/",
+      "url": "https://www.rideapart.com/news/809249/ex-motogp-race-winner-fails-to-secure-bagger-world-cup-title",
+      "title": "Ex-MotoGP Race Winner Fails To Secure FIM Bagger World Cup Title",
+      "summary": "Andrea Iannone finished fourth in the inaugural FIM Bagger World Cup, but that could prove to be a good thing for the sport.",
+      "language": "en",
+      "publishedAt": "2026-09-24T12:57:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809319/us-military-announce-it-needs-expensive-changes-to-gm-isvu-vehicle/",
+      "url": "https://www.rideapart.com/news/809319/us-military-announce-it-needs-expensive-changes-to-gm-isvu-vehicle",
+      "title": "The Government Wants Super Expensive Changes To GM's UTV-Style Pickup",
+      "summary": "What's another $700 million between friends, huh?",
+      "language": "en",
+      "publishedAt": "2026-09-24T12:22:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809182/qjmotor-fort600-vs-kymco-ak550-legal-issue/",
+      "url": "https://www.rideapart.com/news/809182/qjmotor-fort600-vs-kymco-ak550-legal-issue",
+      "title": "QJ Motor Built A New Maxi-Scooter, And Kymco Would Like To Have A Word",
+      "summary": "Kymco says it never gave QJ Motor permission to use its AK 550 platform, and legal action could be one possible next step.",
+      "language": "en",
+      "publishedAt": "2026-09-24T12:05:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809317/honda-cb500-cafe-racer-indian-price-debut/",
+      "url": "https://www.rideapart.com/news/809317/honda-cb500-cafe-racer-indian-price-debut",
+      "title": "Give Us This Cheap As Hell Retro Honda Motorcycle Now!",
+      "summary": "An actual whole motorcycle for under $3,000? Give it to us.",
+      "language": "en",
+      "publishedAt": "2026-09-24T11:48:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809169/triumph-wins-motocross-world-championship-after-competing-for-only-three-years/",
+      "url": "https://www.rideapart.com/news/809169/triumph-wins-motocross-world-championship-after-competing-for-only-three-years",
+      "title": "Triumph Wins Motocross World Championship After Competing for Just Three Years",
+      "summary": "Triumph just won the 2026 FIM MX2 Motocross World Championship with the Triumph TF 250-X in Darwin, Australia, after competing in motocross for just three years.",
+      "language": "en",
+      "publishedAt": "2026-09-24T11:14:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/809179/daimler-reitwagen-first-gas-powered-motorcycle/",
+      "url": "https://www.rideapart.com/features/809179/daimler-reitwagen-first-gas-powered-motorcycle",
+      "title": "The World’s First Gas Motorcycle Was A Wooden Test Mule With Training Wheels",
+      "summary": "Before superbikes, baggers, and adventure bikes, there was half a horsepower, a wooden frame, and two extra wheels.",
+      "language": "en",
+      "publishedAt": "2026-09-24T11:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809160/joey-ruiter-designed-a-moon-buggy-looking-vehicle-with-a-canam-sxs-underneath/",
+      "url": "https://www.rideapart.com/news/809160/joey-ruiter-designed-a-moon-buggy-looking-vehicle-with-a-canam-sxs-underneath",
+      "title": "This Futuristic Moon Buggy-Looking Car Is Actually a Side-By-Side Underneath",
+      "summary": "Bladerunner 2099 but make it off-road instead of flying.",
+      "language": "en",
+      "publishedAt": "2026-09-23T13:25:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809140/yamaha-sues-motorcycles-of-manchester-dealership-over-breach-of-contract/",
+      "url": "https://www.rideapart.com/news/809140/yamaha-sues-motorcycles-of-manchester-dealership-over-breach-of-contract",
+      "title": "Yamaha Is Now Suing This East Coast Dealership For Nearly $3 Million",
+      "summary": "Motorcycles of Manchester is in Yamaha's crosshairs over a breach of contract.",
+      "language": "en",
+      "publishedAt": "2026-09-23T12:49:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809143/bolivia-salt-flat-time-trial-world-record-motorcycle-speed-run-set-for-400mph/",
+      "url": "https://www.rideapart.com/news/809143/bolivia-salt-flat-time-trial-world-record-motorcycle-speed-run-set-for-400mph",
+      "title": "Some Insane Person Is Going to Try and Go 400mph On a Motorcycle",
+      "summary": "Sometimes, even 90mph feels too fast on a motorcycle. Imagine three and some change times that...",
+      "language": "en",
+      "publishedAt": "2026-09-23T12:09:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809051/vespa-3d-trademark-primavera-design/",
+      "url": "https://www.rideapart.com/news/809051/vespa-3d-trademark-primavera-design",
+      "title": "Vespa Just Trademarked Its Shape, So How Vespa-Like Is Too Vespa-Like Now?",
+      "summary": "Europe agrees that a Vespa looks like a Vespa. Now comes the awkward part of deciding what else looks too much like one.",
+      "language": "en",
+      "publishedAt": "2026-09-23T12:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809136/triumph-debuts-new-txp-all-electric-youth-dirt-bike-lineup-evs/",
+      "url": "https://www.rideapart.com/news/809136/triumph-debuts-new-txp-all-electric-youth-dirt-bike-lineup-evs",
+      "title": "My Kids Are Going To Love These New Triumph Electric Dirt Bikes",
+      "summary": "Designed to get kids hooked on motorcycles, these new dirt bikes from Triumph look like a huge win.",
+      "language": "en",
+      "publishedAt": "2026-09-23T11:44:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809022/dakar-organizers-say-the-2027-event-will-take-place-but-should-it-amid-safety-concerns/",
+      "url": "https://www.rideapart.com/news/809022/dakar-organizers-say-the-2027-event-will-take-place-but-should-it-amid-safety-concerns",
+      "title": "Despite The Iran War, Dakar Organizers Say the 2027 Event Will Take Place. Should It?",
+      "summary": "Recent rocket strikes in Saudi Arabia sparked rumors that the 2027 Dakar would be canceled, but the event organizers shut down the speculation.",
+      "language": "en",
+      "publishedAt": "2026-09-23T11:22:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/809024/orange-county-ebike-buy-back-but-why/",
+      "url": "https://www.rideapart.com/features/809024/orange-county-ebike-buy-back-but-why",
+      "title": "Orange County Paid People To Get Rid Of Legal E-Bikes. But Why?",
+      "summary": "There’s a difference between a 20-mph pedal-assist bicycle and an electric motorcycle. Maybe we should start acting like it.",
+      "language": "en",
+      "publishedAt": "2026-09-23T11:00:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://global.honda/en/stories/203-2608-CubHouse.html?from=motorcycle_brand_news",
+      "url": "https://global.honda/en/stories/203-2608-CubHouse.html?from=motorcycle_brand_news",
+      "title": "“Every Moment Leads to Joy”: How the All-New CB400 SUPER FOUR E-Clutch Sets a New Standard for a New Era",
+      "summary": "From a place to buy a motorcycle, to a place to enjoy life with a motorcycle. Cub HOUSE is a concept store created by Honda in Thailand that introduces a new kind of motorcycle culture through motorcycles, customization, apparel, and lifestyle goods. With the goal of bringing the enjoyment of life with motorcycles to even more people in Japan, Honda opened its first Japanese Cub HOUSE trial store in Toda, Saitama Prefecture, in April 2026. How has the concept that originated in Thailand been adapted for Japan, and how have customers responded? Honda Stories spoke with the project leader responsible for bringing Cub HOUSE to Japan. Tokuhara joined Honda Motorcycle Japan in 2024, where he was responsible for the design of Honda Dream dealerships. In 2025, he was appointed project leader for the launch of Cub HOUSE in Japan. Building on the successful model established in Thailand, he led the development of a Japan-specific trial store, which opened in April 2026. In Thailand, motorcycles have long been an essential part of everyday transportation. At the same time, there was a growing desire to evolve motorcycles beyond practical mobility and make them part of a broader lifestyle. Against this backdrop, Cub HOUSE was launched in Bangkok in 2018 as a new customer touchpoint that combined motorcycle customization, apparel, and community. Today, the concept has expanded to 16 locations throughout Thailand (as of August 2026). Built on the growth of motorcycle culture in Thailand,",
+      "language": "en",
+      "publishedAt": "2026-09-25T03:22:46.926Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "honda-global-news",
+      "sourceName": "Honda Global 摩托车新闻室"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/25/080200515/cerita-konsumen-pakai-wuling-aira-ev--apa-kelebihan-dan-kekurangannya-",
+      "url": "https://otomotif.kompas.com/read/2026/09/25/080200515/cerita-konsumen-pakai-wuling-aira-ev--apa-kelebihan-dan-kekurangannya-",
+      "title": "Cerita Konsumen Pakai Wuling Aira ev: Apa Kelebihan dan Kekurangannya?",
+      "summary": "Cerita Konsumen Pakai Wuling Aira ev: Apa Kelebihan dan Kekurangannya? JAKARTA, KOMPAS.com Wuling Aira ev menjadi salah satu pilihan mobil listrik berukuran ringkas untuk penggunaan harian di perkotaan. Namun, seperti kendaraan lainnya, mobil listrik mungil ini memiliki kelebihan sekaligus kekurangan yang dirasakan pemilik setelah digunakan sehari-hari. Hal tersebut dirasakan Muchyarul Umam (33), pemilik Wuling Aira ev asal Tangerang Selatan. Selama kurang lebih satu bulan menggunakan mobil tersebut, ia merasakan sejumlah keuntungan, terutama dari sisi kepraktisan dan biaya operasional. Baca juga: AHM Mulai Serius Garap Motor Listrik KOMPAS.com/ADITYO WISNU Tak mau menunggu inden, Muchyarul Umam membeli Wuling Aira EV secara cash di GIIAS 2026 dan langsung membawa pulang mobil listrik pertamanya. Bodi Wuling Aira ev ringkas bikin mobil mudah dikendarai dan bermanuver di jalan perkotaan. Ukurannya juga memudahkan ketika harus mencari tempat parkir, ujar Umam, kepada Kompas.com, Kamis (24/9/2026). Salah satu keuntungan yang paling terasa adalah biaya pengisian daya. Untuk kebutuhan rutin antar-jemput sekolah dan anak les, ia hanya mengeluarkan sekitar Rp 50.000 hingga Rp 70.000 per minggu untuk pengisian di SPKLU. Mobil ini juga sudah mendukung fast charging , sehingga pengisian daya relatif praktis. Akses ke baris kedua pun cukup mudah karena Aira ev memiliki konfigurasi empat pintu. Baca juga: Tantang BYD, Geely Pamer Teknologi Charging, Isi Daya Kurang dari 5 Menit Di balik",
+      "language": "id",
+      "publishedAt": "2026-09-25T03:23:01.040Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/25/070200115/harga-jaecoo-j5-ev-naik-ini-dalih-jaecoo-indonesia",
+      "url": "https://otomotif.kompas.com/read/2026/09/25/070200115/harga-jaecoo-j5-ev-naik-ini-dalih-jaecoo-indonesia",
+      "title": "Harga Jaecoo J5 EV Naik, Ini Dalih Jaecoo Indonesia",
+      "summary": "Harga Jaecoo J5 EV Naik, Ini Dalih Jaecoo Indonesia JAKARTA, KOMPAS.com - Harga Jaecoo J5 EV mengalami kenaikan sejak pertama kali dipasarkan di Indonesia. Kenaikan tersebut berlaku untuk kedua varian, yakni Standard dan Premium. Saat peluncuran, Jaecoo J5 EV tipe Standard dibanderol Rp 249,9 juta, sementara varian Premium dipasarkan dengan harga Rp 299,9 juta (OTR Jakarta). Kini, harga Jaecoo J5 EV Standard menjadi Rp 279,9 juta. Sedangkan Jaecoo J5 EV Premium dibanderol Rp 324,9 juta. Artinya, terdapat kenaikan Rp 30 juta untuk varian Standard dan Rp 25 juta untuk varian Premium. Baca juga: Jaguar XK120 1948, Mobil Tercepat di Zamannya Business Unit Director Jaecoo Indonesia Jim Ma menjelaskan, kenaikan harga tersebut berkaitan dengan sejumlah faktor yang memengaruhi biaya perusahaan. Menurut dia, persoalan nilai tukar mata uang, biaya pengiriman, hingga biaya produksi menjadi beberapa pertimbangan dalam menentukan harga. Namun, Jaecoo Indonesia memilih tidak melakukan pengurangan pada kualitas produk maupun pengalaman yang diberikan kepada konsumen hanya untuk mempertahankan harga lama. \"Jadi, kami tidak akan mengorbankan apa pun, baik dari kualitas produk, pengalaman pelanggan, maupun hal lainnya,\" ucap Jim Ma, saat ditemui di Bekasi, belum lama ini. Jim mengatakan, perusahaan memiliki sejumlah pilihan untuk menahan harga agar tetap sama. Namun, langkah tersebut dinilai tidak sejalan dengan komitmen Jaecoo untuk menjaga kualitas produk dan layanan. Ia menegaskan, perseroa",
+      "language": "id",
+      "publishedAt": "2026-09-25T03:23:01.040Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/25/063333415/suzuki-rgv-250-muncul-di-pameran-komponen",
+      "url": "https://otomotif.kompas.com/read/2026/09/25/063333415/suzuki-rgv-250-muncul-di-pameran-komponen",
+      "title": "Suzuki RGV 250 Muncul di Pameran Komponen",
+      "summary": "Suzuki RGV 250 Muncul di Pameran Komponen JAKARTA, KOMPAS.com Tidak hanya menghadirkan berbagai komponen dan aftermarket, Automechanika Jakarta 2026 juga menghadirkan jajaran motor legendaris. Salah satu yang cukup mencuri perhatian adalah Suzuki RGV 250, motor sport bermesin 2-tak yang dipajang di area pameran. Motor berkapasitas 249 cc tersebut tampil mencolok dengan kombinasi warna putih dan merah pada bagian fairing. Desainnya membawa nuansa motor balap era 1980-an hingga 1990-an. Baca juga: Jangan Tergiur Starlet Kotak Murah, Siapkan Dana Restorasi Di zamannya, Suzuki RGV 250 merupakan kompetitor Honda NSR 250 dan Yamaha TZR 250. Bedanya populasi dua motor tersebut lebih banyak dari RGV 250. Suzuki RGV 250 pertama kali diperkenalkan pada 1988 dan produksinya berlanjut hingga 1998. KOMPAS.com/Gilang Suzuki RGV 250 di Automechanika Jakarta 2026 Motor ini menjadi penerus Suzuki RG250 Gamma dan memiliki hubungan erat dengan Suzuki RGV500 yang digunakan di ajang Grand Prix kelas 500 cc. Suzuki RGV 250 yang hadir di pameran menggunakan full fairing dengan livery putih dan merah. Tulisan \"SUZUKI RGV 250\" terpampang pada bagian samping, memperkuat karakter motor sport pada zamannya. Bagian depan dilengkapi lampu utama berbentuk kotak yang menjadi salah satu ciri khas motor sport lawas. Sementara itu, visor berwarna gelap memberikan kesan lebih sporty. Baca juga: Baterai Rusak, Ini yang Bisa Dilakukan Pemilik Motor Listrik Motor ini menggunakan pelek palang berwarna putih. Pada r",
+      "language": "id",
+      "publishedAt": "2026-09-25T03:23:01.040Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/25/084200215/ktb-recall-mitsubishi-fuso-canter-euro4-sakelar-lampu-bermasalah",
+      "url": "https://otomotif.kompas.com/read/2026/09/25/084200215/ktb-recall-mitsubishi-fuso-canter-euro4-sakelar-lampu-bermasalah",
+      "title": "KTB Recall Mitsubishi Fuso Canter Euro4: Sakelar Lampu Bermasalah",
+      "summary": "KTB Recall Mitsubishi Fuso Canter Euro4: Sakelar Lampu Bermasalah JAKARTA, KOMPAS.com - PT Krama Yudha Tiga Berlian Motors (KTB) resmi menggelar program Field Fix Campaign, kampanye perbaikan, atau recall pada model andalan, Canter Euro4 Aji Jaya, Sales and Marketing Director PT KTB, mengatakan, program kampanye perbaikan ini dilakukan secara bertahap untuk kendaraan niaga tipe Canter Euro4 yang diproduksi secara 1 April 2022 hingga 30 Mei 2026. \"Kami melakukan langkah proaktif ini setelah melalui proses evaluasi berkala dengan kualitas yang terukur dan juga mendapatkan masukan dari para konsumen,\" ujar Aji di Jakarta, Kamis (24/9/2025). Baca juga: Baterai Rusak, Ini yang Bisa Dilakukan Pemilik Motor Listrik Kemudian, KTB setelah melakukan evaluasi berkala proses pemantauan kualitas rutin yang dilakukan antara KTB dan MFTBC, serta masukan dari pada konsumen. Dari pantauan tersebut ditemukan adanya potensi gangguan atau keterbatasan daya tahan pada komponen brake light switch atau sakelar lampu rem pada sejumlah kendaraan Canter Euro4 tertentu. Aji menyebut, program perbaikan akan dilakukan secara bertahap dengan melibatkan lebih dari 200 jaringan diler yang tersebar di seluruh Indonesia. Konsumen yang kendaraannya masuk dalam kriteria program nantinya akan dihubungi dan mendapatkan informasi mengenai tahapan pemeriksaan. Selanjutnya, konsumen dapat membuat janji dengan diler untuk melakukan pengecekan kendaraan. Pemeriksaan tersebut dilakukan untuk memastikan kondisi komponen",
+      "language": "id",
+      "publishedAt": "2026-09-25T03:23:01.040Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
