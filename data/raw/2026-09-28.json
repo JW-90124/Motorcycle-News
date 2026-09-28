@@ -1,0 +1,625 @@
+{
+  "collectedAt": "2026-09-28T03:36:25.586Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/agius-ueber-miller-enttaeuschend-motogp-2027",
+      "url": "https://www.speedweek.com/a/motogp/agius-ueber-miller-enttaeuschend-motogp-2027",
+      "title": "Agius über Miller: «Es ist enttäuschend, dass er nicht dabei sein wird!»",
+      "summary": "Agius über Miller: «Es ist enttäuschend, dass er nicht dabei sein wird!» Auch 2027 wird ein Australier in der MotoGP fahren. Während Jack Miller die Königsklasse in Richtung Superbike-WM verlässt, wird Senna Agius neu dazustoßen. Was der 21-Jährige über «Jackass» sagt. MotoGP 27.09.2026 - 19:27",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.462Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jorge-martin-werbung-marke-schwarz-aprilia",
+      "url": "https://www.speedweek.com/a/motogp/jorge-martin-werbung-marke-schwarz-aprilia",
+      "title": "«Model» Martin ganz in Schwarz: Für diese Marke wirbt der Aprilia-Pilot",
+      "summary": "«Model» Martin ganz in Schwarz: Für diese Marke wirbt der Aprilia-Pilot MotoGP 27.09.2026 - 16:02",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.462Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-acosta-flat-track-training-japan",
+      "url": "https://www.speedweek.com/a/motogp/motogp-acosta-flat-track-training-japan",
+      "title": "MotoGP-Sieger Acosta bereitet sich mit Flat-Track-Training auf Japan vor",
+      "summary": "MotoGP-Sieger Acosta bereitet sich mit Flat-Track-Training auf Japan vor MotoGP 27.09.2026 - 10:43",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.462Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/phaenomen-jorge-martin-oder-die-sportliche-wiedergeburt-des-martinators",
+      "url": "https://www.speedweek.com/a/motogp/phaenomen-jorge-martin-oder-die-sportliche-wiedergeburt-des-martinators",
+      "title": "Phänomen Jorge Martin oder die sportliche Wiedergeburt des «Martinators»",
+      "summary": "Phänomen Jorge Martin oder die sportliche Wiedergeburt des «Martinators» MotoGP 26.09.2026 - 19:53",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.462Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-2027-in-adelaide-konflikt-in-australien-eskaliert-im-rechtsstreit",
+      "url": "https://www.speedweek.com/a/motogp/motogp-2027-in-adelaide-konflikt-in-australien-eskaliert-im-rechtsstreit",
+      "title": "MotoGP 2027 in Adelaide? Konflikt in Australien eskaliert im Rechtsstreit",
+      "summary": "MotoGP 2027 in Adelaide? Konflikt in Australien eskaliert im Rechtsstreit MotoGP 26.09.2026 - 15:19",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.463Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/aprilia-gegen-ducati-harter-italo-wettstreit-um-die-motogp-hersteller-wm",
+      "url": "https://www.speedweek.com/a/motogp/aprilia-gegen-ducati-harter-italo-wettstreit-um-die-motogp-hersteller-wm",
+      "title": "Aprilia gegen Ducati: Harter Italo-Wettstreit um die MotoGP-Hersteller-WM",
+      "summary": "Aprilia gegen Ducati: Harter Italo-Wettstreit um die MotoGP-Hersteller-WM Ducati galt als unschlagbares MotoGP-Werk. Doch 2026 führte lange Aprilia die Regie in der Königsklasse. Bologna schlug zurück, dann wieder Aprilia. Die Konstrukteurs-WM wird zum Fahrerlager-Krimi. MotoGP 26.09.2026 - 12:46",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.466Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ex-trackhouse-manager-wilco-zeelenberg-das-ende-war-nicht-so-schoen",
+      "url": "https://www.speedweek.com/a/motogp/ex-trackhouse-manager-wilco-zeelenberg-das-ende-war-nicht-so-schoen",
+      "title": "Ex-Trackhouse-Manager Wilco Zeelenberg: «Das Ende war nicht so schön …»",
+      "summary": "Ex-Trackhouse-Manager Wilco Zeelenberg: «Das Ende war nicht so schön …» Der ehemalige Grand-Prix-Sieger und MotoGP-Teammanager Wilco Zeelenberg hat beim Fernsehen einen neuen Job. SPEEDWEEK.com berichtete der Niederländer von den Herausforderungen. MotoGP 26.09.2026 - 10:10",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.467Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-line-up-ktm-neumeister-nach-pedro-acosta",
+      "url": "https://www.speedweek.com/a/motogp/motogp-line-up-ktm-neumeister-nach-pedro-acosta",
+      "title": "Neues MotoGP-Line-up: KTM-Boss Neumeister über die Zeit nach Pedro Acosta",
+      "summary": "Neues MotoGP-Line-up: KTM-Boss Neumeister über die Zeit nach Pedro Acosta Das Startfeld der MotoGP-Klasse erhält nach dieser Saison so viele Änderungen wie lange nicht mehr. Bei KTM werden gleich alle vier Fahrer getauscht – CEO Gottfried Neumeister über Vertrauen. MotoGP 25.09.2026 - 20:02",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.467Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/heim-gp-auf-dem-red-bull-ring-brachte-auch-servus-tv-starke-quoten",
+      "url": "https://www.speedweek.com/a/motogp/heim-gp-auf-dem-red-bull-ring-brachte-auch-servus-tv-starke-quoten",
+      "title": "Heim-GP auf dem Red Bull Ring brachte auch ServusTV starke Quoten",
+      "summary": "Heim-GP auf dem Red Bull Ring brachte auch ServusTV starke Quoten Beim Heim-Event der MotoGP-WM auf dem Red Bull Ring im steirischen Spielberg zog der österreichische Privatsender ServusTV mit einem Übertragungsmarathon viele Fans vor die Bildschirme. MotoGP 25.09.2026 - 16:10",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.467Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-kalender-offiziell-die-22-stationen-der-motorrad-strassen-wm-2027",
+      "url": "https://www.speedweek.com/a/motogp/motogp-kalender-offiziell-die-22-stationen-der-motorrad-strassen-wm-2027",
+      "title": "MotoGP-Kalender offiziell: Die 22 Stationen der Motorrad-Straßen-WM 2027",
+      "summary": "MotoGP-Kalender offiziell: Die 22 Stationen der Motorrad-Straßen-WM 2027 Vor dem Absprung der Weltmeisterschaft nach Asien ist es soweit: Der offizielle Rennkalender zum Start der 850er-MotoGP-Ära steht fest. Weitere Überraschungen bei den geplanten 22 Events blieben aus. MotoGP 25.09.2026 - 12:11",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.467Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/luca-marini-steckte-im-desaster-und-applaudierte-ersatz-kollege-nakagami",
+      "url": "https://www.speedweek.com/a/motogp/luca-marini-steckte-im-desaster-und-applaudierte-ersatz-kollege-nakagami",
+      "title": "Luca Marini steckte im Desaster – und applaudierte Ersatz-Kollege Nakagami",
+      "summary": "Luca Marini steckte im Desaster – und applaudierte Ersatz-Kollege Nakagami Vor dem wichtigen Heimrennen seines Arbeitgebers Honda erlebte MotoGP-Werkspilot Luca Marini eine sportliche Schlappe. Dass er sich hinter Ersatzmann Nakagami anstellen musste, war keine Schande. MotoGP 25.09.2026 - 10:10",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.467Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-vorteil-bulega-widerspricht-espargaro",
+      "url": "https://www.speedweek.com/a/motogp/motogp-vorteil-bulega-widerspricht-espargaro",
+      "title": "Unfairer MotoGP-Vorteil? Nicolo Bulega widerspricht Pol Espargaro",
+      "summary": "Unfairer MotoGP-Vorteil? Nicolo Bulega widerspricht Pol Espargaro Hat Nicolo Bulega durch seine zahlreichen Tests mit Ducatis neuer MotoGP-850er einen unfairen Vorteil für 2027? Der zukünftige VR46-Pilot reagiert auf die Kritik von Pol Espargaro. MotoGP 25.09.2026 - 08:16",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.467Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/rivola-aprilia-schwerwiegende-fehleinschaetzung",
+      "url": "https://www.speedweek.com/a/motogp/rivola-aprilia-schwerwiegende-fehleinschaetzung",
+      "title": "Rivola (Aprilia): «Schwerwiegende Fehleinschätzung»",
+      "summary": "Rivola (Aprilia): «Schwerwiegende Fehleinschätzung» MotoGP 27.09.2025 - 19:59",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.470Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motegi-strafen-hagel-jorge-martin-unter-beobachtung",
+      "url": "https://www.speedweek.com/a/motogp/motegi-strafen-hagel-jorge-martin-unter-beobachtung",
+      "title": "Motegi: Strafen-Hagel, Jorge Martin unter Beobachtung",
+      "summary": "Motegi: Strafen-Hagel, Jorge Martin unter Beobachtung MotoGP 27.09.2025 - 17:33",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.470Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/analyse-motegi-sprint-18-knochenbruch-fuer-martin",
+      "url": "https://www.speedweek.com/a/motogp/analyse-motegi-sprint-18-knochenbruch-fuer-martin",
+      "title": "Analyse Motegi-Sprint: 18. Knochenbruch für Martin",
+      "summary": "Analyse Motegi-Sprint: 18. Knochenbruch für Martin MotoGP 27.09.2025 - 15:16",
+      "language": "de",
+      "publishedAt": "2026-09-28T03:35:27.470Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809519/intel-ceo-invests-in-ultraviolette-coming-to-usa/",
+      "url": "https://www.rideapart.com/news/809519/intel-ceo-invests-in-ultraviolette-coming-to-usa",
+      "title": "Intel’s CEO Just Bet On Ultraviolette, And Its Electric Motorcycles Are Coming To America",
+      "summary": "An $85 million funding round, Intel’s CEO in the advisory room, and a 2027 US launch. Ultraviolette is getting serious.",
+      "language": "en",
+      "publishedAt": "2026-09-27T11:11:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809518/bmw-f450r-coming-soon-teaser/",
+      "url": "https://www.rideapart.com/news/809518/bmw-f450r-coming-soon-teaser",
+      "title": "BMW Is Already Expanding Its New 450 Platform, And We’re Here For It",
+      "summary": "The F 450 GS has barely settled in and BMW already appears ready to turn its new twin into an entire family.",
+      "language": "en",
+      "publishedAt": "2026-09-26T12:20:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809355/honda-qc3-ev-scooter-india-specs-price-features/",
+      "url": "https://www.rideapart.com/news/809355/honda-qc3-ev-scooter-india-specs-price-features",
+      "title": "Honda’s New EV Scooter Looks Like A Zippy Urban Runabout, And We Can’t Have It",
+      "summary": "Honda made a simple, practical electric scooter that we’d happily ride around town. Naturally, it’s staying in India for now.",
+      "language": "en",
+      "publishedAt": "2026-09-25T12:54:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809476/royal-enfield-one-ride-helps-support-snow-leopard-conservation-efforts/",
+      "url": "https://www.rideapart.com/news/809476/royal-enfield-one-ride-helps-support-snow-leopard-conservation-efforts",
+      "title": "Royal Enfield Celebrated Its 125-Year History By Helping to Support Endangered Snow Leopard Conservation",
+      "summary": "Royal Enfield and the snow leopard both call the Himalayas home.",
+      "language": "en",
+      "publishedAt": "2026-09-25T12:27:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809504/discount-grocery-store-lidl-sells-motorcycles-scooters-amazingly/",
+      "url": "https://www.rideapart.com/news/809504/discount-grocery-store-lidl-sells-motorcycles-scooters-amazingly",
+      "title": "This Discount Grocery Store Will Totally Sell You A Motorcycle, Too",
+      "summary": "For those of us who like to pick up groceries on two wheels, now you can pick up a bike with your next loaf of bread.",
+      "language": "en",
+      "publishedAt": "2026-09-25T12:11:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809466/motogps-new-aussie-street-race-might-not-happen-next-year/",
+      "url": "https://www.rideapart.com/news/809466/motogps-new-aussie-street-race-might-not-happen-next-year",
+      "title": "MotoGP's New Aussie Street Race Might Not Happen Next Year",
+      "summary": "An injunction has been filed to prohibit construction of the Adelaide street circuit for next year's MotoGP event, due to the need to fell up to 400 trees.",
+      "language": "en",
+      "publishedAt": "2026-09-25T12:09:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809438/is-honda-hiding-a-new-cbr750r-in-plain-sight/",
+      "url": "https://www.rideapart.com/news/809438/is-honda-hiding-a-new-cbr750r-in-plain-sight",
+      "title": "Is Honda Hiding a New CBR750R in Plain Sight?",
+      "summary": "Honda just collaborated with Onitsuka Tiger to make a mid-capacity sportbike concept, which could actually be a CBR750 hiding in plain sight.",
+      "language": "en",
+      "publishedAt": "2026-09-25T11:58:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809326/alarm-bells-ringing-for-world-supercross-as-british-gp-cancelled/",
+      "url": "https://www.rideapart.com/news/809326/alarm-bells-ringing-for-world-supercross-as-british-gp-cancelled",
+      "title": "Alarm Bells Ringing for World Supercross Championship as British GP Canceled",
+      "summary": "World Supercross is openly looking for significant investment, a new owner, and partners. Now, it has canceled the British GP on short notice.",
+      "language": "en",
+      "publishedAt": "2026-09-25T11:24:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809358/wisconsin-rapids-utvs-street-legal/",
+      "url": "https://www.rideapart.com/news/809358/wisconsin-rapids-utvs-street-legal",
+      "title": "Wisconsin City Just Opened Nearly All Its Streets To ATVs And UTVs",
+      "summary": "Your side-by-side might be considerably more useful when the trail doesn’t end at the city limits.",
+      "language": "en",
+      "publishedAt": "2026-09-25T11:03:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/givi-x36-modular-designed-for-every-riding-segment/",
+      "url": "https://www.eicma.it/en/givi-x36-modular-designed-for-every-riding-segment",
+      "title": "GIVI X36 modular: designed for every riding segment",
+      "summary": "The new line-up proposed by GIVI currently features three distinct versions , expertly crafted to satisfy every type of enthusiast while seamlessly blending top-tier technology and comfort. GIVI expands its helmet portfolio with the brand-new X36 modular. At the heart of this project lies the Flip Back system: the chin guard can rotate fully up to 180 degrees, integrating smoothly into the rear shell , making it the ideal solution for riders who effortlessly switch between city streets and long-distance touring. Maximum safety is guaranteed by the dual P/J ECE 22.06 homologation, allowing the helmet to be worn in both open-face and full-face configurations. The range features three versions—Carbon, Fiberglass, and Technopolymer—spanning a total of 19 color and graphic variations. Standing out for its featherlight feel is the Carbon model , which also comes equipped with a complementary 75% smoked visor as standard. The comprehensive standard equipment features an anti-scratch visor pre-set for a Pinlock lens (included), an integrated sun visor, and a shell available in two sizes. When it comes to comfort, the fully removable, hypoallergenic interior has been engineered to provide an ergonomic fit that remains exceptionally comfortable even for riders who wear glasses. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano",
+      "language": "en",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/28/090200215/harga-mobil-listrik-bekas-makin-anjlok-tergerus-diskon-mobil-baru",
+      "url": "https://otomotif.kompas.com/read/2026/09/28/090200215/harga-mobil-listrik-bekas-makin-anjlok-tergerus-diskon-mobil-baru",
+      "title": "Harga Mobil Listrik Bekas Makin Anjlok Tergerus Diskon Mobil Baru",
+      "summary": "Harga Mobil Listrik Bekas Makin Anjlok Tergerus Diskon Mobil Baru JAKARTA, KOMPAS.com - Pasar mobil listrik (electric vehicle/EV) baru di Indonesia semakin variatif dengan hadirnya pilihan di kisaran harga Rp 300 jutaan hingga Rp 400 jutaan. Namun, meluncurnya mobil listrik baru bernilai murah ini turut memberikan imbas koreksi pada banderol mobil listrik bekas di pasaran. Pun, siklus hidup alias life cycle model mobil listrik yang relatif singkat seolah mendukung kondisi ini. Memasuki September 2026, sejumlah model mobil listrik bekas terpantau mengalami penurunan harga yang cukup signifikan. Kondisi ini pun memunculkan pertanyaan bagi konsumen, apakah momen ini menjadi waktu yang tepat untuk berburu EV seken. Baca juga: Daftar Mobil Bekas Rp 50 Jutaan yang Masih Layak untuk Harian Dok. Alexander Erich Ilustrasi mobil listrik bekas Chery Omoda E5 Agus, Kepala Bursa Mobil Bekas Mangga Dua Square, menjelaskan bahwa penurunan harga kendaraan listrik bekas pada 2026 ini tak lepas dari maraknya program diskon untuk unit baru. Mobil bekas di 2026 ini yang harganya drop kebanyakan mobil-mobil listrik karena banyak diskon. Tapi tetap laku, kata Agus kepada Kompas.com, Minggu (27/9/2026). Meski harganya tertekan, Agus menyebut penyerapan unit EV bekas di wilayah Jakarta tergolong sangat cepat. Lakunya laku banget, cepat kalau di Jakarta. Mungkin di daerah lain, di luar Jakarta saya kurang tahu, karena belum banyak tempat cas di tempat umum, ujar Agus. Baca juga: Geely Perkuat Komunit",
+      "language": "id",
+      "publishedAt": "2026-09-28T03:36:22.377Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/28/082200215/zeekr-tunda-penjualan-di-indonesia-mundur-awal-2027",
+      "url": "https://otomotif.kompas.com/read/2026/09/28/082200215/zeekr-tunda-penjualan-di-indonesia-mundur-awal-2027",
+      "title": "Zeekr Tunda Penjualan di Indonesia, Mundur Awal 2027",
+      "summary": "Zeekr Tunda Penjualan di Indonesia, Mundur Awal 2027 TANGERANG SELATAN, KOMPAS.com Merek mobil listrik premium asal China yang berada di bawah naungan Geely Group, Zeekr, kembali menunda pemasaran di Indonesia. Setelah berpindah keagenan di bawah Geely Auto Indonesia dan beberapa kali dipamerkan dalam pameran otomotif, Zeekr baru akan mulai dipasarkan pada awal 2027. Sales and Channel Development Director Geely Auto Indonesia, Constantinus Herlijoso, mengatakan, penundaan tersebut berkaitan dengan perubahan teknologi baterai yang sedang dilakukan Zeekr secara global. Baca juga: Cari Motor Bekas Rp 10 Jutaan, Ini Daftar Pilihannya \"Sebelum launching-nya, Zeekr ada sedikit penundaan, lebih karena posisi Zeekr saat ini secara global ada perubahan platform baterai, dari 400 volt ke 800 volt,\" kata Herlijoso di Tangerang Selatan, Banten, Sabtu (26/9/2026). Menurut dia, proses perubahan tersebut masih berlangsung di China . Kondisi itu membuat Geely Auto Indonesia memilih menunggu sebelum membawa Zeekr ke tahap penjualan resmi. Foto: Geely Zeekr 009 hadir di booth Geely di IIMS 2026 Herlijoso mengatakan, meski belum resmi dijual, respons masyarakat terhadap merek mobil listrik premium tersebut cukup positif. Geely menargetkan Zeekr mulai dipasarkan di Indonesia pada awal 2027. Unit yang dipasarkan berstatus Completely Built Up (CBU) atau mobil yang diimpor dalam kondisi utuh. \"Responnya cukup positif. Walaupun kami secara terbuka menyampaikan bahwa untuk tahap awal mungkin kita aka",
+      "language": "id",
+      "publishedAt": "2026-09-28T03:36:22.377Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/27/134100215/cek-diskon-mobil-low-mpv-bulan-ini-stargazer-tembus-rp-60-juta",
+      "url": "https://otomotif.kompas.com/read/2026/09/27/134100215/cek-diskon-mobil-low-mpv-bulan-ini-stargazer-tembus-rp-60-juta",
+      "title": "Cek Diskon Mobil Low MPV Bulan Ini, Stargazer Tembus Rp 60 Juta",
+      "summary": "Cek Diskon Mobil Low MPV Bulan Ini, Stargazer Tembus Rp 60 Juta JAKARTA, KOMPAS.com Menjelang akhir tahun, sejumlah pabrikan mulai menawarkan potongan harga untuk mobil di segmen low multi purpose vehicle (LMPV). Besaran diskonnya cukup beragam, mulai dari belasan juta hingga puluhan juta rupiah. Segmen LMPV masih menjadi salah satu pilihan masyarakat Indonesia karena menawarkan kabin yang cukup luas dan mampu membawa banyak penumpang. Model seperti Toyota Avanza, Daihatsu Xenia, Mitsubishi Xpander, Suzuki Ertiga, hingga Hyundai Stargazer masih bersaing di kelas ini. Baca juga: Omoda O4 Siap Meluncur, Jaecoo Indonesia Mulai Siapkan Pengiriman Dok. HMID Hyundai Stargazer Cartenz mencatat penjualan retail tertinggi pada Juli 2026. Strategi harga baru membuat penjualan melonjak 55 persen. Berdasarkan pantauan Kompas.com pada September 2026, potongan harga terbesar datang dari Hyundai Stargazer. \"Diskon Stargazer bisa Rp 60 jutaan ke atas, kalau yang Cartenz Rp 50 jutaan, tergantung tipe,\" kata tenaga penjual Hyundai, kepada Kompas.com (27/9/2026). Sementara itu, beberapa model lain juga mendapatkan program potongan harga hingga puluhan juta rupiah. Toyota Avanza menjadi salah satu LMPV yang mendapatkan potongan harga pada September ini. Baca juga: Harga Suzuki S-Presso Bekas Mulai Rp 100 Jutaan KOMPAS.com/Gilang Mitsubishi Xpander di IIMS 2026 Untuk Toyota Avanza diskonnya di angka Rp 20 juta, ujar tenaga penjual Toyota kepada Kompas.com . Potongan harga serupa juga ditawarkan u",
+      "language": "id",
+      "publishedAt": "2026-09-28T03:36:22.377Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/28/084200615/yamaha-nmax-bergaya-manga-jadi-skuter-paddock-motogp-jepang-2026",
+      "url": "https://otomotif.kompas.com/read/2026/09/28/084200615/yamaha-nmax-bergaya-manga-jadi-skuter-paddock-motogp-jepang-2026",
+      "title": "Yamaha NMAX Bergaya Manga Jadi Skuter Paddock MotoGP Jepang 2026",
+      "summary": "Yamaha NMAX Bergaya Manga Jadi Skuter Paddock MotoGP Jepang 2026 JAKARTA, KOMPAS.com - Yamaha menyiapkan NMAX dengan tampilan khusus bergaya manga Jepang untuk digunakan sebagai skuter paddock pada MotoGP Jepang 2026. Dikutip dari Autoby.jp , Minggu (27/9/2026), motor tersebut akan digunakan selama rangkaian Grand Prix Jepang di Mobility Resort Motegi, 2-4 Oktober 2026. Berbeda dari skuter paddock yang umumnya mengandalkan corak balap atau livery khas tim, NMAX ini tampil dengan grafis yang terinspirasi dari budaya manga Jepang. Baca juga: Harga Pertamax Turun, Segini Biaya Isi Full Tank PCX 160 dan NMAX Turbo Desain NMAX tersebut dibuat oleh generasi baru desainer Yamaha Motor. Grafisnya memadukan manga Jepang dengan NMAX yang merupakan salah satu skuter global Yamaha. Dok. Autoby.jp Yamaha NMAX bergaya manga untuk skuter paddock MotoGP Jepang 2026 Ilustrasi pada bodi dilengkapi elemen khas komik Jepang, seperti garis efek kecepatan atau speed lines, balon kata, dan karakter Katakana. Meski tidak ada perubahan pada bentuk dasar maupun spesifikasi motor, grafis tersebut membuat NMAX terlihat berbeda dari versi produksi massal. Menariknya, proyek ini dikerjakan oleh seorang karyawan baru di departemen Desain Produk Yamaha Motor, bukan desainer senior. Baca juga: Yamaha MAXi Series Dominasi Jawa Barat, NMAX Pimpin Penjualan Yamaha menjadikan proyek tersebut sebagai bagian dari pengembangan sumber daya manusia. MotoGP dimanfaatkan sebagai ruang pengujian nyata bagi karya desaine",
+      "language": "id",
+      "publishedAt": "2026-09-28T03:36:22.377Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
