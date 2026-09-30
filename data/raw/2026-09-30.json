@@ -1,0 +1,727 @@
+{
+  "collectedAt": "2026-09-30T03:56:54.802Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/senna-agius-erster-motogp-test-ktm-chaz-davies",
+      "url": "https://www.speedweek.com/a/motogp/senna-agius-erster-motogp-test-ktm-chaz-davies",
+      "title": "Senna Agius' erster MotoGP-Test für KTM: Chaz Davies sieht sich bestätigt",
+      "summary": "Senna Agius' erster MotoGP-Test für KTM: Chaz Davies sieht sich bestätigt Senna Agius hat seinen ersten MotoGP-Test absolviert. Sein Mentor Chaz Davies berichtet exklusiv von einem starken Einstand – und erklärt, weshalb er mit Blick auf 2027 noch zurückhaltend bleibt. MotoGP 29.09.2026 - 19:30",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.520Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-sponsoren-roulette-red-bull-honda-2027",
+      "url": "https://www.speedweek.com/a/motogp/motogp-sponsoren-roulette-red-bull-honda-2027",
+      "title": "MotoGP-Sponsoren-Roulette: Red Bull kehrt 2027 zu Honda zurück",
+      "summary": "MotoGP-Sponsoren-Roulette: Red Bull kehrt 2027 zu Honda zurück MotoGP 29.09.2026 - 16:05",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.521Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ai-ogura-motegi-motogp-moto2",
+      "url": "https://www.speedweek.com/a/motogp/ai-ogura-motegi-motogp-moto2",
+      "title": "Ai Ogura: In der Moto2 war ich in Motegi stark, in der MotoGP (noch) nicht",
+      "summary": "Ai Ogura: In der Moto2 war ich in Motegi stark, in der MotoGP (noch) nicht MotoGP 29.09.2026 - 13:14",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.521Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/fabio-quartararo-asien-tour-yamaha-indien",
+      "url": "https://www.speedweek.com/a/motogp/fabio-quartararo-asien-tour-yamaha-indien",
+      "title": "Fabio Quartararo: Seine letzte Asien-Tour mit Yamaha startete in Indien",
+      "summary": "Fabio Quartararo: Seine letzte Asien-Tour mit Yamaha startete in Indien MotoGP 29.09.2026 - 10:23",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.521Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-motegi-zeitplan-gp-japan-2026",
+      "url": "https://www.speedweek.com/a/motogp/motogp-motegi-zeitplan-gp-japan-2026",
+      "title": "MotoGP-Action in Motegi: Der Zeitplan für den Großen Preis von Japan 2026",
+      "summary": "MotoGP-Action in Motegi: Der Zeitplan für den Großen Preis von Japan 2026 MotoGP 28.09.2026 - 19:51",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.521Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/maverick-vinales-comeback-motegi-japan",
+      "url": "https://www.speedweek.com/a/motogp/maverick-vinales-comeback-motegi-japan",
+      "title": "«Top Gun» ist zurück: Maverick Vinales (KTM) gibt in Japan sein Comeback",
+      "summary": "«Top Gun» ist zurück: Maverick Vinales (KTM) gibt in Japan sein Comeback Nach seiner Schulterverletzung wird MotoGP-Ass Maverick Vinales in Motegi wieder einen Grand Prix bestreiten. Sein letztes Rennwochenende erlebte der KTM-Pilot Anfang Juli auf dem Sachsenring. MotoGP 28.09.2026 - 18:27",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.524Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/bezzecchi-go-kart-training-mit-valentino-rossi",
+      "url": "https://www.speedweek.com/a/motogp/bezzecchi-go-kart-training-mit-valentino-rossi",
+      "title": "Marco Bezzecchi (Aprilia): Training auf vier Rädern mit Valentino Rossi",
+      "summary": "Marco Bezzecchi (Aprilia): Training auf vier Rädern mit Valentino Rossi Aprilia-Ass Marco Bezzecchi bereitete sich in Italien auf das letzte Saisondrittel vor. Er legte eine Go-Kart-Einheit mit MotoGP-Ikone Valentino Rossi und VR46-Ducati-Pilot Franco Morbidelli ein. MotoGP 28.09.2026 - 13:13",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.524Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pol-espargaro-acosta-haette-frueher-gewinnen-muessen",
+      "url": "https://www.speedweek.com/a/motogp/pol-espargaro-acosta-haette-frueher-gewinnen-muessen",
+      "title": "Pol Espargaro über Acosta: «Pedro hätte schon viel früher gewinnen müssen!»",
+      "summary": "Pol Espargaro über Acosta: «Pedro hätte schon viel früher gewinnen müssen!» KTM-Testfahrer Pol Espargaro freute sich über den ersten MotoGP-Sieg von Pedro Acosta, der seiner Meinung nach viel früher hätte passieren müssen. Was er seinem Landsmann in Asien zutraut. MotoGP 28.09.2026 - 10:37",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.524Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ai-ogura-aprilia-bangt-um-start-in-indonesien",
+      "url": "https://www.speedweek.com/a/motogp/ai-ogura-aprilia-bangt-um-start-in-indonesien",
+      "title": "Ai Ogura (Aprilia) bangt um Start in Indonesien",
+      "summary": "Ai Ogura (Aprilia) bangt um Start in Indonesien MotoGP 29.09.2025 - 16:50",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.527Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/werbung-oder-kunst-die-kult-plakate-aus-japan",
+      "url": "https://www.speedweek.com/a/motogp/werbung-oder-kunst-die-kult-plakate-aus-japan",
+      "title": "Werbung oder Kunst? Die Kult-Plakate aus Japan",
+      "summary": "Senna Agius' erster MotoGP-Test für KTM: Chaz Davies sieht sich bestätigt",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.527Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/champion-marc-marquez-das-sagen-seine-rivalen",
+      "url": "https://www.speedweek.com/a/motogp/champion-marc-marquez-das-sagen-seine-rivalen",
+      "title": "Champion Marc Marquez: Das sagen seine Rivalen",
+      "summary": "Senna Agius' erster MotoGP-Test für KTM: Chaz Davies sieht sich bestätigt",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.527Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/maverick-vinales-schulter-verheilt-formtief-bleibt",
+      "url": "https://www.speedweek.com/a/motogp/maverick-vinales-schulter-verheilt-formtief-bleibt",
+      "title": "Maverick Vinales: Schulter verheilt, Formtief bleibt",
+      "summary": "Maverick Vinales: Schulter verheilt, Formtief bleibt MotoGP 29.09.2025 - 12:48",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.527Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/frust-bei-di-giannantonio-unvorhersehbare-situation",
+      "url": "https://www.speedweek.com/a/motogp/frust-bei-di-giannantonio-unvorhersehbare-situation",
+      "title": "Frust bei Di Giannantonio: Unvorhersehbare Situation!",
+      "summary": "Frust bei Di Giannantonio: Unvorhersehbare Situation! MotoGP 29.09.2025 - 11:50",
+      "language": "de",
+      "publishedAt": "2026-09-30T03:56:21.527Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/features/809915/jet-ski-dumbass-bangkok-thailand-floods-arrested-video/",
+      "url": "https://www.rideapart.com/features/809915/jet-ski-dumbass-bangkok-thailand-floods-arrested-video",
+      "title": "Absolute Dingus Does Jet Ski Stunts During Bangkok's Historic Flooding, Immediately Gets Arrested",
+      "summary": "He later claimed to not have known what he was doing is wrong because he didn't grow up in Thailand. Uh, my dude, are you even human? You knew.",
+      "language": "en",
+      "publishedAt": "2026-09-29T13:37:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809891/red-bull-may-be-leaving-ktm-motogp-next-year-for-homda/",
+      "url": "https://www.rideapart.com/news/809891/red-bull-may-be-leaving-ktm-motogp-next-year-for-homda",
+      "title": "Red Bull Might Actually Be Leaving KTM For Honda In MotoGP",
+      "summary": "After rumors of Red Bull leaving KTM's MotoGP outfit ended with a re-up for 2027, those rumors are once again going strong. And with the culprit for said gossip being Tech3's Guenther Steiner.",
+      "language": "en",
+      "publishedAt": "2026-09-29T12:49:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809739/voge-cux-hybrid-motorcycle-concept-unveiled-at-cima/",
+      "url": "https://www.rideapart.com/news/809739/voge-cux-hybrid-motorcycle-concept-unveiled-at-cima",
+      "title": "Voge Thinks The Future Of Motorcycles Is Something Cars Figured Out 15 Years Ago",
+      "summary": "Kawasaki already gave us hybrid motorcycles. Voge wants to give us one you can actually plug into the wall.",
+      "language": "en",
+      "publishedAt": "2026-09-29T12:36:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809670/honda-cb250ss-concept-retro-scrambler-design/",
+      "url": "https://www.rideapart.com/news/809670/honda-cb250ss-concept-retro-scrambler-design",
+      "title": "How Bad Do You Want This Tiny Retro Honda Scrambler To Be Real?",
+      "summary": "Imagine rolling down the street with your buddy on the XSR 125 with this lil guy? Seems like a pretty perfect pairing to us.",
+      "language": "en",
+      "publishedAt": "2026-09-29T12:35:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809738/2027-ducati-multistrada-pikes-peak-new-livery/",
+      "url": "https://www.rideapart.com/news/809738/2027-ducati-multistrada-pikes-peak-new-livery",
+      "title": "The 2027 Ducati Multistrada V4 Pikes Peak Gets Nothing But New Paint, And That’s Fine",
+      "summary": "Because a 170-horsepower adventure bike on superbike wheels doesn’t need fixing. It just needs a new outfit.",
+      "language": "en",
+      "publishedAt": "2026-09-29T11:55:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809900/ai-ogura-motocross-training-motogp-summer-break-video/",
+      "url": "https://www.rideapart.com/news/809900/ai-ogura-motocross-training-motogp-summer-break-video",
+      "title": "What Does MotoGP Racer Ai Ogura Get Up To In Training? Take A Look",
+      "summary": "He may not be a pilot, but you could be forgiven for thinking otherwise with all the time he spends in the air.",
+      "language": "en",
+      "publishedAt": "2026-09-29T11:35:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809884/arizona-now-considers-lane-splitting-reckless-driving-under-certain-conditions/",
+      "url": "https://www.rideapart.com/news/809884/arizona-now-considers-lane-splitting-reckless-driving-under-certain-conditions",
+      "title": "Lane Splitting Is Now Considered \"Reckless Driving\" In Arizona. There Are A Few Caveats",
+      "summary": "That's a misdemeanor, by the way.",
+      "language": "en",
+      "publishedAt": "2026-09-29T11:00:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809658/talan-skeels-piggins-set-a-paralyzed-motorcycle-rider-speed-record-with-a-turbo-hayabusa/",
+      "url": "https://www.rideapart.com/news/809658/talan-skeels-piggins-set-a-paralyzed-motorcycle-rider-speed-record-with-a-turbo-hayabusa",
+      "title": "This Paralyzed Motorcyclist Just Went 200mph On a Turbo Hayabusa",
+      "summary": "Just because life hands you a bad deal, doesn't mean you have to give up your dreams. Or your want to go fast.",
+      "language": "en",
+      "publishedAt": "2026-09-28T12:49:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809605/motogp-drops-the-worst-track-from-its-2027-season-calendar/",
+      "url": "https://www.rideapart.com/news/809605/motogp-drops-the-worst-track-from-its-2027-season-calendar",
+      "title": "MotoGP Drops the Worst Track From Its 2027 Season Calendar",
+      "summary": "Ahead of finalizing the 2027 calendar, MotoGP has revealed that Balaton Park will not host a race next year, among some other 2027 schedule details.",
+      "language": "en",
+      "publishedAt": "2026-09-28T12:29:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809647/skidoo-snowmobile-safety-classes-have-gone-on-for-18-years/",
+      "url": "https://www.rideapart.com/news/809647/skidoo-snowmobile-safety-classes-have-gone-on-for-18-years",
+      "title": "Ski-Doo Has Been Offering Free Avalanche Safety Courses For Nearly 2 Decades",
+      "summary": "With so many cuts to the Forest Service and its avalanche mitigation, these courses could help save your life.",
+      "language": "en",
+      "publishedAt": "2026-09-28T12:08:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809655/helmet-rotational-safety-technology-rls-tested-video/",
+      "url": "https://www.rideapart.com/news/809655/helmet-rotational-safety-technology-rls-tested-video",
+      "title": "Could This New Helmet Tech Make Riders Significantly Safer In A Crash?",
+      "summary": "Independent lab testing at the official FIM lab shows a striking reduction in rotational force by integrating the Release Layer System (RLS).",
+      "language": "en",
+      "publishedAt": "2026-09-28T11:59:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809595/is-honda-developing-a-v3-supersport-bike-to-replace-the-cbr600rr/",
+      "url": "https://www.rideapart.com/news/809595/is-honda-developing-a-v3-supersport-bike-to-replace-the-cbr600rr",
+      "title": "Is Honda Developing an All-New V3 Sport Bike To Replace the CBR600RR?",
+      "summary": "There are rumors that Honda has a V3-powered supersport in the works, which could replace the CBR600RR.",
+      "language": "en",
+      "publishedAt": "2026-09-28T11:18:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809643/gm-debuts-mongoose-8-liter-v8-diesel-duramax-engine-with-more-torque-than-a-hypercar/",
+      "url": "https://www.rideapart.com/news/809643/gm-debuts-mongoose-8-liter-v8-diesel-duramax-engine-with-more-torque-than-a-hypercar",
+      "title": "GM's New Duramax Diesel Engine Has More Torque Than a Bugatti, And Ready to Tow Every Toy Imaginable",
+      "summary": "My bank account will never financially recover from the ensuing diesel bill.",
+      "language": "en",
+      "publishedAt": "2026-09-28T11:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://news.yamaha-motor.co.jp/news/2026/0928/ye01.html",
+      "url": "https://news.yamaha-motor.co.jp/news/2026/0928/ye01.html",
+      "title": "Yamaha Motor's YE-01 Racing Concept to Make Exhibition Run at MXoN 2026 - Initiative aimed at competing in the MXEP electric motocross racing series -",
+      "summary": "September28,2026 [Motorcycles] Yamaha Motor's YE-01 Racing Concept to Make Exhibition Run at MXoN 2026 - Initiative aimed at competing in the MXEP electric motocross racing series -",
+      "language": "en",
+      "publishedAt": "2026-09-30T03:56:33.198Z",
+      "category": "tech",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "yamaha-global-news",
+      "sourceName": "Yamaha Motor Global News Center"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/ducati-unveils-the-2027-multistrada-v4-pikes-peak-in-track-livery/",
+      "url": "https://www.eicma.it/en/ducati-unveils-the-2027-multistrada-v4-pikes-peak-in-track-livery",
+      "title": "Ducati unveils the 2027 Multistrada V4 Pikes Peak in track livery",
+      "summary": "Ducati presents the 2027 Multistrada V4 Pikes Peak. In its centenary year, the Borgo Panigale crossover sports a brand-new livery created by the Ducati Centro Stile in collaboration with Drudi Performance, inspired by the Desmosedici GP and Panigale V4 R machines competing in the MotoGP and Superbike world championships. Alongside the new livery are premium components, such as the type-approved titanium Akrapovič exhaust and carbon fiber elements. Completing the racing-style look are a low smoked windscreen and gold-anodized Öhlins fork legs. Moreover, thanks to the Ducati Factory Made program, the Multistrada V4 Pikes Peak can be configured during the ordering process with an almost bespoke level of detail. Options include red-forged wheels, red or black brake calipers, alternative seat heights, additional carbon fiber parts, auxiliary lights, and a luggage set complete with a top case. The technical foundation remains unchanged , featuring a 17-inch front wheel, Öhlins Smart EC 2.0 semi-active suspension capable of balancing sporty handling with comfort, and a 1,158 cc V4 Granturismo engine delivering 170 hp. The Race Riding Mode introduces a more gradual limiter intervention for more effective shifting performance at the upper end of the rev range, while the quickshifter offers more aggressive downshifts. The High Power Mode, on the other hand, delivers a more direct throttle response. Compared to the standard Multistrada V4, the Pikes Peak is equipped with higher footpegs",
+      "language": "en",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/honda-montesa-2027-the-trial-range-gets-a-new-look/",
+      "url": "https://www.eicma.it/en/honda-montesa-2027-the-trial-range-gets-a-new-look",
+      "title": "Honda Montesa 2027: the trial range gets a new look",
+      "summary": "Honda Montesa presents its 2027 trial range and confirms the three models in its line-up: the Cota 301RR, the Cota 4RT 260R and the 4Ride. At the top of the range is the 301RR, featuring a 298 cc single-cylinder engine derived from the Trial2 and a racing specification that includes an aluminium frame, billet-machined steering heads, high-performance brakes and carbon fibre components. The 4RT 260R retains the Showa fork, aluminium frame and technical configuration of the previous version. Both models feature new graphics: the 301RR sports a white and red livery; the 4RT 260R opts for red and black. The 4Ride, meanwhile, reaffirms its suitability for longer rides, with an aluminium silencer and swingarm and a 4.3-litre fuel tank. The range is rounded off by new Montesa Genuine Accessories. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano - Pi e cf: 04145450153 N° iscrizione 04145450153 - Capitale sociale sottoscritto e versato: 100.000 euro Made by Agenzia YES S.p.A.",
+      "language": "en",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/symphony-125i-syms-top-selling-scooter-gets-a-fresh-look/",
+      "url": "https://www.eicma.it/en/symphony-125i-syms-top-selling-scooter-gets-a-fresh-look",
+      "title": "Symphony 125i, SYM's top-selling scooter, gets a fresh look",
+      "summary": "For several years, the SYM Symphony 125i has been a true standout in the high-wheel 125cc scooter market. To stay at the top as the segment grows more crowded and competitive, the Symphony gets a refresh for the 2026. Without altering a design that remains fresh both stylistically and technically, SYM's designers focused on a few very specific areas. Aesthetically, there are essentially two main updates: LED indicators and a brand-new rear light cluster. These tweaks give the SYM Symphony 125i a sharper look while boosting active safety through enhanced visibility. Hop into the saddle, and your eyes are immediately drawn to the new digital dashboard . The Symphony 125i's standard equipment—which already includes a 33-litre Shad top box and a USB port— is now further enriched with a windscreen . Four colors are available: White, Pacific Blue, Pastel Grey, and Titanium Grey. And to wrap things up with a side note: all of the above applies equally to the 50cc version as well. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano - Pi e cf: 04145450153 N° iscrizione 04145450153 - Capitale sociale sottoscritto e versato: 100.000 euro Made by Agenzia YES S.p.A.",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/30/071200215/ganjil-genap-jakarta-dievaluasi-bagaimana-nasib-mobil-listrik-",
+      "url": "https://otomotif.kompas.com/read/2026/09/30/071200215/ganjil-genap-jakarta-dievaluasi-bagaimana-nasib-mobil-listrik-",
+      "title": "Ganjil Genap Jakarta Dievaluasi, Bagaimana Nasib Mobil Listrik?",
+      "summary": "Ganjil Genap Jakarta Dievaluasi, Bagaimana Nasib Mobil Listrik? JAKARTA, KOMPAS.com - Pemerintah Provinsi (Pemprov) DKI Jakarta mulai mengevaluasi kebijakan ganjil-genap yang telah diterapkan di sejumlah ruas jalan Ibu Kota. Gubernur DKI Jakarta Pramono Anung mengatakan, evaluasi kebijakan ganjil-genap akan dibahas bersama Kepala Dinas Perhubungan (Dishub) DKI Jakarta Budi Awaluddin. Pramono belum menjelaskan secara rinci perubahan yang akan dilakukan terhadap kebijakan ganjil-genap maupun pelaksanaan car free day (CFD). Menurut dia, pembahasan diperlukan agar kebijakan yang diterapkan Pemprov DKI Jakarta benar-benar memberikan dampak bagi masyarakat. Intinya begini, saya tidak mau kebijakan itu hanya bersifat seremonial dan tidak memberikan dampak yang signifikan bagi perubahan atau bagi masyarakat, kata Pramono dikutip dari Kompas.com, Selasa (29/9/2026). Baca juga: Benarkah Motor Listrik Rawan Meledak? Begini Penjelasan Spesialis Jakarta.go.id Aturan Ganjil Genap Jakarta Evaluasi kebijakan pembatasan kendaraan juga perlu melihat perkembangan jumlah kendaraan yang beredar di Jakarta. Direktur Registrasi dan Identifikasi (Dirregident) Korlantas Polri Brigjen Pol Komarudin mengatakan, jumlah kendaraan listrik yang tercatat di Jakarta mencapai 327.439 unit. \"Kendaraan listrik di Jakarta saat ini 327.439 unit. 60 persen dari populasi kendaraan listrik nasional,\" ucapnya kepada Kompas.com, Selasa (29/9/2026). Sementara secara nasional, jumlah kendaraan listrik saat ini mencapai",
+      "language": "id",
+      "publishedAt": "2026-09-30T03:56:50.087Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/30/091200915/produksi-toyota-veloz-hybrid-tembus-15.737-unit-hingga-agustus-2026",
+      "url": "https://otomotif.kompas.com/read/2026/09/30/091200915/produksi-toyota-veloz-hybrid-tembus-15.737-unit-hingga-agustus-2026",
+      "title": "Produksi Toyota Veloz Hybrid Tembus 15.737 Unit hingga Agustus 2026",
+      "summary": "Produksi Toyota Veloz Hybrid Tembus 15.737 Unit hingga Agustus 2026 JAKARTA, KOMPAS.com PT Toyota Motor Manufacturing Indonesia (TMMIN) terus meningkatkan produksi lokal New Veloz Hybrid Electric Vehicle (HEV) untuk memenuhi tingginya permintaan konsumen. Wakil Presiden Direktur TMMIN I Nyoman Winaya mengatakan, kapasitas produksi disesuaikan dengan kebutuhan pasar. Perusahaan berupaya menjaga keseimbangan antara kemampuan manufaktur dengan permintaan konsumen. \"Adapun untuk Veloz HEV, dari awal produksi hingga akhir Agustus 2026, kami sudah memproduksi sebanyak 15.737 unit,\" ujar Nyoman di Pabrik TMMIN Karawang, Jawa Barat, Selasa (29/9/2026). Baca juga: Ragam Cerita Pemilik Mobil Listrik: Kondisi Baterai Setelah 2-3 Tahun Dok. TMMIN Produksi Veloz Hybrid di Indonesia mencapai 15.737 unit hingga Agustus 2026, masih untuk pasar domestik di tengah SPK tembus 19.000 unit. Walaupun produksinya terus digenjot, Veloz Hybrid yang dibuat di Indonesia saat ini masih ditujukan untuk memenuhi kebutuhan pasar domestik. Toyota belum melakukan ekspor untuk model tersebut. Tingginya permintaan terhadap Veloz Hybrid juga tercermin dari jumlah surat pemesanan kendaraan (SPK). Sejak pemesanan dibuka pada November 2025 hingga Agustus 2026, SPK model tersebut telah melampaui 19.000 unit. Baca juga: Simak Hitung-hitungan Biaya Konsumsi Energi Toyota Avanza atau BYD M6 Dok. TMMIN Produksi Veloz Hybrid di Indonesia mencapai 15.737 unit hingga Agustus 2026, masih untuk pasar domestik di tengah SPK",
+      "language": "id",
+      "publishedAt": "2026-09-30T03:56:50.087Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/30/092200015/suzuki-siapkan-ragam-teknologi-baru--dari-turbo-hingga-reev",
+      "url": "https://otomotif.kompas.com/read/2026/09/30/092200015/suzuki-siapkan-ragam-teknologi-baru--dari-turbo-hingga-reev",
+      "title": "Suzuki Siapkan Ragam Teknologi Baru: dari Turbo hingga REEV",
+      "summary": "Suzuki Siapkan Ragam Teknologi Baru: dari Turbo hingga REEV JAKARTA, KOMPAS.com - Suzuki mulai menyiapkan strategi untuk menghadapi perkembangan industri otomotif dalam satu dekade ke depan. Pabrikan asal Jepang ini mengembangkan sejumlah teknologi baru, mulai dari mesin bensin turbo , mild-hybrid , sistem hybrid , hingga mobil listrik. Suzuki juga ingin menggunakan lebih banyak komponen yang bisa dipakai bersama pada berbagai jenis kendaraan. Cara ini diharapkan membuat pengembangan mobil baru menjadi lebih cepat dan efisien. Salah satu teknologi yang tengah dikembangkan adalah sistem e-Axle 3-in-1 yang saat ini digunakan pada mobil kei listrik Suzuki e Sky. Baca juga: Benarkah Motor Listrik Rawan Meledak? Begini Penjelasan Spesialis Ke depan, sistem tersebut akan dikembangkan menjadi unit 6-in-1 dengan dimensi yang sama. Teknologi ini nantinya bisa digunakan pada mobil listrik murni maupun mobil hybrid . Untuk mobil listrik perkotaan seperti e Sky, Suzuki akan menggunakan motor listrik depan dengan tenaga 94 hp. Khusus varian 4WD, akan ditambahkan motor listrik belakang berdaya 13 hp. Sementara untuk model yang lebih besar, Suzuki menyiapkan motor listrik utama dengan tenaga 174 hp. Sistem tersebut juga bisa dipadukan dengan motor listrik belakang berdaya 40 hp untuk sistem penggerak 4WD. Suzuki juga ingin mengurangi penggunaan material yang mengandung unsur tanah jarang berat pada motor listriknya. Langkah tersebut dilakukan agar motor listrik lebih mudah didaur ulang keti",
+      "language": "id",
+      "publishedAt": "2026-09-30T03:56:50.087Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://otomotif.kompas.com/read/2026/09/30/070200915/siasat-jitu-pemilik-mobil-diesel-hadapi-kenaikan-harga-solar",
+      "url": "https://otomotif.kompas.com/read/2026/09/30/070200915/siasat-jitu-pemilik-mobil-diesel-hadapi-kenaikan-harga-solar",
+      "title": "Siasat Jitu Pemilik Mobil Diesel Hadapi Kenaikan Harga Solar",
+      "summary": "Siasat Jitu Pemilik Mobil Diesel Hadapi Kenaikan Harga Solar JAKARTA, KOMPAS.com - Kenaikan harga bahan bakar minyak (BBM) jenis solar membuat sejumlah pemilik mobil diesel harus memutar otak untuk menyiasati biaya operasional kendaraan mereka. Berbagai cara dilakukan, mulai dari mengurangi penggunaan mobil hingga beralih ke angkutan umum untuk aktivitas sehari-hari. Kondisi tersebut dirasakan oleh pemilik mobil diesel yang mengandalkan BBM nonsubsidi, seperti Pertamina Dex dan Dexlite. Baca juga: Dexlite Naik, Isi BBM Fortuner dan Pajero Sport Tembus Rp 1,8 Juta Harga BBM yang relatif tinggi membuat pengeluaran untuk kebutuhan bahan bakar semakin besar, terutama bagi pengguna mobil bermesin diesel dengan kapasitas mesin besar. Pranowo Tri Adhianto, tenaga pengajar ilmu komunikasi Universitas Indonesia, merupakan salah satu pemilik mobil diesel yang merasakan dampak tersebut. Pranowo menggunakan Toyota Fortuner generasi kedua yang selama ini mengandalkan Pertamina Dex. Untuk menekan pengeluaran, Pranowo memilih mengurangi frekuensi penggunaan mobil dan mengoptimalkan transportasi umum sebagai alternatif mobilitas sehari-hari. Baca juga: Dexlite Naik Jadi Rp 23.700, Segini Biaya Isi Tangki Innova Reborn \"Pertama, saya menyiasatinya dengan meminimalisasi penggunaan mobil. Kedua, saya lebih mau mengoptimalkan naik angkutan umum,\" ujar Pranowo, saat dihubungi Kompas.com , belum lama ini. KOMPAS.com/DIO DANANJAYA Mitsubishi New Pajero Sport Pranowo mengatakan, Fortuner miliknya ki",
+      "language": "id",
+      "publishedAt": "2026-09-30T03:56:50.087Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "kompas-otomotif",
+      "sourceName": "Kompas.com Otomotif"
+    }
+  ]
+}
