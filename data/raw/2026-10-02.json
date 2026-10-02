@@ -1,0 +1,747 @@
+{
+  "collectedAt": "2026-10-02T04:00:42.030Z",
+  "signals": [
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-fp1-marquez-bestzeit-nakagami-schluesselbeinbruch",
+      "url": "https://www.speedweek.com/a/motogp/motogp-fp1-marquez-bestzeit-nakagami-schluesselbeinbruch",
+      "title": "MotoGP, FP1: Marc Marquez 1. – Schlüsselbeinbruch für Takaaki Nakagami",
+      "summary": "Neu MotoGP, FP1: Marc Marquez 1. – Schlüsselbeinbruch für Takaaki Nakagami Champion Marc Marquez (Ducati) fuhr im FP1 der MotoGP-Klasse in Motegi die Bestzeit. Er setzte sich vor dem Aprilia-Duo Jorge Martin und Marco Bezzecchi durch. Taka Nakagami mit heftigem Highsider. MotoGP 02.10.2026 - 05:05",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.647Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/warum-sich-motogp-veteran-zarco-honda-ueber-die-fleissigen-japaner-wundert",
+      "url": "https://www.speedweek.com/a/motogp/warum-sich-motogp-veteran-zarco-honda-ueber-die-fleissigen-japaner-wundert",
+      "title": "Warum sich MotoGP-Veteran Zarco (Honda) über die fleißigen Japaner wundert",
+      "summary": "Warum sich MotoGP-Veteran Zarco (Honda) über die fleißigen Japaner wundert MotoGP 01.10.2026 - 19:18",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.647Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/motogp-japan-gp-tv-zeiten",
+      "url": "https://www.speedweek.com/a/motogp/motogp-japan-gp-tv-zeiten",
+      "title": "Der Große Preis von Japan: Wo die Trainings und Rennen gezeigt werden",
+      "summary": "Der Große Preis von Japan: Wo die Trainings und Rennen gezeigt werden MotoGP 01.10.2026 - 18:01",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.648Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/honda-60-jahre-motorrad-wm-koenigsklasse",
+      "url": "https://www.speedweek.com/a/motogp/honda-60-jahre-motorrad-wm-koenigsklasse",
+      "title": "Besonderer Heim-GP für Honda: 60 Jahre in der Königklasse der Motorrad-WM",
+      "summary": "Besonderer Heim-GP für Honda: 60 Jahre in der Königklasse der Motorrad-WM MotoGP 01.10.2026 - 16:01",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.648Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/quartararo-yamaha-japan-prognose-nicht-wie-ktm-oesterreich",
+      "url": "https://www.speedweek.com/a/motogp/quartararo-yamaha-japan-prognose-nicht-wie-ktm-oesterreich",
+      "title": "Quartararo: «Wird mit Sicherheit nicht so sein wie bei KTM in Österreich!»",
+      "summary": "Quartararo: «Wird mit Sicherheit nicht so sein wie bei KTM in Österreich!» MotoGP 01.10.2026 - 14:07",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.648Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/nicolo-bulega-motogp-nachfolger-toprak",
+      "url": "https://www.speedweek.com/a/motogp/nicolo-bulega-motogp-nachfolger-toprak",
+      "title": "Nicolo Bulega: Der Nachfolger von Toprak wird in der MotoGP nicht scheitern",
+      "summary": "Thema der Woche Nicolo Bulega: Der Nachfolger von Toprak wird in der MotoGP nicht scheitern Der Italiener Nicolo Bulega hat als Erster den Weltmeistertitel in den Klassen Supersport und Superbike gewonnen, ab 2027 fährt er in der MotoGP. Was er diese Saison leistet, sucht seinesgleichen. Ivo Schützbach Weiterlesen",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.651Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/rueckkehrer-vinales-nach-850er-test-wie-eine-moto2-mit-grossem-motor",
+      "url": "https://www.speedweek.com/a/motogp/rueckkehrer-vinales-nach-850er-test-wie-eine-moto2-mit-grossem-motor",
+      "title": "Rückkehrer Vinales nach 850er-Test: «Wie eine Moto2 mit großem Motor»",
+      "summary": "Rückkehrer Vinales nach 850er-Test: «Wie eine Moto2 mit großem Motor» Überraschend testete zuletzt auch Maverick Vinales die 850er-MotoGP-KTM. Nach bestandenem Check steigt der Langzeit-Ausfall jetzt wieder ins Renngeschehen ein. Vinales hatte viel zu erzählen. MotoGP 01.10.2026 - 13:10",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.652Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/jack-miller-japan-gp-regen-hoffnung",
+      "url": "https://www.speedweek.com/a/motogp/jack-miller-japan-gp-regen-hoffnung",
+      "title": "Jack Miller: «Dann würde ich meine Sachen packen und nach Hause fahren!»",
+      "summary": "Jack Miller: «Dann würde ich meine Sachen packen und nach Hause fahren!» Nach dem für ihn katastrophalen Österreich-GP, hofft MotoGP-Routinier Jack Miller (Yamaha) in Japan auf ein besseres Wochenende. Der Australier wünscht sich Regen. Was ihm den Tag vermiesen könnte. MotoGP 01.10.2026 - 11:51",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.652Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/pedro-acosta-ktm-fehlt-speed-statt-punkte",
+      "url": "https://www.speedweek.com/a/motogp/pedro-acosta-ktm-fehlt-speed-statt-punkte",
+      "title": "WM-Vierter Pedro Acosta (KTM) meint: Es fehlt mehr an Speed als an Punkten",
+      "summary": "WM-Vierter Pedro Acosta (KTM) meint: Es fehlt mehr an Speed als an Punkten Auf dem Red Bull Ring in Spielberg gelang KTM-Werksfahrer Pedro Acosta endlich der erste Grand-Prix-Sieg in der höchsten Klasse. Die Favoritenrolle für Japan schiebt er trotzdem weit von sich. MotoGP 01.10.2026 - 10:33",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.652Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/honda-red-bull-partnerschaft-motogp-2027",
+      "url": "https://www.speedweek.com/a/motogp/honda-red-bull-partnerschaft-motogp-2027",
+      "title": "Jetzt offiziell: Honda und Red Bull mit neuer Partnerschaft in der MotoGP",
+      "summary": "Jetzt offiziell: Honda und Red Bull mit neuer Partnerschaft in der MotoGP Wie SPEEDWEEK.com bereits berichtete, wird Red Bull ab 2027 das MotoGP-Werksteam von Honda unterstützen. Der Deal über mehrere Jahre wurde am Donnerstag vor dem Japan-GP offiziell bekanntgegeben. MotoGP 01.10.2026 - 10:26",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.652Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ai-ogura-heim-gp-motegi-erwartungen-hoch",
+      "url": "https://www.speedweek.com/a/motogp/ai-ogura-heim-gp-motegi-erwartungen-hoch",
+      "title": "Ai Ogura (Aprilia) vor seinem Heim-GP: «Die Erwartungen sind hoch!»",
+      "summary": "Ai Ogura (Aprilia) vor seinem Heim-GP: «Die Erwartungen sind hoch!» Vor seinem Heim-Grand-Prix in Japan sprach Trackhouse-Ass Ai Ogura über die MotoGP-Begeisterung in seinem Land. Welche Chancen er sich beim Rennwochenende in Motegi ausrechnet. MotoGP 01.10.2026 - 09:56",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.652Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/wm-leader-jorge-martin-mit-marc-im-titelkampf-zu-sein-ist-ein-privileg",
+      "url": "https://www.speedweek.com/a/motogp/wm-leader-jorge-martin-mit-marc-im-titelkampf-zu-sein-ist-ein-privileg",
+      "title": "WM-Leader Jorge Martin: «Mit Marc im Titelkampf zu sein, ist ein Privileg»",
+      "summary": "WM-Leader Jorge Martin: «Mit Marc im Titelkampf zu sein, ist ein Privileg» Zuletzt schlug wieder die Stunde von Jorge Martin – beim Österreich-GP ergriff der Aprilia-Werksfahrer die Flucht nach vorne. Die große Frage: Wie läuft es für den MotoGP-Spitzenreiter in Motegi? MotoGP 01.10.2026 - 09:39",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.653Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/marc-marquez-ducati-vorhersagen-motogp",
+      "url": "https://www.speedweek.com/a/motogp/marc-marquez-ducati-vorhersagen-motogp",
+      "title": "Marc Marquez (33): Weshalb Vorhersagen dem Ducati-Star zu heiß sind",
+      "summary": "Marc Marquez (33): Weshalb Vorhersagen dem Ducati-Star zu heiß sind Am 28. September 2025 wurde Marc Marquez in Motegi zum siebten Mal MotoGP-Weltmeister und beendete damit seine sechsjährige Durststrecke. 2026 läuft es anders, weiß der Ducati-Gigant aus Spanien. MotoGP 01.10.2026 - 09:08",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.653Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/bezzecchi-aprilia-schaut-auf-den-asphalt-auch-ein-sprung-ins-ungewisse",
+      "url": "https://www.speedweek.com/a/motogp/bezzecchi-aprilia-schaut-auf-den-asphalt-auch-ein-sprung-ins-ungewisse",
+      "title": "Aprilia-Pilot Bezzecchi: Deshalb ist der Japan-GP ein Sprung ins Ungewisse",
+      "summary": "Aprilia-Pilot Bezzecchi: Deshalb ist der Japan-GP ein Sprung ins Ungewisse Zuletzt gelang Marco Bezzecchi (Aprilia) die Aufarbeitung der Schlappe beim Heim-GP in Misano. In Japan setzt «Bez» auf bekannte Stärken. Prognosen gab es vom WM-Dritten der MotoGP verlässlich keine. MotoGP 01.10.2026 - 07:16",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.653Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/bagnaia-motogp-japan-motegi",
+      "url": "https://www.speedweek.com/a/motogp/bagnaia-motogp-japan-motegi",
+      "title": "Japan-Fan Bagnaia: «Ich liebe die Strecke, die Menschen und die Kultur»",
+      "summary": "Japan-Fan Bagnaia: «Ich liebe die Strecke, die Menschen und die Kultur» Pecco Bagnaia (Ducati) blickt mit Vorfreude auf das MotoGP-Event in Japan. Auf dem Twin Ring Motegi gewann er 2025 beide Rennen. Weshalb ihm die Strecke liegt und wie er seine Chancen einschätzt. MotoGP 01.10.2026 - 06:26",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.653Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/schlagabtausch-20-marc-marquez-gegen-bagnaia",
+      "url": "https://www.speedweek.com/a/motogp/schlagabtausch-20-marc-marquez-gegen-bagnaia",
+      "title": "Schlagabtausch 2.0: Marc Marquez gegen Bagnaia",
+      "summary": "Schlagabtausch 2.0: Marc Marquez gegen Bagnaia MotoGP 01.10.2025 - 17:07",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.655Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://www.speedweek.com/a/motogp/ab-6-uhr-die-rennen-der-motogp-wm-in-mandalika",
+      "url": "https://www.speedweek.com/a/motogp/ab-6-uhr-die-rennen-der-motogp-wm-in-mandalika",
+      "title": "Ab 6 Uhr: Die Rennen der MotoGP-WM in Mandalika",
+      "summary": "Ab 6 Uhr: Die Rennen der MotoGP-WM in Mandalika MotoGP 01.10.2025 - 15:59",
+      "language": "de",
+      "publishedAt": "2026-10-02T04:00:13.655Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": true
+      },
+      "sourceSlug": "speedweek-motogp",
+      "sourceName": "SPEEDWEEK.com（MotoGP 板块）"
+    },
+    {
+      "externalId": "https://modenas.my/menu/list-press-release/modenas-kolej-keda-launch-ev-motorcycle-centre-of-excellence",
+      "url": "https://modenas.my/menu/list-press-release/modenas-kolej-keda-launch-ev-motorcycle-centre-of-excellence",
+      "title": "MODENAS, KOLEJ KEDA LAUNCH EV MOTORCYCLE CENTRE OF EXCELLENCE",
+      "summary": "Collaboration establishes first dedicated EV motorcycle centre of excellence in Kedah to strengthen TVET development SIK, KEDAH, 20 September 2026 – Motosikal dan Enjin Nasional Sdn Bhd (“MODENAS”), a member of the DRB-HICOM Group, and Kolej KEDA today launched the EV Motorcycle Industry–Academia Centre of Excellence (EV-MIACE), strengthening collaboration between the industry, and technical and vocational education and training (TVET) in electric motorcycle technology. Located at the Motorcycle Technology Department of Kolej KEDA in Sik, Kedah, the initiative positions Kolej KEDA as the first college in Kedah to collaborate with MODENAS in implementing the EV Motorcycle Centre of Excellence, a dedicated centre aimed at further integrating industry knowledge, technology and technical expertise into TVET education. Under the collaboration, students will gain exposure to MODENAS’s electric motorcycle systems, while MODENAS will provide advisory support for the development of Kolej KEDA’s EV motorcycle teaching and learning module, share current technology and technical expertise, as well as contribute learning equipment. Students undertaking the module will also receive skills recognition and certification from MODENAS. Roslan Roskan, Chief Executive Officer of MODENAS, said, “As motorcycle technology continues to evolve, developing the right technical capabilities is very important. Through EV-MIACE, MODENAS and Kolej KEDA are bringing industry and education closer together to",
+      "language": "en",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "category": "local-market",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "modenas-emos",
+      "sourceName": "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/810509/harley-davidson-will-end-its-king-of-the-baggers-team/",
+      "url": "https://www.rideapart.com/news/810509/harley-davidson-will-end-its-king-of-the-baggers-team",
+      "title": "Harley-Davidson Ends King of the Baggers Team. 'Evolves' Racing Going Forward",
+      "summary": "Instead, Harley-Davidson will focus on \"premiere\" racing and support operations.",
+      "language": "en",
+      "publishedAt": "2026-10-01T20:03:54.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/810154/bsa-gold-star-650-new-colors-birmingham-blue-brooklands-black/",
+      "url": "https://www.rideapart.com/news/810154/bsa-gold-star-650-new-colors-birmingham-blue-brooklands-black",
+      "title": "New BSA Gold Star Paint Job Has A Much Cooler Backstory Than You’d Expect",
+      "summary": "Birmingham Blue celebrates where BSA came from. Brooklands Black celebrates where the Gold Star earned its name.",
+      "language": "en",
+      "publishedAt": "2026-10-01T13:13:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/810347/yamaha-yzf-r2-r2m-sportbike-launched/",
+      "url": "https://www.rideapart.com/news/810347/yamaha-yzf-r2-r2m-sportbike-launched",
+      "title": "Here's The New Yamaha R2. But Is It The Droid You're Looking For?",
+      "summary": "If you've been looking for a 200cc sportbike with an up-and-down quickshifter, the YZF-R2 may just fit the bill.",
+      "language": "en",
+      "publishedAt": "2026-10-01T12:58:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/810155/ultraviolette-100v-architecture-new-technology/",
+      "url": "https://www.rideapart.com/news/810155/ultraviolette-100v-architecture-new-technology",
+      "title": "Ultraviolette Says It’s Coming To America Next Year. Is This The Motorcycle It’s Bringing?",
+      "summary": "The Shockwave just got a major electrical overhaul, and the timing lines up suspiciously well with Ultraviolette’s US plans.",
+      "language": "en",
+      "publishedAt": "2026-10-01T12:12:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809970/massimo-mini-truck-ford-bronco-for-kids/",
+      "url": "https://www.rideapart.com/news/809970/massimo-mini-truck-ford-bronco-for-kids",
+      "title": "This Tiny $3,000 Truck Is An Off-Road Go-Kart For Teenagers With Bronco Dreams",
+      "summary": "It has 9 horsepower, seats two, and somehow makes spending $3K on a tiny truck seem completely reasonable.",
+      "language": "en",
+      "publishedAt": "2026-10-01T11:53:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809890/the-amount-of-data-it-takes-to-win-a-wsbk-championship-is-wild-just-ask-ducati/",
+      "url": "https://www.rideapart.com/news/809890/the-amount-of-data-it-takes-to-win-a-wsbk-championship-is-wild-just-ask-ducati",
+      "title": "The Amount of Data It Takes To Win a WSBK Championship Is Wild. Just Ask Ducati",
+      "summary": "Lenovo revealed just how much data went into every race weekend along Ducati's journey to win the WSBK Triple Crown.",
+      "language": "en",
+      "publishedAt": "2026-10-01T11:21:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/810088/gambler-500-and-sons-of-smokey-pulled-out-nearly-400000-pounds-of-trash/",
+      "url": "https://www.rideapart.com/news/810088/gambler-500-and-sons-of-smokey-pulled-out-nearly-400000-pounds-of-trash",
+      "title": "The Gambler 500 Is Showing How to Be Better Off-Road Stewards By Removing 400,000 Pounds of Trash In One Event",
+      "summary": "Good folks doing good work for every public land user.",
+      "language": "en",
+      "publishedAt": "2026-10-01T11:01:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809942/bmw-reveals-price-of-m-1000-rr-limited-edition-isle-of-man-tt-and-how-to-buy-it-in-the-us/",
+      "url": "https://www.rideapart.com/news/809942/bmw-reveals-price-of-m-1000-rr-limited-edition-isle-of-man-tt-and-how-to-buy-it-in-the-us",
+      "title": "BMW Reveals Price of M 1000 RR Limited-Edition Isle of Man TT. It's Expensive",
+      "summary": "BMW Motorrad just revealed that the M 1000 RR Limited-Edition Isle of Man TT will have a $50,000 MSRP, plus a destination fee. Here's how you can buy one.",
+      "language": "en",
+      "publishedAt": "2026-09-30T14:02:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/810027/sam-sunderlands-triumph-tiger-suffers-a-mechanical-problem-during-heartbreaking-world-record-attempt/",
+      "url": "https://www.rideapart.com/news/810027/sam-sunderlands-triumph-tiger-suffers-a-mechanical-problem-during-heartbreaking-world-record-attempt",
+      "title": "Sam Sunderland’s Triumph Motorcycle Suffers a Mechanical Problem During World Record Ride and Ended the Attempt",
+      "summary": "Sam Sunderland's circumnavigation world record attempt is over after his Triumph Tiger 1200 breaks down in the Australian outback.",
+      "language": "en",
+      "publishedAt": "2026-09-30T12:53:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/810035/yamaha-is-taking-its-ev-motocross-concept-to-motocross-of-nations/",
+      "url": "https://www.rideapart.com/news/810035/yamaha-is-taking-its-ev-motocross-concept-to-motocross-of-nations",
+      "title": "Yamaha Is Taking Its EV Motocross Concept Global. We're Stoked",
+      "summary": "Yamaha just announced that it's going to display and conduct an exhibition run of its YE-01 Racing Concept at the Monster Energy FIM Motocross of Nations 2026.",
+      "language": "en",
+      "publishedAt": "2026-09-30T12:19:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/809966/alpha-motors-capuccino-retro-scooter-vespa-lookalike/",
+      "url": "https://www.rideapart.com/news/809966/alpha-motors-capuccino-retro-scooter-vespa-lookalike",
+      "title": "Take A Good Look At This Scooter And Tell Me It Doesn't Look Familiar",
+      "summary": "Alpha Motors says the \"Cappucino\" serves up Italian elegance. Piaggio’s lawyers may have some thoughts about the recipe.",
+      "language": "en",
+      "publishedAt": "2026-09-30T12:07:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/810059/stanley-pophal-sentenced-to-eight-years-in-prison-for-snowmobile-ponzi-scheme/",
+      "url": "https://www.rideapart.com/news/810059/stanley-pophal-sentenced-to-eight-years-in-prison-for-snowmobile-ponzi-scheme",
+      "title": "The Snowmobile Ponzi Scheme Guy Just Got 8 Years In Prison",
+      "summary": "Stanley Pophal used a bunch of ill-gotten cash to buy cars, motorcycles, and 300-plus snowmobiles.",
+      "language": "en",
+      "publishedAt": "2026-09-30T11:57:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/810141/harley-davidson-could-be-done-with-king-of-the-baggers-race-series/",
+      "url": "https://www.rideapart.com/news/810141/harley-davidson-could-be-done-with-king-of-the-baggers-race-series",
+      "title": "Is Harley-Davidson Done With King of the Baggers?",
+      "summary": "The Bar and Shielded brand could be looking more globally, and not just the States.",
+      "language": "en",
+      "publishedAt": "2026-09-30T11:17:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.rideapart.com/news/810078/cardo-beyond-gts-motorcycle-helmet-anc-hands-on-first-look/",
+      "url": "https://www.rideapart.com/news/810078/cardo-beyond-gts-motorcycle-helmet-anc-hands-on-first-look",
+      "title": "I Got A Hands-On Look At Cardo's New Noise-Cancelling Motorcycle Helmet. What Do You Want To Know?",
+      "summary": "This is a pre-production unit, and Cardo says it's currently refining the finished production version before a full public release.",
+      "language": "en",
+      "publishedAt": "2026-09-30T11:00:00.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "rss"
+        ]
+      },
+      "rawMeta": {
+        "dateInferred": false
+      },
+      "sourceSlug": "rideapart",
+      "sourceName": "RideApart"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/triumph-tf-250-x-2027-the-mx2-champion-evolves/",
+      "url": "https://www.eicma.it/en/triumph-tf-250-x-2027-the-mx2-champion-evolves",
+      "title": "Triumph TF 250-X: the MX2 champion evolves for 2027",
+      "summary": "Following its strong performance in the MX2 World Championship, Triumph is refreshing the TF 250-X for the 2027 season. The new version of the bike introduces a series of innovations developed in a racing context , with targeted improvements to the engine, chassis and components. The 249.9 cc single-cylinder 4-stroke engine retains a claimed power output of 48 CV at 13,500 rpm, complemented by new electronic calibration that optimises throttle response, power delivery smoothness and torque management. The powertrain also features new valve guides, updated clutch components and a new selector drum, to improve gear-shifting precision, durability and consistency. Significant updates have also been made to the Kayaba suspension , with revised settings and new tool-free adjustment mechanisms. The 48 mm AOS fork and the monoshock with separate reservoir are paired with new Neken steering heads made from 7075-T6 aluminium, featuring recalibrated stiffness. The specification also includes a Brembo braking system with Galfer discs, a ProTaper ACF handlebar, dual engine mapping, Launch Control, Traction Control and Quickshifter. Controls and ergonomics have also been updated , whilst the new styling package features all-black plastic components, graphics and fork protectors. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano -",
+      "language": "en",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/zero-motorcycles-celebrates-two-decades-with-exclusive-sr-f-and-fresh-paint-schemes/",
+      "url": "https://www.eicma.it/en/zero-motorcycles-celebrates-two-decades-with-exclusive-sr-f-and-fresh-paint-schemes",
+      "title": "Zero Motorcycles celebrates two decades with exclusive SR/F and fresh paint schemes",
+      "summary": "Zero Motorcycles is revving up two decades of electric evolution. To celebrate its 20th anniversary, the pioneering brand is unleashing a limited-run version of the SR/F , alongside fresh colorways across its entire street and dual sport lineups . Back when the SR/F first roared onto the scene in 2019, it completely rewrote the rulebook for Zero. Built from the ground up as a revolutionary platform, it fused the cutting-edge Z-Force powertrain, the brainy Cypher III operating system, Bosch Motorcycle Stability Control, and an all-new chassis architecture—forging a machine engineered purely for raw performance, absolute control, and digital connectivity. Fast forward seven years, and it remains a pure, unfiltered expression of Zero’s founding vision. Today's SR/F churns out a thrilling 190 Nm of torque and 83 kW of power, delivering lightning-fast electric throttle response for a ride that feels intensely athletic, razor-sharp, and totally wired to the rider. The SR/F 20th Anniversary Edition takes this legacy to the next level with a stealthy Jet Black and gold aesthetic, decked out with top-tier premium components. True to its collector status, only 20 units will ever hit select European showrooms , and each one comes bundled with an exclusive, limited-edition 20th Anniversary gear bag. Furthermore, Zero is giving its classic street and dual sport stables a wardrobe overhaul. Hitting the asphalt in 2027, these bold new paint schemes will give riders even more ways to wear th",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    },
+    {
+      "externalId": "https://www.eicma.it/en/stylmartin-reed-the-ultimate-technical-sneaker-for-urban-riders/",
+      "url": "https://www.eicma.it/en/stylmartin-reed-the-ultimate-technical-sneaker-for-urban-riders",
+      "title": "Stylmartin Reed, the ultimate technical sneaker for urban riders",
+      "summary": "Leading the charge for the brand’s 2027 collection debuting at EICMA, the Stylmartin Reed technical sneaker boasts a high-top, wraparound silhouette engineered for ultimate ankle stability. Packed with top-tier features, the shoe integrates internal PU ankle guards , a tonal leather gear shifter pad, a shock-absorbing micro-perforated anatomic insole, and subtle reflective inserts. Its rugged Vibram extra-light EVA lug sole delivers exceptional grip and featherlight comfort whether you are tearing up the asphalt or walking the streets. Finished with dual-color lace options and understated branding, its design transitions seamlessly off the bike. The Reed is available in two distinct versions: the WP , crafted from sleek black nubuck leather with a waterproof membrane designed to conquer cold and rainy days, and the AIR , rendered in a striking petrol hue with a breathable air mesh lining built for milder climates. Fully CE-certified, the model comes in sizes 39 to 47. © Copyright 2023 Esposizione internazionale del ciclo, motociclo, accessori S.p.A. in sigla E.I.C.M.A. S.p.A - Privacy Policy - Cookie Policy - Condizioni Generali Sede legale: Via Fabio Filzi 25/a, 20124 Milano - Pi e cf: 04145450153 N° iscrizione 04145450153 - Capitale sociale sottoscritto e versato: 100.000 euro Made by Agenzia YES S.p.A.",
+      "language": "en",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "category": "culture",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "html-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "eicma",
+      "sourceName": "EICMA（米兰国际两轮车展）"
+    }
+  ]
+}
