@@ -46,7 +46,11 @@ const MAX_ITEMS_PER_CATEGORY = 10;
 // (failed run → data never committed → still "new" next run → backlog
 // grows further). Capping input size makes a digest call succeed
 // regardless of how large a backlog gets.
-const MAX_SIGNALS_PER_DIGEST = 120;
+const MAX_SIGNALS_PER_DIGEST = 70;
+// Per-signal text handed to the model. Was 800 until 2026-10-06, when the pipeline
+// started capturing full article bodies and the point became relaying the
+// authors' own views, which usually sit past the first few hundred characters.
+const SUMMARY_CHARS_PER_SIGNAL = 4_000;
 
 const CATEGORY_LABELS: Record<string, string> = {
   racing: "赛事赛果",
@@ -118,7 +122,7 @@ async function main() {
   // MAX_SIGNALS_PER_DIGEST items routinely takes longer — found 2026-09-13:
   // a 120-item request timed out at 60s with no response yet (a separate
   // failure from the truncation this same incident also exposed).
-  const client = new DeepSeekClient({ apiKey, timeoutMs: 180_000 });
+  const client = new DeepSeekClient({ apiKey, timeoutMs: 600_000 });
   const contextSignals = await readRecentContextSignals(dateStr);
   let scored = scoreSignals(raw.signals, contextSignals);
 
@@ -276,7 +280,7 @@ function buildDigestPrompt(
   topIndexSet: Set<number>,
   overviewIndexSet: Set<number>,
 ): { system: string; user: string } {
-  const system = `你是一个摩托车行业快讯编辑，参考 36 氪"互联网人资讯早餐"（8点1氪）的结构：纯事实快讯体，客观中性，绝不夹带个人观点或推测。
+  const system = `你是一个摩托车行业快讯编辑，参考 36 氪"互联网人资讯早餐"（8点1氪）的结构：客观中性的第三人称快讯体。你自己不发表任何观点或推测；但文章里的作者、车手、车队、专家发表的观点、评价、预测，是新闻内容的一部分，要如实转述。
 
 **全部输出必须是中文**，包括标题、速览、正文——即使原始新闻是英语、印尼语、马来语等其他语言，也要翻译成中文再写，不要直接照抄原文语言。人名、品牌名、车型名等专有名词可以保留原文或用通用中文译名，但句子本身必须是中文。
 
@@ -292,9 +296,13 @@ function buildDigestPrompt(
 
 **选择哪些条目进哪个层级不是你的工作，已经用打分公式选好了**——你只负责写内容。每条输入前面的标记告诉你它属于哪一层：
 
-1. **【今日头条】**：本方向今天热度最高的几条里，综合分最高的最多 3 条。body 写 150-200 字的中度分析，**要说清楚这条新闻为什么够格上头条**（比如涉及的品牌/规模、影响范围、意外程度），不是单纯复述事实，是要让读者明白"这条为什么重要"。
+1. **【今日头条】**：本方向今天热度最高的几条里，综合分最高的最多 3 条。body 写 250-350 字，分 2-3 个自然段（段落之间用两个换行），讲清楚事情经过和关键数据，**要说清楚这条新闻为什么够格上头条**（涉及的品牌/规模、影响范围、意外程度），并把文章里相关人物最有信息量的观点、评价转述出来。
 2. **【本方向今日代表】**：每个方向今天热度最高的 1 条（今日头条那几条也来自这个集合，其余几条会出现在 overview 速览里，也会正常出现在对应分类栏目正文中）。body 按普通条目处理即可。
-3. 其余普通条目：body 写 50-100 字的事实陈述，比之前的"1-2 句"要更完整——把关键数据、背景交代清楚，但依然不夹带个人观点。
+3. 其余普通条目：body 写 120-220 字，分 1-2 个自然段（段落之间用两个换行），让读者不点进原文也能读懂：先交代发生了什么、关键数据和背景，再转述文章里作者或当事人（车手、车队负责人、专家等）的观点和评价，用第三人称（"SPEEDWEEK 的评论认为……""马奎斯表示……"）。
+
+**可读性第一**：这是给人快速浏览的简报，不是原文翻译。宁可精炼也不要写成大段文字——超出上面的字数上限算失败。新车/产品类稿件不要罗列全部配置参数，只挑最重要的 3-5 项（价格、核心卖点、与上一代的变化）；长篇采访只转述最有信息量的 1-2 个观点，不要把所有表态都搬进来。
+
+**长度由材料决定，不要为了凑字数扩写**：如果某条输入只有一两句话（比如只有标题和一句简介），就只写一两句，宁短勿编；如果材料里没有任何观点，就只写事实，**绝不能自己编造观点**。
 
 输出必须是 JSON：
 {
@@ -311,7 +319,7 @@ items 里每条输入都要出现一次（包括 relevant: false 的，程序会
     .map((signal, i) => {
       const index = i + 1;
       const marker = topIndexSet.has(index) ? "【今日头条】" : overviewIndexSet.has(index) ? "【本方向今日代表】" : "";
-      return `${index}. ${marker}【信源固定标签：${signal.category}，仅供参考，请你重新判断真实类别】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   摘要：${signal.summary.slice(0, 800)}`;
+      return `${index}. ${marker}【信源固定标签：${signal.category}，仅供参考，请你重新判断真实类别】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   正文：${signal.summary.slice(0, SUMMARY_CHARS_PER_SIGNAL)}`;
     })
     .join("\n\n");
 

@@ -177,7 +177,7 @@ items 里每条输入都要出现一次，按输入给的顺序（已经是热�
   const itemLines = candidates
     .map((item, i) => {
       const { signal } = item;
-      return `${i + 1}. 【${signal.category}】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   摘要：${signal.summary.slice(0, 800)}`;
+      return `${i + 1}. 【${signal.category}】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   摘要：${signal.summary.slice(0, 2500)}`;
     })
     .join("\n\n");
 

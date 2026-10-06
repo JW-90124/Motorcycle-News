@@ -124,6 +124,7 @@ export const sources: SourceDescriptor[] = [
   // 全球新车发布 (new-models)
   {
     slug: "rideapart",
+    skipArticleFetch: "2026-10-06 文章页有 AWS WAF 人机验证（Human Verification，HTTP 405），按项目原则不绕过；RSS 只有一句话简介，所以 RideApart 只能提供标题+一句话",
     name: "RideApart",
     homepageUrl: "https://www.rideapart.com/",
     adapter: "rss",

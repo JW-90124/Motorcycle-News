@@ -26,6 +26,9 @@ import type { CollectedSignal } from "./types.js";
 // table, not a teaser — re-fetching its dataset page would replace a clean
 // accurate summary with unrelated page chrome.
 const ENRICH_CONCURRENCY = 5;
+// A summary already this long is real article text (some feeds ship full
+// content); re-fetching the page would add nothing.
+const ALREADY_FULL_TEXT_CHARS = 1_500;
 
 interface SourceRunSummary {
   slug: string;
@@ -81,7 +84,15 @@ async function main() {
     );
   }
 
-  const toEnrich = newSignals.filter((signal) => signal.rawMeta.adapter === "web-scraper");
+  // Any source, not only web-scraper ones (changed 2026-10-06: RSS feeds
+  // like RideApart's carry only a one-sentence deck, so skipping them left
+  // most of a day's items at ~100 characters). Skipped: structured-data
+  // signals (lta-coe's summary is a deliberately built table, not a teaser),
+  // sources flagged skipArticleFetch, and anything that already has real text.
+  const skipSlugs = new Set(sources.filter((s) => s.skipArticleFetch).map((s) => s.slug));
+  const toEnrich = newSignals.filter(
+    (signal) => !signal.rawMeta.dataSource && !skipSlugs.has(signal.sourceSlug) && signal.summary.length < ALREADY_FULL_TEXT_CHARS,
+  );
   let enrichedCount = 0;
   for (let i = 0; i < toEnrich.length; i += ENRICH_CONCURRENCY) {
     const batch = toEnrich.slice(i, i + ENRICH_CONCURRENCY);

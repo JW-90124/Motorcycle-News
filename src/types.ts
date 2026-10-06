@@ -62,6 +62,13 @@ export interface SourceDescriptor {
    * a silently broken one.
    */
   disabled?: string;
+  /**
+   * Set to a reason when this source's article pages must not be fetched for
+   * body text — e.g. they sit behind a bot-verification challenge, which this
+   * project deliberately does not bypass. The source still collects its
+   * listing/feed entries; it just stays at whatever teaser the feed carries.
+   */
+  skipArticleFetch?: string;
   /** Official/primary-source content (manufacturer, federation, government data) vs. media coverage or aggregation. */
   isPrimary: boolean;
 }
