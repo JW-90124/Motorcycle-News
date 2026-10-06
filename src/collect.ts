@@ -10,6 +10,8 @@
 import { saveDailyCollection } from "./daily-collection.js";
 import { fetchArticleExcerpt } from "./collectors/article-excerpt.js";
 import { getAdapter } from "./collectors/index.js";
+import { appendFile } from "node:fs/promises";
+import { healthWarnings, loadHealth, saveHealth, updateHealth } from "./domain/source-health.js";
 import { createSafeFetcher } from "./fetcher.js";
 import { sources } from "./sources.js";
 import { loadState, markIfNew, saveState } from "./state.js";
@@ -36,11 +38,18 @@ interface SourceRunSummary {
 async function main() {
   const fetchText = createSafeFetcher();
   const state = await loadState();
+  const health = await loadHealth();
+  const nowIso = new Date().toISOString();
+  const disabledNotes: string[] = [];
 
   const newSignals: Array<CollectedSignal & { sourceSlug: string; sourceName: string }> = [];
   const summaries: SourceRunSummary[] = [];
 
   for (const source of sources) {
+    if (source.disabled) {
+      disabledNotes.push(`${source.name}：${source.disabled}`);
+      continue;
+    }
     const summary: SourceRunSummary = { slug: source.slug, name: source.name, fetched: 0, new: 0 };
     try {
       const adapter = getAdapter(source.adapter);
@@ -65,6 +74,11 @@ async function main() {
       summary.error = error instanceof Error ? error.message : String(error);
     }
     summaries.push(summary);
+    health[source.slug] = updateHealth(
+      health[source.slug],
+      { fetched: summary.fetched, newCount: summary.new, ...(summary.error ? { error: summary.error } : {}) },
+      nowIso,
+    );
   }
 
   const toEnrich = newSignals.filter((signal) => signal.rawMeta.adapter === "web-scraper");
@@ -95,13 +109,35 @@ async function main() {
   const outPath = `data/raw/${dateStr}.json`;
   await saveDailyCollection(outPath, newSignals);
   await saveState(state);
+  await saveHealth(health);
 
   console.log(`\n信源  抓到  新增  错误`);
   for (const s of summaries) {
     console.log(`${s.name.padEnd(28)} ${String(s.fetched).padStart(4)} ${String(s.new).padStart(4)}  ${s.error ?? ""}`);
   }
+  const nameBySlug = new Map(sources.map((s) => [s.slug, s.name]));
+  const warnings = summaries.flatMap((s) => healthWarnings(nameBySlug.get(s.slug) ?? s.slug, health[s.slug]!));
+  if (disabledNotes.length > 0) {
+    console.log("\n已停用的信源（不抓取）：");
+    for (const note of disabledNotes) console.log(`  - ${note}`);
+  }
+  if (warnings.length > 0) {
+    console.log("\n⚠ 信源健康警告：");
+    for (const w of warnings) {
+      console.log(`  - ${w}`);
+      // GitHub Actions annotation: shows on the run page without opening the log.
+      console.log(`::warning title=信源健康警告::${w}`);
+    }
+    if (process.env.GITHUB_STEP_SUMMARY) {
+      await appendFile(
+        process.env.GITHUB_STEP_SUMMARY,
+        `### ⚠ 信源健康警告\n${warnings.map((w) => `- ${w}`).join("\n")}\n`,
+      );
+    }
+  }
+
   console.log(
-    `\n共 ${newSignals.length} 条新内容，写入 ${outPath}（其中 ${toEnrich.length} 条尝试补充正文，${enrichedCount} 条成功）`,
+    `\n共${newSignals.length} 条新内容，写入 ${outPath}（其中 ${toEnrich.length} 条尝试补充正文，${enrichedCount} 条成功）`,
   );
 }
 

@@ -83,6 +83,7 @@ export const sources: SourceDescriptor[] = [
     // browser UA gets HTTP 200 with no other change. Setting a realistic
     // UA for this one source is standard scraping etiquette, not evasion.
     slug: "boon-siew-honda",
+    disabled: "2026-10-06 停用：官网又返回 403，8 月配置的浏览器 UA 已失效",
     name: "Boon Siew Honda",
     homepageUrl: "https://boonsiewhonda.com.my/news-and-events/news/",
     adapter: "web-scraper",
@@ -110,6 +111,7 @@ export const sources: SourceDescriptor[] = [
   },
   {
     slug: "mah-pte-ltd",
+    disabled: "2026-10-06 停用：页面最新内容是 2023 年的 Hello world!，无有效新闻",
     name: "Mah Pte Ltd（新加坡 Kawasaki 等六品牌独家代理）",
     homepageUrl: "https://mah.com.sg/brands-kawasaki/",
     adapter: "web-scraper",
@@ -132,6 +134,7 @@ export const sources: SourceDescriptor[] = [
   },
   {
     slug: "cycleworld",
+    disabled: "2026-10-06 停用：官网首页最新文章停在 2026-07-06，RSS 为空，源站本身已 3 个月没更新",
     name: "Cycle World",
     homepageUrl: "https://www.cycleworld.com/",
     adapter: "web-scraper",
@@ -148,7 +151,7 @@ export const sources: SourceDescriptor[] = [
     slug: "visordown",
     name: "Visordown",
     homepageUrl: "https://www.visordown.com/news",
-    adapter: "web-scraper",
+    adapter: "visordown", // dedicated adapter since the 2026-09 site redesign broke the generic scraper
     language: "en",
     config: { url: "https://www.visordown.com/news", category: "new-models" },
     authorityScore: 75,
@@ -172,6 +175,7 @@ export const sources: SourceDescriptor[] = [
     // feed — verified 2026-07-29 by fetching it and finding no valid RSS/Atom XML.
     // Falls back to web-scraper against the news listing page instead.
     slug: "yamaha-global-news",
+    disabled: "2026-10-06 停用：抓到的是导航垃圾（Global News Center，日期 2026-12-31），不是文章",
     name: "Yamaha Motor Global News Center",
     homepageUrl: "https://global.yamaha-motor.com/news/",
     adapter: "web-scraper",
@@ -221,6 +225,7 @@ export const sources: SourceDescriptor[] = [
   },
   {
     slug: "bangkok-motor-show",
+    disabled: "2026-10-06 停用：最新内容停在 2025 年",
     name: "Bangkok International Motor Show",
     homepageUrl: "https://motorshow.in.th/",
     adapter: "web-scraper",

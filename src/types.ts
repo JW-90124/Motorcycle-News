@@ -55,6 +55,13 @@ export interface SourceDescriptor {
    * sources.ts for the rubric to apply when adding a new source.
    */
   authorityScore: number;
+  /**
+   * Set to a short reason to stop collecting this source without deleting
+   * its entry (config + history stay for a later revival). Skipped sources
+   * are listed in the collect output so a disabled source never looks like
+   * a silently broken one.
+   */
+  disabled?: string;
   /** Official/primary-source content (manufacturer, federation, government data) vs. media coverage or aggregation. */
   isPrimary: boolean;
 }
