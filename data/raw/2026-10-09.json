@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-09T04:31:13.012Z",
+  "collectedAt": "2026-10-09T07:23:43.389Z",
   "signals": [
     {
       "externalId": "https://www.speedweek.com/a/motogp/fp1-mandalika-bezzecchi-unantastbar-marc-marquez-vor-wm-leader-martin",
@@ -1070,6 +1070,600 @@
       },
       "sourceSlug": "kompas-otomotif",
       "sourceName": "Kompas.com Otomotif"
+    },
+    {
+      "externalId": "https://www.motogp.com/en/news/2026/10/09/bezzecchi-leads-marc-marquez-and-martin-in-indonesia-fp1/1174846",
+      "url": "https://www.motogp.com/en/news/2026/10/09/bezzecchi-leads-marc-marquez-and-martin-in-indonesia-fp1/1174846",
+      "title": "Bezzecchi leads Marc Marquez and Martin in Indonesia FP1",
+      "summary": "The top three in the championship rise to the top three in the opening session of the weekend on Lombok The red-hot favourites coming into this weekend at the Pertamina Grand Prix of Indonesia? Aprilia Racing. The fastest in Free Practice 1? Aprilia Racing. Marco Bezzecchi, last year’s polesitter and Sprint gold medallist, kickstarted the weekend in fine form to finish 0.237s clear of second-place Marc Marquez (Ducati Lenovo Team) with a 1:30.132, as the reigning World Champion begins his weekend with an eye-catching P2. Meanwhile, World Championship leader Jorge Martin (Aprilia Racing) earned P3 to see the top three in the title race front the pack before this afternoon’s Practice. And Pedro Acosta (Red Bull KTM Factory Racing) made it the championship 1-2-3-4 at the end of FP1, the KTM star was 0.294s away from Bezzecchi’s best effort. Fifth place went to Raul Fernandez (SuperFile Trackhouse MotoGP Team), meaning three RS-GP bikes sit in the top five so far in Indonesia. The fourth-fastest Aprilia, Ai Ogura (SuperFiles Trackhouse MotoGP Team), and last year’s Lombok winner Fermin Aldeguer (BK8 Gresini Racing MotoGP) were Free Practice 1 crashers, with both sophomore stars uninjured in their separate incidents. The latter ended the session in P9, with the Japanese star P21. Pertamina Enduro VR46 Racing Team's Franco Morbidelli and Fabio Di Giannantonio collected P6 and P7 in FP1, with Fabio Quartararo sticking his Monster Energy Yamaha MotoGP in eighth place to begin his weekend in promising fashion. And rounding out the top 10 behind his aforementioned teammate? Alex Marquez (BK8 Gresini Racing MotoGP). Watch every session LIVE or OnDemand with MotoGP VideoPass, now 75% OFF!",
+      "language": "en",
+      "publishedAt": "2026-10-09T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "motogp-news",
+      "sourceName": "MotoGP 官方新闻"
+    },
+    {
+      "externalId": "https://www.motogp.com/en/news/2026/10/09/almansa-perfect-to-kickstart-moto3-at-mandalika/1174840",
+      "url": "https://www.motogp.com/en/news/2026/10/09/almansa-perfect-to-kickstart-moto3-at-mandalika/1174840",
+      "title": "Almansa perfect to kickstart Moto3 at Mandalika",
+      "summary": "FP1 and Practice on top, the #22 had a flying start to action in Indonesia Aiming to keep his title aspirations alive for as long as possible, David Almansa (Liqui Moly Dynavolt Intact GP) was once again the rider to beat on Friday, just edging clear of Championship leader Maximo Quiles (CFMOTO Gaviota Aspar Team). Split by just 0.088s, it’s a tasty prospect going into the second match-point weekend. Almansa was fast straight away and got down to the fastest lap time of the weekend thus far with a 1’37.169, fractionally quicker than Champion-elect Quiles. The two got up close and personal during the session, Quiles forcing Almansa to get out the way at Turn 16, a sign of things to come perhaps across the rest of the weekend. Rounding out the top three was Matteo Bertelle (LEVELUP – MTA), just ahead of Alvaro Carpe (Red Bull KTM Ajo), Adrian Fernandez (Leopard Racing) and Ryusei Yamanaka (AEON Credit – MT Helmets – MSI). There were headlining names who failed to clear the Practice hurdle and find themselves in Q1, including Gryd Racing duo Joel Kelso and Eddie O’Shea, both crashers at Turn 10. David Muñoz (Liqui Moly Dynavolt Intact GP) missed out by 0.009s with P15 and is joined by the likes of Aragon podium finisher Marco Morelli (CFMOTO Gaviota Aspar Team), British GP polesitter Scott Ogden (CIP GreenPower) and Czech GP winner Hakim Danish (AEON Credit – MT Helmets – MSI). Valentin Perrone, on the podium at Buriram and Silverstone, also finds himself in Q1. Heavy hitters in Q1, title challengers straight to Q2. Qualifying kicks off for Moto3 at 12:45 local time (UTC +8) on Saturday! Watch every session LIVE or OnDemand with MotoGP VideoPass, now 75% OFF!",
+      "language": "en",
+      "publishedAt": "2026-10-09T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "motogp-news",
+      "sourceName": "MotoGP 官方新闻"
+    },
+    {
+      "externalId": "https://www.motogp.com/en/news/2026/10/08/media-day-dispatch-motogp-ready-to-rock-on-lombok/1174852",
+      "url": "https://www.motogp.com/en/news/2026/10/08/media-day-dispatch-motogp-ready-to-rock-on-lombok/1174852",
+      "title": "MEDIA DAY DISPATCH: MotoGP ready to rock on Lombok",
+      "summary": "Indonesia’s tropical paradise gets set for the sound of MotoGP as Round 17 hones into view The closest-ever title race after 16 rounds will tackle its next challenge as we touch down in picturesque Indonesia and on the island of Lombok where the Pertamina Mandalika International Circuit brings the latest instalment. From title talk to new formats for next year and more, get a run down of everything you need to know ahead of the Indonesian GP. NEW FORMAT: 2027 brings more excitement in qualifying A separate Sprint qualifying and all riders going through Q1 for Grand Prix qualifying, we’ll have 2 different grids each weekend next season Take a look at how a race weekend will look next year as Sprint qualifying lands in MotoGP FIRST REACTION: MotoGP stars on new-look weekends Big names weigh in with their first thoughts of the new weekend starting from next season Bezzecchi, Bagnaia, Martin, Marquez, Toprak and more give their verdict on the new weekend format, with separate Sprint and Grand Prix qualifying set to arrive in 2027 MotoGP TAKES OVER MATARAM: the annual rider parade frenzy Lombok’s capital goes gangbusters as MotoGP’s biggest names, title contenders and home-heroes get up close with the most passionate fans of the season Marc Marquez, Bezzecchi, the VR46 duo, Aldeguer, Binder and more join Indonesian stars Mario Aji and Veda Pratama for a spectacular parade through Mataram The Championship leaders advantage may have shrunk in Japan but he’s hoping for success – will it be WINdonesia on Sunday? With Marquez just two points behind, the Championship leader arrives at Mandalika as confident as ever, insisting the team keeps finding answers whenever problems appear OFF THE MARC : Marquez’s Mandalika misfortune The reigning World Champion hasn’t had a happy time of things at the Indonesian GP but can he turn it around this year? PRESSURE OFF: Bezzecchi a favourite at Mandalika Having blundered on Sunday in 2025, Bez is looking to be man of the moment in Mandalika 12 months on With Martin and Marc carrying the weight of the title fight, the Aprilia rider says he can focus all his attention on giving his all each weekend and try to take the victory HOT OFF THE PRESS CONFERENCE: the Championship’s top 3 Jorge Martin, Marc Marquez and Marco Bezzecchi get their weekend underway with the Thursday press conference The top 3 in the standings face the media as the title fight rolls into Mandalika for Round 17 of the 2026 MotoGP World Championship MUST-VISIT: the ULTIMATE guide to Lombok If you’re taking in the action trackside, make sure you know how to maximise your time in this tropical paradise Thursday talking done, time to get on with the action: it all starts on Friday, 09:00 local time (UTC +8)! Watch every session LIVE or OnDemand with MotoGP VideoPass, now 75% OFF!",
+      "language": "en",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "motogp-news",
+      "sourceName": "MotoGP 官方新闻"
+    },
+    {
+      "externalId": "https://www.motogp.com/en/news/2026/10/07/two-points-the-gap-as-motogps-2026-thriller-lands-in-lombok/1171109",
+      "url": "https://www.motogp.com/en/news/2026/10/07/two-points-the-gap-as-motogps-2026-thriller-lands-in-lombok/1171109",
+      "title": "Two points the gap as MotoGP’s 2026 thriller lands in Lombok",
+      "summary": "The latest Aprilia vs Ducati, Martin vs Marc Marquez chapter is ready to be unleashed as Round 17 brings us to the paradise of Indonesia Two points in it. The closest-ever gap between the top two in the MotoGP World Champion after 16 Grands Prix. It’s safe to say the title battle between Jorge Martin (Aprilia Racing) and Marc Marquez (Ducati Lenovo Team), with Marco Bezzecchi (Aprilia Racing) waiting to pounce too, is set up very nicely as the fascinating 2026 title race rolls into the glorious setting of Lombok and the Pertamina Mandalika International Circuit for the Pertamina Grand Prix of Indonesia. Two points separate the title rivals. Everything to lose, no guarantees and one circuit that’s never normal. Welcome to Mandalika. After Austria, the momentum was back in Martin and Aprilia’s court as they landed in Japan with a 12-point cushion to reigning World Champion Marc Marquez. Now, it’s just two. All the talk surrounding Marc Marquez and Ducati was how crucial a maximum points haul would be before a trip to his bogey circuit would be. And as he has done 78 times before Sunday at Motegi in MotoGP, the #93 delivered. Backing up his Tissot Sprint success, Japan’s 37 points haul was massive for Marquez and Ducati. They know Mandalika isn’t favourable to them this season given Aprilia’s rise. The stats, in Marc Marquez’s case anyway, don’t lie. He’s yet to see a Sunday chequered flag in Indonesia, and on two occasions has left Lombok with injuries – including last year when the World Champion and Bezzecchi collided. The effects of that day remain today. And that’s why this weekend the onus is thrown over to Aprilia and Martin. The title race leader won here on a Ducati in 2024 and finished P2 the year before that. It’s a circuit he likes. However, the #89 didn’t race here last year after fracturing his right collarbone in Japan, so that’s a factor that may hinder the 2024 champion. Pre-weekend, the odds certainly favour Martin in Indonesia. But this MotoGP. And this is Marc Marquez. Is this the year the #93 banishes his Lombok demons, or will Martin extend his lead at the MotoGP summit? That remains to be seen. But having picked up four podiums – all of them P3s – in the last five Sundays and coming to a track he was fiercely quick at last season, don’t scribble out Bezzecchi from this championship picture just yet. Yes, more points were conceded to the top two by Bez in Japan, but the deficit to teammate Martin is still under 50. Just. 49 points to be exact. However, as we’ve seen already this season, that can change. A big weekend awaits last year’s Indonesian GP polesitter and Sprint winner. It may not have been an injury-hit sophomore year to remember so far, but the first rider to mention is last year’s dominant winner Fermin Aldeguer (BK8 Gresini Racing MotoGP). A back-to-back Mandalika win feels unlikely, but never say never in this game. The two podium finishers to Aldeguer last year? Pedro Acosta (Red Bull KTM Factory Racing) and Alex Marquez (BK8 Gresini Racing MotoGP). Both Spaniards left Motegi craving more after Acosta’s lack of pace on Sunday, and Alex Marquez’s double Long Lap to DNF. Expect both MotoGP winners to be right up at the sharp end this weekend. Who else? Well, after Japan, it would be rude not to throw Enea Bastianini (Red Bull KTM Tech3) into the mix. That was some serious late race rhythm from ‘The Beast’, so can the Italian extract similar this weekend? And then there’s the SuperFile Trackhouse MotoGP duo of Raul Fernandez and Ai Ogura . There was a sense of disappointment from the latter after the Japanese star after his P6 on home turf, with his, Fernandez and Acosta’s Motegi scrap and enjoyable, but frustrating one for those involved. As the title sponsor suggests, an important weekend arrives for Pertamina Enduro VR46 duo Fabio Di Giannantonio and Franco Morbidelli . ‘Diggia’ hasn't collected a Sunday top five since his P4 at the Dutch GP, which has seen the Italian slip to P6 in the standings. Having ridden through the pain barrier in Japan’s Sunday outing after being taken out by Alex Marquez on the Saturday, Di Giannantonio will be hoping to be fighting fitter in Indonesia as he hunts a rostrum return. Diogo Moreira ’s (Pro Honda LCR) weekend in Japan unfortunately ended in the gravel, but a debut Sprint medal was clinched 23 hours prior to indicate the rookie’s growing potential. And what a place - HRC’s backyard - to collect a maiden Saturday silver at too. Can the Brazilian fight at the front again in Indonesia? Fabio Quartararo (Monster Energy Yamaha MotoGP) extracted everything and a little more from the Yamaha in Japan, and after a P7 finish here last season - plus teammate Alex Rins enjoying a stint in second place in the 2025 Grand Prix - maybe it's a weekend we see Quartararo and Rins further up the order. 2023 Lombok winner Francesco Bagnaia (Ducati Lenovo Team) continues his search for an upturn in fortunes after another lowkey weekend in Japan that unearthed a Sunday P8. It's no podium in seven Grands Prix for the double MotoGP champion. Johann Zarco (Castrol Honda LCR) won't want to be beaten by Moreira too many more times this season, can the experience Frenchman get himself in the mix to better his best of P7 so far this campaign? And Brad Binder (Red Bull KTM Factory Racing) will be on the prowl for a top 10 return at a venue he was P4 at last season. Luca Marini ’s (Honda HRC Castrol) P5 in Indonesia was his equal-best result of the season last year, so don't rule out the Italian from clawing himself into that sort of territory again this time around either. Marini’s P10 in Japan means he continues his impressive 100% Sunday points streak in 2026. And with Marini’s teammate Joan Mir still sidelined through illness, and Somkiat Chantra back on WorldSBK duty in Portugal, it's a very warm welcome back to the saddle for Aleix Espargaro this weekend. Maverick Viñales (Red Bull KTM Tech3) came through his comeback weekend unscathed in Ja",
+      "language": "en",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "motogp-news",
+      "sourceName": "MotoGP 官方新闻"
+    },
+    {
+      "externalId": "https://www.motogp.com/en/news/2026/10/07/time-schedule-pertamina-grand-prix-of-indonesia/1171110",
+      "url": "https://www.motogp.com/en/news/2026/10/07/time-schedule-pertamina-grand-prix-of-indonesia/1171110",
+      "title": "TIME SCHEDULE: Pertamina Grand Prix of Indonesia",
+      "summary": "Get the rundown of all the must-know times for our 17th stop of the season! Indonesia. A stunning, photo-like backdrop for our Round 17 of the season, where tension and anticipation couldn’t be higher. Jorge Martin (Aprilia Racing) enters the weekend with a two-point hold over Marc Marquez (Ducati Lenovo Team) as the #93 arrives at a venue where he has yet to win a Grand Prix. There may be plenty to look out for this weekend, but times aren’t one of them, as we’ve got you covered with the full schedule for the Pertamina Grand Prix of Indonesia ! We’ve got plenty of build-up ahead of an exciting weekend at the Indonesian GP as MotoGP GearUp gets underway. Starting at 15:00 Local Time (UTC +8), Jack Appleyard and Louis Suddaby will bring you through the latest stories from the paddock before we head to the Ducati and Aprilia Press Conference at 15:30. Then it's back to our normal schedule as Thursday's Press Conference begins, with Jorge Martin, Marc Marquez and Marco Bezzecchi (Aprilia Racing) heading on stage at 16:00, answering questions from the world’s media! Friday morning hosts our first track action, with Moto3 FP1 exiting pitlane at 09:00. That’s all before Moto2 head out on circuit at 09:50, with MotoGP to follow for FP1 at 10:45. We’ve got a small break for lunch before Moto3 are back out for a very important Practice session at 13:15. Moto2 follow, with the intermediate class setting the stage for MotoGP Practice at 15:00, where the top 10 score direct entry into Q2! There’s not long to wait before we return on Saturday morning with Moto3 FP2 starting proceedings at 08:40. Moto2 are at 09:25 before the premier class enjoys their first Saturday appearance at 10:10 with MotoGP FP2, before qualifying gets underway at 10:50. After a short bite, Moto3 set the grid from 12:45 before Moto2 begin the battle for pole position at 13:40. Finally, we round off an exciting day with some racing action at 15:00, that’s right, it’s time for the MotoGP Tissot Sprint! We’ve got an action-packed schedule on Sunday, with MotoGP Warm Up beginning an important day of action at 10:40. That’s before the real contests begin as Moto3 head onto the grid for a potential title deciding 20 laps at 12:00. Following the lightweight category is Moto2, with 22 laps to look forward to at 13:15. Finally, the main event is next as MotoGP return to the circuit for the Indonesian GP at 15:00. After the Flag follows at 16:20, bringing you all the reaction ahead of the post-GP Press Conference! Join us for an unmissable weekend as our title fight and flyway tour continue in style! Watch every session LIVE or OnDemand with MotoGP VideoPass, now 75% OFF!",
+      "language": "en",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "motogp-news",
+      "sourceName": "MotoGP 官方新闻"
+    },
+    {
+      "externalId": "https://www.motogp.com/en/news/2026/10/07/quiles-will-become-moto3-world-champion-if/1098686",
+      "url": "https://www.motogp.com/en/news/2026/10/07/quiles-will-become-moto3-world-champion-if/1098686",
+      "title": "Quiles will become Moto3 World Champion if...",
+      "summary": "Quiles heads to Indonesia for his next chance at match point, but what does the #28 need to do to clinch the title? It’s a big weekend for Maximo Quiles (CFMOTO Gaviota Aspar Team), who has another opportunity to be crowned Champion this weekend. Quiles enters the weekend with a 127-point advantage over his rivals, and with just 125 points remaining up for grabs after Indonesia, the #28 is now faced with another opportunity to be crowned Moto3 World Champion. Simply put, if Quiles leaves Indonesia with at least a 125-point advantage, then he will be crowned 2026 Moto3 World Champion. Four riders remain in mathematical contention, with Quiles, Alvaro Carpe (Red Bull KTM Ajo), David Almansa (Liqui Moly Dynavolt Intact GP) and Brian Uriarte (Red Bull KTM Ajo) all facing a pivotal weekend. Ultimately, Quiles has the opportunity to control his own destiny. A victory would crown him World Champion regardless of other results, whilst P2 would also be enough if Almansa finishes P3 or lower. Meanwhile, a third-place finish will secure Quiles the title if Almansa were to finish P4 or below on Sunday. Finishing outside the podium positions brings Carpe into contention. If Quiles finishes fourth, Carpe would need to score P2 or worse, while Almansa would need to finish P5 or lower. Anything outside of the top five (P6 or lower) for Quiles brings Uriarte back into the picture, increasing the complications. It has already been an incredible season for Quiles, who has earned nine race wins and 14 podiums from the opening 16 rounds. The #28 has already scored 52 points more than his entire 2025 campaign, underlining just how impressive his form has been this year. Join us this weekend for a potential title-deciding weekend at the Indonesian GP. The Moto3 grid heads lights out at 12:00 Local Time (UTC +8) on Sunday, so don’t miss out! Watch every session LIVE or OnDemand with MotoGP VideoPass, now 75% OFF!",
+      "language": "en",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "motogp-news",
+      "sourceName": "MotoGP 官方新闻"
+    },
+    {
+      "externalId": "https://www.motogp.com/en/news/2026/10/07/motogp-introduces-new-weekend-format-from-2027/1174695",
+      "url": "https://www.motogp.com/en/news/2026/10/07/motogp-introduces-new-weekend-format-from-2027/1174695",
+      "title": "MotoGP introduces new weekend format from 2027",
+      "summary": "Two grids. Two showdowns. One MotoGP. Fans can look forward to an even more spectacular weekend as Sprint qualifying arrives next season MotoGP fans have even more to look forward to in 2027. Alongside the new bikes and technical regulations, the sport announces a new-look weekend for next year with the introduction of a qualifying session for the MotoGP Sprint – creating distinct grids for the Sprint and Grand Prix race at every round. The new format balances an incredible spectacle for fans and new stakes in each session with well-balanced track time for riders, teams and factories. Take a look at how a race weekend will look next year as Sprint qualifying lands in MotoGP The new Friday format begins with a 45-minute Free Practice 1, as now, before a 30-minute Free Practice 2 replaces Practice. This new, shorter FP2 is not timed for entry into any other session. Friday’s action then concludes with the new 15-minute Sprint qualifying for all riders that decides the starting positions for the Tissot Sprint on Saturday afternoon. Saturday for MotoGP begins with FP3, a 20-minute free practice session, before qualifying for the Grand Prix race. All riders will take part in Grand Prix Qualifying 1, and the top 12 will go through to GP Q2. The Sprint then provides the perfect Saturday crescendo, racing with the grid from Friday’s Sprint qualifying session. Sunday’s action will now begin with the Moto3 and Moto2 races. The track time previously used for MotoGP Warm Up will move to ahead of the MotoGP Grand Prix as pitlane opens for ten minutes for multiple sighting laps, giving riders the opportunity for a shakedown ahead of lights out. The race then gets underway with the grid set from GP Q1 and GP Q2. The MotoGP Deputy CEO weighs in on the exciting changes set to debut next season alongside our all-new technicaly regulations MotoGP in 2027: two different grids, two incredible showdowns and the introduction of our all-new technical regulations. Watch 2026 reach its crescendo in the closest title fight in history and then get ready for even more spectacular MotoGP, coming soon. FRIDAY: FP1 – 45 minutes FP2 – 30 minutes Sprint Qualifying – 15 minutes SATURDAY: FP3 - 20 minutes Grand Prix Q1 - 15 minutes - all riders Grand Prix Q2 - 15 minutes - top 12 from Q1 MotoGP Sprint – grid from Sprint Qualifying SUNDAY: Moto3 Grand Prix Moto2 Grand Prix MotoGP Grand Prix - grid from Grand Prix qualifying Read HERE the decisions of the Grand Prix Commission confirming the format. Bezzecchi, Bagnaia, Martin, Marquez, Toprak and more give their verdict on the new weekend format, with separate Sprint and Grand Prix qualifying set to arrive in 2027 Watch every session LIVE or OnDemand with MotoGP VideoPass, now 75% OFF!",
+      "language": "en",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "motogp-news",
+      "sourceName": "MotoGP 官方新闻"
+    },
+    {
+      "externalId": "https://www.motogp.com/en/news/2026/10/07/destination-lombok-motogps-island-paradise/1174705",
+      "url": "https://www.motogp.com/en/news/2026/10/07/destination-lombok-motogps-island-paradise/1174705",
+      "title": "DESTINATION LOMBOK: MotoGP’s island paradise",
+      "summary": "Pristine beaches, lush greenery and a sense of adventure, welcome to Indonesia’s hidden gem – which won’t be hidden for long Indonesia, the world’s largest archipelagic state with over 17,000 islands being home to a population of 288.5 million people and thus forming the world’s fourth-most populous country. Of those 17,000 islands, we’re privileged enough to race on one of them – Lombok. It’s our home in Indonesia since 2022 and the Mandalika area is probably one of the most exciting up and coming areas on the island and indeed the country. We’re going to focus our efforts on Lombok itself and how you can have your Bali alternative with a fraction of the crowds and a dose of MotoGP action, all in the same trip. Normally, we’d say that you’d probably be arriving by air and whilst Lombok has an international airport connecting not just to Bali and Jakarta but other major Asian hubs such as Singapore and Kuala Lumpur, there’s plenty of ferry options too. Boats arrive to Senggigi Port from Bali and the Gili Islands, gateway to island paradise on both fronts. They also arrive in the south too, to Lembar, connecting both Bali and Lombok for easy arrivals from Indonesia’s original go-to island. Let’s start with Senggigi though, your first port of call on mainland Lombok. Boutique hotels in abundance and narrow, white sand beaches make this a must visit for everyone. Arriving by boat, you’re right on the edge of the rainforest which goes right up until the slither of sand. Senggigi is the island’s big sunset spot and offers perfect views of the Gili Islands whilst, on many occasion, giving you a vista of Bali’s Mount Agung. However, the island’s best beaches are in the south and right next door to the circuit in Mandalika. A short ride away from the Mandalika resort area, you’ll find yourself in Tanjung Aan, Torok Bare or Lancing Beach, whilst Selong Belanak is arguably one of the best on the island. Mawun Beach and Mawi Beach likewise deliver the goods whilst a little further out, 2 hours from Kuta, you’ll find the untouched beauty of Pantai Melaki. Whilst many beaches (but not all) will have warungs (local for restaurant) and rustic beach bars, hotels aren’t aplenty in all so make sure to have transport and accommodation plans prior. Head out to the east of the island’s south and you’ll find numerous pink beaches, a Lombok speciality. There’s no doubt that if you want a hub of cafes, bars, beach clubs and restaurants, then Kuta is your place. As rough and ready as it is, it blends elegance, chicness and hacienda-style villas well. International cuisine such as Mexican, Indian, Thai, Italian, Lebanese, Chinese and Spanish are intertwined with modern Indonesian and likewise traditional roadside local eateries, making it quite the treat for visitors all over the world. Then there’s the endless bars; Surfers’ is one of our favourites, right by the beach but the TGC, Ketapang and Captikus are big contenders to enjoy a quiet drink or a full throttle party. As crazy as Kuta’s main strip is, it’s got something for everyone. If you want to escape the party vibes of Kuta but don’t want to trapse back up to Senggigi, about an hour and a half back north, then do something completely different and undiscovered: hit up the Secret Gilis. The small islands to the west of Lombok but in the south, they’re still rarely travelled. Some have only one bar or restaurant, others have one or two luxury hotels but if you want to beat the crowds, Gili Asahan, Gili Gede and Gili Sudak are where you’ll want to go. So, whether it’s enjoying a few Bintangs by the beach or nasi gorengs in a local restaurant, exclusive cocktails and clifftops restaurants or renting some wheels and exploring into the undiscovered, Lombok really does offer a slice of everything. You can even take in the 4-day hike of Mount Rinjani, an active volcano in the north of the island for breathtaking views of… well, everything. Throw in some MotoGP and Lombok really is a special Grand Prix. Watch every session LIVE or OnDemand with MotoGP VideoPass, now 75% OFF!",
+      "language": "en",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "motogp-news",
+      "sourceName": "MotoGP 官方新闻"
+    },
+    {
+      "externalId": "https://www.motogp.com/en/news/2026/10/06/mandalika-misfortunes-marc-marquez-ready-to-turn-the-page/1171112",
+      "url": "https://www.motogp.com/en/news/2026/10/06/mandalika-misfortunes-marc-marquez-ready-to-turn-the-page/1171112",
+      "title": "Mandalika misfortunes: Marc Marquez ready to turn the page",
+      "summary": "Just 11 points scored across his previous four visits, and yet to finish a Sunday race in Indonesia, the #93 is ready to rewrite the story Marc Marquez (Ducati Lenovo Team) and the Indonesian GP have had a difficult past since joining the calendar, with Marquez yet to see the chequered flag on Sunday at the venue. The pace, however, has always been there. And with the #93 continuing his remarkable form in 2026, could this finally be the year that he puts his Mandalika misfortunes behind him as he chases the World Championship lead? AS CLOSE AS IT GETS 🔥 @marcmarquez93 narrows the gap to just 2 points in the Championship, the smallest margin after 16 Grands Prix 🤏 #JapaneseGP 🇯🇵 | #MotoGP https://t.co/CBYlaejezB The Pertamina Mandalika International Circuit joined the calendar in 2022, offering a new challenge, a stunning backdrop and a brand-new setting for MotoGP. Although an incredible venue, Marquez’s first visit ended in frustration, qualifying P15 before the real headlines were made in the morning Warm Up following a huge Turn 7 highside. The crash halted his weekend, forcing him to sit out the Indonesian GP and the following round in Argentina. The eight-time World Champion was thankfully up on his feet after suffering a terrifying crash in Warm Up A year later, Marquez made a welcome return, but sadly the same couldn’t be said for his result. Crashing on both Saturday and Sunday, he ended the weekend with no points scored. 2024 did bring a change of fortunes, with the #93 picking up bronze in Saturday’s Sprint and scoring seven points before a mechanical issue ruled him out of contention the following day. Fast forward to 2025: refreshed, recharged and now the newly crowned MotoGP World Champion. Heading from the third row, Marquez clinched P6 after a Long Lap on Saturday, with his race pace pointing towards a positive Sunday. However, a Lap 1 incident with Marco Bezzecchi (Aprilia Racing) brought an unfortunate end to Marquez’s weekend and ultimately his season. Major drama on the opening lap as the polesitter and World Champion make contact and both end up in the gravel trap in Mandalika Now, with six wins in the last nine rounds, Marquez heads into the Indonesian GP in incredible form, looking to turn the tide on his Lombok luck. Entering this weekend chasing MotoGP title number eight and further records as he attempts to overcome the biggest points deficit in MotoGP history. There are plenty of reasons to be excited, with signs pointing towards a positive weekend as our flyaway tour continues. We may be excited for this weekend, but Marquez remains grounded: \"Of course I've never finished a race there; I have been a bit unlucky. Last year in the Sprint, I didn’t feel bad after the Long Lap Penalty, so let’s see. We need to understand what we can do, but step by step I’m feeling better, and since Aragon, the feeling on the bike has been great.\" Can 2026 finally be the year that Marquez strikes gold in Mandalika? Join us this weekend as the #93 looks to rewrite his Indonesian GP story! Watch every session LIVE or OnDemand with MotoGP VideoPass, now 75% OFF!",
+      "language": "en",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "motogp-news",
+      "sourceName": "MotoGP 官方新闻"
+    },
+    {
+      "externalId": "https://www.motogp.com/en/news/2026/10/06/aleix-espargaro-to-replace-mir-at-the-indonesian-gp/1171111",
+      "url": "https://www.motogp.com/en/news/2026/10/06/aleix-espargaro-to-replace-mir-at-the-indonesian-gp/1171111",
+      "title": "Aleix Espargaro to replace Mir at the Indonesian GP",
+      "summary": "The #41 is back in action in Mandalika, replacing the recovering Joan Mir this weekend Honda Racing Corporation have confirmed that Aleix Espargaro will step in for Honda HRC Castrol rider Joan Mir at the Pertamina Grand Prix of Indonesia . Mir will continue his recovery following medical advice, sitting out this weekend. Welcome back to the Honda RC213V, @AleixEspargaro 🫡 The Honda HRC Development will replace Mir at this weekend's #IndonesianGP 🇮🇩 https://t.co/8NCs8f4b9k Espargaro, a three-time MotoGP winner, will compete in his first race weekend since the 2025 Valencia GP. The now Honda HRC development rider spent 14 seasons as a full-time rider in the premier class, scoring 12 podiums throughout his MotoGP career. Espargaro is no stranger to Lombok but will need to get up to speed quickly after his injury earlier this year has limited his time on the Honda this season. The objective for the #41 this weekend is to reacquaint himself with the Honda RC213V before refocusing his attention on development work behind the scenes. Mir will continue his recovery, with updates on his condition to be shared in due course. Watch every session LIVE or OnDemand with MotoGP VideoPass, now 75% OFF!",
+      "language": "en",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "motogp-news",
+      "sourceName": "MotoGP 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/09/worldwcr-welcomes-cfmoto-as-exclusive-motorcycle-supplier-from-2027/1175117",
+      "url": "https://www.worldsbk.com/en/news/2026/10/09/worldwcr-welcomes-cfmoto-as-exclusive-motorcycle-supplier-from-2027/1175117",
+      "title": "WorldWCR welcomes CFMOTO as exclusive motorcycle supplier from 2027",
+      "summary": "The three-cylinder CFMOTO 675SR-R will bring increased performance and a fresh sporting challenge under a three-year agreement covering 2027, 2028 and 2029 The FIM Women’s Circuit Racing World Championship (WorldWCR) will begin a new chapter in 2027, with CFMOTO becoming the series’ exclusive motorcycle supplier for the next three seasons. Powered by a 675cc three-cylinder engine, the 675SR-R combines proven racing DNA with around 15 hp more than the current platform. The move represents an important step in WorldWCR’s sporting development: the additional power and different engine characteristics will challenge competitors to broaden their skills and raise their level, while promising even more exciting racing for fans. WorldWCR will retain its one-make format, with all riders competing on identical machinery and rider talent remaining central to the competition. The change of machinery will coincide with the arrival of Michelin as WorldWCR’s single tyre supplier from 2027 onwards. The partnership also strengthens WorldWCR’s ties with China, supporting the Championship’s ambition to reach more fans and explore new destinations in the seasons ahead. Samantha Liu, General Manager of CFMOTO Motorsports Management Center, said: “Becoming the official motorcycle supplier for the 2027–2029 WorldWCR seasons marks an important new chapter in CFMOTO’s global motorsport journey. It also reflects our long-term commitment to the development of motorcycle racing. We look forward to working closely with WorldWCR and all our partners to further advance women’s motorcycle racing and to bring greater global attention to the speed, passion and potential of female riders.” Gregorio Lavilla, WorldSBK Executive Director, added: “Since WorldWCR began, our ambition has been to create more opportunities and build strong competition. Continuing to raise the bar for the riders is a key part of that. The CFMOTO 675SR-R gives our riders a more powerful motorcycle to master and a new challenge to help them develop, while retaining the equal technical conditions that make their ability count. We are pleased to welcome CFMOTO for the next three seasons and look forward to working together to develop WorldWCR on track and extend its international reach.” Get set for the 2026 finale at Jerez by subscribing to the WorldWCR YouTube and watch every race for FREE and follow the Championship on X (formerly Twitter) , Facebook and Instagram .",
+      "language": "en",
+      "publishedAt": "2026-10-09T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/08/worldwcr-and-yamaha-to-conclude-partnership-after-three-seasons/1174946",
+      "url": "https://www.worldsbk.com/en/news/2026/10/08/worldwcr-and-yamaha-to-conclude-partnership-after-three-seasons/1174946",
+      "title": "WorldWCR and Yamaha to conclude partnership after three seasons",
+      "summary": "WorldWCR thanks Yamaha and JiR for their contribution to its launch and development The FIM Women’s Circuit Racing World Championship (WorldWCR) and Yamaha will conclude their partnership at the end of the 2026 season, following three seasons together. Yamaha played a central role in bringing WorldWCR to the track in 2024, supplying the Yamaha R7 motorcycles that have formed the basis of the Championship throughout its first three seasons. Its involvement helped establish a new platform within the WorldSBK paddock, giving female riders opportunities to compete at World Championship level and showcase their talent to a global audience. Since its opening round at Misano in June 2024, WorldWCR has welcomed 55 riders representing 25 nationalities, bringing together established competitors and emerging talent from around the world. Ana Carrasco claimed the inaugural title in 2024, followed by Maria Herrera in 2025. WorldWCR extends its thanks to everyone at Yamaha and technical partner JiR for their commitment, technical expertise and support for the riders and teams. Their work has been an important part of establishing the Championship and delivering its first three seasons. Gregorio Lavilla, WorldSBK Executive Director, said: “When we launched WorldWCR, our ambition was to give more female riders the opportunity to compete at World Championship level and show what they could do. Yamaha believed in that ambition from the beginning and helped make it possible. We would like to thank everyone at Yamaha and JiR for the commitment and hard work they have brought to these first three seasons. Together, we have created opportunities for riders, celebrated new champions and given fans new names to follow. As WorldWCR prepares for its next chapter, we remain committed to building on that work and helping more female talent progress in the sport.” Get set for the 2026 finale at Jerez by subscribing to the WorldWCR YouTube and watch every race for FREE and follow the Championship on X (formerly Twitter) , Facebook and Instagram .",
+      "language": "en",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/08/i-know-its-a-home-round-and-everyone-will-be-very-keen-to-come-watch-im-just-looking-to-enjoy-a-good-result/1175003",
+      "url": "https://www.worldsbk.com/en/news/2026/10/08/i-know-its-a-home-round-and-everyone-will-be-very-keen-to-come-watch-im-just-looking-to-enjoy-a-good-result/1175003",
+      "title": "“I know it's a home round and everyone will be very keen to come watch… I’m just looking to enjoy a good result”",
+      "summary": "Title celebrations, home rounds and the small matter of the future were all hot topics as WorldSBK hit Estoril Thursday at the Circuito Estoril has been a spicy one in the MOTUL FIM Superbike World Championship. From reflecting on title celebrations to home rounds and the future, there have been plenty of big discussions on the cards at the Tissot Estoril Round. We’ve gathered the best from Thursday’s debriefs for you. It’s a home round for Miguel Oliveira (ROKiT BMW Motorrad WorldSBK Team), who’s excited for Estoril: “It feels good to be back here. I haven’t raced at Estoril since 2012. Very good memories because it’s the track where I grew up as a little racer. The track is in excellent condition. We were here for a day in August, and it brought good sensations. The track is still the same as I remember. I’ve done a couple of track days afterwards, so the track stayed very vivid in my memory. I’m much more relaxed than at Portimao, I know it's a home round and everyone will be very keen to come watch World Superbike. That will be a little bit chaotic, but at the same time, I'm much more relaxed. Obviously, I take the weekend seriously, but I’m just looking to enjoy a good result. It will be very interesting to go to Valencia, and Shanghai was a new addition for sure. The organisation got it done and for sure we're very happy to go to China and see all the Chinese fans.” The #88 is looking for a strong close to 2026, and no better place to fight than at his second home round at Portugal Newly crowned Champion Nicolo Bulega (Aruba.it Racing - Ducati) explained the celebrations and how he’s feeling now: “I’m really happy to achieve this great result. Maybe I still don’t realise it 100%, because after Cremona I had a lot of events and that kind of thing. I will celebrate much more after the season. I received a lot of messages from a lot of people. I spent one week on the phone answering the messages! We celebrated, but not a lot because the season isn’t finished. The goal is to win. I start a race weekend always trying to win. I think Franco Morbidelli, first of all, is a great guy and he’s a great rider. I think with this team, he has what he needs to bring out his maximum potential. If he does it, he’ll be very strong.” The #11 reflected on the last two weeks, while joking he spent a week responding to congratulatory messages Speaking about his future, Danilo Petrucci (ROKiT BMW Motorrad WorldSBK Team) said: “I'm happy because it's a track that I always liked and we had the chance in August to come here and do some testing. We've tested at other places around Europe such as Donington and Magny-Cours; the outcomes weren’t good, but it gave us a base to start from. What I was riding in Cremona is quite different from what I'm going to ride this weekend. I'm quite confident because we are still working hard together with the team. These could be my last two rounds in World Superbike, so I just want to enjoy and see what happens. I'm waiting on BMW because I've been to the USA to see how the situation is there. There have been some talks about staying here with another team, but it's it's just talks because it's not me deciding. GoEleven has asked us if I'm still free, but at the moment we don't have an answer. I'm free because I still don't have any, let's say, any paper from the USA.” Alvaro Bautista (Barni Spark Racing Team) spoke about his plans beyond 2026, saying: “The feeling was getting better last weekend, and it wasn’t the end we deserved. This track is very different, but I will try to recover my feeling. We’ve tried to not change much on the bike over the last few rounds. It’s felt like every time we’ve started to build our confidence this season, something has happened, and we've gone backwards. Why not six podiums to end the season? We ended last season with eight consecutive podiums. This season is different, but I want to close it out as well as possible. I started this season with a clear target, and we have tried our best, but sometimes the results don’t come. We’ve tried harder and harder, but we’ve achieved much, much less than what we expected. It’s a different team, a different bike. This bike seems made for bigger riders with more arm strength. We had a lot of difficulties; it made no sense for us to keep going with that bad feeling and go our separate ways. Right now, I don’t have any clear proposals that motivate me to keep racing. I want to finish out this season, then have a break and think about my future. I don’t want to do something just because I have to. I want something that motivates me and makes me feel like I have a chance to recover my form and performance level. I just want to end this season as soon as possible. I’ve had good results at Estoril, but Jerez is my home round. I’d like to enjoy these two rounds, then think about the future.” Still without a seat for 2027, the #19 remains on the hunt for a strong close to the season With his future secured for 2027, Xavi Vierge (Pata Maxus Yamaha) said of his move to Barni Ducati: “I’m so excited with the news. It will be a big opportunity for me; it’s true that everything will change next year. I think this opportunity arrived at a good moment in my career. I have a lot of experience. Barni’s done an amazing job in the last few years, always fighting for the top positions and to be the top Independent team. I’m so excited for that. I haven't had time to speak to anyone. Yari’s doing an amazing job this year, so to have him as a teammate will be a big help for me. Cremona was a difficult track for us, but we believe the last two rounds will be better. It’s a track that suited our package. Yamaha have been strong in the last few years, and also me; they’re two tracks I like.” Heading to Estoril off the back of a maiden hat-trick, Iker Lecuona (Aruba.it Racing - Ducati) previewed the round: “I’m happy and excited to arrive here. It’s a track I usually do quite well at, and I earned a podium here two years ago",
+      "language": "en",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/08/gardner-ruled-fit-to-compete-at-estoril-after-cremona-hand-injury/1174911",
+      "url": "https://www.worldsbk.com/en/news/2026/10/08/gardner-ruled-fit-to-compete-at-estoril-after-cremona-hand-injury/1174911",
+      "title": "Gardner ruled fit to compete at Estoril after Cremona hand injury, will be reviewed after FP1",
+      "summary": "The #87 is back in business in Portugal after a left hand fracture saw his weekend at Cremona end early Australian MOTUL FIM Superbike World Championship rider Remy Gardner (GYTR GRT Yamaha WorldSBK Team) has been ruled fit after a checkup at the medical centre at the Circuito Estoril. He had been ruled unfit early on Sunday at Cremona with a broken fifth metacarpal in his left hand , which, despite suffering the injury in an FP2 crash on Friday and soldiering on to compete in Race 1, it caught up with him on the final day of that round. Now, however, the #87 is back in action and will take to the track on Friday in the penultimate round of the WorldSBK season and will be reviewed after the opening Free Practice 1 session. Catch the Aussie on track at Estoril Live and OnDemand with the WorldSBK VideoPass! Now just €9.99!",
+      "language": "en",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/08/fim-yamaha-r3-blu-cru-world-cup-set-for-championship-showdown-at-estoril/1174896",
+      "url": "https://www.worldsbk.com/en/news/2026/10/08/fim-yamaha-r3-blu-cru-world-cup-set-for-championship-showdown-at-estoril/1174896",
+      "title": "FIM Yamaha R3 BLU CRU World Cup set for championship showdown at Estoril",
+      "summary": "The season finale is here with just one point separating the top two heading to Portugal The 2026 FIM Yamaha R3 BLU CRU World Cup is set for a dramatic championship showdown at the Circuito Estoril this weekend, with just a single point separating the series’ leading two riders heading into the final round. The Dominican Republic’s Xarly Mendez has led the championship since the opening round, but after three victories from the last four races, Japanese ace Riichi Takahira has managed to chase Mendez down, with his Race 2 win last time out at Cremona seeing him take control at the top of the standings, albeit one point ahead of the previous series leader. Mathematically, the top seven riders all remain within championship contention. Italy’s Emanuele Pastore sits third overall, 31 points back on Takahira’s lead with Brazil’s Aymon Bocanegra 35 points off the series lead. Mottola (Italy), Clark (USA) and Binder (Switzerland) are also in theory championship contenders with 50 points on offer in Portugal this weekend. Last year in Portugal, Bocanegra took victory in the second race while Mendez also has a strong record at the Estoril track, having stood on the podium in Race 1 12 months ago. For Takahira, Estoril presents a new challenge – but learning circuits has proven to be a strength of the Japanese rider this year. The weekend gets underway with Practice and Superpole on Friday, ahead of Race 1 on Saturday and Race 2 on Sunday both taking place at 13:00 local time. The races can be streamed live on the Yamaha Racing YouTube channel.",
+      "language": "en",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/08/fast-facts-easy-guide-and-key-numbers-from-worldsbks-last-visit-to-estoril/1174916",
+      "url": "https://www.worldsbk.com/en/news/2026/10/08/fast-facts-easy-guide-and-key-numbers-from-worldsbks-last-visit-to-estoril/1174916",
+      "title": "FAST FACTS: Easy guide and key numbers from WorldSBK’s last visit to Estoril!",
+      "summary": "It’s the penultimate round of the season after a record-breaking year, and you can get your quick guide to last year’s visit here… The Circuito Estoril will go down in MOTUL FIM Superbike World Championship history as the venue of the closest-ever finish in 2024. While 2025 didn’t quite provide that close a finish, it did give us an epic penultimate round of the season, and the Tissot Estoril Round this year won’t be any different. Ahead of track action, get up to speed with last year’s facts and figures. Manufacturer podium places (and wins) accumulated from all races at Estoril: Manufacturer top speeds at Estoril, 2025: Watch Estoril from wherever you are and whenever you want with the WorldSBK VideoPass - now 70% off!",
+      "language": "en",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/08/behind-the-numbers-how-perugia-timing-keeps-time-in-worldsbk/1174891",
+      "url": "https://www.worldsbk.com/en/news/2026/10/08/behind-the-numbers-how-perugia-timing-keeps-time-in-worldsbk/1174891",
+      "title": "Behind the Numbers: How Perugia Timing keeps time in WorldSBK",
+      "summary": "For 80 years, Italy’s Perugia Timing has been developing the technology and expertise behind the numbers that define motorsport. We go behind the scenes to discover what it takes to measure every lap, every sector, and every finish in WorldSBK. A MOTUL FIM Superbike World Championship race can be decided in less than the blink of an eye. A motorcycle crosses the finish line. A number appears on the timing screen. A sector time changes. A rider's position updates. For the fans watching around the world, it happens almost instantaneously. But behind those numbers is an extraordinary combination of technology, software and human expertise, much of it completely invisible to the spectators in the grandstands and the competitors on track. For Perugia Timing, which celebrates its 80th anniversary in 2026, keeping track of the world's fastest production-based motorcycles is about far more than starting and stopping a clock. There are wires buried beneath the asphalt, transponders mounted on motorcycles, GPS signals, electronic communication with the bikes, sophisticated software and photo-finish technology capable of scanning the finish line thousands of times every second. And it must all work perfectly. Perugia Timing's story began in 1946, in the province of Perugia, but the roots of organised sports timekeeping in Italy stretch back even further. In the 1920s, Italy established a national federation for timekeeping across sports where accurate timing was required, creating an environment in which specialists could develop their skills across disciplines ranging from athletics and swimming to horse racing, basketball and volleyball. Perugia became part of that tradition, with local timekeepers working across the province before the technology of motorsport began to transform the profession. One of the figures who played an important role in Perugia's development was Luigi Burini, who became president of the association and helped pass his knowledge on to the next generation. Today, the organisation bears his name as FICR L. Burini Perugia Timing. For Giorgio Giordani , Senior Timekeeper and a member of the board of the Perugia Timing Association, the history of racing timekeeping is also a history of reducing the opportunities for human error. He said: \"When timing started, everything was manual. You had stopwatches and you needed a lot of people. Everyone had their own reaction time, so it wasn't easy to have an accurate result.\" The breakthrough came with the chronoprinter. Introduced into major international sport during the 1960 Olympic Games in Rome, the technology established a new approach to timing: rather than relying entirely on people reading and writing stopwatch times, information could be printed and processed in a much more structured way. This was just the beginning, however. \"Even with the chronoprinter, it wasn't easy,\" said Giordani. \"You could have two cars or bikes passing at the same time. You needed people to check the numbers and the times and make sure everything was synchronised.\" As computers began to appear, Perugia was among the organisations investing in the technology needed to bring timing into the digital age. The nearby Magione circuit, built in the 1970s, became an important testing ground. With its short 1.6-kilometre layout and lap times of around a minute, it presented an ideal - and challenging - environment in which to develop new systems. In the 1980s, Perugia began developing its own timing software and hardware, including a special interface created specifically for the organisation by engineer Roberto Lucca. The early computers had tiny amounts of memory and processing power by modern standards. Giordani recalled: \"At the beginning, when the programmers came to the circuit and saw how many people were working, they were scared that the computer wouldn't be able to keep up. It did, and Perugia's development work would soon take the organisation far beyond Italy.” The next major revolution came with the transponder. Perugia began developing software specifically for transponder-based timing in the 1980s, at a time when the technology was still in its infancy. The first systems were large and relatively basic, with transponders initially operating only at the finish line rather than providing the sector-by-sector information familiar to today's fans. The principle behind the transponder was transformative however - instead of requiring people to manually record the passage of every motorcycle, the transponder could identify the machine electronically and send its information directly into the timing system. Perugia was among the first organisations to develop the software and infrastructure needed to make that technology work in motorcycle racing. \"The transponder was a big improvement,\" said Giordani. \"The data was much easier to collect, but it also required new skills. We had to develop the software and the interfaces around it.\" The organisation's expertise soon attracted attention from beyond Italy, and Perugia became involved in timing for numerous motorcycle and car championships, while its work on television interfaces allowed live timing information to be integrated into broadcast pictures. The company also worked with the Dutch company AMB - now part of MYLAPS - as transponder technology continued to evolve. Perugia's expertise eventually extended to multi-sector timing, initially splitting circuits into two sections before progressively developing more sophisticated systems. Then came another milestone when, in 1994, Perugia travelled overseas for the first time to provide timing at the Sentul circuit in Indonesia. For Giordani, who has been involved with Perugia for decades, the progression from those early systems to today's technology is extraordinary. Yet perhaps the most surprising part of modern timing is that some of its most important components are hidden beneath the track itself. Walk around a modern WorldSBK circuit and you'll se",
+      "language": "en",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/08/bautista-id-like-to-enjoy-these-two-rounds-then-think-about-the-future/1175032",
+      "url": "https://www.worldsbk.com/en/news/2026/10/08/bautista-id-like-to-enjoy-these-two-rounds-then-think-about-the-future/1175032",
+      "title": "Bautista: “I’d like to enjoy these two rounds, then think about the future”",
+      "summary": "The Spanish WorldSBK star wants to close out 2026 strong before addressing his future Two-time MOTUL FIM Superbike World Champion Alvaro Bautista (Barni Spark Racing Team) rides into the final two rounds of 2026 still without a seat for next year’s campaign. The #19 hopes to raise his stock with a strong final push over the last two rounds, as he did in 2025, when he took eight podiums from the final eight races. He wants to let his racing speak for itself over the final two rounds of the season before he circles back this offseason to evaluate his options for 2027. Following his silverware-laden close to the 2025 campaign, which clinched him third place in the Riders’ Championship battle, Bautista moved from the factory Aruba.it Racing – Ducati outfit to the Barni Ducati squad. Despite starting the year well with a podium at Phillip Island in a wet Race 2, the Spanish rider has struggled to hit those heights since. With that sole rostrum result, he’s on pace for his worst top-three tally since his sophomore WorldSBK season in 2020. Just after Round 10 at Cremona, the Barni Ducati team announced that Xavi Vierge (Pata Maxus Yamaha) will join the team atop Bautista’s bike in 2027 to ride next to Yari Montella , meaning that the #19 will need to find a new ride for the campaign to come. Still without a seat for 2027, the #19 remains on the hunt for a strong close to the season Speaking about his future ahead of Estoril, Bautista said: “At the moment, I don’t have any clear proposals that motivate me to keep racing. I want to finish out this season, then have a break and think about my future. I don’t want to do something just because I have to. I want something that motivates me and makes me feel like I have a chance to recover my form and performance level. Right now, I’m not concerned about that. I just want to end this season as soon as possible. I’ve had good results in the past at Estoril, but Jerez is my home round. I’d like to enjoy these two rounds, then think about the future.” With 2027 seats filling up fast, 2026’s rider market is open for business. Bautista has his work cut out for him to woo one of the remaining garages into bringing him in for the next iteration of WorldSBK. Check out who is headed where in the full silly season article. Can Bautista battle back to the same podium heights he enjoyed to close 2025? Tune in Live and OnDemand to find out with the WorldSBK VideoPass! Now just €9.99!",
+      "language": "en",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/07/steve-english-opinion-the-good-the-bad-and-the-ugly/1174520",
+      "url": "https://www.worldsbk.com/en/news/2026/10/07/steve-english-opinion-the-good-the-bad-and-the-ugly/1174520",
+      "title": "STEVE ENGLISH OPINION: The Good, The Bad and The Ugly",
+      "summary": "From podium highs to injuries derailing their campaign, BMW have seen it all in 2026. WorldSBK commentator Steve English assesses their season and looks ahead to a new era in 2027 After an incredibly successful partnership with Toprak Razgatlioglu in 2024 and 2025, the BMW Motorrad WorldSBK operation has been brought back to earth with a bang in 2026 in the MOTUL FIM Superbike World Championship. This was always likely to be a challenging campaign with two new riders, but no-one could have foreseen just how difficult it would become. A winter testing programme marred by bad weather and limited mileage left Miguel Oliveira (ROKiT BMW Motorrad WorldSBK Team) playing catch-up. Arriving at Phillip Island, the former MotoGP race winner had little idea of what to expect from WorldSBK. A crash on his first flying lap in Superpole told him all he needed to know; WorldSBK is unforgiving. Make a mistake and you spend the weekend playing catch-up. If your bike isn't quite ready, you spend your time playing catch-up. However, he also learned that if you start from the back of the grid... you get to have some fun. The fun was clear to see for Oliveira from the opening race of the season. Starting from last on the grid, he came from 21st to finish inside the top ten. It was a stunning debut, made all the more impressive by beating his teammate Danilo Petrucci, who had started on the second row. Two BMW M 1000 RRs inside the top ten. Munich could have been forgiven for thinking their prospects for 2026 were bright. Round two at Portimao was a home round for Oliveira and it offered the highlight of the season. Three podiums were a fantastic reward for his efforts. Suddenly, the uncertainty of Phillip Island seemed to be disappearing. The Portuguese star looked ready for his moment on a Superbike. BMW were buoyed by Oliveira's performance, while two top-ten finishes for Petrucci suggested the package was strong. After six races, BMW had genuine reason to believe the season could develop into a solid campaign. The Dutch Round at Assen was an important learning experience. In 2025, it had been the most difficult round of the season for Razgatlioglu because of tyre issues. There was little reason to expect BMW to suddenly find a winning formula there with two new riders. Top-ten finishes for both riders were nevertheless encouraging. A second-row start and a Race 1 podium in Hungary reinforced what BMW were beginning to realise; Oliveira was their man. He had emerged as the team's leader and a rider they could bank on. Through his opening ten WorldSBK races he had shown enough to suggest BMW had found the cornerstone of their future. Sunday dawned brightly for BMW in Hungary. Unfortunately, the Superpole Race marked the end of that false dawn. A crash for their star man left Oliveira with a fractured shoulder, and the team's fortunes have been recovering ever since. At the next round, it was Petrucci's season that was compromised by injury. A huge highside left the Italian with a fractured coccyx and an assortment of other ailments. While Petrucci was recuperating, the WorldSBK paddock was leaving him in its wake. Ultimately, the Italian knew this and tried to return at Donington Park. After such a serious injury, it was little surprise that he wasn't competitive. BMW's decision to move on from Petrucci came quickly. Brad Binder was hired as his replacement for 2027 and, for BMW, the future suddenly started now. The team has already begun building a crew around the South African. With Tom O'Kane set to move over from Yamaha as crew chief and a technical shake-up of existing personnel, BMW are putting the building blocks in place for a new era. However, the present still needs to be dealt with. The return to action after the summer break saw BMW reach the nadir of their WorldSBK season. Lining up 18th and 19th on the grid left both riders outside the top ten in all three races. Morale was at an all-time low, and questions were inevitably being asked about the causes. Ultimately, one of the biggest reasons for BMW's fortunes in 2026 has been bad luck. Oliveira's Hungarian Round crash and fractured shoulder changed the trajectory of the campaign. A serious injury inevitably leaves a rider playing catch-up, and the physical demands of recovering from a shoulder injury make a return to full performance a difficult process. Oliveira is back on track, but the question now is how much of his performance will return before the season ends. BMW, however, are already looking beyond the present. The countdown to Phillip Island and the start of a new era is underway. They have seen the good, the bad and the ugly in 2026. Now they have to turn those lessons into the foundations for a more successful future. Watch Oliveira’s home round in style using the WorldSBK VideoPass – now only €9.99!",
+      "language": "en",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/07/pirelli-bring-softest-allocation-to-estoril-no-development-tyres/1174503",
+      "url": "https://www.worldsbk.com/en/news/2026/10/07/pirelli-bring-softest-allocation-to-estoril-no-development-tyres/1174503",
+      "title": "Pirelli bring softest allocation to Estoril, no development tyres",
+      "summary": "The SCQ is available for Superpole while the SCX can be used in long races, with all tyres coming from Pirelli’s standard range Pirelli have unveiled their solutions for the Tissot Estoril Round as the MOTUL FIM Superbike World Championship lands in Portugal for the penultimate round of the season. All the tyres that can be used in WorldSBK come from Pirelli’s standard range with the Italian brand opting to go for their softest tyres in Portugal. With Pirelli opting for a soft allocation, it means the SCQ tyre is available for riders to use in the Tissot Superpole session, Tissot Superpole Race and Free Practice sessions. For the long races, riders can choose between the standard SCX supersport – used widely throughout the year – and the SC0 soft. In the event of rain, it’s the standard Intermedia and standard SCR1 Rain tyre available to the riders. For the front tyre choices, both in dry and wet conditions, riders can choose from two options. For slick tyres, the softest is the SC1 soft and that is joined in the allocation by the SC2 medium as the harder of the two options; both are standard solutions. Should it rain in Portugal, riders will, as with the rear options, be able to choose from the standard Intermedia and SCR1 Rain tyres. For the WorldSSP field in Estoril, riders have two slick tyre choices for the front and rear. For the former, the competitors can choose from the SC1 soft and the SC2 medium tyre. At the rear of the bike, they can fit the SCX supersoft and SC0 soft tyre. Should it rain, riders can fit the SCR1 Rain tyre for both the front and rear. Discussing Pirelli’s allocation, Giorgio Barbier, Motorcycle Racing Director at Pirelli, said: “Estoril is a circuit we know very well, as it has hosted the FIM Superbike World Championship, albeit with some interruptions, since the late 1980s. In terms of its layout and asphalt characteristics, with the last complete resurfacing dating back to 2006, it is a track that has historically not offered particularly high levels of grip, while placing different types of demands on the tyres. The circuit’s geographical location, not far from the coast, is another factor that needs to be taken into consideration, with the possibility of rainfall and sudden temperature changes potentially requiring teams and riders to react quickly with their bike set-up. Last year, precisely because of these characteristics, we provided riders with two rear development solutions: the E0479 extrasoft and the E0126 supersoft. Both were immediately appreciated, delivering significant improvements both over a single lap and across race distance. These two specifications were subsequently promoted to range tyres, making them available to all motorcyclists, and they are being offered again for this round. It will be interesting to see whether the performance growth recorded throughout this season is confirmed this weekend as well.” Watch every moment from Estoril LIVE and UNINTERRUPTED using the WorldSBK VideoPass – now only €9.99!",
+      "language": "en",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/07/honda-hrc-and-chantra-ink-a-deal-extending-their-collaboration-through-2027/1174689",
+      "url": "https://www.worldsbk.com/en/news/2026/10/07/honda-hrc-and-chantra-ink-a-deal-extending-their-collaboration-through-2027/1174689",
+      "title": "Honda HRC and Chantra ink a deal extending their collaboration through 2027",
+      "summary": "The Thai rider will remain in red and blue for next season alongside the #96 Another piece of the 2027 MOTUL FIM Superbike World Championship rider market puzzle snaps into place as Honda HRC have announced that Somkiat Chantra will return for 2027. Marred by injury, his 2026 season has been limited, but his renewal is a vote of confidence from Honda HRC in his potential in the final two rounds of 2026 and the campaign to come. Hot off of Chantra’s head-turning MotoGP wildcard appearance, both the #35 and his teammate Jake Dixon have shown improved pace through the most recent rounds. Despite a largely rain-abridged preseason ahead of their rookie season as full-time WorldSBK riders, Chantra tied his season-best P13 in all three races over the weekend at Cremona. Alongside the #96’s improved results , the Honda CBR1000RR-R SP riders will be one to keep an eye on over the final two rounds as it looks like they may have found something on their bikes. On the renewal, Chantra said: “I am very happy to continue with Honda HRC in WorldSBK for another season. This year has been a new challenge for me, with a new Championship, a new bike and many new tracks to learn, but step by step I have gained experience and a better understanding of the CBR1000RR-R SP. I really appreciate the trust that Honda HRC continues to place in me, and I want to thank the team for all their hard work and support. I feel that we still have great potential to improve together, and I am very motivated to keep working, make further progress and achieve stronger results in 2027.” Honda HRC General Manager Taichi Honda added: “We are very pleased to continue with Somkiat for the 2027 season. This year he has approached his first WorldSBK season with great commitment and a very positive attitude, working closely with the team and our engineers as he has adapted to a new Championship. We believe there is still significant potential to develop together, and the continuity of our rider line-up will be important as Honda HRC continues to work on strengthening our WorldSBK project. We look forward to continuing this journey with Somkiat and seeing him take further steps forward in 2027.” Catch Chantra in the penultimate round to come at Estoril, kicking off on Friday, October 9 th Live and OnDemand with the WorldSBK VideoPass! Now just €9.99!",
+      "language": "en",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/06/preview-worldssp-titles-on-the-line-at-estoril-as-arenas-hopes-to-hold-off-his-rivals-and-seal-2026-on-top/1174461",
+      "url": "https://www.worldsbk.com/en/news/2026/10/06/preview-worldssp-titles-on-the-line-at-estoril-as-arenas-hopes-to-hold-off-his-rivals-and-seal-2026-on-top/1174461",
+      "title": "PREVIEW: WorldSSP titles on the line at Estoril as Arenas hopes to hold off his rivals and seal 2026 on top",
+      "summary": "Knives are out in Portugal as the WorldSSP Riders’ title, Teams’ title and Manufacturers’ title can each be won as early as Race 1 The FIM Supersport World Championship unpacks their bags in Portugal ahead of what will be a decisive penultimate Tissot Estoril Round. All three of the class’s titles are up for grabs at the Circuito Estoril, but it will take an upset to prevent Albert Arenas (AS BLU CRU Racing Team) from bagging the Riders’ Championship, while the Teams’ and Manufacturers’ Championship can also be decided. It’s been a rock-solid debut season for the 2020 Spanish Moto3 World Champion: 16 podiums from 20 races so far, plus just two non-DNF results off the podium, have put Arenas in a prime position to close out this 2026 season as the new WorldSSP Champion. He’s currently on a three-race streak of second-place finishes, and if he can keep that podium pace in Race 1, he’ll seal the title. A podium finish secures the title regardless of Valentin Debise's results, while Arenas can afford to lose up to 10 points in Race 1 to be crowned Champion. Hoping to prevent that, Valentin Debise (EASTROC ZXMOTO Factory Evan Bros Racing) has his work cut out for him and will need some help from other riders to finish ahead of the #75 as well. Arenas currently holds an 86-point lead in the Riders’ title, and 75 points will remain after Race 1, meaning that if the Frenchman doesn’t outscore Arenas by at least 11 points in the opening race, the Spaniard will be crowned. Fortunately for him, Estoril is a circuit at which the #53 has enjoyed good results in the past, including a Race 1 win here last season on a Ducati V2 with Renzi Corse and a Race 2 podium back in 2024 on a Yamaha R6 during his first stint with the Evan Bros team. As for the Teams’ title, it’s similarly promising for Arenas’s AS BLU CRU Racing Team; if he and Aldi Mahendra can lose fewer than 29 points to the ZXMOTO riders in Race 1, the title is theirs. Lastly, in the Manufacturers’ Championship, Yamaha holds a 92-point lead with 100 points remaining, meaning Yamaha can win the title in Race 1 if they lose no more than 16 points to Ducati. After a strong round at Magny-Cours, Can Oncu (Pata Yamaha Ten Kate Racing) faltered early at Cremona. A Lap 5 crash from P4 spoiled his podium bid in Race 1, and a P11 in Race 2 sent him back to P4 in the title standings, eight points behind Jaume Masia (Orelac Racing VerdNatura). The gap is marginal with two rounds still remaining and he took his first podium at Estoril last season with a Race 1 P3, but Oncu will need to improve his consistency if he wants to prevent future headaches. As for Masia, the Spanish rider enjoyed a consistent round at Cremona, finishing both races inside the top eight for the first time since Aragon. He hopes to keep his forward momentum and return to the podium at Estoril. 29 points behind Oncu, Tom Booth-Amos (PTR Triumph Factory Racing) looks to be making a play to rejoin the fight for third in the Championship. The Brit bounced back from an unfortunate round at Magny-Cours with a return to the podium for the first time since his domination at Donington Park. Jeremy Alcoba (Kawasaki WorldSSP Team) moved up to sixth in the standings after an incredible showing at Cremona: his first pole, and not just a maiden win, but a maiden double that earned him 50 out of 50 available points. He now sits just four points behind the #69, and after earning his maiden WorldSSP podium last season at Estoril, the #52 will hope to close out this season even stronger than he did in 2025, when he took podiums in the final two rounds. A Race 1 crash with Simon Jespersen (EAB Racing Team) shook up Roberto Garcia's (GMT94 Yamaha) weekend at Cremona, and while he was able to salvage a point from Race 1 despite a back of the grid start for leaving pit lane late as his team scrambled to finish their repairs, Garcia retired from Race 2 to end the round with a single point. The rider from Seville took P4 here last season, and he could prove a dark horse to snag a podium in Portugal. Philipp Oettl (Feel Racing WorldSSP Team) returned to the top ten with a P7 in Race 2 in Italy after an unlucky round at Magny-Cours. Keep an eye on the German this weekend, as the #65 has missed the podium only twice in six races here, including a second place last season on the same Ducati V2 machinery. Matteo Ferrari (WRP Racing) overtook Aldi Mahendra (AS BLU CRU Racing Team) for P9 in the standings at Cremona thanks to P6 and P9 in the weekend’s races. Expect both riders to give nothing away as they fight for P9. Ferrari rode here in 2025 unlike Mahendra, who will be competing in his first WorldSSP round here; however, the Italian’s off-pace results that weekend make it tough to pick a favourite between the pair. Behind them, Alessandro Zaccone (Ecosantagata Althea Racing Team) will hope to break into the top ten from P11, just ten points behind the Indonesian; Italian rider Filippo Farioli (VFT Racing) will look to string together more positive results after his breakout maiden podium in the class last round and has been fighting at the front with the lead Yamaha riders over the last two rounds. The Cerba Yamaha Racing Team announced on Wednesday their signing of Eric Fernandez, who will take the seat formerly ridden by Riccardo Rossi. The Spaniard competed this year in the European Moto2 Championship, where he sits in seventh in the standings and finished second and first in the class’s round at Estoril. will be making his WorldSSP debut at Estoril. He will join this weekend’s home hero wildcard rider Goncalo Capote, who will make his debut in the paddock from his full-time ride this season in the FIM Stock European Championship. Don’t miss a moment from Estoril as action gets started on Friday, October 9 th with the WorldSBK VideoPass! Now just €9.99!",
+      "language": "en",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/06/morbidelli-on-2027-worldsbk-switch-its-a-great-opportunity-for-me-after-a-difficult-year-in-motogp/1174473",
+      "url": "https://www.worldsbk.com/en/news/2026/10/06/morbidelli-on-2027-worldsbk-switch-its-a-great-opportunity-for-me-after-a-difficult-year-in-motogp/1174473",
+      "title": "Morbidelli on 2027 WorldSBK switch: “It’s a great opportunity for me after a difficult year in MotoGP”",
+      "summary": "The Italian will effectively swap seats with 2026 Champion Bulega, who joins MotoGP next season Franco Morbidelli will make his MOTUL FIM Superbike World Championship debut in 2027 after inking a deal with the Aruba.it Racing – Ducati squad for next season. The Italian, a three-time MotoGP race winner, returns to the paddock where he first made a name for himself and reflected on his arrival, the challenges he faces and his rivals next season as he prepares to take the most coveted, and perhaps the one with most pressure, seat – replacing Nicolo Bulega, with ‘Bulegas’ heading to the VR46 Racing Team in MotoGP. Morbidelli was speaking at Cremona, where he visited the action as Bulega was crowned 2026 World Superbike Champion. For ‘Frankie’, it’s going to be a change of scenery after eight seasons in MotoGP with both Yamaha and Ducati, and he gave his first thoughts on his move to the factory Ducati team in WorldSBK. He said: “It’s a great opportunity for me after a difficult year in MotoGP, where I’ve struggled on some occasions. I hope to be able to use my chance that Ducati are giving me well. It would be nice to get back to winning ways. It’s a thing that I love to do, I really like to win. We all know a package like Aruba Ducati is a package very much capable of winning, so I’m aiming to do that.” Morbidelli will race alongside Iker Lecuona next season after the Spaniard’s breakout year. The pair have also raced this season in MotoGP when Lecuona stood in at Gresini Ducati at Balaton Park and Silverstone. Not only will Morbidelli once again face the #7, but he will re-unite with former MotoGP rider Miguel Oliveira (ROKiT BMW Motorrad WorldSBK Team) plus 2027 newcomers Jack Miller and Brad Binder. Speaking about Lecuona and his rivals in 2027, Morbidelli said: “I know many riders who race here in WorldSBK very well. I’ve raced against them for many years, on many occasions, so I know them very well. I know my teammate for next year, Iker Lecuona, and he’s a very strong rider. I know him from this year as well because he came to MotoGP to do some races. I know that the field is really tough so let’s see what I’m going to be capable of doing. I just know that the team I’m joining are very much capable of winning, so I hope to stay at that level.” Morbidelli will have to learn a lot of new things for 2027. He’ll be on a new bike and he’ll have to understand the feeling that provides, while there’s also a different format. WorldSBK does not use the Q1/Q2 system that MotoGP does, while there are three races per weekend rather than two in his current Championship. Discussing what his biggest challenge will be, the Italian said: “There are new things to learn, and I hope that I’ll be able to learn them as quickly as possible. I’m sure the team is going to make a big effort from that point of view, to help me to learn as quick as possible about the things I don’t know about the bike and also the Championship in general. I don’t know what my biggest challenge will be, but there will be a few.” For Morbidelli, it’s not his first time in the WorldSBK paddock. He made his STK600 debut in 2011, and in 2012 he claimed his first pole and podium in the class. 2013 was a title-winning year for the Rome-born rider, taking five podiums and two wins as he beat Alessandro Nocco to the title. It was these performances that earned him a shot in Moto2 and, afterwards, MotoGP. Reflecting on his emotions about returning to the paddock, Morbidelli said: “It is special, it’s like getting back to my roots of motorcycle racing. I began my career with big bikes in this paddock, so I remember how it felt. After 13, 14 years, it’s going to be a very strong feeling to get back. Many things have changed but I’m sure that many things have stayed the same. It’s going to be nice to feel this emotion.” Follow the final two rounds of the 2026 campaign using the WorldSBK VideoPass – now only €9.99!",
+      "language": "en",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/06/form-guide-bulega-out-for-more-history-as-records-await-the-2026-champion/1170073",
+      "url": "https://www.worldsbk.com/en/news/2026/10/06/form-guide-bulega-out-for-more-history-as-records-await-the-2026-champion/1170073",
+      "title": "FORM GUIDE: Bulega out for more history as records await the 2026 Champion",
+      "summary": "The #11 and Ducati are aiming to make more World Superbike history across the final two rounds of the campaign, starting at Estoril The MOTUL FIM Superbike World Championship heads to the Circuito Estoril for the penultimate round of the 2026 campaign. The Tissot Estoril Round often provides epic racing and unbelievable drama, so expect this year to be no different. Ahead of the round, we’ve gathered the best stats for you to get set for the upcoming weekend… 52 – Bulega could head to MotoGP tied with Troy Bayliss for WorldSBK wins, which would put him fifth in the all-time list. He would need to win all three races at Estoril and Jerez to achieve this. 45 - Ducati are yet to record a pole position at Estoril. So far, they’ve recorded pole position in at 45 tracks out of 54 they’ve visited in their history. They qualified in 2nd 4 times: 1993, 2021, 2024, 2025. 43 – Bulega has recorded the best podium streak in WorldSBK history, with 43. His nearest rivals are Colin Edwards and Toprak Razgatlioglu, with 25, respectively in 2002 and 2025. He is also on a points streak 43 races long. There is only one longer sequence in history: 48 by Rea from Laguna Seca 2018 to Lusail 2019. 34/35 – Ducati are just one win short of equalling the all-time streak of wins, 35, set by themselves from Valencia Race 1, 2003 to Silverstone Race 1, 2004 30 – At Cremona, Ducati became the first manufacturer with 30 wins in a season, surpassing their total from 2023 (28). 26/27 – With 26 wins this year, Bulega has the second-best season ever. Now he is only one shy of the all-time record of Bautista, set in 2023 (27). 26/30 – The intensity of the Bulega-Iker Lecuona duel is so high this season that they have not only claimed all race wins, but conceded only 4 second places to their rivals: 2 to Yari Montella (Race 1 at Phillip Island; Superpole Race at Donington), 2 to Axel Bassani (Superpole Race and Race 2 at Phillip Island). 22 – Ducati lead for podiums here: 22 to Yamaha’s 14. 20/32 – Ducati are on a streak of 20 consecutive podium lockouts and 35 fastest race laps. 18/19 – In the 19 races run so far at Estoril, 18 different riders stood on the podium. 17 – Bulega has led every lap in 17 races this season. Data for this statistic is available since 1998 and that figure is an all-time record: Bautista led from lights to flag in 11 races in 2019. 16 – Bulega has recorded 16 Grand Slams this year (winning the race from pole, leading every lap and setting the fastest race lap), an all-time season record. 11/11 – Bulega in Magny-Cours equalled the all-time record of hat-tricks (winning all three races in one weekend) of Toprak Razgatlioglu, 11. 11 – Ducati are on a streak of 11 pole positions, the second-best after they recorded 15 in a row from Mugello 1991 to Manfeild 1992. 10 – Estoril has so far had 10 different winners out of 19 races run. The only ones to record more than a win have been Toprak Razgatlioglu (6), Jonathan Rea (4), Nicolò Bulega (2). 6x4 – Ducati locked the top 4 spots at the finish in all the last 6 races run, an unprecedented streak in history. Before this streak started at Magny-Cours, a manufacturer had never been able to do it in more than 3 races straight. 6 – With Bulega’s win in the Superpole Race in 2024, Ducati became the most successful manufacturer here at 5, improving to 6 last year. Their best rivals are Kawasaki and BMW, with 4 each. 5 – Estoril is the only track in WorldSBK history where 5 different winners won the first 5 races run (Davide Tardozzi and Stephane Mertens in 1988, Fabrizio Pirovano and Carl Fogarty in 1993, Toprak Razgatlioglu in 2020 Race 1). 3 – The record of pole positions here belongs to Toprak Razgatlioglu, 3; last year he moved ahead of Jonathan Rea (2). 1 – In 2020, the Tissot Superpole Race at Estoril was the stage for the first Yamaha podium lockout in WorldSBK history. 1 – In 2020 at Estoril, Toprak Razgatlioglu took his maiden pole position, the first for a Turkish rider. In 2024, a similar milestone, as it was his first pole… in wet conditions. 1 – Only one rider was able to climb on the podium for BMW here: Toprak Razgatlioglu, 6 times out of 6 starts, winning 4 times. 0.003s – In 2024, Bulega beat Razgatlioglu by just 0.003s in the Tissot Superpole Race. It’s the closest ever finish in WorldSBK. Watch every moment LIVE and UNINTERRUPTED from Estoril using the WorldSBK VideoPass – now only €9.99!",
+      "language": "en",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/06/braking-in-detail-brembo-provide-data-insights-as-bulega-and-debise-break-down-estoril/1174502",
+      "url": "https://www.worldsbk.com/en/news/2026/10/06/braking-in-detail-brembo-provide-data-insights-as-bulega-and-debise-break-down-estoril/1174502",
+      "title": "BRAKING IN DETAIL: Brembo provide data insights as Bulega and Debise break down Estoril",
+      "summary": "Get a better grasp of Round 11’s Portuguese venue with the help of Brembo engineers The MOTUL FIM Superbike World Championship returns to Portugal for the penultimate round of its 2026 season, and to get them back up to speed, Brembo is on the case, breaking down the 4.182 km-long Circuito Estoril. The Italian brand works with 13 of the grid’s 14 teams, and with plenty of hairpins and heavy braking zones, riders will rely heavily on their braking systems at the Tissot Estoril Round. The Portuguese circuit is categorised by Brembo engineers as ‘highly demanding’, or four out of five on their braking difficulty index. This rating reflects that riders must brake in nine corners for a total of 26 seconds. Four braking sections are in the High category, including two consecutive ones (Turns 6 and 7), as well as a pair of Medium braking zones and three classified as Low stress braking areas. Get up to speed with everything you need to know about the Circuito Estoril The toughest corner on the brakes at the Estoril Circuit for the braking system is the opening Turn 1, as riders clamp down after flying full gas down the 985-metre start/finish straight. Bikes go from 310 km/h down to 84 km/h in just 4.9 seconds. In that time, they cover 249 metres, while the riders apply a load of 5.6 kg to the brake lever. At that point, they are subjected to 1.5 g of deceleration, and the pressure of the Brembo brake fluid reaches 12 bar. After doubling back across the parabolic pair of Turns 3 and 4, riders can open the gas down the kinked back straight, putting a knee down to the right at high speed through Turn 5 as they finish the second sector on the run into the ‘Parabolica Interior’ Turn 6. Looping to the left, it’s back down onto the right knee sliders for ‘Orelha’ Turn 7 and again on Turn 8. Clamping down on the brakes for a tight sequence, it’s slow into a Turn 9-10 left-to-right chicane before a gradual righthanded Turn 11. Turn 12 can prove tricky, as the lefthanded 90º turn spits riders out onto the long, high-speed ‘Parabolica Ayrton Senna’ Turn 13, a wide, righthanded half-moon which requires precision to get the line right and get a good exit back onto the start-finish straight. This final section of track is the favourite of 2026 WorldSBK Champion Nicolo Bulega (Aruba.it Racing - Ducati) and WorldSSP breakout star Valentin Debise (EASTROC ZXMOTO Factory Evan Bros Racing), who has climbed to new heights atop his ZXMOTO 820 RR in the manufacturer’s first season in the class. Bulega earned one of his WorldSBK career highlights here as a strong final sector through Turn 13 saw him pip Toprak Razgatlioglu for the closest-ever finish in WorldSBK history back in 2024. On this run of track, Bulega said: “It’s no secret that my riding style favours high-speed corners, which is why Turn 13 at the Estoril Circuit is one of my favourites.” Debise enjoyed success of his own here last season, as a round after taking his first WorldSSP win in his third season, he took his second victory here at Estoril. He said: “The last corner is my favourite. Last year when I won a race, I remember going out of that Turn like crazy, burning the rear tyre. You could see on TV that my rear tyre was smoking. Even now, people speak to me about it!” Watch Live and OnDemand as your favourite riders take on Estoril with the WorldSBK VideoPass! Now just €9.99!",
+      "language": "en",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.worldsbk.com/en/news/2026/10/06/baz-to-see-out-2026-campaign-with-mgm-racing-ducati-mackenzie-still-recovering/1174015",
+      "url": "https://www.worldsbk.com/en/news/2026/10/06/baz-to-see-out-2026-campaign-with-mgm-racing-ducati-mackenzie-still-recovering/1174015",
+      "title": "Baz to see out 2026 campaign with MGM Racing Ducati, Mackenzie still recovering",
+      "summary": "Baz to see out 2026 campaign with MGM Racing Ducati, Mackenzie still recovering",
+      "language": "en",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "category": "racing",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "dorna-news",
+        "dateInferred": false
+      },
+      "sourceSlug": "worldsbk-news",
+      "sourceName": "WorldSBK 官方新闻"
+    },
+    {
+      "externalId": "https://www.visordown.com/news/ducati-evolves-desmo450-mx-and-desmo450-mx-factory-2027",
+      "url": "https://www.visordown.com/news/ducati-evolves-desmo450-mx-and-desmo450-mx-factory-2027",
+      "title": "Updated Ducati Desmo450 MX and 450 MX Factory announced",
+      "summary": "Ducati has taken what it learned from the first season of racing the Desmo450 MX and applied it to its 2027 motocross bikes. Ducati has given its Desmo450 MX and Desmo450 MX Factory a round of updates for 2027, with the changes largely focused on gearing, durability, ergonomics and maintenance rather than adding more power. The Desmo450 MX is still powered by the 449.6cc Desmodromic single-cylinder engine, producing 63bhp at 9,400rpm and 53.5Nm (39lb ft) at 7,500rpm. For 2027, Ducati has fitted a 51-tooth rear sprocket, which increases the torque reaching the rear wheel and is intended to give the bike a little more punch when driving out of corners. Ducati has also used its first season of racing to make a number of changes aimed at improving reliability, or what the Italian brand calls “robustness”. The starter motor gear, water pump oil seal, exhaust manifold, chain guide support, fork slider guards and front engine mounting brackets have all been revised or reinforced. There are some smaller changes aimed at making life easier for the rider, too. The fuel filler cap has grown to 40mm to make refuelling quicker and easier, while the gearshift and rear brake pedal tips have been redesigned to improve foot movement around the controls. The standard Desmo450 MX also gets Pirelli Scorpion MX32 Mid-Soft tyres as part of the 2027 update, while a new livery swaps the previous white Ducati logos for black ones. One of the more interesting additions is Ducati's predictive maintenance system. Available through an accessory Wi-Fi module, the system uses data from the bike to assess how it is being used and adjust engine maintenance intervals accordingly. The idea is to move away from treating every bike in exactly the same way, particularly when motocross bikes can see very different levels of use. If the bike is ridden more gently, the maintenance interval will be longer. Hammer the thing off the redline in every gear for every lap, though, and you’ll be seeing a bit more of your local Ducati dealer. The Desmo450 MX Factory has also been updated, gaining all of the updates mentioned above. That said, it remains the more competition-focused version of the bike. It comes with an Akrapovič titanium exhaust, saving 1.7kg over the standard system, and dedicated mapping to go with it. It also gains upgraded Showa suspension, billet aluminium triple clamps, a Holeshot device, an RK MXU O-ring chain and additional protection for the engine and front brake. The Factory also gets a new Ducati Corse red and black livery for 2027. For the first time, Ducati is also giving the Desmo450 MX a dedicated setup for the US market. American bikes will receive specific suspension settings and different triple clamps, with a 20mm offset rather than the 22mm setup used elsewhere. The 2027 Desmo450 MX and Desmo450 MX Factory are now arriving at selected European Ducati dealers, with availability in other markets to follow. Find the latest motorcycle news on Visordown Your information will be used in accordance with our Privacy Policy . Simon (AKA Toad) has been working within the motorcycle industry for more than twelve years, and a member of the motorcyclist family since birth. Growing up around British-built single and twins, it was inevitable that a life on two wheels was on the cards, from a very early age!",
+      "language": "en",
+      "publishedAt": "2026-10-09T06:54:44.000Z",
+      "category": "new-models",
+      "tags": [],
+      "metrics": {
+        "platforms": [
+          "web"
+        ]
+      },
+      "rawMeta": {
+        "adapter": "web-scraper",
+        "source": "visordown-card",
+        "dateInferred": false
+      },
+      "sourceSlug": "visordown",
+      "sourceName": "Visordown"
     }
   ]
 }

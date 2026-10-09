@@ -25,7 +25,7 @@ export const sources: SourceDescriptor[] = [
     slug: "motogp-news",
     name: "MotoGP 官方新闻",
     homepageUrl: "https://www.motogp.com/en/news",
-    adapter: "web-scraper",
+    adapter: "dorna-news", // generic scraper only ever returned nav buttons/sponsors/socials here — see collectors/dorna-news.ts
     language: "en",
     config: { url: "https://www.motogp.com/en/news", category: "racing" },
     authorityScore: 95,
@@ -35,7 +35,7 @@ export const sources: SourceDescriptor[] = [
     slug: "worldsbk-news",
     name: "WorldSBK 官方新闻",
     homepageUrl: "https://www.worldsbk.com/en/news",
-    adapter: "web-scraper",
+    adapter: "dorna-news",
     language: "en",
     config: { url: "https://www.worldsbk.com/en/news", category: "racing" },
     authorityScore: 95,

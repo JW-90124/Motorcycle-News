@@ -2,64 +2,66 @@
   "motogp-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 13
+    "runsSinceNew": 0,
+    "lastNewAt": "2026-10-09T07:23:17.164Z"
   },
   "worldsbk-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 13
+    "runsSinceNew": 0,
+    "lastNewAt": "2026-10-09T07:23:17.164Z"
   },
   "speedweek-motogp": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 0,
+    "runsSinceNew": 1,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
   },
   "lta-coe-motorcycle": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 0,
+    "runsSinceNew": 1,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
   },
   "modenas-emos": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 4,
+    "runsSinceNew": 5,
     "lastNewAt": "2026-10-02T00:00:00.000Z"
   },
   "rideapart": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 0,
+    "runsSinceNew": 1,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
   },
   "visordown": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-09T04:30:55.131Z"
+    "lastNewAt": "2026-10-09T07:23:17.164Z"
   },
   "honda-global-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 7,
+    "runsSinceNew": 8,
     "lastNewAt": "2026-09-25T00:00:00.000Z"
   },
   "lianglunshijie-industry": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 13
+    "runsSinceNew": 14
   },
   "eicma": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 0,
+    "runsSinceNew": 1,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
   },
   "kompas-otomotif": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 0,
+    "runsSinceNew": 1,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
   }
 }
