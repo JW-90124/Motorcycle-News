@@ -23,7 +23,10 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { z } from "zod";
 import { DeepSeekClient, DeepSeekError } from "./ai/deepseek.js";
+import { BRIEF_PER_CATEGORY, FULL_PER_CATEGORY, findLikelyDuplicateGroups, firstSentence, scoreOf, selectBalanced } from "./domain/digest-selection.js";
+import type { Selected, Tier } from "./domain/digest-selection.js";
 import { scoreSignals } from "./domain/score-signals.js";
+import { sources } from "./sources.js";
 import type { RawSignal, ScoredSignal } from "./domain/score-signals.js";
 
 const SUB_PUSH_SCORE_THRESHOLD = 60;
@@ -33,24 +36,18 @@ const SUB_PUSH_SCORE_THRESHOLD = 60;
 const SUB_PUSH_MIN_SUMMARY_LENGTH = 60;
 const MAX_SUB_PUSH_ITEMS = 2;
 const MAX_TOP_STORIES = 3;
-// Cap per category section once source count grew enough to regularly blow
-// past a readable length (found 2026-08-03: 67 signals in one run).
-const MAX_ITEMS_PER_CATEGORY = 10;
-// Hard cap on how many signals go into a single digest call at all — the
-// render cap above already limits output to ~60-66 items, so anything
-// beyond a generous margin above that will never survive scoring anyway.
-// Found 2026-09-13: a 2+ week gap in successful runs (see maxTokens below)
-// let the "new signals" backlog balloon to 224 in one run, which blew
-// through maxTokens and kept failing — with nothing capping input size,
-// a large backlog and a failing digest call fed each other in a loop
-// (failed run → data never committed → still "new" next run → backlog
-// grows further). Capping input size makes a digest call succeed
-// regardless of how large a backlog gets.
-const MAX_SIGNALS_PER_DIGEST = 70;
-// Per-signal text handed to the model. Was 800 until 2026-10-06, when the pipeline
-// started capturing full article bodies and the point became relaying the
-// authors' own views, which usually sit past the first few hundred characters.
-const SUMMARY_CHARS_PER_SIGNAL = 4_000;
+// How many items a direction gets, and at what depth, lives in
+// domain/digest-selection.ts (FULL_PER_CATEGORY / BRIEF_PER_CATEGORY). Selection
+// is per direction so one busy direction cannot crowd out the others, and it
+// also bounds what is sent to the model however large a backlog is — which is
+// what protects against the 2026-09-13 outage (a 224-signal backlog overflowed
+// the token budget and, because nothing capped input, kept failing).
+//
+// Text handed to the model per signal. 800 until 2026-10-06, when the pipeline
+// started capturing full article bodies; briefs only need enough to write one
+// sentence.
+const FULL_CHARS_PER_SIGNAL = 4_000;
+const BRIEF_CHARS_PER_SIGNAL = 600;
 
 const CATEGORY_LABELS: Record<string, string> = {
   racing: "赛事赛果",
@@ -70,7 +67,7 @@ const digestResponseSchema = z.object({
   // followed (found 2026-08-01: the sheriff-corruption story still showed
   // up as an overview bullet even though it was correctly excluded from
   // every other section).
-  overview: z.array(z.object({ index: z.number().int().positive(), text: z.string().min(1) })).min(1).max(10),
+  overview: z.array(z.object({ index: z.number().int().positive(), text: z.string().min(1) })).min(1),
   items: z
     .array(
       z.object({
@@ -88,6 +85,9 @@ const digestResponseSchema = z.object({
         // industry — tangential local-news or unrelated promotional filler
         // a moto site sometimes publishes alongside real coverage.
         relevant: z.boolean(),
+        // Other input indices this item absorbed because they report the same event.
+        // Validated in renderDigest, never trusted.
+        merged: z.array(z.number().int().positive()).optional(),
       }),
     )
     .min(1),
@@ -118,87 +118,84 @@ async function main() {
     );
   }
 
-  // Default 60s timeout is fine for the small sub-push calls this client
-  // also makes, but generating structured JSON for up to
-  // MAX_SIGNALS_PER_DIGEST items routinely takes longer — found 2026-09-13:
-  // a 120-item request timed out at 60s with no response yet (a separate
-  // failure from the truncation this same incident also exposed).
+  // Generating structured JSON for a full day routinely takes over a minute
+  // (found 2026-09-13: a 120-item request timed out at the old 60s default).
   const client = new DeepSeekClient({ apiKey, timeoutMs: 600_000 });
   const contextSignals = await readRecentContextSignals(dateStr);
-  let scored = scoreSignals(raw.signals, contextSignals);
+  const scoredAll = scoreSignals(raw.signals, contextSignals);
 
-  if (raw.signals.length > MAX_SIGNALS_PER_DIGEST) {
-    const keepIndices = scored
-      .map((item, i) => ({ i, score: item.heat + item.confidence }))
-      .sort((a, b) => b.score - a.score)
-      .slice(0, MAX_SIGNALS_PER_DIGEST)
-      .map((entry) => entry.i)
-      .sort((a, b) => a - b); // keep original order — score determines *which* survive, not the reading order
-    console.log(
-      `本次信号数 ${raw.signals.length} 超过单次主推上限 ${MAX_SIGNALS_PER_DIGEST}，按热度+置信度只取前 ${MAX_SIGNALS_PER_DIGEST} 条；其余 ${raw.signals.length - MAX_SIGNALS_PER_DIGEST} 条已抓取入库、不会重复抓取，只是不会出现在今天的主推里。`,
-    );
-    raw.signals = keepIndices.map((i) => raw.signals[i]!);
-    scored = keepIndices.map((i) => scored[i]!);
+  // Selection is entirely deterministic (our own scoring), per direction — the
+  // model's job is writing content for whatever indices selection hands it,
+  // never choosing which indices matter. Direction here is the source's label
+  // (known before the AI call); the model's own re-judgment only lands in the
+  // response, too late to drive selection. Accepted minor imprecision: an item
+  // may render under a different section than the one it was selected in.
+  const picked = selectBalanced(scoredAll, CATEGORY_ORDER);
+  const countBy = (tier: Tier) => picked.filter((p) => p.tier === tier).length;
+  console.log(
+    `今日 ${raw.signals.length} 条新信号 → 按方向均衡选取 ${picked.length} 条（详写 ${countBy("full")}、简讯 ${countBy("brief")}）；` +
+      `其余 ${raw.signals.length - picked.length} 条已入库、不会重复抓取，只是不进今天的主推。`,
+  );
+  for (const category of CATEGORY_ORDER) {
+    const inCategory = picked.filter((p) => p.item.signal.category === category).length;
+    const total = scoredAll.filter((s) => s.signal.category === category).length;
+    if (total > 0) console.log(`  ${(CATEGORY_LABELS[category] ?? category).padEnd(10)} ${inCategory}/${total}`);
   }
 
-  // Selection is entirely deterministic (our own scoring), not left to the
-  // model's judgment — the model's job is writing content for whatever
-  // indices selection hands it, never choosing which indices matter.
-  //
-  // Leader-per-category uses signal.category (the source's label) since
-  // that's known before the AI call even runs — the AI's own category
-  // re-judgment (see buildDigestPrompt) only lands in the response, too
-  // late to drive this selection. Accepted as the same class of minor
-  // imprecision already accepted for scoreHeat's category-weight input;
-  // a leader picked under the source's label could occasionally render
-  // under a different section after AI re-categorization corrects it.
-  const categoryLeaders = pickCategoryLeaders(raw.signals, scored);
-  const overviewIndexSet = new Set(categoryLeaders.map((entry) => entry.index));
+  const leaders = pickCategoryLeaders(picked);
+  const overviewIndexSet = new Set(leaders.map((entry) => entry.index));
   const topIndexSet = new Set(
-    [...categoryLeaders]
-      .sort((a, b) => b.item.heat + b.item.confidence - (a.item.heat + a.item.confidence))
-      .slice(0, Math.min(MAX_TOP_STORIES, categoryLeaders.length))
+    [...leaders]
+      .sort((a, b) => scoreOf(b.item) - scoreOf(a.item))
+      .slice(0, Math.min(MAX_TOP_STORIES, leaders.length))
       .map((entry) => entry.index),
   );
 
-  // Raised 5,000 -> 16,000 -> 60,000 across two real incidents: 67 signals
-  // truncated at 5,000 (2026-08-03), then 224 signals (a 2+ week backlog
-  // from a stuck pipeline, see MAX_SIGNALS_PER_DIGEST above) truncated at
-  // 16,000 (2026-09-13) — a 120-item request (post-cap) then used 37,200 of
-  // a 40,000 budget, too close for comfort. Input is now capped at
-  // MAX_SIGNALS_PER_DIGEST, so this only needs headroom for that many
-  // items' worth of structured output, not an unbounded backlog — 60,000
-  // is comfortable for ~120 items and still far under DeepSeek's actual
-  // 384k-token output ceiling.
-  const { system, user } = buildDigestPrompt(raw.signals, topIndexSet, overviewIndexSet);
-  const result = await client.completeJson({ system, user, maxTokens: 60_000 });
-
-  let parsed: z.infer<typeof digestResponseSchema>;
-  try {
-    parsed = digestResponseSchema.parse(result.value);
-  } catch (error) {
-    throw new DeepSeekError(
-      `DeepSeek 返回内容不符合预期结构：${error instanceof Error ? error.message : String(error)}`,
-      "schema_mismatch",
-    );
+  // Raised 5,000 -> 16,000 -> 60,000 across two real incidents (67 signals
+  // truncated at 5,000 on 2026-08-03; 224 truncated at 16,000 on 2026-09-13).
+  // Input is now bounded by selection (≤ 10 per direction), so this is
+  // comfortable headroom, far under DeepSeek's 384k-token output ceiling.
+  const duplicateGroups = findLikelyDuplicateGroups(picked.map((p) => ({ title: p.item.signal.title, category: p.item.signal.category }))).map((group) =>
+    group.map((i) => i + 1),
+  );
+  const { system, user } = buildDigestPrompt(picked, topIndexSet, overviewIndexSet, duplicateGroups);
+  // The model occasionally returns well-formed JSON that misses the schema (seen
+  // 2026-10-09: one run in several failed validation, the next identical run
+  // passed). A single such miss must not cost a whole day's digest, so retry —
+  // the same lesson as 2026-09-13, when one failure cascaded into a lost fortnight.
+  const MAX_SCHEMA_ATTEMPTS = 3;
+  let result = await client.completeJson({ system, user, maxTokens: 60_000 });
+  let parsed: z.infer<typeof digestResponseSchema> | undefined;
+  for (let attempt = 1; ; attempt++) {
+    const check = digestResponseSchema.safeParse(result.value);
+    if (check.success) {
+      parsed = check.data;
+      break;
+    }
+    const issues = check.error.issues.map((issue) => `${issue.path.join(".") || "(root)"}: ${issue.message}`).join("; ");
+    if (attempt >= MAX_SCHEMA_ATTEMPTS) {
+      throw new DeepSeekError(`DeepSeek 返回内容不符合预期结构（已重试 ${attempt} 次）：${issues}`, "schema_mismatch");
+    }
+    console.warn(`DeepSeek 返回内容不符合预期结构（第 ${attempt}/${MAX_SCHEMA_ATTEMPTS} 次）：${issues}；重新生成。`);
+    result = await client.completeJson({ system, user, maxTokens: 60_000 });
   }
 
-  const scoreByIndex = new Map(scored.map((item, i) => [i + 1, item]));
-  const markdown = renderDigest(dateStr, parsed, raw.signals, topIndexSet, overviewIndexSet, scoreByIndex);
+  const markdown = renderDigest(dateStr, parsed, picked, topIndexSet, overviewIndexSet, duplicateGroups);
   const outPath = `digests/${dateStr}.md`;
   await mkdir("digests", { recursive: true });
   await writeFile(outPath, markdown, "utf8");
   console.log(`主推已生成：${outPath}`);
   console.log(`模型：${result.model}，用量：${result.usage.totalTokens} tokens`);
 
-  const candidates = scored
+  const candidates = picked
+    .map((p) => p.item)
     .filter(
       (item) =>
         item.confidence >= SUB_PUSH_SCORE_THRESHOLD &&
         item.heat >= SUB_PUSH_SCORE_THRESHOLD &&
         item.signal.summary.length >= SUB_PUSH_MIN_SUMMARY_LENGTH,
     )
-    .sort((a, b) => b.heat + b.confidence - (a.heat + a.confidence))
+    .sort((a, b) => scoreOf(b) - scoreOf(a))
     .slice(0, MAX_SUB_PUSH_ITEMS);
 
   if (candidates.length === 0) {
@@ -234,18 +231,16 @@ interface LeaderEntry {
   item: ScoredSignal;
 }
 
-/** The single highest-scored signal per category (signal.category, source-assigned) — one per category that has ≥1 signal today, so up to 6, fewer on a thin day. */
-function pickCategoryLeaders(signals: RawSignal[], scored: ScoredSignal[]): LeaderEntry[] {
-  const bestByCategory = new Map<string, LeaderEntry>();
-  scored.forEach((item, i) => {
-    const index = i + 1;
-    const category = signals[i]!.category;
-    const current = bestByCategory.get(category);
-    if (!current || item.heat + item.confidence > current.item.heat + current.item.confidence) {
-      bestByCategory.set(category, { index, item });
-    }
+/** Best full-tier item per direction (1-based index into `picked`) — at most one per direction that has any, so up to 6. */
+function pickCategoryLeaders(picked: Selected[]): LeaderEntry[] {
+  const best = new Map<string, LeaderEntry>();
+  picked.forEach((p, i) => {
+    if (p.tier !== "full") return;
+    const category = p.item.signal.category;
+    const current = best.get(category);
+    if (!current || scoreOf(p.item) > scoreOf(current.item)) best.set(category, { index: i + 1, item: p.item });
   });
-  return [...bestByCategory.values()];
+  return [...best.values()];
 }
 
 async function readRawSignals(path: string): Promise<{ signals: RawSignal[] } | null> {
@@ -276,10 +271,21 @@ async function readRecentContextSignals(todayStr: string): Promise<RawSignal[]> 
   return context;
 }
 
+const SOURCE_BY_SLUG = new Map(sources.map((source) => [source.slug, source]));
+
+/** What kind of voice a source is — shown to the model so it can settle contradictions. */
+function sourceTypeLabel(signal: RawSignal): string {
+  const source = SOURCE_BY_SLUG.get(signal.sourceSlug);
+  if (source?.sourceType === "brand") return "品牌官方信源";
+  if (source?.isPrimary) return "官方机构信源";
+  return "媒体/综合信源";
+}
+
 function buildDigestPrompt(
-  signals: RawSignal[],
+  picked: Selected[],
   topIndexSet: Set<number>,
   overviewIndexSet: Set<number>,
+  duplicateGroups: number[][],
 ): { system: string; user: string } {
   const system = `你是一个摩托车行业快讯编辑，参考 36 氪"互联网人资讯早餐"（8点1氪）的结构：像一篇写得流畅的中文新闻简报，直接陈述事实和文章里的观点。你自己不发表任何观点或推测；文章里已有的判断、评价、预测属于新闻内容，直接融进叙述里即可。
 
@@ -293,38 +299,55 @@ function buildDigestPrompt(
 
 **local-market（本地车市）专指新加坡/马来西亚/印尼等东南亚市场的动态**（这是频道的目标受众所在地），不是"随便哪个国家的本地新闻"都算——比如英国的通勤停车税新闻，虽然是"某地的本地新闻"，但不属于东南亚市场，不要归进 local-market；这类内容按实际主题改判到更贴切的类别（如 industry 或 culture）。
 
-**同时判断每条是否跟摩托车/摩托车行业真正相关**（relevant）。像地方政府贪腐挪用公款（哪怕买的是摩托艇/ATV）、跟摩托车无关的纯推广抽奖这类内容，摩托车媒体站有时也会顺带发，但跟摩托车选题无关，这类请标 relevant: false，不会出现在最终产出里。**四轮汽车/电动汽车相关内容也算不相关**——部分信源（如 Kompas.com Otomotif）是覆盖全品类车辆的综合汽车站，不是纯摩托车站，顺带发的汽车新闻（哪怕是同一品牌，比如某车企的电动汽车新品）请标 relevant: false，不要因为发布在"汽车资讯"站上就当成摩托车相关内容。
+**同时判断每条是否跟摩托车/摩托车行业真正相关**（relevant）。像地方政府贪腐挪用公款（哪怕买的是摩托艇/ATV）、跟摩托车无关的纯推广抽奖这类内容，摩托车媒体站有时也会顺带发，但跟摩托车选题无关，这类请标 relevant: false，不会出现在最终产出里。**四轮汽车/电动汽车相关内容也算不相关**——部分信源（如 Kompas.com Otomotif）是覆盖全品类车辆的综合汽车站，不是纯摩托车站，顺带发的汽车新闻（哪怕是同一品牌，比如某车企的电动汽车新品）请标 relevant: false，不要因为发布在"汽车资讯"站上就当成摩托车相关内容。纯促销、抽奖、限时优惠类稿件（"限时 XX 元""抽奖送车"）也不算新闻，标 relevant: false。
 
-**选择哪些条目进哪个层级不是你的工作，已经用打分公式选好了**——你只负责写内容。每条输入前面的标记告诉你它属于哪一层：
+**选择哪些条目、进哪个层级不是你的工作，已经用打分公式按方向选好了**——你只负责写内容。每条输入前面的标记告诉你它属于哪一层：
 
-1. **【今日头条】**：本方向今天热度最高的几条里，综合分最高的最多 3 条。body 写 250-350 字，分 2-3 个自然段（段落之间用两个换行），讲清楚事情经过和关键数据，**要说清楚这条新闻为什么够格上头条**（涉及的品牌/规模、影响范围、意外程度），并把文章里最有信息量的判断和评价自然地写进去。
-2. **【本方向今日代表】**：每个方向今天热度最高的 1 条（今日头条那几条也来自这个集合，其余几条会出现在 overview 速览里，也会正常出现在对应分类栏目正文中）。body 按普通条目处理即可。
-3. 其余普通条目：body 写 120-220 字，分 1-2 个自然段（段落之间用两个换行），让读者不点进原文也能读懂：先交代发生了什么、关键数据和背景，再把文章里的判断、评价、原因分析自然地写进叙述——直接陈述内容，像一篇写好的新闻稿，**不要逐句加"某某表示/认为/指出"这类转述框架，不要写"某媒体的评论认为"，也不要大段引用原话**；需要点明是谁说的时候，一句话带过即可。
+1. **【今日头条】**：body 写 250-350 字，分 2-3 个自然段（段落之间用两个换行），讲清楚事情经过和关键数据，**要说清楚这条新闻为什么够格上头条**（涉及的品牌/规模、影响范围、意外程度），并把文章里最有信息量的判断和评价自然地写进去。
+2. **【详写】/【本方向今日代表】**：body 写 120-220 字，分 1-2 个自然段（段落之间用两个换行），让读者不点进原文也能读懂：先交代发生了什么、关键数据和背景，再把文章里的判断、评价、原因分析自然地写进叙述——直接陈述内容，像一篇写好的新闻稿，**不要逐句加"某某表示/认为/指出"这类转述框架，不要写"某媒体的评论认为"，也不要大段引用原话**；需要点明是谁说的时候，一句话带过即可。
+3. **【简讯】**：body **只写一句话**（不超过 60 个字），点出发生了什么，不分段、不展开。
 
 **可读性第一**：这是给人快速浏览的简报，不是原文翻译。宁可精炼也不要写成大段文字——超出上面的字数上限算失败。新车/产品类稿件不要罗列全部配置参数，只挑最重要的 3-5 项（价格、核心卖点、与上一代的变化）；长篇采访只挑最有信息量的 1-2 个判断，不要把所有表态都搬进来。
 
 **长度由材料决定，不要为了凑字数扩写**：如果某条输入只有一两句话（比如只有标题和一句简介），就只写一两句，宁短勿编；如果材料里没有任何判断或评价，就只写事实，**绝不能自己编造观点**。
 
+**同一件事被多个信源报道时要合并**（不同信源、不同语言都算同一件事，比如德语站和英语官网都在报同一场比赛的同一个新闻点）：只为其中信息最全的一条写 item，综合所有来源的信息来写，并把被并入的其余条目编号放进该 item 的 "merged" 数组——被并入的编号**不要**再单独出现在 items 里。不是同一件事就不要硬并（同一场比赛的不同新闻点是不同的事）。
+
+**各来源说法矛盾时的取舍**：每条输入前标注了信源类型。如果合并的几条在事实上互相矛盾（价格、日期、参数、结果等），以【品牌官方信源】的说法为准，其次是【官方机构信源】，最后才是【媒体/综合信源】，并在正文里用一句话点明"各方说法有出入"。品牌官方信源只在涉及它自己品牌的事实问题上优先，不代表它的评价性说法更可信。
+
 输出必须是 JSON：
 {
   "headline": "把当天 2-3 条最重磅新闻的关键词揉进一句话标题",
-  "overview": [ { "index": <编号>, "text": "一句话速览" } ]——**只能包含标了【本方向今日代表】（含头条）的条目，每条一句话概括，不展开**，
+  "overview": [ { "index": <编号>, "text": "一句话速览" } ]——**只能包含标了【今日头条】或【本方向今日代表】的条目，每条一句话概括，不展开**，
   "items": [
-    { "index": <对应输入条目的编号>, "heading": "一行小标题，加粗一句话，不用 markdown # 标题", "body": "正文，长度按上面对应层级的要求", "category": "重新判断后的真实类别", "relevant": true或false }
+    { "index": <对应输入条目的编号>, "heading": "一行小标题，加粗一句话，不用 markdown # 标题", "body": "正文，长度按上面对应层级的要求", "category": "重新判断后的真实类别", "relevant": true或false, "merged": [被并入的编号，没有就省略] }
   ]
 }
 
-items 里每条输入都要出现一次（包括 relevant: false 的，程序会负责过滤，不要自己先跳过不写）。index 必须精确对应输入列表里的编号，不要自己编号。body 里不要包含来源括号——来源标注由程序自动加在每条后面。`;
+每条输入要么作为一个 item 出现（包括 relevant: false 的，程序会负责过滤，不要自己先跳过不写），要么出现在某个 item 的 merged 里。index 必须精确对应输入列表里的编号，不要自己编号。body 里不要包含来源括号——来源标注由程序自动加在每条后面。`;
 
-  const itemLines = signals
-    .map((signal, i) => {
+  const itemLines = picked
+    .map(({ item, tier }, i) => {
       const index = i + 1;
-      const marker = topIndexSet.has(index) ? "【今日头条】" : overviewIndexSet.has(index) ? "【本方向今日代表】" : "";
-      return `${index}. ${marker}【信源固定标签：${signal.category}，仅供参考，请你重新判断真实类别】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   正文：${signal.summary.slice(0, SUMMARY_CHARS_PER_SIGNAL)}`;
+      const { signal } = item;
+      const marker = topIndexSet.has(index)
+        ? "【今日头条】"
+        : overviewIndexSet.has(index)
+          ? "【本方向今日代表】"
+          : tier === "brief"
+            ? "【简讯】"
+            : "【详写】";
+      const chars = tier === "brief" ? BRIEF_CHARS_PER_SIGNAL : FULL_CHARS_PER_SIGNAL;
+      return `${index}. ${marker}【${sourceTypeLabel(signal)}｜信源固定标签：${signal.category}，仅供参考，请你重新判断真实类别】${signal.title}\n   来源：${signal.sourceName}　时间：${dateLabelFor(signal)}\n   正文：${signal.summary.slice(0, chars)}`;
     })
     .join("\n\n");
 
-  const user = `今天收集到 ${signals.length} 条新信号，请据此生成主推：\n\n${itemLines}`;
+  const duplicateLines = duplicateGroups.map((group) => `- 编号 ${group.join("、")}`).join("\n");
+  const duplicateHint =
+    duplicateGroups.length > 0
+      ? `\n\n**程序检测到下面几组条目的标题里含有相同的车型代号，很可能是同一件事，请优先合并（按上面的规则写一个 item，其余放进 merged）：**\n${duplicateLines}\n（如果你读完正文确认其中某几条其实是不同的事，就不要合并。）`
+      : "";
+  const user = `今天从各信源按方向均衡选出 ${picked.length} 条，请据此生成主推：\n\n${itemLines}${duplicateHint}`;
   return { system, user };
 }
 
@@ -338,21 +361,52 @@ function dateLabelFor(signal: RawSignal): string {
 function renderDigest(
   dateStr: string,
   digest: z.infer<typeof digestResponseSchema>,
-  signals: RawSignal[],
+  picked: Selected[],
   topIndexSet: Set<number>,
   overviewIndexSet: Set<number>,
-  scoreByIndex: Map<number, ScoredSignal>,
+  duplicateGroups: number[][],
 ): string {
+  const signalAt = (index: number) => picked[index - 1]?.item.signal;
   const relevantIndexSet = new Set(digest.items.filter((item) => item.relevant).map((item) => item.index));
+
+  // Merges are validated here, in code, not trusted from the prompt: a merged
+  // index must exist, must not be the item itself, and must not itself be a
+  // merge target (which would make two items swallow each other and show
+  // neither). Merged-in items are not rendered on their own; their sources are
+  // added to the citation of the item that absorbed them.
+  const mergeTargets = new Set(digest.items.filter((item) => (item.merged ?? []).length > 0).map((item) => item.index));
+  const mergedInto = new Map<number, number>();
+  for (const item of digest.items) {
+    for (const child of item.merged ?? []) {
+      if (child === item.index || !signalAt(child) || mergeTargets.has(child) || mergedInto.has(child)) continue;
+      mergedInto.set(child, item.index);
+    }
+  }
+  // Backstop for the same job: the model merges unreliably, so for each likely-duplicate
+  // group (shared model code) that it left as separate items, fold the group's brief-tier
+  // members into its best full-tier item — the full item already covers the event, a second
+  // one-liner about it is just a repeat. Only briefs are folded, so no full write-up is lost.
+  const itemIndexSet = new Set(digest.items.filter((item) => item.relevant).map((item) => item.index));
+  for (const group of duplicateGroups) {
+    const live = group.filter((index) => itemIndexSet.has(index) && !mergedInto.has(index) && !mergeTargets.has(index));
+    const keeper = live
+      .filter((index) => picked[index - 1]?.tier === "full")
+      .sort((a, b) => scoreOf(picked[b - 1]!.item) - scoreOf(picked[a - 1]!.item))[0];
+    if (keeper === undefined) continue;
+    for (const index of live) {
+      if (index !== keeper && picked[index - 1]?.tier === "brief") mergedInto.set(index, keeper);
+    }
+  }
+  const absorbed = (index: number) =>
+    [...mergedInto.entries()].filter(([, parent]) => parent === index).map(([child]) => child);
 
   const lines: string[] = [];
   lines.push(`# ${digest.headline}`, "");
   lines.push(`> ${dateStr}`, "");
   lines.push("## 今日热点导览", "");
-  // Code-enforced against overviewIndexSet, not just the prompt instruction
-  // — a plain "only include X" instruction wasn't reliably followed before
-  // (found 2026-08-01, see the relevantIndexSet note below for the same
-  // lesson applied to a different field).
+  // Code-enforced against overviewIndexSet, not just the prompt instruction —
+  // a plain "only include X" instruction wasn't reliably followed before
+  // (found 2026-08-01).
   for (const highlight of digest.overview) {
     if (overviewIndexSet.has(highlight.index) && relevantIndexSet.has(highlight.index)) {
       lines.push(`- ${highlight.text}`);
@@ -360,54 +414,70 @@ function renderDigest(
   }
   lines.push("");
 
-  const renderItem = (item: (typeof digest.items)[number]) => {
-    const signal = signals[item.index - 1];
+  type DigestItem = (typeof digest.items)[number];
+  const citationFor = (item: DigestItem) => {
+    const seen = new Set<string>();
+    const parts: string[] = [];
+    for (const index of [item.index, ...absorbed(item.index)]) {
+      const signal = signalAt(index);
+      if (!signal || seen.has(signal.url)) continue;
+      seen.add(signal.url);
+      parts.push(`[${signal.sourceName}](${signal.url})`);
+    }
+    return parts.length > 0 ? `（${parts.join("、")}）` : "";
+  };
+  const itemScore = (item: DigestItem) =>
+    Math.max(...[item.index, ...absorbed(item.index)].map((index) => (picked[index - 1] ? scoreOf(picked[index - 1]!.item) : 0)));
+
+  const renderFull = (item: DigestItem) => {
     lines.push(`**${item.heading}**`, "");
-    const citation = signal ? `（[${signal.sourceName}](${signal.url})）` : "";
-    lines.push(`${item.body}${citation}`, "");
+    lines.push(`${item.body}${citationFor(item)}`, "");
   };
 
   // relevant: false — content the model judged isn't genuinely about
-  // motorcycles/the moto industry, even though the source published it
-  // (found 2026-08-01: RideApart, a moto-focused source, also ran a local
-  // government corruption story that happened to mention PWCs/ATVs, and an
-  // unrelated giveaway promo). Dropped entirely, not just miscategorized.
-  const relevantItems = digest.items.filter((item) => item.relevant);
+  // motorcycles/the moto industry (found 2026-08-01: a local-government
+  // corruption story and a giveaway promo from a moto-focused site). Dropped
+  // entirely, not just miscategorized.
+  const relevantItems = digest.items.filter((item) => item.relevant && !mergedInto.has(item.index));
 
   const topItems = relevantItems.filter((item) => topIndexSet.has(item.index));
   if (topItems.length > 0) {
     lines.push("## 今日头条", "");
-    for (const item of topItems) renderItem(item);
+    for (const item of topItems) renderFull(item);
   }
 
-  // Grouped by the model's own re-judged category (item.category), not the
-  // source's fixed label — see buildDigestPrompt for why the label alone
-  // isn't trustworthy per-article. Capped per category (score-sorted) once
-  // real volume made an uncapped section unreadable (found 2026-08-03).
-  const remainingByCategory = new Map<string, typeof digest.items>();
+  // Grouped by the model's own re-judged category, not the source's label. Each
+  // section: the best FULL_PER_CATEGORY full-tier items in full, then everything
+  // else that fits (brief-tier items and any full-tier overflow) as one-line
+  // briefs, capped — so no direction can run long, and heat decides what stays.
+  const byCategory = new Map<string, DigestItem[]>();
   for (const item of relevantItems) {
     if (topIndexSet.has(item.index)) continue;
-    const bucket = remainingByCategory.get(item.category) ?? [];
+    const bucket = byCategory.get(item.category) ?? [];
     bucket.push(item);
-    remainingByCategory.set(item.category, bucket);
+    byCategory.set(item.category, bucket);
   }
-
   const orderedCategories = [
-    ...CATEGORY_ORDER.filter((category) => remainingByCategory.has(category)),
-    ...[...remainingByCategory.keys()].filter((category) => !CATEGORY_ORDER.includes(category)),
+    ...CATEGORY_ORDER.filter((category) => byCategory.has(category)),
+    ...[...byCategory.keys()].filter((category) => !CATEGORY_ORDER.includes(category)),
   ];
-
-  const scoreOf = (item: (typeof digest.items)[number]) => {
-    const s = scoreByIndex.get(item.index);
-    return (s?.heat ?? 0) + (s?.confidence ?? 0);
-  };
 
   for (const category of orderedCategories) {
     lines.push(`## ${CATEGORY_LABELS[category] ?? category}`, "");
-    const items = (remainingByCategory.get(category) ?? [])
-      .sort((a, b) => scoreOf(b) - scoreOf(a))
-      .slice(0, MAX_ITEMS_PER_CATEGORY);
-    for (const item of items) renderItem(item);
+    const ranked = [...(byCategory.get(category) ?? [])].sort((a, b) => itemScore(b) - itemScore(a));
+    const fullItems = ranked.filter((item) => picked[item.index - 1]?.tier === "full").slice(0, FULL_PER_CATEGORY);
+    const fullSet = new Set(fullItems.map((item) => item.index));
+    const briefItems = ranked.filter((item) => !fullSet.has(item.index)).slice(0, BRIEF_PER_CATEGORY);
+
+    for (const item of fullItems) renderFull(item);
+    if (briefItems.length > 0) {
+      lines.push("### 其他动态", "");
+      for (const item of briefItems) {
+        const text = picked[item.index - 1]?.tier === "brief" ? item.body : firstSentence(item.body);
+        lines.push(`- **${item.heading}**：${text}${citationFor(item)}`);
+      }
+      lines.push("");
+    }
   }
 
   return `${lines.join("\n").trimEnd()}\n`;

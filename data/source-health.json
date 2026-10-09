@@ -1,67 +1,76 @@
 {
   "motogp-news": {
-    "consecutiveErrors": 0,
+    "consecutiveErrors": 1,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-09T07:23:17.164Z"
+    "lastNewAt": "2026-10-09T07:23:17.164Z",
+    "lastError": "HTTP 429 for https://www.motogp.com/en/news"
   },
   "worldsbk-news": {
-    "consecutiveErrors": 0,
+    "consecutiveErrors": 1,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-09T07:23:17.164Z"
+    "lastNewAt": "2026-10-09T07:23:17.164Z",
+    "lastError": "HTTP 429 for https://www.worldsbk.com/en/news"
   },
   "speedweek-motogp": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 1,
+    "runsSinceNew": 2,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
   },
   "lta-coe-motorcycle": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 1,
+    "runsSinceNew": 2,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
   },
   "modenas-emos": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 5,
+    "runsSinceNew": 6,
     "lastNewAt": "2026-10-02T00:00:00.000Z"
   },
   "rideapart": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 1,
+    "runsSinceNew": 2,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
   },
   "visordown": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 0,
+    "runsSinceNew": 1,
     "lastNewAt": "2026-10-09T07:23:17.164Z"
   },
   "honda-global-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 8,
+    "runsSinceNew": 9,
     "lastNewAt": "2026-09-25T00:00:00.000Z"
   },
   "lianglunshijie-industry": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 14
+    "runsSinceNew": 0,
+    "lastNewAt": "2026-10-09T07:40:06.631Z"
   },
   "eicma": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 1,
+    "runsSinceNew": 2,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
   },
   "kompas-otomotif": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 1,
+    "runsSinceNew": 2,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
+  },
+  "lianglunshijie-news": {
+    "consecutiveErrors": 0,
+    "consecutiveEmpty": 0,
+    "runsSinceNew": 0,
+    "lastNewAt": "2026-10-09T07:40:06.631Z"
   }
 }

@@ -63,6 +63,12 @@ export interface SourceDescriptor {
    */
   disabled?: string;
   /**
+   * "brand": a single manufacturer's or brand distributor's own channel (Honda
+   * newsroom, MODENAS...). Everything else is "general" (media, portals,
+   * series organisers, government data). Affects scoring — see scoring.ts.
+   */
+  sourceType?: "brand" | "general";
+  /**
    * Set to a reason when this source's article pages must not be fetched for
    * body text — e.g. they sit behind a bot-verification challenge, which this
    * project deliberately does not bypass. The source still collects its

@@ -8,7 +8,7 @@
  */
 
 import { saveDailyCollection } from "./daily-collection.js";
-import { fetchArticleExcerpt } from "./collectors/article-excerpt.js";
+import { fetchArticle } from "./collectors/article-excerpt.js";
 import { getAdapter } from "./collectors/index.js";
 import { appendFile } from "node:fs/promises";
 import { healthWarnings, loadHealth, saveHealth, updateHealth } from "./domain/source-health.js";
@@ -29,6 +29,7 @@ const ENRICH_CONCURRENCY = 5;
 // A summary already this long is real article text (some feeds ship full
 // content); re-fetching the page would add nothing.
 const ALREADY_FULL_TEXT_CHARS = 1_500;
+const MAX_ARTICLE_AGE_DAYS = 10;
 
 interface SourceRunSummary {
   slug: string;
@@ -98,7 +99,13 @@ async function main() {
     const batch = toEnrich.slice(i, i + ENRICH_CONCURRENCY);
     await Promise.all(
       batch.map(async (signal) => {
-        const excerpt = await fetchArticleExcerpt(signal.url, fetchText);
+        const { excerpt, publishedAt } = await fetchArticle(signal.url, fetchText);
+        // A listing with no dates (两轮视界's channels) leaves every item "date unknown";
+        // the article page itself states when it was published.
+        if (signal.rawMeta.dateInferred === true && publishedAt) {
+          signal.publishedAt = publishedAt;
+          signal.rawMeta = { ...signal.rawMeta, dateInferred: false };
+        }
         // Only replace when it's actually more content than the card
         // teaser already had — found 2026-08-06 on SPEEDWEEK: its article
         // pages don't mark up body copy with <p> tags the way EICMA/
@@ -116,9 +123,23 @@ async function main() {
     );
   }
 
+  // Drop anything whose real publish date is old: a daily digest is for news. Already
+  // marked seen above, so it will not return. Mainly protects a newly enabled source's
+  // first run (found 2026-10-09: re-enabling MotoGP/WorldSBK dumped ~30 articles each,
+  // half of them 1-2 weeks old, which crowded out that day's real news) and keeps
+  // evergreen newsroom pages out (Honda's newsroom surfaced 2024 articles in 2026).
+  // Unknown dates are kept; structured-data signals (lta-coe) are exempt.
+  const cutoff = Date.now() - MAX_ARTICLE_AGE_DAYS * 86_400_000;
+  const fresh = newSignals.filter((signal) => {
+    if (signal.rawMeta.dataSource || signal.rawMeta.dateInferred === true) return true;
+    const time = Date.parse(signal.publishedAt);
+    return !Number.isFinite(time) || time >= cutoff;
+  });
+  const droppedStale = newSignals.length - fresh.length;
+
   const dateStr = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Singapore" }).format(new Date());
   const outPath = `data/raw/${dateStr}.json`;
-  await saveDailyCollection(outPath, newSignals);
+  await saveDailyCollection(outPath, fresh);
   await saveState(state);
   await saveHealth(health);
 
@@ -148,7 +169,7 @@ async function main() {
   }
 
   console.log(
-    `\n共${newSignals.length} 条新内容，写入 ${outPath}（其中 ${toEnrich.length} 条尝试补充正文，${enrichedCount} 条成功）`,
+    `\n共${fresh.length} 条新内容，写入 ${outPath}（${droppedStale} 条因发布超过 ${MAX_ARTICLE_AGE_DAYS} 天被剔除；${toEnrich.length} 条尝试补充正文，${enrichedCount} 条成功）`,
   );
 }
 

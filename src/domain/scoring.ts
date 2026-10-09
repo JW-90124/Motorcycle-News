@@ -46,15 +46,31 @@ const SCOPE_INDUSTRY_KEYWORDS =
 // Extend this list as the user provides more names.
 const STAR_RIDERS = /marquez|márquez|马奎兹|马奎斯/i;
 
+/**
+ * Single-brand sources (a manufacturer's newsroom, a brand's official
+ * distributor) vs general sources (media, portals, aggregators) — the user's
+ * rule 2026-10-09, two directions:
+ *  - heat: a brand talking about itself is promotion-leaning and narrow, so its
+ *    items get a modest penalty when competing for a place in the digest.
+ *  - confidence: on a *factual* question about that brand (specs, price, dates)
+ *    the brand's own statement outranks a third party's, so brand sources get a
+ *    bonus — this is what decides who wins when sources in one cluster disagree
+ *    (see the conflict instruction in digest.ts's prompt).
+ */
+export const BRAND_HEAT_PENALTY = 15;
+export const BRAND_CONFIDENCE_BONUS = 8;
+
 export interface ConfidenceInput {
   authorityScore: number;
   isPrimary: boolean;
   independentSourceCount: number;
+  brandSource?: boolean;
 }
 
 export function scoreConfidence(input: ConfidenceInput): number {
   const corroborationBonus = Math.min(input.independentSourceCount - 1, 3) * 10;
-  return clamp(input.authorityScore * 0.6 + (input.isPrimary ? 20 : 0) + corroborationBonus);
+  const brandBonus = input.brandSource ? BRAND_CONFIDENCE_BONUS : 0;
+  return clamp(input.authorityScore * 0.6 + (input.isPrimary ? 20 : 0) + corroborationBonus + brandBonus);
 }
 
 export interface HeatInput {
@@ -63,6 +79,7 @@ export interface HeatInput {
   titleAndSummary: string;
   ageHours: number;
   dateKnown: boolean;
+  brandSource?: boolean;
 }
 
 export function scoreHeat(input: HeatInput): number {
@@ -77,7 +94,8 @@ export function scoreHeat(input: HeatInput): number {
   const freshnessBonus = !input.dateKnown ? 0 : input.ageHours <= 24 ? 15 : input.ageHours <= 72 ? 8 : 0;
   const scopeBonus = scoreScope(input.titleAndSummary);
 
-  return clamp(categoryBaseline + corroborationBonus + keywordBonus + freshnessBonus + scopeBonus);
+  const brandPenalty = input.brandSource ? BRAND_HEAT_PENALTY : 0;
+  return clamp(categoryBaseline + corroborationBonus + keywordBonus + freshnessBonus + scopeBonus - brandPenalty);
 }
 
 /**

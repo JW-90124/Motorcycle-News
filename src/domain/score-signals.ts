@@ -50,6 +50,7 @@ export function scoreSignals(signals: RawSignal[], contextSignals: RawSignal[] =
       authorityScore: source?.authorityScore ?? 50,
       isPrimary: source?.isPrimary ?? false,
       independentSourceCount: clusterSize,
+      brandSource: source?.sourceType === "brand",
     });
     const heat = scoreHeat({
       category: signal.category,
@@ -57,6 +58,7 @@ export function scoreSignals(signals: RawSignal[], contextSignals: RawSignal[] =
       titleAndSummary: `${signal.title} ${signal.summary}`,
       ageHours,
       dateKnown,
+      brandSource: source?.sourceType === "brand",
     });
 
     return { signal, confidence, heat, clusterSize };

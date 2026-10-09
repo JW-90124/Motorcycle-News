@@ -29,3 +29,22 @@ test("short fragments and repeated paragraphs are dropped", () => {
 test("no usable paragraphs gives null, not an empty string", () => {
   assert.equal(extractArticleBody("<div>nothing here</div>"), null);
 });
+
+import { extractPublishDate } from "./article-excerpt.js";
+
+const NOW = Date.parse("2026-10-09T08:00:00Z");
+
+test("publish date: meta tag wins over a later body timestamp", () => {
+  const html = `<meta property="article:published_time" content="2026-10-08T03:00:00Z"><p>posted 2026/10/01 10:00</p>`;
+  assert.equal(extractPublishDate(html, NOW), "2026-10-08T03:00:00.000Z");
+});
+
+test("publish date: falls back to a Chinese CMS body timestamp, read as UTC+8", () => {
+  assert.equal(extractPublishDate("<div>发布时间 2026/3/26 14:56:38</div>", NOW), "2026-03-26T06:56:00.000Z");
+});
+
+test("publish date: ignores implausible values (future or ancient) and returns null when nothing is found", () => {
+  assert.equal(extractPublishDate(`<meta name="date" content="2031-01-01">`, NOW), null);
+  assert.equal(extractPublishDate(`<time datetime="1999-05-05">x</time>`, NOW), null);
+  assert.equal(extractPublishDate("<p>no dates here</p>", NOW), null);
+});

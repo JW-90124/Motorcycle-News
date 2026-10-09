@@ -133,7 +133,9 @@ function extractTitle(markdown: string): string {
 // real number of stories in this digest, not just how many made the
 // (deliberately short) 今日热点导览 preview list.
 function countItems(markdown: string): number {
-  return [...markdown.matchAll(/^\*\*(.+?)\*\*$/gm)].length;
+  // Full items are a bold line of their own; the one-line briefs under
+  // "### 其他动态" are bullets that start with a bold heading.
+  return [...markdown.matchAll(/^(?:\*\*(.+?)\*\*$|- \*\*(.+?)\*\*[：:])/gm)].length;
 }
 
 function extractHighlights(markdown: string): string[] {
@@ -228,6 +230,9 @@ function baseStyles(): string {
       font-size: 0.92rem; font-weight: 700; padding: 0.42rem 1.15rem;
       border-radius: 5px; margin: 2.1rem 0 1rem; letter-spacing: 0.02em;
     }
+    /* "其他动态": one-line briefs under a section's full items */
+    h3 { font-size: 0.86rem; font-weight: 700; color: var(--kopi-dark); margin: 1.6rem 0 0.4rem; letter-spacing: 0.04em; }
+    h3 + ul { font-size: 0.93rem; }
     blockquote { color: var(--ink-faint); font-size: 0.88rem; margin: 0 0 1.2rem; padding: 0; border: none; }
     p { margin: 0.65rem 0; }
     strong { font-size: 1.03rem; }

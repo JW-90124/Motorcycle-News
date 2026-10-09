@@ -83,6 +83,7 @@ export const sources: SourceDescriptor[] = [
     // browser UA gets HTTP 200 with no other change. Setting a realistic
     // UA for this one source is standard scraping etiquette, not evasion.
     slug: "boon-siew-honda",
+    sourceType: "brand",
     disabled: "2026-10-06 停用：官网又返回 403，8 月配置的浏览器 UA 已失效",
     name: "Boon Siew Honda",
     homepageUrl: "https://boonsiewhonda.com.my/news-and-events/news/",
@@ -101,6 +102,7 @@ export const sources: SourceDescriptor[] = [
   },
   {
     slug: "modenas-emos",
+    sourceType: "brand",
     name: "MODENAS/EMOS（马来西亚 Kawasaki 官方总代理）",
     homepageUrl: "https://modenas.my/news&event/press-release",
     adapter: "web-scraper",
@@ -111,6 +113,7 @@ export const sources: SourceDescriptor[] = [
   },
   {
     slug: "mah-pte-ltd",
+    sourceType: "brand",
     disabled: "2026-10-06 停用：页面最新内容是 2023 年的 Hello world!，无有效新闻",
     name: "Mah Pte Ltd（新加坡 Kawasaki 等六品牌独家代理）",
     homepageUrl: "https://mah.com.sg/brands-kawasaki/",
@@ -162,6 +165,7 @@ export const sources: SourceDescriptor[] = [
   // 技术工程解读 (tech)
   {
     slug: "honda-global-news",
+    sourceType: "brand",
     name: "Honda Global 摩托车新闻室",
     homepageUrl: "https://global.honda/en/motorcycle/brand/news/",
     adapter: "web-scraper",
@@ -176,6 +180,7 @@ export const sources: SourceDescriptor[] = [
     // feed — verified 2026-07-29 by fetching it and finding no valid RSS/Atom XML.
     // Falls back to web-scraper against the news listing page instead.
     slug: "yamaha-global-news",
+    sourceType: "brand",
     disabled: "2026-10-06 停用：抓到的是导航垃圾（Global News Center，日期 2026-12-31），不是文章",
     name: "Yamaha Motor Global News Center",
     homepageUrl: "https://global.yamaha-motor.com/news/",
@@ -194,14 +199,33 @@ export const sources: SourceDescriptor[] = [
   // deliberately not worked around (see 信源清单/摩托范.md for why). Replaced
   // both with 两轮视界's 行业数据 (industry data) section instead: plain
   // static HTML, no anti-bot layer, real article links (verified via curl).
+  //
+  // 2026-10-09: the 行业数据 channel (hysj_1201) originally chosen here stopped
+  // updating in March 2026 (its newest article is dated 2026-03-26) — the source
+  // health warning flagged 14 empty runs in a row. The site itself is alive; the
+  // channels that actually update are 热点话题 (slow, but carries the real
+  // industry stories: 禁摩 policy, 张雪 effect, 钱江 statements, 行业协会改革) and
+  // 热点新闻 (daily, but mostly Chinese-brand launch/promo copy). Both are
+  // general-portal content, so they get a modest authorityScore. The slug is
+  // kept so existing dedup history still applies.
   {
     slug: "lianglunshijie-industry",
-    name: "两轮视界·行业数据",
-    homepageUrl: "https://www.lianglunshijie.com/htmlry/hysj_1201.html",
+    name: "两轮视界·热点话题",
+    homepageUrl: "https://www.lianglunshijie.com/htmlry/ht_1162.html",
     adapter: "web-scraper",
     language: "zh",
-    config: { url: "https://www.lianglunshijie.com/htmlry/hysj_1201.html", category: "industry" },
+    config: { url: "https://www.lianglunshijie.com/htmlry/ht_1162.html", category: "industry" },
     authorityScore: 55,
+    isPrimary: false,
+  },
+  {
+    slug: "lianglunshijie-news",
+    name: "两轮视界·热点新闻",
+    homepageUrl: "https://www.lianglunshijie.com/htmlry/rdxw_1163.html",
+    adapter: "web-scraper",
+    language: "zh",
+    config: { url: "https://www.lianglunshijie.com/htmlry/rdxw_1163.html", category: "industry" },
+    authorityScore: 50,
     isPrimary: false,
   },
   // NOTE: Cycle News's press-releases page was evaluated 2026-08-03 —
