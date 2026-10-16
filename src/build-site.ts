@@ -16,6 +16,7 @@
 
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { marked } from "marked";
+import { digestToWechat, renderWechatPage } from "./wechat-html.js";
 
 const DIGESTS_DIR = "digests";
 const SITE_DIR = "site";
@@ -114,6 +115,24 @@ async function main() {
     await writeFile(`${SITE_DIR}/weekly/${outName}`, renderPage(entry.title, bodyHtml, "index.html", " · 每周"), "utf8");
   }
   await writeFile(`${SITE_DIR}/weekly/index.html`, renderWeeklyIndex(weeklyEntries), "utf8");
+
+  // WeChat Official Account versions — a private working area (noindex, not linked from the
+  // public pages) for copy-pasting each digest into the account's editor. See wechat-html.ts.
+  await mkdir(`${SITE_DIR}/wechat`, { recursive: true });
+  const wechatLinks: WechatLink[] = [];
+  for (const entry of entries.filter((e) => e.kind === "main")) {
+    const article = digestToWechat(await readFile(`${DIGESTS_DIR}/${entry.filename}`, "utf8"));
+    const label = `日报 · ${formatDateHeader(entry.date)}`;
+    await writeFile(`${SITE_DIR}/wechat/${entry.date}.html`, renderWechatPage(article, { label, backHref: "index.html" }), "utf8");
+    wechatLinks.push({ label, href: `${entry.date}.html`, title: article.title, kind: "daily", sortKey: entry.date });
+  }
+  for (const entry of weeklyEntries) {
+    const article = digestToWechat(await readFile(`${weeklyDir}/${entry.filename}`, "utf8"));
+    const label = `周报 · ${entry.dateRange}`;
+    await writeFile(`${SITE_DIR}/wechat/weekly-${entry.monday}.html`, renderWechatPage(article, { label, backHref: "index.html" }), "utf8");
+    wechatLinks.push({ label, href: `weekly-${entry.monday}.html`, title: article.title, kind: "weekly", sortKey: entry.monday });
+  }
+  await writeFile(`${SITE_DIR}/wechat/index.html`, renderWechatIndex(wechatLinks), "utf8");
 
   await writeFile(`${SITE_DIR}/index.html`, renderIndex(entries), "utf8");
   // GitHub Pages needs this to skip Jekyll processing, which would
@@ -351,6 +370,53 @@ function renderIndex(entries: DigestEntry[]): string {
   ${tabNav("daily")}
 </header>
 <main><ul class="index-list">${items}</ul></main>
+</body>
+</html>`;
+}
+
+interface WechatLink {
+  label: string;
+  href: string;
+  title: string;
+  kind: "daily" | "weekly";
+  sortKey: string;
+}
+
+function renderWechatIndex(links: WechatLink[]): string {
+  const section = (heading: string, kind: WechatLink["kind"]) => {
+    const rows = links
+      .filter((l) => l.kind === kind)
+      .sort((a, b) => (a.sortKey < b.sortKey ? 1 : -1))
+      .map((l) => `<li><a href="${l.href}">${escapeHtml(l.label)}</a><span>${escapeHtml(l.title)}</span></li>`)
+      .join("\n");
+    return `<h2>${heading}</h2>\n<ul>${rows}</ul>`;
+  };
+  return `<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>公众号版 · ${SITE_TAB_TITLE}</title>
+<style>
+  body { margin: 0; padding: 0 1.1rem 4rem; background: #faf6f0; color: #2a2118; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.7; }
+  main { max-width: 680px; margin: 0 auto; padding-top: 2rem; }
+  h1 { font-size: 1.3rem; margin: 0 0 0.3rem; }
+  p.note { color: #9a9184; font-size: 0.88rem; margin: 0 0 1.5rem; }
+  h2 { font-size: 0.85rem; letter-spacing: 0.06em; color: #7c451f; margin: 1.8rem 0 0.4rem; }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { background: #fff; border: 1px solid #ece5db; border-radius: 8px; padding: 0.7rem 1rem; margin: 0.5rem 0; }
+  li a { color: #a15c2e; font-weight: 700; text-decoration: none; display: block; }
+  li span { display: block; font-size: 0.86rem; color: #6b6155; margin-top: 0.15rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>公众号版</h1>
+<p class="note">复制粘贴进微信公众号编辑器用的页面，不对外展示。每期有标题、摘要、带格式的正文三个"复制"按钮。</p>
+${section("日报", "daily")}
+${section("周报", "weekly")}
+</main>
 </body>
 </html>`;
 }
