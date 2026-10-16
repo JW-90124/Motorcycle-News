@@ -233,6 +233,16 @@ function baseStyles(): string {
     /* "其他动态": one-line briefs under a section's full items */
     h3 { font-size: 0.86rem; font-weight: 700; color: var(--kopi-dark); margin: 1.6rem 0 0.4rem; letter-spacing: 0.04em; }
     h3 + ul { font-size: 0.93rem; }
+
+    /* Numeric citations: small, quiet, clickable; the reference list sits below the content */
+    html { scroll-behavior: smooth; }
+    sup { line-height: 0; margin-left: 0.15em; }
+    sup a { color: var(--kopi); font-size: 0.82em; font-weight: 600; letter-spacing: -0.02em; }
+    sup a:hover { text-decoration: underline; }
+    /* Only list items that hold a reference anchor — never the other-news briefs */
+    li:has(> a[id^="ref-"]) { list-style: none; margin: 0.3rem 0; font-size: 0.88rem; color: var(--ink-soft); }
+    ul:has(> li > a[id^="ref-"]) { padding-left: 0; }
+    li:has(> a[id^="ref-"]:target) { background: #f3e6d8; border-radius: 4px; }
     blockquote { color: var(--ink-faint); font-size: 0.88rem; margin: 0 0 1.2rem; padding: 0; border: none; }
     p { margin: 0.65rem 0; }
     strong { font-size: 1.03rem; }

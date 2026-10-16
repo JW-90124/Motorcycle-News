@@ -25,6 +25,7 @@ import { z } from "zod";
 import { DeepSeekClient, DeepSeekError } from "./ai/deepseek.js";
 import { BRIEF_PER_CATEGORY, FULL_PER_CATEGORY, findLikelyDuplicateGroups, firstSentence, scoreOf, selectBalanced } from "./domain/digest-selection.js";
 import type { Selected, Tier } from "./domain/digest-selection.js";
+import { ReferenceRegistry } from "./domain/references.js";
 import { scoreSignals } from "./domain/score-signals.js";
 import { sources } from "./sources.js";
 import type { RawSignal, ScoredSignal } from "./domain/score-signals.js";
@@ -324,7 +325,7 @@ function buildDigestPrompt(
   ]
 }
 
-每条输入要么作为一个 item 出现（包括 relevant: false 的，程序会负责过滤，不要自己先跳过不写），要么出现在某个 item 的 merged 里。index 必须精确对应输入列表里的编号，不要自己编号。body 里不要包含来源括号——来源标注由程序自动加在每条后面。`;
+每条输入要么作为一个 item 出现（包括 relevant: false 的，程序会负责过滤，不要自己先跳过不写），要么出现在某个 item 的 merged 里。index 必须精确对应输入列表里的编号，不要自己编号。body 里不要包含来源、链接或引用编号——引用编号由程序自动加在每条后面。`;
 
   const itemLines = picked
     .map(({ item, tier }, i) => {
@@ -415,17 +416,24 @@ function renderDigest(
   lines.push("");
 
   type DigestItem = (typeof digest.items)[number];
-  const citationFor = (item: DigestItem) => {
-    const seen = new Set<string>();
-    const parts: string[] = [];
-    for (const index of [item.index, ...absorbed(item.index)]) {
-      const signal = signalAt(index);
-      if (!signal || seen.has(signal.url)) continue;
-      seen.add(signal.url);
-      parts.push(`[${signal.sourceName}](${signal.url})`);
-    }
-    return parts.length > 0 ? `（${parts.join("、")}）` : "";
-  };
+  // Items end with just numbers ([1], [1][4] for a merged item); the articles are listed
+  // once, grouped by outlet, in the reference section appended below. See domain/references.ts.
+  const references = new ReferenceRegistry();
+  const citationFor = (item: DigestItem) =>
+    references.cite(
+      [item.index, ...absorbed(item.index)].flatMap((index) => {
+        const signal = signalAt(index);
+        if (!signal) return [];
+        return [
+          {
+            url: signal.url,
+            title: signal.title,
+            sourceName: signal.sourceName,
+            publishedAt: signal.rawMeta.dateInferred === true ? null : signal.publishedAt,
+          },
+        ];
+      }),
+    );
   const itemScore = (item: DigestItem) =>
     Math.max(...[item.index, ...absorbed(item.index)].map((index) => (picked[index - 1] ? scoreOf(picked[index - 1]!.item) : 0)));
 
@@ -479,6 +487,8 @@ function renderDigest(
       lines.push("");
     }
   }
+
+  lines.push(...references.renderSection());
 
   return `${lines.join("\n").trimEnd()}\n`;
 }

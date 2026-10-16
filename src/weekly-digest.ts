@@ -20,6 +20,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { z } from "zod";
 import { DeepSeekClient, DeepSeekError } from "./ai/deepseek.js";
 import { clusterSignals } from "./domain/clustering.js";
+import { ReferenceRegistry } from "./domain/references.js";
 import { scoreSignals } from "./domain/score-signals.js";
 import type { RawSignal, ScoredSignal } from "./domain/score-signals.js";
 
@@ -172,7 +173,7 @@ function buildWeeklyPrompt(
   ]
 }
 
-items 里每条输入都要出现一次，按输入给的顺序（已经是热度排序）。index 必须精确对应输入列表里的编号。body 里不要包含来源括号——来源标注由程序自动加在每条后面。`;
+items 里每条输入都要出现一次，按输入给的顺序（已经是热度排序）。index 必须精确对应输入列表里的编号。body 里不要包含来源、链接或引用编号——引用编号由程序自动加在每条后面。`;
 
   const itemLines = candidates
     .map((item, i) => {
@@ -203,6 +204,8 @@ function renderWeekly(
   weekly: z.infer<typeof weeklyResponseSchema>,
   candidates: ScoredSignal[],
 ): string {
+  // Same numbered-citation scheme as the daily digest (domain/references.ts).
+  const references = new ReferenceRegistry();
   const lines: string[] = [];
   lines.push(`# ${weekly.headline}`, "");
   lines.push(`> ${formatMonthDay(mondayStr)} – ${formatMonthDay(lastDateStr)}（上周）`, "");
@@ -214,9 +217,19 @@ function renderWeekly(
     const item = byIndex.get(i + 1);
     if (!item) return;
     const { signal } = candidate;
+    const marker = references.cite([
+      {
+        url: signal.url,
+        title: signal.title,
+        sourceName: signal.sourceName,
+        publishedAt: signal.rawMeta.dateInferred === true ? null : signal.publishedAt,
+      },
+    ]);
     lines.push(`**${i + 1}. ${item.heading}**`, "");
-    lines.push(`${item.body}（[${signal.sourceName}](${signal.url})）`, "");
+    lines.push(`${item.body}${marker}`, "");
   });
+
+  lines.push(...references.renderSection());
 
   return `${lines.join("\n").trimEnd()}\n`;
 }
