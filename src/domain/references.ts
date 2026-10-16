@@ -63,16 +63,19 @@ export class ReferenceRegistry {
       bySource.set(entry.ref.sourceName, bucket);
     }
 
-    const lines = ["## 参考来源", "", "> 方括号数字是正文里的引用编号；按来源归并，同一来源的文章列在一起。", ""];
-    // Sources appear in the order they are first cited, entries ascending within each.
+    // A nested list: each outlet is a top-level item, its articles indented beneath it, so
+    // the grouping reads from the structure itself (also in the raw markdown). The numbers
+    // sit on the entries, not repeated in the outlet's heading. Sources appear in the order
+    // they are first cited, entries ascending within each.
+    const lines = ["## 参考来源", ""];
     for (const [sourceName, entries] of bySource) {
-      lines.push(`### ${sourceName} · 引用 ${entries.map((e) => e.n).join("、")}`, "");
+      lines.push(`- **${sourceName}**`);
       for (const { n, ref } of entries) {
         const date = dayOf(ref.publishedAt);
-        lines.push(`- <a id="ref-${n}"></a>[${n}] [${ref.title.replace(/[[\]]/g, "")}](${ref.url})${date ? ` · ${date}` : ""}`);
+        lines.push(`  - <a id="ref-${n}"></a>[${n}] [${ref.title.replace(/[[\]]/g, "")}](${ref.url})${date ? ` · ${date}` : ""}`);
       }
-      lines.push("");
     }
+    lines.push("");
     return lines;
   }
 }

@@ -241,7 +241,11 @@ function baseStyles(): string {
     sup a:hover { text-decoration: underline; }
     /* Only list items that hold a reference anchor — never the other-news briefs */
     li:has(> a[id^="ref-"]) { list-style: none; margin: 0.3rem 0; font-size: 0.88rem; color: var(--ink-soft); }
-    ul:has(> li > a[id^="ref-"]) { padding-left: 0; }
+    /* Outlet = top-level item; its articles are indented underneath with a thin guide line */
+    ul:has(> li > ul > li > a[id^="ref-"]) { list-style: none; padding-left: 0; }
+    ul:has(> li > ul > li > a[id^="ref-"]) > li { margin: 1.1rem 0 0; font-size: 0.95rem; color: var(--kopi-dark); list-style: none; }
+    ul:has(> li > ul > li > a[id^="ref-"]) > li strong { font-size: 0.95rem; }
+    li > ul:has(> li > a[id^="ref-"]) { padding-left: 1.1rem; margin: 0.3rem 0 0 0.15rem; border-left: 2px solid var(--line); }
     li:has(> a[id^="ref-"]:target) { background: #f3e6d8; border-radius: 4px; }
     blockquote { color: var(--ink-faint); font-size: 0.88rem; margin: 0 0 1.2rem; padding: 0; border: none; }
     p { margin: 0.65rem 0; }
