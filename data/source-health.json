@@ -3,73 +3,72 @@
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-14T03:29:17.888Z"
+    "lastNewAt": "2026-10-16T03:04:50.578Z"
   },
   "worldsbk-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-14T03:29:17.888Z"
+    "lastNewAt": "2026-10-16T03:04:50.578Z"
   },
   "speedweek-motogp": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-14T03:29:17.888Z"
+    "lastNewAt": "2026-10-16T03:04:50.578Z"
   },
   "lta-coe-motorcycle": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 4,
+    "runsSinceNew": 5,
     "lastNewAt": "2026-10-09T04:30:55.131Z"
   },
   "modenas-emos": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 8,
+    "runsSinceNew": 9,
     "lastNewAt": "2026-10-02T00:00:00.000Z"
   },
   "rideapart": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-14T03:29:17.888Z"
+    "lastNewAt": "2026-10-16T03:04:50.578Z"
   },
   "visordown": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-14T03:29:17.888Z"
+    "lastNewAt": "2026-10-16T03:04:50.578Z"
   },
   "honda-global-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 11,
-    "lastNewAt": "2026-09-25T00:00:00.000Z"
+    "runsSinceNew": 0,
+    "lastNewAt": "2026-10-16T03:04:50.578Z"
   },
   "lianglunshijie-industry": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 2,
+    "runsSinceNew": 3,
     "lastNewAt": "2026-10-09T07:40:06.631Z"
   },
   "eicma": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-14T03:29:17.888Z"
+    "lastNewAt": "2026-10-16T03:04:50.578Z"
   },
   "kompas-otomotif": {
-    "consecutiveErrors": 1,
+    "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-12T04:16:29.150Z",
-    "lastError": "Web scraper: response body too small or empty"
+    "lastNewAt": "2026-10-16T03:04:50.578Z"
   },
   "lianglunshijie-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-10-14T03:29:17.888Z"
+    "lastNewAt": "2026-10-16T03:04:50.578Z"
   }
 }
