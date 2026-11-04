@@ -3,72 +3,73 @@
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-02T04:21:12.874Z"
+    "lastNewAt": "2026-11-04T04:47:31.084Z"
   },
   "worldsbk-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-02T04:21:12.874Z"
+    "lastNewAt": "2026-11-04T04:47:31.084Z"
   },
   "speedweek-motogp": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-02T04:21:12.874Z"
+    "lastNewAt": "2026-11-04T04:47:31.084Z"
   },
   "lta-coe-motorcycle": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 4,
+    "runsSinceNew": 5,
     "lastNewAt": "2026-10-23T03:20:21.459Z"
   },
   "modenas-emos": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 1,
+    "runsSinceNew": 2,
     "lastNewAt": "2026-10-30T04:19:30.147Z"
   },
   "rideapart": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-02T04:21:12.874Z"
+    "lastNewAt": "2026-11-04T04:47:31.084Z"
   },
   "visordown": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-02T04:21:12.874Z"
+    "lastNewAt": "2026-11-04T04:47:31.084Z"
   },
   "honda-global-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 2,
-    "lastNewAt": "2026-10-28T03:56:11.239Z"
+    "runsSinceNew": 0,
+    "lastNewAt": "2026-11-04T04:47:31.084Z"
   },
   "lianglunshijie-industry": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 1,
-    "lastNewAt": "2026-10-30T04:19:30.147Z"
+    "runsSinceNew": 0,
+    "lastNewAt": "2026-11-04T04:47:31.084Z"
   },
   "eicma": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-02T04:21:12.874Z"
+    "lastNewAt": "2026-11-04T04:47:31.084Z"
   },
   "kompas-otomotif": {
-    "consecutiveErrors": 0,
+    "consecutiveErrors": 1,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-02T04:21:12.874Z"
+    "lastNewAt": "2026-11-02T04:21:12.874Z",
+    "lastError": "HTTP 403 for https://otomotif.kompas.com/"
   },
   "lianglunshijie-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-02T04:21:12.874Z"
+    "lastNewAt": "2026-11-04T04:47:31.084Z"
   }
 }
