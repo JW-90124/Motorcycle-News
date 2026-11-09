@@ -3,72 +3,72 @@
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-06T05:01:48.679Z"
+    "lastNewAt": "2026-11-09T04:37:15.989Z"
   },
   "worldsbk-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 0,
+    "runsSinceNew": 1,
     "lastNewAt": "2026-11-06T05:01:48.679Z"
   },
   "speedweek-motogp": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-06T05:01:48.679Z"
+    "lastNewAt": "2026-11-09T04:37:15.989Z"
   },
   "lta-coe-motorcycle": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 0,
+    "runsSinceNew": 1,
     "lastNewAt": "2026-11-06T05:01:48.679Z"
   },
   "modenas-emos": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 3,
+    "runsSinceNew": 4,
     "lastNewAt": "2026-10-30T04:19:30.147Z"
   },
   "rideapart": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-06T05:01:48.679Z"
+    "lastNewAt": "2026-11-09T04:37:15.989Z"
   },
   "visordown": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-06T05:01:48.679Z"
+    "lastNewAt": "2026-11-09T04:37:15.989Z"
   },
   "honda-global-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 0,
+    "runsSinceNew": 1,
     "lastNewAt": "2026-11-06T05:01:48.679Z"
   },
   "lianglunshijie-industry": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
-    "runsSinceNew": 1,
+    "runsSinceNew": 2,
     "lastNewAt": "2026-11-04T04:47:31.084Z"
   },
   "eicma": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-06T05:01:48.679Z"
+    "lastNewAt": "2026-11-09T04:37:15.989Z"
   },
   "kompas-otomotif": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-06T05:01:48.679Z"
+    "lastNewAt": "2026-11-09T04:37:15.989Z"
   },
   "lianglunshijie-news": {
     "consecutiveErrors": 0,
     "consecutiveEmpty": 0,
     "runsSinceNew": 0,
-    "lastNewAt": "2026-11-06T05:01:48.679Z"
+    "lastNewAt": "2026-11-09T04:37:15.989Z"
   }
 }
