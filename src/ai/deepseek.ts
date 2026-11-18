@@ -103,8 +103,11 @@ export class DeepSeekClient implements JsonModelClient {
           body: JSON.stringify({
             model: this.model,
             messages: [
-              { role: "system", content: request.system },
-              { role: "user", content: request.user },
+              // toWellFormed(): a lone surrogate (typically half an emoji left behind when
+              // text is cut with .slice) serializes to a JSON escape the API cannot parse and
+              // rejects the whole request with HTTP 400 — it cost one day's digest on 2026-11-18.
+              { role: "system", content: wellFormed(request.system) },
+              { role: "user", content: wellFormed(request.user) },
             ],
             response_format: { type: "json_object" },
             temperature: request.temperature ?? 0.1,
@@ -125,13 +128,15 @@ export class DeepSeekClient implements JsonModelClient {
       }
 
       if (!response.ok) {
-        const code = await safeApiErrorCode(response);
+        const { code, message } = await safeApiError(response);
         if (isRetryable(response.status) && attempt < this.maxAttempts) {
           await this.wait(retryDelayMilliseconds(response, attempt));
           continue;
         }
         throw new DeepSeekError(
-          `DeepSeek request failed with HTTP ${response.status}${code ? ` (${code})` : ""}`,
+          // The provider's own message is what says *why* (found 2026-11-18: a bare
+          // "400 invalid_request_error" gave no way to tell a bad parameter from bad content).
+          `DeepSeek request failed with HTTP ${response.status}${code ? ` (${code})` : ""}${message ? `: ${message}` : ""}`,
           code ?? `http_${response.status}`,
           response.status,
         );
@@ -211,14 +216,23 @@ function retryDelayMilliseconds(response: Response, attempt: number): number {
     : backoffMilliseconds(attempt);
 }
 
-async function safeApiErrorCode(response: Response): Promise<string | null> {
+async function safeApiError(response: Response): Promise<{ code: string | null; message: string | null }> {
   try {
-    const payload = (await response.json()) as { error?: { code?: unknown; type?: unknown } };
+    const payload = (await response.json()) as { error?: { code?: unknown; type?: unknown; message?: unknown } };
     const value = payload.error?.code ?? payload.error?.type;
-    return typeof value === "string" ? value.slice(0, 80) : null;
+    const message = payload.error?.message;
+    return {
+      code: typeof value === "string" ? value.slice(0, 80) : null,
+      message: typeof message === "string" ? message.slice(0, 300) : null,
+    };
   } catch {
-    return null;
+    return { code: null, message: null };
   }
+}
+
+/** Replace unpaired UTF-16 surrogates with U+FFFD (what String.prototype.toWellFormed does; it needs a newer lib target). */
+function wellFormed(text: string): string {
+  return text.replace(/[\ud800-\udbff](?![\udc00-\udfff])|(?<![\ud800-\udbff])[\udc00-\udfff]/g, "�");
 }
 
 function safeNetworkError(error: unknown): string {

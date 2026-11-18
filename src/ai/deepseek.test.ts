@@ -90,3 +90,22 @@ test("known truncation keeps its distinct error and is not retried unchanged", a
   assert.equal(bodies.length, 1);
   assert.equal(delays.length, 0);
 });
+
+test("a lone surrogate (half an emoji from a sliced string) never reaches the wire", async () => {
+  const sent: string[] = [];
+  const client = new DeepSeekClient({
+    apiKey: "test-key",
+    fetch: async (_input, init) => {
+      sent.push(String(init?.body));
+      return completion('{"ok":true}');
+    },
+  });
+  const emoji = "\u{1F3CD}"; // a motorcycle emoji = two UTF-16 code units
+  const cutInHalf = `news ${emoji}`.slice(0, 6); // leaves only the high surrogate
+  await client.completeJson({ system: cutInHalf, user: cutInHalf, maxTokens: 100 });
+  const content = JSON.parse(sent[0]!).messages[0].content as string;
+  assert.ok(!/[\ud800-\udbff](?![\udc00-\udfff])|(?<![\ud800-\udbff])[\udc00-\udfff]/.test(content), "no unpaired surrogate reaches the wire");
+  // an intact emoji is left alone
+  await client.completeJson({ system: `x ${emoji}`, user: `y ${emoji}`, maxTokens: 100 });
+  assert.ok(JSON.parse(sent[1]!).messages[0].content.includes(emoji));
+});
